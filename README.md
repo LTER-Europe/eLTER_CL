@@ -51,11 +51,6 @@ In case you are using this workflow the author kindly requests you to cite this 
 
 For any other citation format visit http://doi.org/10.5281/zenodo.4432136
 
-
-### License
-
-This work is licensed under [Apache 2.0 License](https://github.com/niva83/sheet2rdf/blob/main/License.md)
-
 ## OntoStack
 
 OntoStack is a set of orchestrated micro-services configured and interfaced such that they can intake vocabularies and resolve their terms and RDF properties upon requests either by humans or machines.
@@ -71,3 +66,9 @@ Currently three instances of OntoStack are available:
 - Departamental instance of [DTU Wind Energy](https://www.vindenergi.dtu.dk/english/): http://data.windenergy.dtu.dk/ontologies
 - National (Danish) instance ran by [DeiC](https://deic.dk/): http://ontology.deic.dk/
 - International instance ran by [FAIR Data Collective](http://fairdatacollective.org/): http://vocab.fairdatacollective.org
+
+
+# License
+
+Tech configuration (sheet2rd) is licensed under [Apache 2.0 License](https://github.com/LTER-Europe/eLTER_CL/blob/main/License_sheet2rdf.md)
+Theasurus is licensed under [CC0 1.0 Universal](https://github.com/LTER-Europe/eLTER_CL/blob/main/LICENSE)
