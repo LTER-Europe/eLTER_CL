@@ -70,5 +70,5 @@ Currently three instances of OntoStack are available:
 
 # License
 
-Tech configuration (sheet2rd) is licensed under [Apache 2.0 License](https://github.com/LTER-Europe/eLTER_CL/blob/main/License_sheet2rdf.md)
-Theasurus is licensed under [CC0 1.0 Universal](https://github.com/LTER-Europe/eLTER_CL/blob/main/LICENSE)
+- Tech configuration (sheet2rd) is licensed under [Apache 2.0 License](https://github.com/LTER-Europe/eLTER_CL/blob/main/License_sheet2rdf.md)
+- Theasurus is licensed under [CC0 1.0 Universal](https://github.com/LTER-Europe/eLTER_CL/blob/main/LICENSE)
