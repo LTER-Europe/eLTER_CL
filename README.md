@@ -33,7 +33,7 @@ In case you want to use **sheet2rdf** in your own work you need to:
 
 2. Create following [Github secrets](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets):
 
-| Secret | Explanation | M4M.19 Configuration |
+| Secret | Explanation | eLTER_CL onfiguration |
 |---|---|---|
 | DB_USER | user name of Jena Fuseki user account that has privilages to PUT RDF vocabulary to the database | ******** |
 | DB_PASS | password of for the above account Jena Fuseki account | ******** |
