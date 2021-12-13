@@ -2,12 +2,10 @@
 
 [![CI](https://github.com/LTER-Europe/eLTER_CL/workflows/Sheet2RDF/badge.svg)](https://github.com/LTER-Europe/eLTER_CL/actions?query=workflow%3ASheet2RDF)
 
-# [eLTER_CL](http://purl.org/eLTER_CL/)
+# [eLTER_CL]( http://vocabs.lter-europe.net/eLTER_CL)
 eLTER_CL is a thesaurus for controlled lists used by the eLTER community. 
 
-`sheet2rdf` and `OntoStack`, developed by Nikola Vasiljevic, are used to build and serve **eLTER_CL**, while [PURL](https://archive.org/services/purl/) is used to persist identifiers for the thesaurus terms:
-
-   http://purl.org/eLTER_CL/
+`sheet2rdf` and `OntoStack`, developed by Nikola Vasiljevic, are used to build and serve **eLTER_CL**.
 
 
 # Tooling
@@ -38,7 +36,7 @@ In case you want to use **sheet2rdf** in your own work you need to:
 | DB_USER | user name of Jena Fuseki user account that has privilages to PUT RDF vocabulary to the database | ******** |
 | DB_PASS | password of for the above account Jena Fuseki account | ******** |
 | FILE_NAME | file name that will be used when converting Google sheet to `.ttl` (RDF), `.xlsx`, and `.csv` files | vocabulary |
-| GRAPH | graph in the database under which the above RDF vocabulary should be stored | http://purl.org/eLTER_CL/ |
+| GRAPH | graph in the database under which the above RDF vocabulary should be stored |  http://vocabs.lter-europe.net/eLTER_CL/ |
 | SHEET_ID | unique ID of the sheet that will be fetched from Google drive | [1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg](https://docs.google.com/spreadsheets/d/1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg/edit#gid=1198865354) |
 | SPARQL_ENDPOINT | endpoint to which RDF vocabulary is PUT | ******** |
 | STORAGE | access token to Google Drive hosting Google sheet with controlled terms definitions, content of client_secret.json | ******** |
