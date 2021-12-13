@@ -1,6 +1,6 @@
-ConceptScheme URI,http://purl.org/eLTER_CL,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
+ConceptScheme URI,http://vocabs.lter-europe.net/eLTER_CL,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
 "Prefixes for controlled vocabularies, schema and ontologies"
-PREFIX,vocab,http://purl.org/eLTER_CL/,Prefix for our controlled vocabulary since it is rather tedious to write long URLs all the time
+PREFIX,vocab,http://vocabs.lter-europe.net/eLTER_CL/,Prefix for our controlled vocabulary since it is rather tedious to write long URLs all the time
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#,Prefix for SKOS Ontology. This ontology is which our base for defining terms.
 PREFIX,pav,http://purl.org/pav/ ,"Prefix for Provenance, Authoring and Versioning Ontology which properties such as version and createdOn we will use to describe our controlled vocabulary"
 PREFIX,dct,http://purl.org/dc/terms/ ,"Prefix for Dublin Core (Terms) Ontology which properties such as title, description, rights, source, etc. we will use to describe our controlled vocabulary as well to define its terms"

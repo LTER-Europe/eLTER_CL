@@ -18,10 +18,10 @@
 @prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
-@prefix vocab: <http://purl.org/eLTER_CL/> .
+@prefix vocab: <http://vocabs.lter-europe.net/eLTER_CL/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://purl.org/eLTER_CL> a skos:ConceptScheme;
+<http://vocabs.lter-europe.net/eLTER_CL> a skos:ConceptScheme;
   dct:description "eLTER_CL is a thesaurus for controlled lists used by the eLTER community"@en;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "eLTER_CL"@en;
@@ -34,106 +34,106 @@
     vocab:10019, vocab:10020 .
 
 vocab:10000 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 1"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10001 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 2"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10002 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 3"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10003 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 4"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10004 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 5"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10005 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 6"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10006 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 7"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10007 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 8"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10008 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 9"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10009 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 10"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10010 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 11"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10011 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 12"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10012 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 13"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10013 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 14"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10014 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 15"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10015 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 16"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10016 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 17"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10017 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 18"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10018 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 19"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10019 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 20"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 vocab:10020 a skos:Concept;
-  skos:inScheme <http://purl.org/eLTER_CL>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Test Term 21"@en;
-  skos:topConceptOf <http://purl.org/eLTER_CL> .
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
