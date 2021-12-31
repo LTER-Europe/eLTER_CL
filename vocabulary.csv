@@ -20,9 +20,9 @@ Definition of terms
 
 Identifier,skos:prefLabel@en,skos:definition@en,"skos:altLabel(separator="","")","dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")",skos:editorialNote@en,"dct:contributor(separator="","")","dct:contributor(separator="","")"
 cl:10000,resource type 
-cl:10001,INSPIRE data theme,,,,cl:10000
-cl:10002,unit,,,,cl:10000
-cl:10003,spatial reference method,,,,cl:10000
+cl:10001,INSPIRE data theme
+cl:10002,unit
+cl:10003,spatial reference method
 cl:10004,coordinate reference system
 cl:10005,administrative unit level
 cl:10006,spatial scale

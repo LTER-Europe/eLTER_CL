@@ -28,36 +28,35 @@
   pav:createdOn "2021-11-12T12:00+02:00"@en;
   pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
   pav:version "0.1.0"@en;
-  skos:hasTopConcept cl:10000, cl:10004, cl:10005, cl:10006, cl:10007, cl:10008, cl:10009,
-    cl:10010, cl:10011, cl:10012, cl:10013, cl:10014 .
+  skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
+    cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014 .
 
 cl:10000 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:narrower cl:10001, cl:10002, cl:10003, cl:10015, cl:10016, cl:10017, cl:10018,
-    cl:10019, cl:10020, cl:10021;
+  skos:narrower cl:10015, cl:10016, cl:10017, cl:10018, cl:10019, cl:10020, cl:10021;
   skos:prefLabel "resource type"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 cl:10001 a skos:Concept;
-  skos:broader cl:10000;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:narrower cl:10022, cl:10023, cl:10024, cl:10025, cl:10026, cl:10027, cl:10028,
     cl:10029, cl:10030, cl:10031, cl:10032, cl:10033, cl:10034, cl:10035, cl:10036, cl:10037,
     cl:10038, cl:10039, cl:10040, cl:10041, cl:10042, cl:10043, cl:10044, cl:10045, cl:10046,
     cl:10047, cl:10048, cl:10049, cl:10050, cl:10051, cl:10052, cl:10053, cl:10054, cl:10055,
     cl:10056;
-  skos:prefLabel "INSPIRE data theme"@en .
+  skos:prefLabel "INSPIRE data theme"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 cl:10002 a skos:Concept;
-  skos:broader cl:10000;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:prefLabel "unit"@en .
+  skos:prefLabel "unit"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 cl:10003 a skos:Concept;
-  skos:broader cl:10000;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:narrower cl:10057, cl:10058, cl:10059;
-  skos:prefLabel "spatial reference method"@en .
+  skos:prefLabel "spatial reference method"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 cl:10004 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
