@@ -30,7 +30,7 @@
   pav:version "0.1.0"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
-    cl:10159, cl:10177 .
+    cl:10159 .
 
 cl:10000 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
@@ -51,7 +51,7 @@ cl:10001 a skos:Concept;
 cl:10002 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:narrower cl:10164, cl:10165, cl:10166, cl:10167, cl:10168, cl:10169, cl:10170,
-    cl:10171, cl:10172, cl:10173, cl:10174, cl:10175, cl:10176;
+    cl:10171, cl:10172;
   skos:prefLabel "unit"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -1057,30 +1057,30 @@ cl:10158 a skos:Concept;
 cl:10159 a skos:Concept;
   skos:definition "A measurement scale defines the level of measurement of a variable. It decides the statistical test type to be used. The mathematical nature of a variable or in other words, how a variable is measured is considered as the level of measurement."@en;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10160, cl:10161, cl:10162, cl:10163;
   skos:prefLabel "measurement scale"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 cl:10160 a skos:Concept;
-  skos:broader cl:10160;
+  skos:broader cl:10159;
   skos:definition "Nominal scale is a naming scale, where variables are simply “named” or labeled, with no specific order."@en;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:narrower cl:10160, cl:10161, cl:10162, cl:10163;
   skos:prefLabel "nominal scale"@en .
 
 cl:10161 a skos:Concept;
-  skos:broader cl:10160;
+  skos:broader cl:10159;
   skos:definition "Ordinal scale has all its variables in a specific order, beyond just naming them."@en;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "ordinal scale"@en .
 
 cl:10162 a skos:Concept;
-  skos:broader cl:10160;
+  skos:broader cl:10159;
   skos:definition "Interval scale offers labels, order, as well as, a specific interval between each of its variable options."@en;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "interval scale"@en .
 
 cl:10163 a skos:Concept;
-  skos:broader cl:10160;
+  skos:broader cl:10159;
   skos:definition "Ratio scale bears all the characteristics of an interval scale, in addition to that, it can also accommodate the value of “zero” on any of its variables."@en;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "ratio scale"@en .
@@ -1139,23 +1139,3 @@ cl:10172 a skos:Concept;
   skos:broader cl:10002;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "gram per hectare per year"@en .
-
-cl:10173 a skos:Concept;
-  skos:broader cl:10002;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
-
-cl:10174 a skos:Concept;
-  skos:broader cl:10002;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
-
-cl:10175 a skos:Concept;
-  skos:broader cl:10002;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
-
-cl:10176 a skos:Concept;
-  skos:broader cl:10002;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
-
-cl:10177 a skos:Concept;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
