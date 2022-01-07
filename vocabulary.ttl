@@ -29,7 +29,8 @@
   pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
   pav:version "0.1.0"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
-    cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014 .
+    cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
+    cl:10159 .
 
 cl:10000 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
@@ -958,3 +959,126 @@ cl:10146 a skos:Concept;
   skos:broader cl:10014;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "no access"@en .
+
+cl:10147 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:definition "Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10148, cl:10149, cl:10150, cl:10151, cl:10152, cl:10153, cl:10154,
+    cl:10155, cl:10156, cl:10157, cl:10158;
+  skos:prefLabel "data type"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10148 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:altLabel "int"@en;
+  skos:broader cl:10147;
+  skos:definition "It is the most common numeric data type used to store numbers without a fractional component (-707, 0, 707)."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "integer"@en .
+
+cl:10149 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:altLabel "float"@en;
+  skos:broader cl:10147;
+  skos:definition "It is a numeric data type used to store numbers that may have a fractional component, like monetary values do (707.07, 0.7, 707.00)."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "floating point"@en .
+
+cl:10150 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:altLabel "char"@en;
+  skos:broader cl:10147;
+  skos:definition "It is used to store a single letter, digit, punctuation mark, symbol, or blank space."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "character"@en .
+
+cl:10151 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:altLabel "str"@en;
+  skos:broader cl:10147;
+  skos:definition "It is a sequence of characters and the most commonly used data type to store text."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "string"@en .
+
+cl:10152 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:altLabel "bool"@en;
+  skos:broader cl:10147;
+  skos:definition "It represents the values true and false."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "boolean"@en .
+
+cl:10153 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:altLabel "enum"@en;
+  skos:broader cl:10147;
+  skos:definition "It contains a small set of predefined unique values (also known as elements or enumerators) that can be compared and assigned to a variable of enumerated data type."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "enumeration type"@en .
+
+cl:10154 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:broader cl:10147;
+  skos:definition "Also known as a list, an array is a data type that stores a number of elements in a specific order, typically all of the same type."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "array"@en .
+
+cl:10155 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:broader cl:10147;
+  skos:definition "It typically stores a date in the YYYY-MM-DD format (ISO 8601 syntax)."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "date"@en .
+
+cl:10156 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:broader cl:10147;
+  skos:definition "Stores a time in the hh:mm:ss format."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "time"@en .
+
+cl:10157 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:broader cl:10147;
+  skos:definition "Stores a value containing both date and time together in the YYYY-MM-DD hh:mm:ss format."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "datetime"@en .
+
+cl:10158 a skos:Concept;
+  dct:source <https://dataled.academy/guides/data-types/>;
+  skos:broader cl:10147;
+  skos:definition "Typically represented in Unix time, a timestamp represents the number of seconds that have elapsed since midnight (00:00:00 UTC), 1st January 1970."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "timestamp"@en .
+
+cl:10159 a skos:Concept;
+  skos:definition "A measurement scale defines the level of measurement of a variable. It decides the statistical test type to be used. The mathematical nature of a variable or in other words, how a variable is measured is considered as the level of measurement."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "measurement scale"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10160 a skos:Concept;
+  skos:broader cl:10160;
+  skos:definition "Nominal scale is a naming scale, where variables are simply “named” or labeled, with no specific order."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10160, cl:10161, cl:10162, cl:10163;
+  skos:prefLabel "nominal scale"@en .
+
+cl:10161 a skos:Concept;
+  skos:broader cl:10160;
+  skos:definition "Ordinal scale has all its variables in a specific order, beyond just naming them."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "ordinal scale"@en .
+
+cl:10162 a skos:Concept;
+  skos:broader cl:10160;
+  skos:definition "Interval scale offers labels, order, as well as, a specific interval between each of its variable options."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "interval scale"@en .
+
+cl:10163 a skos:Concept;
+  skos:broader cl:10160;
+  skos:definition "Ratio scale bears all the characteristics of an interval scale, in addition to that, it can also accommodate the value of “zero” on any of its variables."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "ratio scale"@en .

@@ -166,3 +166,20 @@ cl:10143,free for access and use upon request,,,,cl:10014
 cl:10144,other restrictions according to rules defined in intellectual rights,,,,cl:10014
 cl:10145,restricted access defined in detail in intellectual property information,,,,cl:10014
 cl:10146,no access,,,,cl:10014
+cl:10147,data type,Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value.,,https://dataled.academy/guides/data-types/
+cl:10148,integer,"It is the most common numeric data type used to store numbers without a fractional component (-707, 0, 707).",int,https://dataled.academy/guides/data-types/,cl:10147
+cl:10149,floating point,"It is a numeric data type used to store numbers that may have a fractional component, like monetary values do (707.07, 0.7, 707.00).",float,https://dataled.academy/guides/data-types/,cl:10147
+cl:10150,character,"It is used to store a single letter, digit, punctuation mark, symbol, or blank space.",char,https://dataled.academy/guides/data-types/,cl:10147
+cl:10151,string,It is a sequence of characters and the most commonly used data type to store text.,str,https://dataled.academy/guides/data-types/,cl:10147
+cl:10152,boolean,It represents the values true and false.,bool,https://dataled.academy/guides/data-types/,cl:10147
+cl:10153,enumeration type,It contains a small set of predefined unique values (also known as elements or enumerators) that can be compared and assigned to a variable of enumerated data type.,enum,https://dataled.academy/guides/data-types/,cl:10147
+cl:10154,array,"Also known as a list, an array is a data type that stores a number of elements in a specific order, typically all of the same type.",,https://dataled.academy/guides/data-types/,cl:10147
+cl:10155,date,It typically stores a date in the YYYY-MM-DD format (ISO 8601 syntax).,,https://dataled.academy/guides/data-types/,cl:10147
+cl:10156,time,Stores a time in the hh:mm:ss format.,,https://dataled.academy/guides/data-types/,cl:10147
+cl:10157,datetime,Stores a value containing both date and time together in the YYYY-MM-DD hh:mm:ss format.,,https://dataled.academy/guides/data-types/,cl:10147
+cl:10158,timestamp,"Typically represented in Unix time, a timestamp represents the number of seconds that have elapsed since midnight (00:00:00 UTC), 1st January 1970.",,https://dataled.academy/guides/data-types/,cl:10147
+cl:10159,measurement scale,"A measurement scale defines the level of measurement of a variable. It decides the statistical test type to be used. The mathematical nature of a variable or in other words, how a variable is measured is considered as the level of measurement."
+cl:10160,nominal scale,"Nominal scale is a naming scale, where variables are simply “named” or labeled, with no specific order.",,,cl:10160
+cl:10161,ordinal scale,"Ordinal scale has all its variables in a specific order, beyond just naming them. ",,,cl:10160
+cl:10162,interval scale,"Interval scale offers labels, order, as well as, a specific interval between each of its variable options.",,,cl:10160
+cl:10163,ratio scale,"Ratio scale bears all the characteristics of an interval scale, in addition to that, it can also accommodate the value of “zero” on any of its variables.",,,cl:10160
