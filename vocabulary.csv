@@ -183,3 +183,17 @@ cl:10160,nominal scale,"Nominal scale is a naming scale, where variables are sim
 cl:10161,ordinal scale,"Ordinal scale has all its variables in a specific order, beyond just naming them. ",,,cl:10160
 cl:10162,interval scale,"Interval scale offers labels, order, as well as, a specific interval between each of its variable options.",,,cl:10160
 cl:10163,ratio scale,"Ratio scale bears all the characteristics of an interval scale, in addition to that, it can also accommodate the value of “zero” on any of its variables.",,,cl:10160
+cl:10164,kilometre,,km,,cl:10002
+cl:10165,square kilometre,,km2,,cl:10002
+cl:10166,metre,,m,,cl:10002
+cl:10167,percent,,%,,cl:10002,http://qudt.org/vocab/unit/PERCENT
+cl:10168,tonne per hectare per year,,t.har.year-1,,cl:10002
+cl:10169,kilogram per hectar,,kg.har-1,,cl:10002
+cl:10170,tonne per year,,t.year-1,,cl:10002
+cl:10171,milligram per kilogram,,mg.kg-1,,cl:10002
+cl:10172,gram per hectare per year,,g.har.year-1,,cl:10002
+cl:10173,,,,,cl:10002
+cl:10174,,,,,cl:10002
+cl:10175,,,,,cl:10002
+cl:10176,,,,,cl:10002
+cl:10177

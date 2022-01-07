@@ -30,7 +30,7 @@
   pav:version "0.1.0"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
-    cl:10159 .
+    cl:10159, cl:10177 .
 
 cl:10000 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
@@ -50,6 +50,8 @@ cl:10001 a skos:Concept;
 
 cl:10002 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10164, cl:10165, cl:10166, cl:10167, cl:10168, cl:10169, cl:10170,
+    cl:10171, cl:10172, cl:10173, cl:10174, cl:10175, cl:10176;
   skos:prefLabel "unit"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -1082,3 +1084,78 @@ cl:10163 a skos:Concept;
   skos:definition "Ratio scale bears all the characteristics of an interval scale, in addition to that, it can also accommodate the value of “zero” on any of its variables."@en;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "ratio scale"@en .
+
+cl:10164 a skos:Concept;
+  skos:altLabel "km"@en;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "kilometre"@en .
+
+cl:10165 a skos:Concept;
+  skos:altLabel "km2"@en;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "square kilometre"@en .
+
+cl:10166 a skos:Concept;
+  skos:altLabel "m"@en;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "metre"@en .
+
+cl:10167 a skos:Concept;
+  skos:altLabel "%"@en;
+  skos:broader cl:10002;
+  skos:exactMatch unit:PERCENT;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "percent"@en .
+
+cl:10168 a skos:Concept;
+  skos:altLabel "t.har.year-1"@en;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "tonne per hectare per year"@en .
+
+cl:10169 a skos:Concept;
+  skos:altLabel "kg.har-1"@en;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "kilogram per hectar"@en .
+
+cl:10170 a skos:Concept;
+  skos:altLabel "t.year-1"@en;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "tonne per year"@en .
+
+cl:10171 a skos:Concept;
+  skos:altLabel "mg.kg-1"@en;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "milligram per kilogram"@en .
+
+cl:10172 a skos:Concept;
+  skos:altLabel "g.har.year-1"@en;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "gram per hectare per year"@en .
+
+cl:10173 a skos:Concept;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10174 a skos:Concept;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10175 a skos:Concept;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10176 a skos:Concept;
+  skos:broader cl:10002;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10177 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
