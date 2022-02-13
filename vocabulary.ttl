@@ -118,7 +118,8 @@ cl:10011 a skos:Concept;
 
 cl:10012 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:narrower cl:10182, cl:10183, cl:10184, cl:10185, cl:10186;
+  skos:narrower cl:10119, cl:10120, cl:10127, cl:10182, cl:10183, cl:10184, cl:10185,
+    cl:10186;
   skos:prefLabel "processing step"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -803,14 +804,14 @@ cl:10118 a skos:Concept;
   skos:prefLabel "probability"@en .
 
 cl:10119 a skos:Concept;
-  skos:broader cl:10009;
+  skos:broader cl:10009, cl:10012;
   skos:definition "[NCIT]* Any of the 99 numbered points that divide an ordered set of scores into 100 parts each of which contains one-hundredth of the total."@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48919>;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "percentile"@en .
 
 cl:10120 a skos:Concept;
-  skos:broader cl:10009;
+  skos:broader cl:10009, cl:10012;
   skos:definition "[NEMO] median is the middle value of a set of ordered observations. When there is an even number of observations the median is the average of two values that fall either side of what would be the middle value."@en;
   skos:exactMatch <http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3768000>;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
@@ -859,7 +860,7 @@ cl:10126 a skos:Concept;
   skos:prefLabel "kurtosis"@en .
 
 cl:10127 a skos:Concept;
-  skos:broader cl:10009;
+  skos:broader cl:10009, cl:10012;
   skos:definition "[SIO] A mean is the central tendency of a collection of numbers taken as the sum of the numbers divided by the size of the collection."@en;
   skos:exactMatch <http://semanticscience.org/resource/SIO_001109>;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
