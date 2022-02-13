@@ -118,11 +118,14 @@ cl:10011 a skos:Concept;
 
 cl:10012 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10182, cl:10183, cl:10184, cl:10185, cl:10186;
   skos:prefLabel "processing step"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 cl:10013 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10173, cl:10174, cl:10175, cl:10176, cl:10177, cl:10178, cl:10179,
+    cl:10180, cl:10181;
   skos:prefLabel "resource provider programme"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -1139,3 +1142,81 @@ cl:10172 a skos:Concept;
   skos:broader cl:10002;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "gram per hectare per year"@en .
+
+cl:10173 a skos:Concept;
+  skos:altLabel "INVEKOS"@en;
+  skos:broader cl:10013;
+  skos:definition "INVEKOS ist ein System von Verordnungen zur Durchsetzung einer einheitlichen Agrarpolitik in den EU-Mitgliedstaaten. Die schrittweise Einführung des Integrierten Verwaltungs- und Kontrollsystems durch die Europäische Kommission wurde im Zuge der Reform der Gemeinsamen Agrarpolitik (GAP) im Jahre 1992 beschlossen."@ge;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Integriertes Verwaltung- und Kontrollsystem"@en .
+
+cl:10174 a skos:Concept;
+  skos:altLabel "BORIS"@en;
+  skos:broader cl:10013;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Bodeninformationssystem"@en .
+
+cl:10175 a skos:Concept;
+  skos:altLabel "BAW"@en;
+  skos:broader cl:10013;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Bundesamt für Wasserwirtschaft"@en .
+
+cl:10176 a skos:Concept;
+  skos:altLabel "BMNT"@en;
+  skos:broader cl:10013;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Bundesministerium für Landwirtschaft, Regionen und Tourismus"@en .
+
+cl:10177 a skos:Concept;
+  skos:broader cl:10013;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Statistik Austria"@en .
+
+cl:10178 a skos:Concept;
+  skos:altLabel "KPC"@en;
+  skos:broader cl:10013;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Kommunal Kredit Public Consulting"@en .
+
+cl:10179 a skos:Concept;
+  skos:broader cl:10013;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Geologische Bundesanstalt"@en .
+
+cl:10180 a skos:Concept;
+  skos:broader cl:10013;
+  skos:definition "Interreg is one of the key instruments of the European Union (EU) supporting cooperation across borders through project funding. It aims to jointly tackle common challenges and find shared solutions in fields such as health, environment, research, education, transport, sustainable energy and more."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Interreg programme"@en .
+
+cl:10181 a skos:Concept;
+  skos:broader cl:10013;
+  skos:definition "Horizon 2020 is the eighth framework programme funding research, technological development, and innovation."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Horizon 2020"@en .
+
+cl:10182 a skos:Concept;
+  skos:broader cl:10012;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "statistical aggregation"@en .
+
+cl:10183 a skos:Concept;
+  skos:broader cl:10012;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "statistical disaggregation"@en .
+
+cl:10184 a skos:Concept;
+  skos:broader cl:10012;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "GIS intersection"@en .
+
+cl:10185 a skos:Concept;
+  skos:broader cl:10012;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "GIS interpolation"@en .
+
+cl:10186 a skos:Concept;
+  skos:broader cl:10012;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "complex calculation balancing"@en .

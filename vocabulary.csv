@@ -1,12 +1,12 @@
 ConceptScheme URI,http://vocabs.lter-europe.net/eLTER_CL,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
 "Prefixes for controlled vocabularies, schema and ontologies"
-PREFIX,cl,http://vocabs.lter-europe.net/eLTER_CL/,Prefix for our controlled vocabulary since it is rather tedious to write long URLs all the time
-PREFIX,skos,http://www.w3.org/2004/02/skos/core#,Prefix for SKOS Ontology. This ontology is which our base for defining terms.
-PREFIX,pav,http://purl.org/pav/ ,"Prefix for Provenance, Authoring and Versioning Ontology which properties such as version and createdOn we will use to describe our controlled vocabulary"
-PREFIX,dct,http://purl.org/dc/terms/ ,"Prefix for Dublin Core (Terms) Ontology which properties such as title, description, rights, source, etc. we will use to describe our controlled vocabulary as well to define its terms"
-PREFIX,iop,https://w3id.org/iadopt/ont/,The I-ADOPT Framework is an ontology designed to facilitate interoperability between existing variable description models.
-PREFIX,qudt,http://qudt.org/schema/qudt/,"Prefix for ""Quantity, Unit, Dimension and Type"" schema that is used to model physical units."
-PREFIX,unit,http://qudt.org/vocab/unit/,"Prefix for QUDT Vocabulary of Units which terms we will use to semantically define units of measurements for terms (i.e., variables) we are defining"
+PREFIX,cl,http://vocabs.lter-europe.net/eLTER_CL/,,Prefix for our controlled vocabulary since it is rather tedious to write long URLs all the time
+PREFIX,skos,http://www.w3.org/2004/02/skos/core#,,Prefix for SKOS Ontology. This ontology is which our base for defining terms.
+PREFIX,pav,http://purl.org/pav/ ,,"Prefix for Provenance, Authoring and Versioning Ontology which properties such as version and createdOn we will use to describe our controlled vocabulary"
+PREFIX,dct,http://purl.org/dc/terms/ ,,"Prefix for Dublin Core (Terms) Ontology which properties such as title, description, rights, source, etc. we will use to describe our controlled vocabulary as well to define its terms"
+PREFIX,iop,https://w3id.org/iadopt/ont/,,The I-ADOPT Framework is an ontology designed to facilitate interoperability between existing variable description models.
+PREFIX,qudt,http://qudt.org/schema/qudt/,,"Prefix for ""Quantity, Unit, Dimension and Type"" schema that is used to model physical units."
+PREFIX,unit,http://qudt.org/vocab/unit/,,"Prefix for QUDT Vocabulary of Units which terms we will use to semantically define units of measurements for terms (i.e., variables) we are defining"
 Metadata about vocabulary
 
 dct:title,eLTER_CL,Title of the vocabulary
@@ -18,7 +18,7 @@ pav:createdOn,2021-11-12T12:00+02:00,Date when vocabulary was initially created
 pav:lastUpdatedOn,2021-11-12T12:00+02:00,Date of the last vocabulary update
 Definition of terms
 
-Identifier,skos:prefLabel@en,skos:definition@en,"skos:altLabel(separator="","")","dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")",skos:editorialNote@en,"dct:contributor(separator="","")","dct:contributor(separator="","")"
+Identifier,skos:prefLabel@en,skos:definition@en,skos:definition@ge,"skos:altLabel(separator="","")","dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")",skos:editorialNote@en,"dct:contributor(separator="","")","dct:contributor(separator="","")"
 cl:10000,resource type 
 cl:10001,INSPIRE data theme
 cl:10002,unit
@@ -34,161 +34,178 @@ cl:10011,data completeness
 cl:10012,processing step
 cl:10013,resource provider programme
 cl:10014,access and use condition
-cl:10015,geometry observation dataset,,,,cl:10000
-cl:10016,statistical dataset,,,,cl:10000
-cl:10017,measurement dataset,,,,cl:10000
-cl:10018,category observation dataset,,,,cl:10000
-cl:10019,count observation dataset,,,,cl:10000
-cl:10020,truth observation dataset,,,,cl:10000
-cl:10021,temporal observation dataset,,,,cl:10000
-cl:10022,addresses,"Location of properties based on address identifiers, usually by road name, house number, postal code.",,http://inspire.ec.europa.eu/theme/ad,cl:10001,http://inspire.ec.europa.eu/theme/ad
-cl:10023,administrative units,"Units of administration, dividing areas where Member States have and/or exercise jurisdictional rights, for local, regional and national governance, separated by administrative boundaries.",,http://inspire.ec.europa.eu/theme/au,cl:10001,http://inspire.ec.europa.eu/theme/au
-cl:10024,coordinate reference systems,"Systems for uniquely referencing spatial information in space as a set of coordinates (x, y, z) and/or latitude and longitude and height, based on a geodetic horizontal and vertical datum.",,http://inspire.ec.europa.eu/theme/rs,cl:10001,http://inspire.ec.europa.eu/theme/rs
-cl:10025,geographical grid systems,Harmonised multi-resolution grid with a common point of origin and standardised location and size of grid cells.,,http://inspire.ec.europa.eu/theme/gg,cl:10001,http://inspire.ec.europa.eu/theme/gg
-cl:10026,cadastral parcels,Areas defined by cadastral registers or equivalent.,,http://inspire.ec.europa.eu/theme/cp,cl:10001,http://inspire.ec.europa.eu/theme/cp
-cl:10027,geographical names,"Names of areas, regions, localities, cities, suburbs, towns or settlements, or any geographical or topographical feature of public or historical interest.",,http://inspire.ec.europa.eu/theme/gn,cl:10001,http://inspire.ec.europa.eu/theme/gn
-cl:10028,hydrography,"Hydrographic elements, including marine areas and all other water bodies and items related to them, including river basins and sub-basins. Where appropriate, according to the definitions set out in Directive 2000/60/EC of the European Parliament and of the Council of 23 October 2000 establishing a framework for Community action in the field of water policy (2) and in the form of networks.",,http://inspire.ec.europa.eu/theme/hy,cl:10001,http://inspire.ec.europa.eu/theme/hy
-cl:10029,protected sites,"Area designated or managed within a framework of international, Community and Member States' legislation to achieve specific conservation objectives.",,http://inspire.ec.europa.eu/theme/ps,cl:10001,http://inspire.ec.europa.eu/theme/ps
-cl:10030,transport networks,"Road, rail, air and water transport networks and related infrastructure. Includes links between different networks. Also includes the trans-European transport network as defined in Decision No 1692/96/EC of the European Parliament and of the Council of 23 July 1996 on Community Guidelines for the development of the trans-European transport network (1) and future revisions of that Decision.",,http://inspire.ec.europa.eu/theme/tn,cl:10001,http://inspire.ec.europa.eu/theme/tn
-cl:10031,elevation,"Digital elevation models for land, ice and ocean surface. Includes terrestrial elevation, bathymetry and shoreline.",,http://inspire.ec.europa.eu/theme/el,cl:10001,http://inspire.ec.europa.eu/theme/el
-cl:10032,geology,"Geology characterised according to composition and structure. Includes bedrock, aquifers and geomorphology.",,http://inspire.ec.europa.eu/theme/ge,cl:10001,http://inspire.ec.europa.eu/theme/ge
-cl:10033,land cover,"Physical and biological cover of the earth's surface including artificial surfaces, agricultural areas, forests, (semi-)natural areas, wetlands, water bodies.",,http://inspire.ec.europa.eu/theme/lc,cl:10001,http://inspire.ec.europa.eu/theme/lc
-cl:10034,orthoimagery,"Geo-referenced image data of the Earth's surface, from either satellite or airborne sensors.",,http://inspire.ec.europa.eu/theme/oi,cl:10001,http://inspire.ec.europa.eu/theme/oi
-cl:10035,agricultural and aquaculture facilities,"Farming equipment and production facilities (including irrigation systems, greenhouses and stables).",,http://inspire.ec.europa.eu/theme/af,cl:10001,http://inspire.ec.europa.eu/theme/af
-cl:10036,area management/restriction/regulation zones and reporting units,"Areas managed, regulated or used for reporting at international, European, national, regional and local levels. Includes dumping sites, restricted areas around drinking water sources, nitrate-vulnerable zones, regulated fairways at sea or large inland waters, areas for the dumping of waste, noise restriction zones, prospecting and mining permit areas, river basin districts, relevant reporting units and coastal zone management areas.",,http://inspire.ec.europa.eu/theme/am,cl:10001,http://inspire.ec.europa.eu/theme/am
-cl:10037,atmospheric conditions,"Physical conditions in the atmosphere. Includes spatial data based on measurements, on models or on a combination thereof and includes measurement locations.",,http://inspire.ec.europa.eu/theme/ac,cl:10001,http://inspire.ec.europa.eu/theme/ac
-cl:10038,bio-geographical regions,Areas of relatively homogeneous ecological conditions with common characteristics.,,http://inspire.ec.europa.eu/theme/br,cl:10001,http://inspire.ec.europa.eu/theme/br
-cl:10039,buildings,Geographical location of buildings.,,http://inspire.ec.europa.eu/theme/bu,cl:10001,http://inspire.ec.europa.eu/theme/bu
-cl:10040,energy resources,"Energy resources including hydrocarbons, hydropower, bio-energy, solar, wind, etc., where relevant including depth/height information on the extent of the resource.",,http://inspire.ec.europa.eu/theme/er,cl:10001,http://inspire.ec.europa.eu/theme/er
-cl:10041,environmental monitoring facilities,"Location and operation of environmental monitoring facilities includes observation and measurement of emissions, of the state of environmental media and of other ecosystem parameters (biodiversity, ecological conditions of vegetation, etc.) by or on behalf of public authorities.",,http://inspire.ec.europa.eu/theme/ef,cl:10001,http://inspire.ec.europa.eu/theme/ef
-cl:10042,habitats and biotopes,"Geographical areas characterised by specific ecological conditions, processes, structure, and (life support) functions that physically support the organisms that live there. Includes terrestrial and aquatic areas distinguished by geographical, abiotic and biotic features, whether entirely natural or semi-natural.",,http://inspire.ec.europa.eu/theme/hb,cl:10001,http://inspire.ec.europa.eu/theme/hb
-cl:10043,human health and safety,"Geographical distribution of dominance of pathologies (allergies, cancers, respiratory diseases, etc.), information indicating the effect on health (biomarkers, decline of fertility, epidemics) or well-being of humans (fatigue, stress, etc.) linked directly (air pollution, chemicals, depletion of the ozone layer, noise, etc.) or indirectly (food, genetically modified organisms, etc.) to the quality of the environment.",,http://inspire.ec.europa.eu/theme/hh,cl:10001,http://inspire.ec.europa.eu/theme/hh
-cl:10044,land use,"Territory characterised according to its current and future planned functional dimension or socio-economic purpose (e.g. residential, industrial, commercial, agricultural, forestry, recreational).",,http://inspire.ec.europa.eu/theme/lu,cl:10001,http://inspire.ec.europa.eu/theme/lu
-cl:10045,mineral resources,"Mineral resources including metal ores, industrial minerals, etc., where relevant including depth/height information on the extent of the resource.",,http://inspire.ec.europa.eu/theme/mr,cl:10001,http://inspire.ec.europa.eu/theme/mr
-cl:10046,natural risk zones,"Vulnerable areas characterised according to natural hazards (all atmospheric, hydrologic, seismic, volcanic and wildfire phenomena that, because of their location, severity, and frequency, have the potential to seriously affect society), e.g. floods, landslides and subsidence, avalanches, forest fires, earthquakes, volcanic eruptions.",,http://inspire.ec.europa.eu/theme/nz,cl:10001,http://inspire.ec.europa.eu/theme/nz
-cl:10047,oceanographic geographical features,"Physical conditions of oceans (currents, salinity, wave heights, etc.).",,http://inspire.ec.europa.eu/theme/of,cl:10001,http://inspire.ec.europa.eu/theme/of
-cl:10048,population distribution - demography,"Geographical distribution of people, including population characteristics and activity levels, aggregated by grid, region, administrative unit or other analytical unit.",,http://inspire.ec.europa.eu/theme/pd,cl:10001,http://inspire.ec.europa.eu/theme/pd
-cl:10049,production and industrial facilities,"Industrial production sites, including installations covered by Council Directive 96/61/EC of 24 September 1996 concerning integrated pollution prevention and control (1) and water abstraction facilities, mining, storage sites.",,http://inspire.ec.europa.eu/theme/pf,cl:10001,http://inspire.ec.europa.eu/theme/pf
-cl:10050,sea regions,Physical conditions of seas and saline water bodies divided into regions and sub-regions with common characteristics.,,http://inspire.ec.europa.eu/theme/sr,cl:10001,http://inspire.ec.europa.eu/theme/sr
-cl:10051,soil,"Soils and subsoil characterised according to depth, texture, structure and content of particles and organic material, stoniness, erosion, where appropriate mean slope and anticipated water storage capacity.",,http://inspire.ec.europa.eu/theme/so,cl:10001,http://inspire.ec.europa.eu/theme/so
-cl:10052,species distribution,"Geographical distribution of occurrence of animal and plant species aggregated by grid, region, administrative unit or other analytical unit.",,http://inspire.ec.europa.eu/theme/sd,cl:10001,http://inspire.ec.europa.eu/theme/sd
-cl:10053,statistical units,Units for dissemination or use of statistical information.,,http://inspire.ec.europa.eu/theme/su,cl:10001,http://inspire.ec.europa.eu/theme/su
-cl:10054,utility and governmental services,"Includes utility facilities such as sewage, waste management, energy supply and water supply, administrative and social governmental services such as public administrations, civil protection sites, schools and hospitals.",,http://inspire.ec.europa.eu/theme/us,cl:10001,http://inspire.ec.europa.eu/theme/us
-cl:10055,meteorological geographical features,"Weather conditions and their measurements; precipitation, temperature, evapotranspiration, wind speed and direction.",,http://inspire.ec.europa.eu/theme/mf,cl:10001,http://inspire.ec.europa.eu/theme/mf
-cl:10056,atmospheric conditions and meteorological geographical features,"Physical conditions in the atmosphere. Includes spatial data based on measurements, on models or on a combination thereof and includes measurement locations. Weather conditions and their measurements; precipitation, temperature, evapotranspiration, wind speed and direction.",,http://inspire.ec.europa.eu/theme/ac-mf,cl:10001,http://inspire.ec.europa.eu/theme/ac-mf
-cl:10057,point,,,,cl:10003
-cl:10058,vector,,,,cl:10003
-cl:10059,raster,,,,cl:10003
-cl:10060,EPSG:3857,WGS 84 / Pseudo-Mercator,,https://epsg.io/3857,cl:10004,https://epsg.io/3857
-cl:10061,EPSG:4937,,ETRS89,https://epsg.io/4937,cl:10004,https://epsg.io/4937
-cl:10062,EPSG:3035,ETRS89-extended / LAEA Europe,LAEA,https://epsg.io/3035,cl:10004,https://epsg.io/3035
-cl:10063,EPSG:18007,,Austria Gauss-Kruger M28,https://epsg.io/18007,cl:10004,https://epsg.io/18007
-cl:10064,EPSG:18008,,Austria Gauss-Kruger M31,https://epsg.io/18008,cl:10004,https://epsg.io/18008
-cl:10065,EPSG:18009,,Austria Gauss-Kruger M34,https://epsg.io/18009,cl:10004,https://epsg.io/18009
-cl:10066,EPSG:3416,ETRS89 / Austria Lambert,Austria Lambert,https://epsg.io/3416,cl:10004,https://epsg.io/3416
-cl:10067,province,,,,cl:10005
-cl:10068,district,,NUTS2,,cl:10005
-cl:10069,municipality,,NUTS3,,cl:10005
-cl:10070,cadastral municipality,,,,cl:10005
-cl:10071,<=10^0m²,,,,cl:10006
-cl:10072,>10^0m² - <=10^1m²,,,,cl:10006
-cl:10073,>10^1m² - <=10^2m²,,,,cl:10006
-cl:10074,>10^2m² - <=10^3m²,,,,cl:10006
-cl:10075,>10^3m² - <=10^4m²,,,,cl:10006
-cl:10076,>10^4m² - <=10^5m²,,,,cl:10006
-cl:10077,>10^5m² - <=10^6m²,,,,cl:10006
-cl:10078,>10^6m² - <=10^7m²,,,,cl:10006
-cl:10079,>10^7m² - <=10^8m²,,,,cl:10006
-cl:10080,>10^8m² - <=10^9m²,,,,cl:10006
-cl:10081,>10^9m² - <=10^10m²,,,,cl:10006
-cl:10082,>10^10m²,,,,cl:10006
-cl:10083,single point,,,,cl:10007
-cl:10084,representative,,,,cl:10007
-cl:10085,transect,,,,cl:10007
-cl:10086,vertical profile,,,,cl:10007
-cl:10087,regular,,,,cl:10007
-cl:10088,random,,,,cl:10007
-cl:10089,stratified random,,,,cl:10007
-cl:10090,block design,,,,cl:10007
-cl:10091,full area coverage,,,,cl:10007
-cl:10092,single measurement,,,,cl:10008
-cl:10093,less than seconds,,,,cl:10008
-cl:10094,seconds,,,,cl:10008
-cl:10095,minutes,,,,cl:10008
-cl:10096,15 minutes,,,,cl:10008
-cl:10097,30 minutes,,,,cl:10008
-cl:10098,hourly,,,,cl:10008
-cl:10099,daily,,,,cl:10008
-cl:10100,weekly,,,,cl:10008
-cl:10101,monthly,,,,cl:10008
-cl:10102,quarterly,,,,cl:10008
-cl:10103,seasonally,,,,cl:10008
-cl:10104,half yearly,,,,cl:10008
-cl:10105,yearly,,,,cl:10008
-cl:10106,every 2-5 years,,,,cl:10008
-cl:10107,every 5-10 years,,,,cl:10008
-cl:10108,more than 10 years,,,,cl:10008
-cl:10109,quantile,"[ NCIT ][ SUICIDEO ]* Division of a distribution into equal, ordered subgroups; a set of 'cut points' that divide a sample of data into groups containing (as far as possible) equal numbers of observations.",,,cl:10009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48920
-cl:10110,standard deviation,"[ SUICIDEO ][ NCIT ]* A measure of the range of values in a set of numbers. Standard deviation is a statistic used as a measure of the dispersion or variation in a distribution, equal to the square root of the arithmetic mean of the squares of the deviations from the arithmetic mean.",,,cl:10009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53322
-cl:10111,meta analysis,[David B. Wilson] Meta-analysis is a statistical method of synthesizing quantitative results across studies examining a common research question.&nbsp;,,,cl:10009
-cl:10112,skewness,[DCM] Measure of the asymmetry of the probability distribution of a real-valued random variable about its mean.,,,cl:10009,http://dicom.nema.org/resources/ontology/DCM/126051
-cl:10113,variance,"[ECG] A measure of the variability in a sample or population. It is calculated as the mean squared deviation (MSD) of the individual values from their common mean. In calculating the MSD, the divisor n is commonly used for a population variance and the divisor n-1 for a sample variance.",,,cl:10009,http://www.cvrgrid.org/files/ECGOntologyv1.owl#ECG_000001079
-cl:10114,correlation,"[HUPSON] A statistical measure referring to the relationship between two random variables. It is a positive correlation when each variable tends to increase or decrease as the other does, and a negative or inverse correlation if one tends to increase as the other decreases. source: http://shodor.org/interactivate/dictionary/",,,cl:10009,http://scai.fraunhofer.de/HuPSON#SCAIVPH_00000266
-cl:10115,spatial autocorrelation,"[Malika Khalili] Spatial autocorrelation is a correlation between the values of a single variable, considering their geographical locations.",,,cl:10009
-cl:10116,confusion matrix,"[OBCS] A data item with a specific table layout that allows visualization of the performance of an algorithm. Each column of the matrix represents the instances in a predicted class, while each row represents the instances in an actual class.",,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000145
-cl:10117,coefficient of variation,[OBCS] A quantitative confidence value that is the standard deviation of a data set divided by the mean of the same data set; a normalized measure of dispersion of a probability distribution,,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000081
-cl:10118,probability,[NCIT]* A measure of the expectation of the occurrence of a particular event.,,,cl:10009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54154
-cl:10119,percentile,[NCIT]* Any of the 99 numbered points that divide an ordered set of scores into 100 parts each of which contains one-hundredth of the total.,,,cl:10009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48919
-cl:10120,median,[NEMO] median is the middle value of a set of ordered observations. When there is an even number of observations the median is the average of two values that fall either side of what would be the middle value.,,,cl:10009,http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3768000
-cl:10121,mode,[NPO] A measure of central tendency which is the most frequently occurring value in a set of numerical values.,,,cl:10009,http://purl.bioontology.org/ontology/npo#NPO_1802
-cl:10122,credible interval,[OBCS] A quantitative confidence value that is used in Bayesian analysis to describe the range in which a posterior probability estimate is likely to reside.,,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000071
-cl:10123,confidence interval,"[OBCS] A quantitative confidence value that refers to an interval give values within which there is a high probability (95 percent by convention) that the true population value can be found. The calculation of a confidence interval considers the standard deviation of the data and the number of observations. Thus, a confidence interval narrows as the number of observations increases, or its variance (dispersion) decreases.",,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000070
-cl:10124,interquartile range,[OBCS] A quantitative confidence value that refers to the upper and lower values defining the central 50 percent of observations. The boundaries are equal to the 25th and 75th percentiles. The interquartile range can be depicted in a box and whiskers plot.,,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000072
-cl:10125,range (statistics),[OCRE] The range is the difference between the lowest and highest numerical values; the limits or scale of variation.,,,cl:10009,http://purl.org/net/OCRe/statistics.owl#OCRE200007
-cl:10126,kurtosis,[RO]* Kurtosis is a measure of how outlier-prone a distribution is. The kurtosis of the normal distribution is 3. Distributions that are more outlier-prone than the normal distribution have kurtosis greater than 3; distributions that are less outlier-prone have kurtosis less than 3,,,cl:10009,http://www.semanticweb.org/alberto.traverso/ontologies/2017/1/RADIOMICS-ontology#OWLClass_010008
-cl:10127,mean,[SIO] A mean is the central tendency of a collection of numbers taken as the sum of the numbers divided by the size of the collection.,,,cl:10009,http://semanticscience.org/resource/SIO_001109
-cl:10128,decile,"[STATO] a decile is a quantile where n=10 and which splits data into sections accrued of 10% of data, so the first decile delineates 10% of the data, the second decile delineates 20% of the data and the nineth decile, 90 % of the data",,,cl:10009,http://purl.obolibrary.org/obo/STATO_0000292
-cl:10129,quartile,"[STATO] a quartile is a quantile which splits data into sections accrued of 25% of data, so the first quartile delineates 25% of the data, the second quartile delineates 50% of the data and the third quartile, 75 % of the data",,,cl:10009
-cl:10130,centred moment,"For a given positive natural number k, the k-th central moment of a random variable x is defined as k=E[(x−E[x])k]. That is, it is the expected value of the deviation from the mean to the power k. In particular, 0=1, 1=0 and 2 is the variance of x. [UncertML] http://www.uncertml.org/statistics/centred-moment",,,cl:10009
-cl:10131,neutral theory,,,,cl:10009
-cl:10132,covariance matrix,,,,cl:10009
-cl:10133,discrete probability,,,,cl:10009
-cl:10134,moment,,,,cl:10009
-cl:10135,changes over time,,,,cl:10009
-cl:10136,high,,,,cl:10010
-cl:10137,moderate,,,,cl:10010
-cl:10138,low,,,,cl:10010
-cl:10139,complete,,,,cl:10011
-cl:10140,completion ongoing,,,,cl:10011
-cl:10141,incomplete,,,,cl:10011
-cl:10142,free for access,,,,cl:10014
-cl:10143,free for access and use upon request,,,,cl:10014
-cl:10144,other restrictions according to rules defined in intellectual rights,,,,cl:10014
-cl:10145,restricted access defined in detail in intellectual property information,,,,cl:10014
-cl:10146,no access,,,,cl:10014
-cl:10147,data type,Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value.,,https://dataled.academy/guides/data-types/
-cl:10148,integer,"It is the most common numeric data type used to store numbers without a fractional component (-707, 0, 707).",int,https://dataled.academy/guides/data-types/,cl:10147
-cl:10149,floating point,"It is a numeric data type used to store numbers that may have a fractional component, like monetary values do (707.07, 0.7, 707.00).",float,https://dataled.academy/guides/data-types/,cl:10147
-cl:10150,character,"It is used to store a single letter, digit, punctuation mark, symbol, or blank space.",char,https://dataled.academy/guides/data-types/,cl:10147
-cl:10151,string,It is a sequence of characters and the most commonly used data type to store text.,str,https://dataled.academy/guides/data-types/,cl:10147
-cl:10152,boolean,It represents the values true and false.,bool,https://dataled.academy/guides/data-types/,cl:10147
-cl:10153,enumeration type,It contains a small set of predefined unique values (also known as elements or enumerators) that can be compared and assigned to a variable of enumerated data type.,enum,https://dataled.academy/guides/data-types/,cl:10147
-cl:10154,array,"Also known as a list, an array is a data type that stores a number of elements in a specific order, typically all of the same type.",,https://dataled.academy/guides/data-types/,cl:10147
-cl:10155,date,It typically stores a date in the YYYY-MM-DD format (ISO 8601 syntax).,,https://dataled.academy/guides/data-types/,cl:10147
-cl:10156,time,Stores a time in the hh:mm:ss format.,,https://dataled.academy/guides/data-types/,cl:10147
-cl:10157,datetime,Stores a value containing both date and time together in the YYYY-MM-DD hh:mm:ss format.,,https://dataled.academy/guides/data-types/,cl:10147
-cl:10158,timestamp,"Typically represented in Unix time, a timestamp represents the number of seconds that have elapsed since midnight (00:00:00 UTC), 1st January 1970.",,https://dataled.academy/guides/data-types/,cl:10147
+cl:10015,geometry observation dataset,,,,,cl:10000
+cl:10016,statistical dataset,,,,,cl:10000
+cl:10017,measurement dataset,,,,,cl:10000
+cl:10018,category observation dataset,,,,,cl:10000
+cl:10019,count observation dataset,,,,,cl:10000
+cl:10020,truth observation dataset,,,,,cl:10000
+cl:10021,temporal observation dataset,,,,,cl:10000
+cl:10022,addresses,"Location of properties based on address identifiers, usually by road name, house number, postal code.",,,http://inspire.ec.europa.eu/theme/ad,cl:10001,http://inspire.ec.europa.eu/theme/ad
+cl:10023,administrative units,"Units of administration, dividing areas where Member States have and/or exercise jurisdictional rights, for local, regional and national governance, separated by administrative boundaries.",,,http://inspire.ec.europa.eu/theme/au,cl:10001,http://inspire.ec.europa.eu/theme/au
+cl:10024,coordinate reference systems,"Systems for uniquely referencing spatial information in space as a set of coordinates (x, y, z) and/or latitude and longitude and height, based on a geodetic horizontal and vertical datum.",,,http://inspire.ec.europa.eu/theme/rs,cl:10001,http://inspire.ec.europa.eu/theme/rs
+cl:10025,geographical grid systems,Harmonised multi-resolution grid with a common point of origin and standardised location and size of grid cells.,,,http://inspire.ec.europa.eu/theme/gg,cl:10001,http://inspire.ec.europa.eu/theme/gg
+cl:10026,cadastral parcels,Areas defined by cadastral registers or equivalent.,,,http://inspire.ec.europa.eu/theme/cp,cl:10001,http://inspire.ec.europa.eu/theme/cp
+cl:10027,geographical names,"Names of areas, regions, localities, cities, suburbs, towns or settlements, or any geographical or topographical feature of public or historical interest.",,,http://inspire.ec.europa.eu/theme/gn,cl:10001,http://inspire.ec.europa.eu/theme/gn
+cl:10028,hydrography,"Hydrographic elements, including marine areas and all other water bodies and items related to them, including river basins and sub-basins. Where appropriate, according to the definitions set out in Directive 2000/60/EC of the European Parliament and of the Council of 23 October 2000 establishing a framework for Community action in the field of water policy (2) and in the form of networks.",,,http://inspire.ec.europa.eu/theme/hy,cl:10001,http://inspire.ec.europa.eu/theme/hy
+cl:10029,protected sites,"Area designated or managed within a framework of international, Community and Member States' legislation to achieve specific conservation objectives.",,,http://inspire.ec.europa.eu/theme/ps,cl:10001,http://inspire.ec.europa.eu/theme/ps
+cl:10030,transport networks,"Road, rail, air and water transport networks and related infrastructure. Includes links between different networks. Also includes the trans-European transport network as defined in Decision No 1692/96/EC of the European Parliament and of the Council of 23 July 1996 on Community Guidelines for the development of the trans-European transport network (1) and future revisions of that Decision.",,,http://inspire.ec.europa.eu/theme/tn,cl:10001,http://inspire.ec.europa.eu/theme/tn
+cl:10031,elevation,"Digital elevation models for land, ice and ocean surface. Includes terrestrial elevation, bathymetry and shoreline.",,,http://inspire.ec.europa.eu/theme/el,cl:10001,http://inspire.ec.europa.eu/theme/el
+cl:10032,geology,"Geology characterised according to composition and structure. Includes bedrock, aquifers and geomorphology.",,,http://inspire.ec.europa.eu/theme/ge,cl:10001,http://inspire.ec.europa.eu/theme/ge
+cl:10033,land cover,"Physical and biological cover of the earth's surface including artificial surfaces, agricultural areas, forests, (semi-)natural areas, wetlands, water bodies.",,,http://inspire.ec.europa.eu/theme/lc,cl:10001,http://inspire.ec.europa.eu/theme/lc
+cl:10034,orthoimagery,"Geo-referenced image data of the Earth's surface, from either satellite or airborne sensors.",,,http://inspire.ec.europa.eu/theme/oi,cl:10001,http://inspire.ec.europa.eu/theme/oi
+cl:10035,agricultural and aquaculture facilities,"Farming equipment and production facilities (including irrigation systems, greenhouses and stables).",,,http://inspire.ec.europa.eu/theme/af,cl:10001,http://inspire.ec.europa.eu/theme/af
+cl:10036,area management/restriction/regulation zones and reporting units,"Areas managed, regulated or used for reporting at international, European, national, regional and local levels. Includes dumping sites, restricted areas around drinking water sources, nitrate-vulnerable zones, regulated fairways at sea or large inland waters, areas for the dumping of waste, noise restriction zones, prospecting and mining permit areas, river basin districts, relevant reporting units and coastal zone management areas.",,,http://inspire.ec.europa.eu/theme/am,cl:10001,http://inspire.ec.europa.eu/theme/am
+cl:10037,atmospheric conditions,"Physical conditions in the atmosphere. Includes spatial data based on measurements, on models or on a combination thereof and includes measurement locations.",,,http://inspire.ec.europa.eu/theme/ac,cl:10001,http://inspire.ec.europa.eu/theme/ac
+cl:10038,bio-geographical regions,Areas of relatively homogeneous ecological conditions with common characteristics.,,,http://inspire.ec.europa.eu/theme/br,cl:10001,http://inspire.ec.europa.eu/theme/br
+cl:10039,buildings,Geographical location of buildings.,,,http://inspire.ec.europa.eu/theme/bu,cl:10001,http://inspire.ec.europa.eu/theme/bu
+cl:10040,energy resources,"Energy resources including hydrocarbons, hydropower, bio-energy, solar, wind, etc., where relevant including depth/height information on the extent of the resource.",,,http://inspire.ec.europa.eu/theme/er,cl:10001,http://inspire.ec.europa.eu/theme/er
+cl:10041,environmental monitoring facilities,"Location and operation of environmental monitoring facilities includes observation and measurement of emissions, of the state of environmental media and of other ecosystem parameters (biodiversity, ecological conditions of vegetation, etc.) by or on behalf of public authorities.",,,http://inspire.ec.europa.eu/theme/ef,cl:10001,http://inspire.ec.europa.eu/theme/ef
+cl:10042,habitats and biotopes,"Geographical areas characterised by specific ecological conditions, processes, structure, and (life support) functions that physically support the organisms that live there. Includes terrestrial and aquatic areas distinguished by geographical, abiotic and biotic features, whether entirely natural or semi-natural.",,,http://inspire.ec.europa.eu/theme/hb,cl:10001,http://inspire.ec.europa.eu/theme/hb
+cl:10043,human health and safety,"Geographical distribution of dominance of pathologies (allergies, cancers, respiratory diseases, etc.), information indicating the effect on health (biomarkers, decline of fertility, epidemics) or well-being of humans (fatigue, stress, etc.) linked directly (air pollution, chemicals, depletion of the ozone layer, noise, etc.) or indirectly (food, genetically modified organisms, etc.) to the quality of the environment.",,,http://inspire.ec.europa.eu/theme/hh,cl:10001,http://inspire.ec.europa.eu/theme/hh
+cl:10044,land use,"Territory characterised according to its current and future planned functional dimension or socio-economic purpose (e.g. residential, industrial, commercial, agricultural, forestry, recreational).",,,http://inspire.ec.europa.eu/theme/lu,cl:10001,http://inspire.ec.europa.eu/theme/lu
+cl:10045,mineral resources,"Mineral resources including metal ores, industrial minerals, etc., where relevant including depth/height information on the extent of the resource.",,,http://inspire.ec.europa.eu/theme/mr,cl:10001,http://inspire.ec.europa.eu/theme/mr
+cl:10046,natural risk zones,"Vulnerable areas characterised according to natural hazards (all atmospheric, hydrologic, seismic, volcanic and wildfire phenomena that, because of their location, severity, and frequency, have the potential to seriously affect society), e.g. floods, landslides and subsidence, avalanches, forest fires, earthquakes, volcanic eruptions.",,,http://inspire.ec.europa.eu/theme/nz,cl:10001,http://inspire.ec.europa.eu/theme/nz
+cl:10047,oceanographic geographical features,"Physical conditions of oceans (currents, salinity, wave heights, etc.).",,,http://inspire.ec.europa.eu/theme/of,cl:10001,http://inspire.ec.europa.eu/theme/of
+cl:10048,population distribution - demography,"Geographical distribution of people, including population characteristics and activity levels, aggregated by grid, region, administrative unit or other analytical unit.",,,http://inspire.ec.europa.eu/theme/pd,cl:10001,http://inspire.ec.europa.eu/theme/pd
+cl:10049,production and industrial facilities,"Industrial production sites, including installations covered by Council Directive 96/61/EC of 24 September 1996 concerning integrated pollution prevention and control (1) and water abstraction facilities, mining, storage sites.",,,http://inspire.ec.europa.eu/theme/pf,cl:10001,http://inspire.ec.europa.eu/theme/pf
+cl:10050,sea regions,Physical conditions of seas and saline water bodies divided into regions and sub-regions with common characteristics.,,,http://inspire.ec.europa.eu/theme/sr,cl:10001,http://inspire.ec.europa.eu/theme/sr
+cl:10051,soil,"Soils and subsoil characterised according to depth, texture, structure and content of particles and organic material, stoniness, erosion, where appropriate mean slope and anticipated water storage capacity.",,,http://inspire.ec.europa.eu/theme/so,cl:10001,http://inspire.ec.europa.eu/theme/so
+cl:10052,species distribution,"Geographical distribution of occurrence of animal and plant species aggregated by grid, region, administrative unit or other analytical unit.",,,http://inspire.ec.europa.eu/theme/sd,cl:10001,http://inspire.ec.europa.eu/theme/sd
+cl:10053,statistical units,Units for dissemination or use of statistical information.,,,http://inspire.ec.europa.eu/theme/su,cl:10001,http://inspire.ec.europa.eu/theme/su
+cl:10054,utility and governmental services,"Includes utility facilities such as sewage, waste management, energy supply and water supply, administrative and social governmental services such as public administrations, civil protection sites, schools and hospitals.",,,http://inspire.ec.europa.eu/theme/us,cl:10001,http://inspire.ec.europa.eu/theme/us
+cl:10055,meteorological geographical features,"Weather conditions and their measurements; precipitation, temperature, evapotranspiration, wind speed and direction.",,,http://inspire.ec.europa.eu/theme/mf,cl:10001,http://inspire.ec.europa.eu/theme/mf
+cl:10056,atmospheric conditions and meteorological geographical features,"Physical conditions in the atmosphere. Includes spatial data based on measurements, on models or on a combination thereof and includes measurement locations. Weather conditions and their measurements; precipitation, temperature, evapotranspiration, wind speed and direction.",,,http://inspire.ec.europa.eu/theme/ac-mf,cl:10001,http://inspire.ec.europa.eu/theme/ac-mf
+cl:10057,point,,,,,cl:10003
+cl:10058,vector,,,,,cl:10003
+cl:10059,raster,,,,,cl:10003
+cl:10060,EPSG:3857,WGS 84 / Pseudo-Mercator,,,https://epsg.io/3857,cl:10004,https://epsg.io/3857
+cl:10061,EPSG:4937,,,ETRS89,https://epsg.io/4937,cl:10004,https://epsg.io/4937
+cl:10062,EPSG:3035,ETRS89-extended / LAEA Europe,,LAEA,https://epsg.io/3035,cl:10004,https://epsg.io/3035
+cl:10063,EPSG:18007,,,Austria Gauss-Kruger M28,https://epsg.io/18007,cl:10004,https://epsg.io/18007
+cl:10064,EPSG:18008,,,Austria Gauss-Kruger M31,https://epsg.io/18008,cl:10004,https://epsg.io/18008
+cl:10065,EPSG:18009,,,Austria Gauss-Kruger M34,https://epsg.io/18009,cl:10004,https://epsg.io/18009
+cl:10066,EPSG:3416,ETRS89 / Austria Lambert,,Austria Lambert,https://epsg.io/3416,cl:10004,https://epsg.io/3416
+cl:10067,province,,,,,cl:10005
+cl:10068,district,,,NUTS2,,cl:10005
+cl:10069,municipality,,,NUTS3,,cl:10005
+cl:10070,cadastral municipality,,,,,cl:10005
+cl:10071,<=10^0m²,,,,,cl:10006
+cl:10072,>10^0m² - <=10^1m²,,,,,cl:10006
+cl:10073,>10^1m² - <=10^2m²,,,,,cl:10006
+cl:10074,>10^2m² - <=10^3m²,,,,,cl:10006
+cl:10075,>10^3m² - <=10^4m²,,,,,cl:10006
+cl:10076,>10^4m² - <=10^5m²,,,,,cl:10006
+cl:10077,>10^5m² - <=10^6m²,,,,,cl:10006
+cl:10078,>10^6m² - <=10^7m²,,,,,cl:10006
+cl:10079,>10^7m² - <=10^8m²,,,,,cl:10006
+cl:10080,>10^8m² - <=10^9m²,,,,,cl:10006
+cl:10081,>10^9m² - <=10^10m²,,,,,cl:10006
+cl:10082,>10^10m²,,,,,cl:10006
+cl:10083,single point,,,,,cl:10007
+cl:10084,representative,,,,,cl:10007
+cl:10085,transect,,,,,cl:10007
+cl:10086,vertical profile,,,,,cl:10007
+cl:10087,regular,,,,,cl:10007
+cl:10088,random,,,,,cl:10007
+cl:10089,stratified random,,,,,cl:10007
+cl:10090,block design,,,,,cl:10007
+cl:10091,full area coverage,,,,,cl:10007
+cl:10092,single measurement,,,,,cl:10008
+cl:10093,less than seconds,,,,,cl:10008
+cl:10094,seconds,,,,,cl:10008
+cl:10095,minutes,,,,,cl:10008
+cl:10096,15 minutes,,,,,cl:10008
+cl:10097,30 minutes,,,,,cl:10008
+cl:10098,hourly,,,,,cl:10008
+cl:10099,daily,,,,,cl:10008
+cl:10100,weekly,,,,,cl:10008
+cl:10101,monthly,,,,,cl:10008
+cl:10102,quarterly,,,,,cl:10008
+cl:10103,seasonally,,,,,cl:10008
+cl:10104,half yearly,,,,,cl:10008
+cl:10105,yearly,,,,,cl:10008
+cl:10106,every 2-5 years,,,,,cl:10008
+cl:10107,every 5-10 years,,,,,cl:10008
+cl:10108,more than 10 years,,,,,cl:10008
+cl:10109,quantile,"[ NCIT ][ SUICIDEO ]* Division of a distribution into equal, ordered subgroups; a set of 'cut points' that divide a sample of data into groups containing (as far as possible) equal numbers of observations.",,,,cl:10009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48920
+cl:10110,standard deviation,"[ SUICIDEO ][ NCIT ]* A measure of the range of values in a set of numbers. Standard deviation is a statistic used as a measure of the dispersion or variation in a distribution, equal to the square root of the arithmetic mean of the squares of the deviations from the arithmetic mean.",,,,cl:10009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53322
+cl:10111,meta analysis,[David B. Wilson] Meta-analysis is a statistical method of synthesizing quantitative results across studies examining a common research question.&nbsp;,,,,cl:10009
+cl:10112,skewness,[DCM] Measure of the asymmetry of the probability distribution of a real-valued random variable about its mean.,,,,cl:10009,http://dicom.nema.org/resources/ontology/DCM/126051
+cl:10113,variance,"[ECG] A measure of the variability in a sample or population. It is calculated as the mean squared deviation (MSD) of the individual values from their common mean. In calculating the MSD, the divisor n is commonly used for a population variance and the divisor n-1 for a sample variance.",,,,cl:10009,http://www.cvrgrid.org/files/ECGOntologyv1.owl#ECG_000001079
+cl:10114,correlation,"[HUPSON] A statistical measure referring to the relationship between two random variables. It is a positive correlation when each variable tends to increase or decrease as the other does, and a negative or inverse correlation if one tends to increase as the other decreases. source: http://shodor.org/interactivate/dictionary/",,,,cl:10009,http://scai.fraunhofer.de/HuPSON#SCAIVPH_00000266
+cl:10115,spatial autocorrelation,"[Malika Khalili] Spatial autocorrelation is a correlation between the values of a single variable, considering their geographical locations.",,,,cl:10009
+cl:10116,confusion matrix,"[OBCS] A data item with a specific table layout that allows visualization of the performance of an algorithm. Each column of the matrix represents the instances in a predicted class, while each row represents the instances in an actual class.",,,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000145
+cl:10117,coefficient of variation,[OBCS] A quantitative confidence value that is the standard deviation of a data set divided by the mean of the same data set; a normalized measure of dispersion of a probability distribution,,,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000081
+cl:10118,probability,[NCIT]* A measure of the expectation of the occurrence of a particular event.,,,,cl:10009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54154
+cl:10119,percentile,[NCIT]* Any of the 99 numbered points that divide an ordered set of scores into 100 parts each of which contains one-hundredth of the total.,,,,cl:10009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48919
+cl:10120,median,[NEMO] median is the middle value of a set of ordered observations. When there is an even number of observations the median is the average of two values that fall either side of what would be the middle value.,,,,cl:10009,http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3768000
+cl:10121,mode,[NPO] A measure of central tendency which is the most frequently occurring value in a set of numerical values.,,,,cl:10009,http://purl.bioontology.org/ontology/npo#NPO_1802
+cl:10122,credible interval,[OBCS] A quantitative confidence value that is used in Bayesian analysis to describe the range in which a posterior probability estimate is likely to reside.,,,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000071
+cl:10123,confidence interval,"[OBCS] A quantitative confidence value that refers to an interval give values within which there is a high probability (95 percent by convention) that the true population value can be found. The calculation of a confidence interval considers the standard deviation of the data and the number of observations. Thus, a confidence interval narrows as the number of observations increases, or its variance (dispersion) decreases.",,,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000070
+cl:10124,interquartile range,[OBCS] A quantitative confidence value that refers to the upper and lower values defining the central 50 percent of observations. The boundaries are equal to the 25th and 75th percentiles. The interquartile range can be depicted in a box and whiskers plot.,,,,cl:10009,http://purl.obolibrary.org/obo/OBCS_0000072
+cl:10125,range (statistics),[OCRE] The range is the difference between the lowest and highest numerical values; the limits or scale of variation.,,,,cl:10009,http://purl.org/net/OCRe/statistics.owl#OCRE200007
+cl:10126,kurtosis,[RO]* Kurtosis is a measure of how outlier-prone a distribution is. The kurtosis of the normal distribution is 3. Distributions that are more outlier-prone than the normal distribution have kurtosis greater than 3; distributions that are less outlier-prone have kurtosis less than 3,,,,cl:10009,http://www.semanticweb.org/alberto.traverso/ontologies/2017/1/RADIOMICS-ontology#OWLClass_010008
+cl:10127,mean,[SIO] A mean is the central tendency of a collection of numbers taken as the sum of the numbers divided by the size of the collection.,,,,cl:10009,http://semanticscience.org/resource/SIO_001109
+cl:10128,decile,"[STATO] a decile is a quantile where n=10 and which splits data into sections accrued of 10% of data, so the first decile delineates 10% of the data, the second decile delineates 20% of the data and the nineth decile, 90 % of the data",,,,cl:10009,http://purl.obolibrary.org/obo/STATO_0000292
+cl:10129,quartile,"[STATO] a quartile is a quantile which splits data into sections accrued of 25% of data, so the first quartile delineates 25% of the data, the second quartile delineates 50% of the data and the third quartile, 75 % of the data",,,,cl:10009
+cl:10130,centred moment,"For a given positive natural number k, the k-th central moment of a random variable x is defined as k=E[(x−E[x])k]. That is, it is the expected value of the deviation from the mean to the power k. In particular, 0=1, 1=0 and 2 is the variance of x. [UncertML] http://www.uncertml.org/statistics/centred-moment",,,,cl:10009
+cl:10131,neutral theory,,,,,cl:10009
+cl:10132,covariance matrix,,,,,cl:10009
+cl:10133,discrete probability,,,,,cl:10009
+cl:10134,moment,,,,,cl:10009
+cl:10135,changes over time,,,,,cl:10009
+cl:10136,high,,,,,cl:10010
+cl:10137,moderate,,,,,cl:10010
+cl:10138,low,,,,,cl:10010
+cl:10139,complete,,,,,cl:10011
+cl:10140,completion ongoing,,,,,cl:10011
+cl:10141,incomplete,,,,,cl:10011
+cl:10142,free for access,,,,,cl:10014
+cl:10143,free for access and use upon request,,,,,cl:10014
+cl:10144,other restrictions according to rules defined in intellectual rights,,,,,cl:10014
+cl:10145,restricted access defined in detail in intellectual property information,,,,,cl:10014
+cl:10146,no access,,,,,cl:10014
+cl:10147,data type,Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value.,,,https://dataled.academy/guides/data-types/
+cl:10148,integer,"It is the most common numeric data type used to store numbers without a fractional component (-707, 0, 707).",,int,https://dataled.academy/guides/data-types/,cl:10147
+cl:10149,floating point,"It is a numeric data type used to store numbers that may have a fractional component, like monetary values do (707.07, 0.7, 707.00).",,float,https://dataled.academy/guides/data-types/,cl:10147
+cl:10150,character,"It is used to store a single letter, digit, punctuation mark, symbol, or blank space.",,char,https://dataled.academy/guides/data-types/,cl:10147
+cl:10151,string,It is a sequence of characters and the most commonly used data type to store text.,,str,https://dataled.academy/guides/data-types/,cl:10147
+cl:10152,boolean,It represents the values true and false.,,bool,https://dataled.academy/guides/data-types/,cl:10147
+cl:10153,enumeration type,It contains a small set of predefined unique values (also known as elements or enumerators) that can be compared and assigned to a variable of enumerated data type.,,enum,https://dataled.academy/guides/data-types/,cl:10147
+cl:10154,array,"Also known as a list, an array is a data type that stores a number of elements in a specific order, typically all of the same type.",,,https://dataled.academy/guides/data-types/,cl:10147
+cl:10155,date,It typically stores a date in the YYYY-MM-DD format (ISO 8601 syntax).,,,https://dataled.academy/guides/data-types/,cl:10147
+cl:10156,time,Stores a time in the hh:mm:ss format.,,,https://dataled.academy/guides/data-types/,cl:10147
+cl:10157,datetime,Stores a value containing both date and time together in the YYYY-MM-DD hh:mm:ss format.,,,https://dataled.academy/guides/data-types/,cl:10147
+cl:10158,timestamp,"Typically represented in Unix time, a timestamp represents the number of seconds that have elapsed since midnight (00:00:00 UTC), 1st January 1970.",,,https://dataled.academy/guides/data-types/,cl:10147
 cl:10159,measurement scale,"A measurement scale defines the level of measurement of a variable. It decides the statistical test type to be used. The mathematical nature of a variable or in other words, how a variable is measured is considered as the level of measurement."
-cl:10160,nominal scale,"Nominal scale is a naming scale, where variables are simply “named” or labeled, with no specific order.",,,cl:10159
-cl:10161,ordinal scale,"Ordinal scale has all its variables in a specific order, beyond just naming them. ",,,cl:10159
-cl:10162,interval scale,"Interval scale offers labels, order, as well as, a specific interval between each of its variable options.",,,cl:10159
-cl:10163,ratio scale,"Ratio scale bears all the characteristics of an interval scale, in addition to that, it can also accommodate the value of “zero” on any of its variables.",,,cl:10159
-cl:10164,kilometre,,km,,cl:10002
-cl:10165,square kilometre,,km2,,cl:10002
-cl:10166,metre,,m,,cl:10002
-cl:10167,percent,,%,,cl:10002,http://qudt.org/vocab/unit/PERCENT
-cl:10168,tonne per hectare per year,,t.har.year-1,,cl:10002
-cl:10169,kilogram per hectar,,kg.har-1,,cl:10002
-cl:10170,tonne per year,,t.year-1,,cl:10002
-cl:10171,milligram per kilogram,,mg.kg-1,,cl:10002
-cl:10172,gram per hectare per year,,g.har.year-1,,cl:10002
+cl:10160,nominal scale,"Nominal scale is a naming scale, where variables are simply “named” or labeled, with no specific order.",,,,cl:10159
+cl:10161,ordinal scale,"Ordinal scale has all its variables in a specific order, beyond just naming them. ",,,,cl:10159
+cl:10162,interval scale,"Interval scale offers labels, order, as well as, a specific interval between each of its variable options.",,,,cl:10159
+cl:10163,ratio scale,"Ratio scale bears all the characteristics of an interval scale, in addition to that, it can also accommodate the value of “zero” on any of its variables.",,,,cl:10159
+cl:10164,kilometre,,,km,,cl:10002
+cl:10165,square kilometre,,,km2,,cl:10002
+cl:10166,metre,,,m,,cl:10002
+cl:10167,percent,,,%,,cl:10002,http://qudt.org/vocab/unit/PERCENT
+cl:10168,tonne per hectare per year,,,t.har.year-1,,cl:10002
+cl:10169,kilogram per hectar,,,kg.har-1,,cl:10002
+cl:10170,tonne per year,,,t.year-1,,cl:10002
+cl:10171,milligram per kilogram,,,mg.kg-1,,cl:10002
+cl:10172,gram per hectare per year,,,g.har.year-1,,cl:10002
+cl:10173,Integriertes Verwaltung- und Kontrollsystem,,INVEKOS ist ein System von Verordnungen zur Durchsetzung einer einheitlichen Agrarpolitik in den EU-Mitgliedstaaten. Die schrittweise Einführung des Integrierten Verwaltungs- und Kontrollsystems durch die Europäische Kommission wurde im Zuge der Reform der Gemeinsamen Agrarpolitik (GAP) im Jahre 1992 beschlossen.,INVEKOS,,cl:10013
+cl:10174,Bodeninformationssystem,,,BORIS,,cl:10013
+cl:10175,Bundesamt für Wasserwirtschaft,,,BAW,,cl:10013
+cl:10176,"Bundesministerium für Landwirtschaft, Regionen und Tourismus",,,BMNT,,cl:10013
+cl:10177,Statistik Austria,,,,,cl:10013
+cl:10178,Kommunal Kredit Public Consulting,,,KPC,,cl:10013
+cl:10179,Geologische Bundesanstalt,,,,,cl:10013
+cl:10180,Interreg programme,"Interreg is one of the key instruments of the European Union (EU) supporting cooperation across borders through project funding. It aims to jointly tackle common challenges and find shared solutions in fields such as health, environment, research, education, transport, sustainable energy and more.",,,,cl:10013
+cl:10181,Horizon 2020,"Horizon 2020 is the eighth framework programme funding research, technological development, and innovation.",,,,cl:10013
+cl:10182,statistical aggregation,,,,,cl:10012
+cl:10183,statistical disaggregation,,,,,cl:10012
+et:10139,mean,,,,,cl:10012
+et:10143,percentile,,,,,cl:10012
+et:10140,median,,,,,cl:10012
+cl:10184,GIS intersection,,,,,cl:10012
+cl:10185,GIS interpolation,,,,,cl:10012
+cl:10186,complex calculation balancing,,,,,cl:10012
