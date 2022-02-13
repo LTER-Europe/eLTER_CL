@@ -124,8 +124,7 @@ cl:10012 a skos:Concept;
 
 cl:10013 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:narrower cl:10173, cl:10174, cl:10175, cl:10176, cl:10177, cl:10178, cl:10179,
-    cl:10180, cl:10181;
+  skos:narrower cl:10173, cl:10180, cl:10181;
   skos:prefLabel "resource provider programme"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -1149,40 +1148,6 @@ cl:10173 a skos:Concept;
   skos:definition "INVEKOS ist ein System von Verordnungen zur Durchsetzung einer einheitlichen Agrarpolitik in den EU-Mitgliedstaaten. Die schrittweise Einführung des Integrierten Verwaltungs- und Kontrollsystems durch die Europäische Kommission wurde im Zuge der Reform der Gemeinsamen Agrarpolitik (GAP) im Jahre 1992 beschlossen."@ge;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "Integriertes Verwaltung- und Kontrollsystem"@en .
-
-cl:10174 a skos:Concept;
-  skos:altLabel "BORIS"@en;
-  skos:broader cl:10013;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:prefLabel "Bodeninformationssystem"@en .
-
-cl:10175 a skos:Concept;
-  skos:altLabel "BAW"@en;
-  skos:broader cl:10013;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:prefLabel "Bundesamt für Wasserwirtschaft"@en .
-
-cl:10176 a skos:Concept;
-  skos:altLabel "BMNT"@en;
-  skos:broader cl:10013;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:prefLabel "Bundesministerium für Landwirtschaft, Regionen und Tourismus"@en .
-
-cl:10177 a skos:Concept;
-  skos:broader cl:10013;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:prefLabel "Statistik Austria"@en .
-
-cl:10178 a skos:Concept;
-  skos:altLabel "KPC"@en;
-  skos:broader cl:10013;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:prefLabel "Kommunal Kredit Public Consulting"@en .
-
-cl:10179 a skos:Concept;
-  skos:broader cl:10013;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:prefLabel "Geologische Bundesanstalt"@en .
 
 cl:10180 a skos:Concept;
   skos:broader cl:10013;
