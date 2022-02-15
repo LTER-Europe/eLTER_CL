@@ -1,6 +1,7 @@
 ConceptScheme URI,http://vocabs.lter-europe.net/eLTER_CL,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
 "Prefixes for controlled vocabularies, schema and ontologies"
 PREFIX,cl,http://vocabs.lter-europe.net/eLTER_CL/,,Prefix for our controlled vocabulary since it is rather tedious to write long URLs all the time
+PREFIX,et,http://vocabs.lter-europe.net/EnvThes/
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#,,Prefix for SKOS Ontology. This ontology is which our base for defining terms.
 PREFIX,pav,http://purl.org/pav/ ,,"Prefix for Provenance, Authoring and Versioning Ontology which properties such as version and createdOn we will use to describe our controlled vocabulary"
 PREFIX,dct,http://purl.org/dc/terms/ ,,"Prefix for Dublin Core (Terms) Ontology which properties such as title, description, rights, source, etc. we will use to describe our controlled vocabulary as well to define its terms"
@@ -203,3 +204,44 @@ et:10140,median,,,,,cl:10012
 cl:10184,GIS intersection,,,,,cl:10012
 cl:10185,GIS interpolation,,,,,cl:10012
 cl:10186,complex calculation balancing,,,,,cl:10012
+cl:10187,MONERIS variable
+et:20935,variable
+et:30217,area of slope <1% arable land of catchment,,,,,et:20935
+et:30218,area of slope 1-2% arable land of catchment,,,,,et:20935
+et:30219,area of slope 3-4% arable land of catchment,,,,,et:20935
+et:30220,area of slope 4-8% arable land of catchment,,,,,et:20935
+et:30221,area of slope >8% arable land of catchment,,,,,et:20935
+et:30229,area of grassland of catchment,,,,,et:20935
+et:30230,area of woodland and forest of catchment,,,,,et:20935
+et:30231,area of unvegetated land of catchment,,,,,et:20935
+et:30232,area of glacier of catchment,,,,,et:20935
+et:30233,slope of catchment,,,,,et:20935
+et:30234,mass per area per time of soil erosion in slope <1% arable land of catchment,,,,,et:20935
+et:30235,mass per area per time of soil erosion in slope 1-2% arable land of catchment,,,,,et:20935
+et:30236,mass per area per time of soil erosion in slope 3-4% arable land of catchment,,,,,et:20935
+et:30237,mass per area per time of soil erosion in slope 4-8% arable land of catchment,,,,,et:20935
+et:30238,mass per area per time of soil erosion in slope >8% arable land of catchment,,,,,et:20935
+et:30239,mass per area per time of soil erosion of catchment,,,,,et:20935
+et:30240,mass per area per time of soil erosion in grassland of catchment,,,,,et:20935
+et:30241,area of with conservation tillage arable land of catchment,,,,,et:20935
+et:30242,mass per area of accumulated surplus total phosphorus of catchment,"different types of phosphorus: organic, inorganic, which is measured as Total Posphorus",,,,et:20935
+et:30243,area of arable land of catchment,,,,,et:20935
+et:30244,mass per area per time of soil erosion in arable land of catchment,,,,,et:20935
+et:30245,correction of R-factor,used for calculation of Im-BE; Current agricultural soil loss,,,,et:20935
+et:30246,mass per area of actual soil erosion in arable land of catchment,"used to calculate Im-BE; soil loss from arable land is modified by specific actual (2007-2013) R-factor (precipitation intensities and amounts, which are not described by long-year averages)",,,,et:20935
+et:30247,mass per area of actual soil erosion in woodland and forest of catchment,,,,,et:20935
+et:30248,mass per area of actual soil erosion in unvegetated land of catchment,,,,,et:20935
+et:30249,mass per area of actual soil erosion in glacier of catchment,,,,,et:20935
+et:30250,mass per area of actual soil erosion of catchment,,,,,et:20935
+et:30251,portion of soil erosion in sediment of catchment,"Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)",,,,et:20935
+et:30252,mass per area of soil erosion in sediment of catchment,"Amount of soils, which enter the surface water",,,,et:20935
+et:30253,content of clay in topsoil of catchment,,,,,et:20935
+et:30254,content of basis total phosphorus in agricultural topsoil of catchment,,,,,et:20935
+et:30255,content of total phosphorus in agricultural topsoil of catchment,,,,,et:20935
+et:30256,enrichment ratio of total phosphorus in catchment,,,,,et:20935
+et:30257,mass per area of agricultural soil erosion in sediment of catchment,,,,,et:20935
+et:30258,mass per area of agricultural soil erosion in sediment of catchment,,,,,et:20935
+et:30259,emission of total phosphorus from agricultural soil erosion,,,,,et:20935
+et:30260,emission of total phosphorus from natural soil erosion,,,,,et:20935
+et:30261,emission of total phosphorus from diffuse sources,,,,,et:20935
+et:30262,total emission of total phosphorus,,,,,et:20935
