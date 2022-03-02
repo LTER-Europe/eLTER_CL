@@ -245,4 +245,4 @@ et:30259,emission of total phosphorus from agricultural soil erosion,,,,"et:2093
 et:30260,emission of total phosphorus from natural soil erosion,,,,"et:20935,cl:10187",,,,,et:21934,et:20863,,et:21286,et:30227
 et:30261,emission of total phosphorus from diffuse sources,,,,"et:20935,cl:10187",,,,,et:21934,et:20863,,et:30228
 et:30262,total emission of total phosphorus,,,,"et:20935,cl:10187",,,,,et:21934,et:20863
-et:30263,EPSG:31287,,MGI / Austria Lambert,https://epsg.io/31287,cl:10004,https://epsg.io/31287
+cl:10188,EPSG:31287,,MGI / Austria Lambert,https://epsg.io/31287,cl:10004,https://epsg.io/31287

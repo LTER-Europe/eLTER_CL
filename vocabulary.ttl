@@ -64,8 +64,8 @@ cl:10003 a skos:Concept;
 
 cl:10004 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:narrower et:30263, cl:10060, cl:10061, cl:10062, cl:10063, cl:10064, cl:10065,
-    cl:10066;
+  skos:narrower cl:10060, cl:10061, cl:10062, cl:10063, cl:10064, cl:10065, cl:10066,
+    cl:10188;
   skos:prefLabel "coordinate reference system"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -1569,7 +1569,7 @@ et:30262 a skos:Concept;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
 
-et:30263 a skos:Concept;
+cl:10188 a skos:Concept;
   dct:source <https://epsg.io/31287>;
   skos:broader cl:10004;
   skos:definition "MGI / Austria Lambert"@en;
