@@ -224,7 +224,7 @@ et:30238,mass per area per time of soil erosion in slope >8% arable land of catc
 et:30239,mass per area per time of soil erosion of catchment,,,,"et:20935,cl:10187",,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,,et:10092
 et:30240,mass per area per time of soil erosion in grassland of catchment,,,,"et:20935,cl:10187",,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,et:21855,et:10092
 et:30241,area of with conservation tillage arable land of catchment,,,,"et:20935,cl:10187",,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30222
-et:30242,mass per area of accumulated surplus total phosphorus of catchment,,"different types of phosphorus: organic, inorganic, which is measured as Total Posphorus",,"et:20935,cl:10187",,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:20863,,et:10092,et:30223
+et:30242,mass per area of accumulated surplus total phosphorus of catchment,,"different types of phosphorus: organic, inorganic, which is measured as Total Posphorus",,"et:20935,cl:10187",,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:20863,,et:10092,et:30263
 et:30243,area of arable land of catchment,,,,"et:20935,cl:10187",,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092
 et:30244,mass per area per time of soil erosion in arable land of catchment,,,,"et:20935,cl:10187",,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092
 et:30245,correction of R-factor,,used for calculation of Im-BE; Current agricultural soil loss,,"et:20935,cl:10187",,,,,et:30225,et:30224
@@ -245,3 +245,4 @@ et:30259,emission of total phosphorus from agricultural soil erosion,,,,"et:2093
 et:30260,emission of total phosphorus from natural soil erosion,,,,"et:20935,cl:10187",,,,,et:21934,et:20863,,et:21286,et:30227
 et:30261,emission of total phosphorus from diffuse sources,,,,"et:20935,cl:10187",,,,,et:21934,et:20863,,et:30228
 et:30262,total emission of total phosphorus,,,,"et:20935,cl:10187",,,,,et:21934,et:20863
+et:30263,EPSG:31287,,MGI / Austria Lambert,https://epsg.io/31287,cl:10004,https://epsg.io/31287

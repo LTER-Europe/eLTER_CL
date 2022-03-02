@@ -64,7 +64,8 @@ cl:10003 a skos:Concept;
 
 cl:10004 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:narrower cl:10060, cl:10061, cl:10062, cl:10063, cl:10064, cl:10065, cl:10066;
+  skos:narrower et:30263, cl:10060, cl:10061, cl:10062, cl:10063, cl:10064, cl:10065,
+    cl:10066;
   skos:prefLabel "coordinate reference system"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -1378,7 +1379,7 @@ et:30242 a skos:Concept;
   skos:definition "different types of phosphorus: organic, inorganic, which is measured as Total Posphorus"@en;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "mass per area of accumulated surplus total phosphorus of catchment"@en;
-  iop:hasConstraint et:30223;
+  iop:hasConstraint et:30263;
   iop:hasContextObject et:10092;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
@@ -1567,6 +1568,14 @@ et:30262 a skos:Concept;
   skos:prefLabel "total emission of total phosphorus"@en;
   iop:hasObjectOfInterest et:20863;
   iop:hasProperty et:21934 .
+
+et:30263 a skos:Concept;
+  dct:source <https://epsg.io/31287>;
+  skos:broader cl:10004;
+  skos:definition "MGI / Austria Lambert"@en;
+  skos:exactMatch <https://epsg.io/31287>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "EPSG:31287"@en .
 
 et:20935 skos:narrower et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
     et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
