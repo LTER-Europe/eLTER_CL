@@ -31,7 +31,7 @@
   pav:version "0.1.0"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
-    cl:10159, cl:10187 .
+    cl:10159, cl:10187, cl:10189 .
 
 cl:10000 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
@@ -1578,11 +1578,11 @@ cl:10188 a skos:Concept;
   skos:prefLabel "EPSG:31287"@en .
 
 cl:10189 a skos:Concept;
-  skos:broader cl:10189;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:narrower et:20117, et:20854, et:21285, et:21747, et:21752, et:21934, et:29, et:30264,
-    cl:10044, cl:10189, cl:10190;
-  skos:prefLabel "MONERIS keyword"@en, "measurement"@en .
+    cl:10044, cl:10190, cl:10191;
+  skos:prefLabel "MONERIS keyword"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 et:21747 a skos:Concept;
   skos:broader et:30031, cl:10189;
@@ -1617,6 +1617,11 @@ et:30264 a skos:Concept;
   skos:prefLabel "surface water"@en .
 
 cl:10190 a skos:Concept;
+  skos:broader cl:10189;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "measurement"@en .
+
+cl:10191 a skos:Concept;
   skos:broader cl:10189;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "GIS data"@en .
