@@ -350,7 +350,7 @@ cl:10043 a skos:Concept;
 
 cl:10044 a skos:Concept;
   dct:source <http://inspire.ec.europa.eu/theme/lu>;
-  skos:broader cl:10001;
+  skos:broader cl:10001, cl:10189;
   skos:definition "Territory characterised according to its current and future planned functional dimension or socio-economic purpose (e.g. residential, industrial, commercial, agricultural, forestry, recreational)."@en;
   skos:exactMatch <http://inspire.ec.europa.eu/theme/lu>;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
@@ -1577,8 +1577,103 @@ cl:10188 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "EPSG:31287"@en .
 
+cl:10189 a skos:Concept;
+  skos:broader cl:10189;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower et:20117, et:20854, et:21285, et:21747, et:21752, et:21934, et:29, et:30264,
+    cl:10044, cl:10189, cl:10190;
+  skos:prefLabel "MONERIS keyword"@en, "measurement"@en .
+
+et:21747 a skos:Concept;
+  skos:broader et:30031, cl:10189;
+  skos:definition "US LTER controlled vocabulary"@de, "[GEMET] The science that treats the occurrence, circulation, distribution, and properties of the waters of the earth, and their reaction with the environment."@en;
+  skos:editorialNote "[controlled by ] Lars Lundin 20130611"@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_3731>, <http://en.wikipedia.org/wiki/hydrology>,
+    <http://eurovoc.europa.eu/1278>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/84830>,
+    <http://www.eionet.europa.eu/gemet/concept/4118>, <https://vocab.lternet.edu/vocab/vocab/?tema=259>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "hydrology"@en .
+
+et:29 a skos:Concept;
+  skos:broader et:30031, cl:10189;
+  skos:definition "[Henderson's] n. (1) the form and structure of an organism; (2) the study of form and structure."@en;
+  skos:editorialNote "[controlled by ] Mark Frenzel, 22 May 2013"@en;
+  skos:exactMatch <http://www.eionet.europa.eu/gemet/concept/5369>, <https://vocab.lternet.edu/vocab/vocab/?tema=352>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "morphology"@en .
+
+et:20117 a skos:Concept;
+  skos:broader et:20118, cl:10189;
+  skos:definition "[GEMET] A detailed list of articles, goods, property, etc."@en;
+  skos:editorialNote "[controlled by ] U Grandin, 2013-08-22"@en;
+  skos:exactMatch <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/105240>, <http://www.eionet.europa.eu/gemet/concept/4466>,
+    <https://vocab.lternet.edu/vocab/vocab/?tema=270>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "inventory"@en .
+
+et:30264 a skos:Concept;
+  skos:broader et:20538, cl:10189;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "surface water"@en .
+
+cl:10190 a skos:Concept;
+  skos:broader cl:10189;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "GIS data"@en .
+
+et:21285 a skos:Concept;
+  skos:broader et:20950, cl:10189;
+  skos:definition "US LTER controlled vocabulary"@de, "[GEMET] The general process or the group of processes whereby the materials of Earth's crust are loosened , dissolved, or worn away and simultaneously moved from one place to another, by natural agencies, which include weathering, solution, corrosion, and transportation, but usually exclude mass wasting."@en;
+  skos:editorialNote "[controlled by ] Staszewski 08.06.2013"@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_2651>, <http://en.wikipedia.org/wiki/erosion>,
+    <http://eurovoc.europa.eu/3158>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/14240>,
+    <http://purl.obolibrary.org/obo/ENVO_01001346>, <http://www.eionet.europa.eu/gemet/concept/2963>,
+    <https://vocab.lternet.edu/vocab/vocab/?tema=181>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "erosion"@en .
+
+et:21934 a skos:Concept;
+  skos:altLabel "emissions"@en;
+  skos:broader et:20748, cl:10189;
+  skos:definition "US LTER controlled vocabulary"@de, "[GEMET] A discharge of particulate gaseous, or soluble waste material/pollution into the air from a polluting source."@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_331377>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/54480>,
+    <https://vocab.lternet.edu/vocab/vocab/?tema=178>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "emission"@en .
+
+et:20854 a skos:Concept;
+  skos:altLabel "P"@en;
+  skos:broader et:20748, cl:10189;
+  skos:definition "US LTER controlled vocabulary"@de, "[GEMET] A nonmetallic element used to manufacture phosphoric acid, in phosphor bronzes, incendiaries, pyrotechnics, matches, and rat poisons; the white or yellow allotrope is a soft waxy solid, soluble in carbon disulfide, insoluble in water and alcohol, and is poisonous and self-igniting in air; the red allotrope is an amorphous powder, insoluble in all solvents and is nonpoisonous; the black allotrope comprises lustrous crystals similar to graphite, and is insoluble in most solvents."@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_5804>, <http://en.wikipedia.org/wiki/phosphorus>,
+    <http://eurovoc.europa.eu/2372>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/47170>,
+    <http://www.eionet.europa.eu/gemet/concept/6196>, <https://vocab.lternet.edu/vocab/vocab/?tema=416>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "phosphorus"@en .
+
+et:21752 a skos:Concept;
+  skos:altLabel "meterology"@en;
+  skos:broader et:30031, cl:10189;
+  skos:definition "US LTER controlled vocabulary"@de, "[GEMET] The science concerned with the atmosphere and its phenomena."@en;
+  skos:editorialNote "[controlled by ] Giorgio Matteucci, 23/05/2013"@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_4783>, <http://en.wikipedia.org/wiki/meteorology>,
+    <http://eurovoc.europa.eu/1892>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/95270>,
+    <http://www.eionet.europa.eu/gemet/concept/5197>, <https://vocab.lternet.edu/vocab/vocab/?tema=333>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "meteorology"@en .
+
 et:20935 skos:narrower et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
     et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
     et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247,
     et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256,
     et:30257, et:30258, et:30259, et:30260, et:30261, et:30262 .
+
+et:30031 skos:narrower et:21747, et:21752, et:29 .
+
+et:20118 skos:narrower et:20117 .
+
+et:20538 skos:narrower et:30264 .
+
+et:20950 skos:narrower et:21285 .
+
+et:20748 skos:narrower et:20854, et:21934 .
