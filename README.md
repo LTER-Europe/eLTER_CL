@@ -34,7 +34,7 @@ In case you want to use **sheet2rdf** in your own work you need to:
 | Secret | Explanation | eLTER_CL onfiguration |
 |---|---|---|
 | FILE_NAME | file name that will be used when converting Google sheet to `.ttl` (RDF), `.xlsx`, and `.csv` files | vocabulary |
-| SHEET_ID | unique ID of the sheet that will be fetched from Google drive | [1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg](https://docs.google.com/spreadsheets/d/1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg/edit#gid=1198865354) |
+| SHEET_ID | unique ID of the sheet that will be fetched from Google drive | [1km9D8rh4C0zwGUzL5ny2vnMzzK6WY_H1uzTS5Zrws4A]( https://docs.google.com/spreadsheets/d/1km9D8rh4C0zwGUzL5ny2vnMzzK6WY_H1uzTS5Zrws4A/edit#gid=1198865354) |
 | STORAGE | access token to Google Drive hosting Google sheet with controlled terms definitions, content of client_secret.json | ******** |
 | CLIENT | configuration for client (i.e., sheetrdf) that is fetching Google sheet, content of storage.json | ******** |
 
