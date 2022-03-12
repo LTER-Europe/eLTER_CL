@@ -31,7 +31,7 @@
   pav:version "0.1.0"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
-    cl:10159, cl:10187, cl:10189 .
+    cl:10159, cl:10187, cl:10189, cl:10192 .
 
 cl:10000 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
@@ -1666,6 +1666,37 @@ et:21752 a skos:Concept;
     <http://www.eionet.europa.eu/gemet/concept/5197>, <https://vocab.lternet.edu/vocab/vocab/?tema=333>;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "meteorology"@en .
+
+cl:10192 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10193, cl:10194, cl:10195, cl:10196, cl:10197;
+  skos:prefLabel "generic answer option"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10193 a skos:Concept;
+  skos:broader cl:10192;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "no"@en .
+
+cl:10194 a skos:Concept;
+  skos:broader cl:10192;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "none"@en .
+
+cl:10195 a skos:Concept;
+  skos:broader cl:10192;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "other"@en .
+
+cl:10196 a skos:Concept;
+  skos:broader cl:10192;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "unkown"@en .
+
+cl:10197 a skos:Concept;
+  skos:broader cl:10192;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "yes"@en .
 
 et:20935 skos:narrower et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
     et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
