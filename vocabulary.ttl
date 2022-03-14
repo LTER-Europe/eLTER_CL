@@ -1669,7 +1669,7 @@ et:21752 a skos:Concept;
 
 cl:10192 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:narrower cl:10193, cl:10194, cl:10195, cl:10196, cl:10197;
+  skos:narrower cl:10193, cl:10194, cl:10195, cl:10196, cl:10197, cl:10198;
   skos:prefLabel "generic answer option"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -1697,6 +1697,11 @@ cl:10197 a skos:Concept;
   skos:broader cl:10192;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "yes"@en .
+
+cl:10198 a skos:Concept;
+  skos:broader cl:10192;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "maybe"@en .
 
 et:20935 skos:narrower et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
     et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
