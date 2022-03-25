@@ -308,64 +308,6 @@ cl:10239,cable based,,,,cl:10235
 cl:10240,"radio transmission system (repeaters, receivers, centralstation)",,,,cl:10235
 cl:10241,no data transmission,,,,cl:10235
 cl:10242,satellite transmission system,,,,cl:10235
-cl:10243,device,machine,[NCIT]* An object contrived for a specific purpose.
-cl:10244,thermometer,,[CHEAR]* A device that measures temperature,,cl:10243
-cl:10245,thermocouple,,[CHMO] A piece of apparatus that generates electrical current when it experiences a thermal gradient.,,cl:10243
-cl:10246,photometer,,"[ERO] An instrument for measuring light intensity or optical properties of solutions or surfaces. Photometers are used to measure iIlluminance, irradiance, light absorption, scattering of light, reflection of light, fluorescence, phosphorescence, and luminescence.",,cl:10243
-cl:10247,dendrometer,,"[Henderson's] a. device for measuring small changes in the diameter of a tree trunk, such as the minute amounts of shrinkage and swelling that accompany the daily ﬂuctuations in transpiration.",,cl:10243
-cl:10248,sensor network,,"[Himanshu Gupta] A sensor network is a multi-hop wireless network of sensor nodes cooperatively solving a sensing\r\n task. Each sensor node generates data items that are readings obtained from one or more sensors on\r\n the node. This makes a sensor network similar to a distributed database system. While this view is\r\n somewhat traditional, efficient execution of database (SQL) queries in sensor network remains a\r\n challenge, due to the unique characteristics of such networks such as limited memory and battery\r\n energy on individual nodes, multi-hop communication, unreliable infrastructure, and dynamic\r\n topology... , ""[Hamed Chok] A sensor network is a valuable new form of collective computational instrumentation by virtue of its\r\n ability to sense physical quantities of interest and to transmit such readings via sub-networks of\r\n nodes/computers for processing... , ""[Martin Drozda] A sensor network is a collection of wireless devices that are able to monitor physical or\r\n environmental conditions. These devices are expected to operate autonomously, be battery powered and\r\n have very limited computational capabilities. This makes the task of protecting a sensor network\r\n against misbehavior or possible malfunction a challenging problem... , ""[Xiaoyun Wang] A sensor network is a collection of tiny sensor nodes, which consists of sensing, data processing\r\n and communicating components. Directed Diffusion is an important data-centric routing protocol of\r\n sensor networks... , ""[Morten Tranberg Hansen] A sensor network is a network consisting of small, inexpensive, low-powered sensor nodes that\r\n communicate to complete a common task...",,cl:10243
-cl:10249,passive remote sensing system,,[NASA] A system sensing only radiation emitted by the object being viewed or reflected by the object from a source other than the system.,,cl:10243
-cl:10250,image,,"[NASA] Pictorial representation of data acquired by satellite systems, such as direct readout images from environmental satellites. An image is not a photograph. An image is composed of two-dimensional grids of individual picture elements (pixels). Each pixel has a numeric value that corresponds to the radiance or temperature of the specific ground area it depicts.",,cl:10243
-cl:10251,biological marker,biologic marker,"[NCIT]* A characteristic that can be objectively measured and serves as an indicator for normal biologic processes, pathogenic processes, state of health or disease, the risk for disease development and/or prognosis, or responsiveness to a particular therapeutic intervention.",,cl:10243
-cl:10252,piezometer,,[SWEET] A devise used to measure groundwater pressure head at a point in the subsurface.,,cl:10243
-cl:10253,analytical tool,,"a procedure, software or method used to analyse or take a closer look at something. It is commonly a way to review the effectiveness of something",,cl:10243
-cl:10254,on-site sensor,,"An electrical, electronic, automatic device that automatically identifies and records or registers a stimulus, such as an environmental change in pressure or temperature or other environmental variable, an electrical signal, installed at a monitoring or research site",,cl:10243
-cl:10255,mobile sensor,,"An electrical, electronic, automatic device that automatically identifies and records or registers a stimulus, such as an environmental change in pressure or temperature or other environmental variable, an electrical signal, used in mobile mode (i.e. transported and then used to measure, installed on a mobile platform)",,cl:10243
-cl:10256,lysimeter,,"measuring device which can be used to measure the quantity and quality of soil solution, and indirectly the amount of actual evapotranspiration which is released by plants, usually crops or trees.",,cl:10243
-cl:10257,river station,gauging station,,,cl:10243
-cl:10258,satellite,,,,cl:10243
-cl:10259,temperature controlled container,,,,cl:10243
-cl:10260,resistivity meter,,,,cl:10243
-cl:10261,capacitance probe,,,,cl:10243
-cl:10262,rain gauge,,,,cl:10243
-cl:10263,conductivity meter,,,,cl:10243
-cl:10264,measurement tower,,,,cl:10243
-cl:10265,experimental device,,,,cl:10243
-cl:10266,sensor cluster,,,,cl:10243
-cl:10267,time domain reflectometer,,,,cl:10243
-cl:10268,zero-tension lysimeter,,,,cl:10243
-cl:10269,soil moisture probe,,,,cl:10243
-cl:10270,ship,,,,cl:10243
-cl:10271,marine platform,,,,cl:10243
-cl:10272,lysimeter station,,,,cl:10243
-cl:10273,tension lysimeter,,,,cl:10243
-cl:10274,automatic soil chamber,,,,cl:10243
-cl:10275,chemical reactor,,,,cl:10243
-cl:10276,atmospheric measurement tower,,,,cl:10264
-cl:10277,no measurement tower,,,,cl:10264
-cl:10278,measurement tower above canopy,,,,cl:10264
-cl:10279,measurement tower in canopy,,,,cl:10264
-cl:10280,infrared camera,,A camera that takes images in the infrared portion of the radiation spectrum. It can be used to assess thermal condition of bodies,,cl:10255
-cl:10281,Hemispherical photography,,A technique used to estimate leaf area index (i.e. the leaf area (m2) that is overlayed over soil (m2)) by elaborating photographs taken with a camera equipped with a fish-eye lens,,cl:10255
-cl:10282,tensiometer,,"An electrical, electronic, device that automatically identifies changes in soil water potential, a parameter that is related to soil water content",,cl:10255,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/146910
-cl:10283,radiometer,,"An electrical, electronic, device that automatically identifies changes in solar radiation (see also photodiode sensor)",,cl:10255
-cl:10284,LAI meter,,An instrument that can measure Leaf Area Index (LAI) of vegetation. Generally uses optical methods,,cl:10255
-cl:10285,porometer,,"An instrument that can measure the stomatal conductance of plants. Stomatal conductance gives an indication of transpiration of water from foliage, the higher the conudctance the easier the flow of water out of the foliage. Similar for the exchange of CO2",,cl:10255
-cl:10286,Laser-Doppler,,,,cl:10255
-cl:10287,Layer photographs,,,,cl:10255
-cl:10288,manual meter reading,,,,cl:10255
-cl:10289,tipping-bucket gauge,,"An authomatic-electrical device to measure rainfall or other process which involve dripping water. A giving amount of water makes tipping a bucket, each bucket movement record a signal that can be measured by an automatic data logger or, in old models, recorded on paper",,cl:10254
-cl:10290,present weather sensor,Present weather sensors,"An electrical, electronic, automatic device that automatically identifies and records or registers changes in weather parameters such as temperature, air humidity, pressure, radiation, precipitation",,cl:10254
-cl:10291,phododiode sensor,,"An electrical, electronic, device that automatically identifies changes in solar radiation",,cl:10254
-cl:10292,moisture sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in air humidity",,cl:10254
-cl:10293,pH-meter,,"An electrical, electronic, or automatic device that automatically identifies changes in pH of a solution",,cl:10254
-cl:10294,snow height sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in snow height",,cl:10254
-cl:10295,soil moisture sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in soil moisture",,cl:10254
-cl:10296,soil temperature sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in soil temperature",,cl:10254
-cl:10297,temperature sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in temperature",,cl:10254
-cl:10298,non-contact T sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in temperature of a body without contact with it, usually with infrared technology",,cl:10254
-cl:10299,weather station,,,,cl:10254
-cl:10300,PAR sensor,,,,cl:10254
 cl:10301,energy provision
 cl:10302,central energy provision,,,,cl:10301
 cl:10303,distributed energy provision,,,,cl:10301
