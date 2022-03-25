@@ -263,3 +263,170 @@ cl:10194,none,,,,cl:10192
 cl:10195,other,,,,cl:10192
 cl:10196,unkown,,,,cl:10192
 cl:10197,yes,,,,cl:10192
+cl:10198,data capture
+cl:10199,datalogger,,n. devices/gadgets that record data over time or in relation to location either with a built in instrument or sensor or via external instruments and sensors,,cl:10198,https://vocab.lternet.edu/vocab/vocab/?tema=135,,,,,,,,,"[controlled by ] Neagu Stefan 31/05/13"" , ""[source of definition ] wikipedia",,,US LTER controlled vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,herbert.schentz@umweltbundesamt.at,2018-12-18T08:53:13.492+00:00
+cl:10200,data service,,The data type 'Data services' describes the availability of data services (e.g. WFS) to connect to the data.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2015-05-19T13:24:09Z,herbert.schentz@umweltbundesamt.at,2018-06-18T12:34:46.136+01:00
+cl:10201,data portal,,,,cl:10200,,,,,,,,,,,,,data services,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,herbert.schentz@umweltbundesamt.at,2018-06-18T12:34:46.136+01:00
+cl:10202,Web Map Service,,,,cl:10200
+cl:10203,Web Feature Service,,,,cl:10200
+cl:10204,Web Coverage Service,,,,cl:10200
+cl:10205,no data service,,,,cl:10200
+cl:10206,REST API,,,,cl:10200
+cl:10207,Sensor Web Enablement,,,,cl:10200
+cl:10208,Web Catalog Service,,,,cl:10200
+cl:10209,SPARQL endpoint,,,,cl:10200
+cl:10210,other data service,,,,cl:10200
+cl:10211,data storage format,,The data type 'Data storage format' describes the different formats in which the data are available and managed
+cl:10212,relational database,,[BRO]* A resource that provides access to a database that comprises a normalized data set constructed according to a specific entity-relation data model.,,cl:10211
+cl:10213,XML database,,[BRO]* A resource that provides access to a database that stores XML.,,cl:10211
+cl:10214,spatial database (GIS),,,,cl:10211
+cl:10215,paper,,,,cl:10211
+cl:10216,unstructured file,,,,cl:10211
+cl:10217,structured file or spreadsheet,,,,cl:10211
+cl:10218,spatial data file (GIS),,,,cl:10211
+cl:10219,triple store,,,,cl:10211
+cl:10220,other data storage format,,,,cl:10211
+cl:10221,proprietary file format,,,,cl:10211
+cl:10222,graph or object database,,,,cl:10211
+cl:10223,data storage location
+cl:10224,central,,"central data storage location""^^rdf:HTML",,cl:10223
+cl:10225,distributed over multiple institutions,,distributed data storage over multiple institutions,,cl:10223
+cl:10226,distributed within institution,,distributed data storage within institution,,cl:10223
+cl:10227,not applicable,na,,,cl:10223
+cl:10228,metadata standards
+cl:10229,Ecological Metadata Language,EML,,,cl:10228
+cl:10230,Darwin Core,DwC,,,cl:10228
+cl:10231,Dublin Core,DC,,,cl:10228
+cl:10232,INSPIRE metadata specification,,,,cl:10228
+cl:10233,ISO19115/19139,,,,cl:10228
+cl:10234,domain specific metadata standard,,,,cl:10228
+cl:10235,data transmission
+cl:10236,GMS,UMTS,,,cl:10235
+cl:10237,other data transmission,,,,cl:10235
+cl:10238,telephone line,,,,cl:10235
+cl:10239,cable based,,,,cl:10235
+cl:10240,"radio transmission system (repeaters, receivers, centralstation)",,,,cl:10235
+cl:10241,no data transmission,,,,cl:10235
+cl:10242,satellite transmission system,,,,cl:10235
+cl:10243,device,machine,[NCIT]* An object contrived for a specific purpose.
+cl:10244,thermometer,,[CHEAR]* A device that measures temperature,,cl:10243
+cl:10245,thermocouple,,[CHMO] A piece of apparatus that generates electrical current when it experiences a thermal gradient.,,cl:10243
+cl:10246,photometer,,"[ERO] An instrument for measuring light intensity or optical properties of solutions or surfaces. Photometers are used to measure iIlluminance, irradiance, light absorption, scattering of light, reflection of light, fluorescence, phosphorescence, and luminescence.",,cl:10243
+cl:10247,dendrometer,,"[Henderson's] a. device for measuring small changes in the diameter of a tree trunk, such as the minute amounts of shrinkage and swelling that accompany the daily ﬂuctuations in transpiration.",,cl:10243
+cl:10248,sensor network,,"[Himanshu Gupta] A sensor network is a multi-hop wireless network of sensor nodes cooperatively solving a sensing\r\n task. Each sensor node generates data items that are readings obtained from one or more sensors on\r\n the node. This makes a sensor network similar to a distributed database system. While this view is\r\n somewhat traditional, efficient execution of database (SQL) queries in sensor network remains a\r\n challenge, due to the unique characteristics of such networks such as limited memory and battery\r\n energy on individual nodes, multi-hop communication, unreliable infrastructure, and dynamic\r\n topology... , ""[Hamed Chok] A sensor network is a valuable new form of collective computational instrumentation by virtue of its\r\n ability to sense physical quantities of interest and to transmit such readings via sub-networks of\r\n nodes/computers for processing... , ""[Martin Drozda] A sensor network is a collection of wireless devices that are able to monitor physical or\r\n environmental conditions. These devices are expected to operate autonomously, be battery powered and\r\n have very limited computational capabilities. This makes the task of protecting a sensor network\r\n against misbehavior or possible malfunction a challenging problem... , ""[Xiaoyun Wang] A sensor network is a collection of tiny sensor nodes, which consists of sensing, data processing\r\n and communicating components. Directed Diffusion is an important data-centric routing protocol of\r\n sensor networks... , ""[Morten Tranberg Hansen] A sensor network is a network consisting of small, inexpensive, low-powered sensor nodes that\r\n communicate to complete a common task...",,cl:10243
+cl:10249,passive remote sensing system,,[NASA] A system sensing only radiation emitted by the object being viewed or reflected by the object from a source other than the system.,,cl:10243
+cl:10250,image,,"[NASA] Pictorial representation of data acquired by satellite systems, such as direct readout images from environmental satellites. An image is not a photograph. An image is composed of two-dimensional grids of individual picture elements (pixels). Each pixel has a numeric value that corresponds to the radiance or temperature of the specific ground area it depicts.",,cl:10243
+cl:10251,biological marker,biologic marker,"[NCIT]* A characteristic that can be objectively measured and serves as an indicator for normal biologic processes, pathogenic processes, state of health or disease, the risk for disease development and/or prognosis, or responsiveness to a particular therapeutic intervention.",,cl:10243
+cl:10252,piezometer,,[SWEET] A devise used to measure groundwater pressure head at a point in the subsurface.,,cl:10243
+cl:10253,analytical tool,,"a procedure, software or method used to analyse or take a closer look at something. It is commonly a way to review the effectiveness of something",,cl:10243
+cl:10254,on-site sensor,,"An electrical, electronic, automatic device that automatically identifies and records or registers a stimulus, such as an environmental change in pressure or temperature or other environmental variable, an electrical signal, installed at a monitoring or research site",,cl:10243
+cl:10255,mobile sensor,,"An electrical, electronic, automatic device that automatically identifies and records or registers a stimulus, such as an environmental change in pressure or temperature or other environmental variable, an electrical signal, used in mobile mode (i.e. transported and then used to measure, installed on a mobile platform)",,cl:10243
+cl:10256,lysimeter,,"measuring device which can be used to measure the quantity and quality of soil solution, and indirectly the amount of actual evapotranspiration which is released by plants, usually crops or trees.",,cl:10243
+cl:10257,river station,gauging station,,,cl:10243
+cl:10258,satellite,,,,cl:10243
+cl:10259,temperature controlled container,,,,cl:10243
+cl:10260,resistivity meter,,,,cl:10243
+cl:10261,capacitance probe,,,,cl:10243
+cl:10262,rain gauge,,,,cl:10243
+cl:10263,conductivity meter,,,,cl:10243
+cl:10264,measurement tower,,,,cl:10243
+cl:10265,experimental device,,,,cl:10243
+cl:10266,sensor cluster,,,,cl:10243
+cl:10267,time domain reflectometer,,,,cl:10243
+cl:10268,zero-tension lysimeter,,,,cl:10243
+cl:10269,soil moisture probe,,,,cl:10243
+cl:10270,ship,,,,cl:10243
+cl:10271,marine platform,,,,cl:10243
+cl:10272,lysimeter station,,,,cl:10243
+cl:10273,tension lysimeter,,,,cl:10243
+cl:10274,automatic soil chamber,,,,cl:10243
+cl:10275,chemical reactor,,,,cl:10243
+cl:10276,atmospheric measurement tower,,,,cl:10264
+cl:10277,no measurement tower,,,,cl:10264
+cl:10278,measurement tower above canopy,,,,cl:10264
+cl:10279,measurement tower in canopy,,,,cl:10264
+cl:10280,infrared camera,,A camera that takes images in the infrared portion of the radiation spectrum. It can be used to assess thermal condition of bodies,,cl:10255
+cl:10281,Hemispherical photography,,A technique used to estimate leaf area index (i.e. the leaf area (m2) that is overlayed over soil (m2)) by elaborating photographs taken with a camera equipped with a fish-eye lens,,cl:10255
+cl:10282,tensiometer,,"An electrical, electronic, device that automatically identifies changes in soil water potential, a parameter that is related to soil water content",,cl:10255,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/146910
+cl:10283,radiometer,,"An electrical, electronic, device that automatically identifies changes in solar radiation (see also photodiode sensor)",,cl:10255
+cl:10284,LAI meter,,An instrument that can measure Leaf Area Index (LAI) of vegetation. Generally uses optical methods,,cl:10255
+cl:10285,porometer,,"An instrument that can measure the stomatal conductance of plants. Stomatal conductance gives an indication of transpiration of water from foliage, the higher the conudctance the easier the flow of water out of the foliage. Similar for the exchange of CO2",,cl:10255
+cl:10286,Laser-Doppler,,,,cl:10255
+cl:10287,Layer photographs,,,,cl:10255
+cl:10288,manual meter reading,,,,cl:10255
+cl:10289,tipping-bucket gauge,,"An authomatic-electrical device to measure rainfall or other process which involve dripping water. A giving amount of water makes tipping a bucket, each bucket movement record a signal that can be measured by an automatic data logger or, in old models, recorded on paper",,cl:10254
+cl:10290,present weather sensor,Present weather sensors,"An electrical, electronic, automatic device that automatically identifies and records or registers changes in weather parameters such as temperature, air humidity, pressure, radiation, precipitation",,cl:10254
+cl:10291,phododiode sensor,,"An electrical, electronic, device that automatically identifies changes in solar radiation",,cl:10254
+cl:10292,moisture sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in air humidity",,cl:10254
+cl:10293,pH-meter,,"An electrical, electronic, or automatic device that automatically identifies changes in pH of a solution",,cl:10254
+cl:10294,snow height sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in snow height",,cl:10254
+cl:10295,soil moisture sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in soil moisture",,cl:10254
+cl:10296,soil temperature sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in soil temperature",,cl:10254
+cl:10297,temperature sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in temperature",,cl:10254
+cl:10298,non-contact T sensor,,"An electrical, electronic, or automatic device that automatically identifies changes in temperature of a body without contact with it, usually with infrared technology",,cl:10254
+cl:10299,weather station,,,,cl:10254
+cl:10300,PAR sensor,,,,cl:10254
+cl:10301,energy provision
+cl:10302,central energy provision,,,,cl:10301
+cl:10303,distributed energy provision,,,,cl:10301
+cl:10304,energy supply type
+cl:10305,fuel cell,,,,cl:10304
+cl:10306,backup power supply system,,,,cl:10304
+cl:10307,battery,,,,cl:10304
+cl:10308,cable,,,,cl:10304
+cl:10309,generator,,,,cl:10304
+cl:10310,other energy supply type,,,,cl:10304
+cl:10311,permanent energy supply
+cl:10312,medium permanent energy supply,,,,cl:10311
+cl:10313,low permanent energy supply,,,,cl:10311
+cl:10314,large permanent energy supply,,,,cl:10311
+cl:10315,maintenance infrastructure
+cl:10316,snow clearing equipment,,,,cl:10315
+cl:10317,organisation design,,Type of the site of platform according to their inner heterogeneity. Simple sites are classical LTER sites measuring ecosystem processes in one or a very limited number of habitats. Complex sites are classical LTSER sites investigating processes and fluxes on a landscape or regional level or form the bracket over a number of LTER or simple sites.
+cl:10318,platform,,"a local or regional socio-ecological complex, containing – natural, man-controlled and man-created and dominated ecosystems –, provides not only a multi-site research platform where inter and trans-disciplinary knowledge are produced, a space where the operational infrastructure, policies and adaptive management plans for sustainability can be designed, developed and tested. , ""[http://www.lter-europe.net/sites-platforms/categories] (Long-Term Socio-Ecological Research): Modular LTER-facility consisting of sites which are located in an area with defined boundaries. Besides this physical component, LTSER-Platforms provide multiple services like the networking of client groups (e.g. research, local stakeholders), data management, communication and representation (management component). The elements of LTSER Platforms represent the main habitats, land use forms and practices relevant for the broader region (up to 10000 km²) and cover all scales and levels relevant for LTSER (from local to landscape). LTSER-Platforms should represent economic and social units or coincide/overlap with such units where adequate information on land use history, economy and demography is available to allow for socio-ecological research.",,cl:10317
+cl:10319,plot,,,,cl:10317
+cl:10320,complex site,,,,cl:10317
+cl:10321,sub site,,,,cl:10317
+cl:10322,simple site,,,,cl:10317
+cl:10323,Sensor,,,,cl:10317
+cl:10324,network,,,,cl:10317
+cl:10325,lodging
+cl:10326,no lodging,,,,cl:10325
+cl:10327,medium size lodging,,,,cl:10325
+cl:10328,unknown number of beds,,,,cl:10325
+cl:10329,small size lodging,,,,cl:10325
+cl:10330,large size lodging,,,,cl:10325
+cl:10331,staff room,,The data type 'Staff room and lodging' describes availability of a working space and lodging at the research site.
+cl:10332,small size staff room,,,,cl:10331
+cl:10333,large size staff room,,,,cl:10331
+cl:10334,no staff room,,,,cl:10331
+cl:10335,unknown number of places,,,,cl:10331
+cl:10336,medium size staff room,,,,cl:10331
+cl:10337,transportation,,,,,http://purl.obolibrary.org/obo/ENVO_02000125
+cl:10338,snow mobile,,,,cl:10337
+cl:10339,vehicle 4WD,,,,cl:10337
+cl:10340,boat,,,,cl:10337,http://purl.obolibrary.org/obo/ENVO_01000608
+cl:10341,helicopter,,,,cl:10337
+cl:10342,vehicle 2WD,,,,cl:10337
+cl:10343,workplace,,working environment for researcher,,,http://www.eionet.europa.eu/gemet/concept/9375
+cl:10344,laboratory,,,,cl:10343
+cl:10345,field laboratory,,,,cl:10343
+cl:10346,scale,,"This concept addresses spatial (e.g. plot, landscape scale) and temporal (e.g. day, year) scales of research projects.",,,http://mimi.case.edu/ontologies/2009/1/UnitsOntology#scale
+cl:10347,scaling up,,"[Robert J. Beichner] SCALE-UP is an extension of the highly successful IMPEC project (Integrated Math, Physics, Engineering, and Chemistry), one of NC State's curricular reform efforts undertaken as part of the SUCCEED coalition...",,cl:10346
+cl:10348,spatial scale,,"[Siquan Tian] Spatial scale is an important factor that needs to be considered in data collection and analysis in ecological studies. Studies focusing on the quantitative evaluation of impacts of spatial scales are, however, limited in fisheries...",,cl:10346
+cl:10349,temporal scale,temporal scales,,,cl:10346
+cl:10350,scale dependence,,,,cl:10346
+cl:10351,ecosystem approach,,,,cl:10346
+cl:10352,local scale,,,,cl:10346
+cl:10353,global scale,,,,cl:10346
+cl:10354,regional scale,,,,cl:10346
+cl:10355,national scale,,,,cl:10346
+cl:10356,field scale,,,,cl:10346
+cl:10357,subcatchment scale,,,,cl:10346
+cl:10358,continental scale,,,,cl:10346
+cl:10359,catchment scale,,,,cl:10346
+cl:10360,plot scale,,,,cl:10346
+cl:10361,ecotron scale,,,,cl:10346
+cl:10362,beyond catchment scale,,,,cl:10346
+cl:10363,micro site scale,,,,cl:10346
+cl:10364,landscape scale,,,,cl:10346

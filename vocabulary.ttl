@@ -31,7 +31,9 @@
   pav:version "0.1.0"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
-    cl:10159, cl:10187, cl:10189, cl:10192 .
+    cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10200, cl:10211, cl:10223, cl:10228,
+    cl:10235, cl:10243, cl:10301, cl:10304, cl:10311, cl:10315, cl:10317, cl:10325, cl:10331,
+    cl:10337, cl:10343, cl:10346 .
 
 cl:10000 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
@@ -1697,6 +1699,933 @@ cl:10197 a skos:Concept;
   skos:broader cl:10192;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "yes"@en .
+
+cl:10198 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10199;
+  skos:prefLabel "data capture"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10199 a skos:Concept;
+  skos:broader cl:10198;
+  skos:definition "US LTER controlled vocabulary"@de, "n. devices/gadgets that record data over time or in relation to location either with a built in instrument or sensor or via external instruments and sensors"@en;
+  skos:editorialNote "[controlled by ] Neagu Stefan 31/05/13\" , \"[source of definition ] wikipedia"@en;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=135>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "datalogger"@en .
+
+cl:10200 a skos:Concept;
+  skos:definition "The data type 'Data services' describes the availability of data services (e.g. WFS) to connect to the data."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10201, cl:10202, cl:10203, cl:10204, cl:10205, cl:10206, cl:10207,
+    cl:10208, cl:10209, cl:10210;
+  skos:prefLabel "data service"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10201 a skos:Concept;
+  skos:broader cl:10200;
+  skos:definition "data services"@de;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "data portal"@en .
+
+cl:10202 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Web Map Service"@en .
+
+cl:10203 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Web Feature Service"@en .
+
+cl:10204 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Web Coverage Service"@en .
+
+cl:10205 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "no data service"@en .
+
+cl:10206 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "REST API"@en .
+
+cl:10207 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Sensor Web Enablement"@en .
+
+cl:10208 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Web Catalog Service"@en .
+
+cl:10209 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "SPARQL endpoint"@en .
+
+cl:10210 a skos:Concept;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "other data service"@en .
+
+cl:10211 a skos:Concept;
+  skos:definition "The data type 'Data storage format' describes the different formats in which the data are available and managed"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10212, cl:10213, cl:10214, cl:10215, cl:10216, cl:10217, cl:10218,
+    cl:10219, cl:10220, cl:10221, cl:10222;
+  skos:prefLabel "data storage format"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10212 a skos:Concept;
+  skos:broader cl:10211;
+  skos:definition "[BRO]* A resource that provides access to a database that comprises a normalized data set constructed according to a specific entity-relation data model."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "relational database"@en .
+
+cl:10213 a skos:Concept;
+  skos:broader cl:10211;
+  skos:definition "[BRO]* A resource that provides access to a database that stores XML."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "XML database"@en .
+
+cl:10214 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "spatial database (GIS)"@en .
+
+cl:10215 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "paper"@en .
+
+cl:10216 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "unstructured file"@en .
+
+cl:10217 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "structured file or spreadsheet"@en .
+
+cl:10218 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "spatial data file (GIS)"@en .
+
+cl:10219 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "triple store"@en .
+
+cl:10220 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "other data storage format"@en .
+
+cl:10221 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "proprietary file format"@en .
+
+cl:10222 a skos:Concept;
+  skos:broader cl:10211;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "graph or object database"@en .
+
+cl:10223 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10224, cl:10225, cl:10226, cl:10227;
+  skos:prefLabel "data storage location"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10224 a skos:Concept;
+  skos:broader cl:10223;
+  skos:definition "central data storage location\"^^rdf:HTML"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "central"@en .
+
+cl:10225 a skos:Concept;
+  skos:broader cl:10223;
+  skos:definition "distributed data storage over multiple institutions"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "distributed over multiple institutions"@en .
+
+cl:10226 a skos:Concept;
+  skos:broader cl:10223;
+  skos:definition "distributed data storage within institution"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "distributed within institution"@en .
+
+cl:10227 a skos:Concept;
+  skos:altLabel "na"@en;
+  skos:broader cl:10223;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "not applicable"@en .
+
+cl:10228 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10229, cl:10230, cl:10231, cl:10232, cl:10233, cl:10234;
+  skos:prefLabel "metadata standards"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10229 a skos:Concept;
+  skos:altLabel "EML"@en;
+  skos:broader cl:10228;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Ecological Metadata Language"@en .
+
+cl:10230 a skos:Concept;
+  skos:altLabel "DwC"@en;
+  skos:broader cl:10228;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Darwin Core"@en .
+
+cl:10231 a skos:Concept;
+  skos:altLabel "DC"@en;
+  skos:broader cl:10228;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Dublin Core"@en .
+
+cl:10232 a skos:Concept;
+  skos:broader cl:10228;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "INSPIRE metadata specification"@en .
+
+cl:10233 a skos:Concept;
+  skos:broader cl:10228;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "ISO19115/19139"@en .
+
+cl:10234 a skos:Concept;
+  skos:broader cl:10228;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "domain specific metadata standard"@en .
+
+cl:10235 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10236, cl:10237, cl:10238, cl:10239, cl:10240, cl:10241, cl:10242;
+  skos:prefLabel "data transmission"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10236 a skos:Concept;
+  skos:altLabel "UMTS"@en;
+  skos:broader cl:10235;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "GMS"@en .
+
+cl:10237 a skos:Concept;
+  skos:broader cl:10235;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "other data transmission"@en .
+
+cl:10238 a skos:Concept;
+  skos:broader cl:10235;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "telephone line"@en .
+
+cl:10239 a skos:Concept;
+  skos:broader cl:10235;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "cable based"@en .
+
+cl:10240 a skos:Concept;
+  skos:broader cl:10235;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "radio transmission system (repeaters, receivers, centralstation)"@en .
+
+cl:10241 a skos:Concept;
+  skos:broader cl:10235;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "no data transmission"@en .
+
+cl:10242 a skos:Concept;
+  skos:broader cl:10235;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "satellite transmission system"@en .
+
+cl:10243 a skos:Concept;
+  skos:altLabel "machine"@en;
+  skos:definition "[NCIT]* An object contrived for a specific purpose."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10244, cl:10245, cl:10246, cl:10247, cl:10248, cl:10249, cl:10250,
+    cl:10251, cl:10252, cl:10253, cl:10254, cl:10255, cl:10256, cl:10257, cl:10258, cl:10259,
+    cl:10260, cl:10261, cl:10262, cl:10263, cl:10264, cl:10265, cl:10266, cl:10267, cl:10268,
+    cl:10269, cl:10270, cl:10271, cl:10272, cl:10273, cl:10274, cl:10275;
+  skos:prefLabel "device"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10244 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "[CHEAR]* A device that measures temperature"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "thermometer"@en .
+
+cl:10245 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "[CHMO] A piece of apparatus that generates electrical current when it experiences a thermal gradient."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "thermocouple"@en .
+
+cl:10246 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "[ERO] An instrument for measuring light intensity or optical properties of solutions or surfaces. Photometers are used to measure iIlluminance, irradiance, light absorption, scattering of light, reflection of light, fluorescence, phosphorescence, and luminescence."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "photometer"@en .
+
+cl:10247 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "[Henderson's] a. device for measuring small changes in the diameter of a tree trunk, such as the minute amounts of shrinkage and swelling that accompany the daily ﬂuctuations in transpiration."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "dendrometer"@en .
+
+cl:10248 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "[Himanshu Gupta] A sensor network is a multi-hop wireless network of sensor nodes cooperatively solving a sensing\\r\\n task. Each sensor node generates data items that are readings obtained from one or more sensors on\\r\\n the node. This makes a sensor network similar to a distributed database system. While this view is\\r\\n somewhat traditional, efficient execution of database (SQL) queries in sensor network remains a\\r\\n challenge, due to the unique characteristics of such networks such as limited memory and battery\\r\\n energy on individual nodes, multi-hop communication, unreliable infrastructure, and dynamic\\r\\n topology... , \"[Hamed Chok] A sensor network is a valuable new form of collective computational instrumentation by virtue of its\\r\\n ability to sense physical quantities of interest and to transmit such readings via sub-networks of\\r\\n nodes/computers for processing... , \"[Martin Drozda] A sensor network is a collection of wireless devices that are able to monitor physical or\\r\\n environmental conditions. These devices are expected to operate autonomously, be battery powered and\\r\\n have very limited computational capabilities. This makes the task of protecting a sensor network\\r\\n against misbehavior or possible malfunction a challenging problem... , \"[Xiaoyun Wang] A sensor network is a collection of tiny sensor nodes, which consists of sensing, data processing\\r\\n and communicating components. Directed Diffusion is an important data-centric routing protocol of\\r\\n sensor networks... , \"[Morten Tranberg Hansen] A sensor network is a network consisting of small, inexpensive, low-powered sensor nodes that\\r\\n communicate to complete a common task..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "sensor network"@en .
+
+cl:10249 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "[NASA] A system sensing only radiation emitted by the object being viewed or reflected by the object from a source other than the system."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "passive remote sensing system"@en .
+
+cl:10250 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "[NASA] Pictorial representation of data acquired by satellite systems, such as direct readout images from environmental satellites. An image is not a photograph. An image is composed of two-dimensional grids of individual picture elements (pixels). Each pixel has a numeric value that corresponds to the radiance or temperature of the specific ground area it depicts."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "image"@en .
+
+cl:10251 a skos:Concept;
+  skos:altLabel "biologic marker"@en;
+  skos:broader cl:10243;
+  skos:definition "[NCIT]* A characteristic that can be objectively measured and serves as an indicator for normal biologic processes, pathogenic processes, state of health or disease, the risk for disease development and/or prognosis, or responsiveness to a particular therapeutic intervention."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "biological marker"@en .
+
+cl:10252 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "[SWEET] A devise used to measure groundwater pressure head at a point in the subsurface."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "piezometer"@en .
+
+cl:10253 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "a procedure, software or method used to analyse or take a closer look at something. It is commonly a way to review the effectiveness of something"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "analytical tool"@en .
+
+cl:10254 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "An electrical, electronic, automatic device that automatically identifies and records or registers a stimulus, such as an environmental change in pressure or temperature or other environmental variable, an electrical signal, installed at a monitoring or research site"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10289, cl:10290, cl:10291, cl:10292, cl:10293, cl:10294, cl:10295,
+    cl:10296, cl:10297, cl:10298, cl:10299, cl:10300;
+  skos:prefLabel "on-site sensor"@en .
+
+cl:10255 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "An electrical, electronic, automatic device that automatically identifies and records or registers a stimulus, such as an environmental change in pressure or temperature or other environmental variable, an electrical signal, used in mobile mode (i.e. transported and then used to measure, installed on a mobile platform)"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10280, cl:10281, cl:10282, cl:10283, cl:10284, cl:10285, cl:10286,
+    cl:10287, cl:10288;
+  skos:prefLabel "mobile sensor"@en .
+
+cl:10256 a skos:Concept;
+  skos:broader cl:10243;
+  skos:definition "measuring device which can be used to measure the quantity and quality of soil solution, and indirectly the amount of actual evapotranspiration which is released by plants, usually crops or trees."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "lysimeter"@en .
+
+cl:10257 a skos:Concept;
+  skos:altLabel "gauging station"@en;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "river station"@en .
+
+cl:10258 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "satellite"@en .
+
+cl:10259 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "temperature controlled container"@en .
+
+cl:10260 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "resistivity meter"@en .
+
+cl:10261 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "capacitance probe"@en .
+
+cl:10262 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "rain gauge"@en .
+
+cl:10263 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "conductivity meter"@en .
+
+cl:10264 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10276, cl:10277, cl:10278, cl:10279;
+  skos:prefLabel "measurement tower"@en .
+
+cl:10265 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "experimental device"@en .
+
+cl:10266 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "sensor cluster"@en .
+
+cl:10267 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "time domain reflectometer"@en .
+
+cl:10268 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "zero-tension lysimeter"@en .
+
+cl:10269 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "soil moisture probe"@en .
+
+cl:10270 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "ship"@en .
+
+cl:10271 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "marine platform"@en .
+
+cl:10272 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "lysimeter station"@en .
+
+cl:10273 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "tension lysimeter"@en .
+
+cl:10274 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "automatic soil chamber"@en .
+
+cl:10275 a skos:Concept;
+  skos:broader cl:10243;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "chemical reactor"@en .
+
+cl:10276 a skos:Concept;
+  skos:broader cl:10264;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "atmospheric measurement tower"@en .
+
+cl:10277 a skos:Concept;
+  skos:broader cl:10264;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "no measurement tower"@en .
+
+cl:10278 a skos:Concept;
+  skos:broader cl:10264;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "measurement tower above canopy"@en .
+
+cl:10279 a skos:Concept;
+  skos:broader cl:10264;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "measurement tower in canopy"@en .
+
+cl:10280 a skos:Concept;
+  skos:broader cl:10255;
+  skos:definition "A camera that takes images in the infrared portion of the radiation spectrum. It can be used to assess thermal condition of bodies"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "infrared camera"@en .
+
+cl:10281 a skos:Concept;
+  skos:broader cl:10255;
+  skos:definition "A technique used to estimate leaf area index (i.e. the leaf area (m2) that is overlayed over soil (m2)) by elaborating photographs taken with a camera equipped with a fish-eye lens"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Hemispherical photography"@en .
+
+cl:10282 a skos:Concept;
+  skos:broader cl:10255;
+  skos:definition "An electrical, electronic, device that automatically identifies changes in soil water potential, a parameter that is related to soil water content"@en;
+  skos:exactMatch <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/146910>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "tensiometer"@en .
+
+cl:10283 a skos:Concept;
+  skos:broader cl:10255;
+  skos:definition "An electrical, electronic, device that automatically identifies changes in solar radiation (see also photodiode sensor)"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "radiometer"@en .
+
+cl:10284 a skos:Concept;
+  skos:broader cl:10255;
+  skos:definition "An instrument that can measure Leaf Area Index (LAI) of vegetation. Generally uses optical methods"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "LAI meter"@en .
+
+cl:10285 a skos:Concept;
+  skos:broader cl:10255;
+  skos:definition "An instrument that can measure the stomatal conductance of plants. Stomatal conductance gives an indication of transpiration of water from foliage, the higher the conudctance the easier the flow of water out of the foliage. Similar for the exchange of CO2"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "porometer"@en .
+
+cl:10286 a skos:Concept;
+  skos:broader cl:10255;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Laser-Doppler"@en .
+
+cl:10287 a skos:Concept;
+  skos:broader cl:10255;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Layer photographs"@en .
+
+cl:10288 a skos:Concept;
+  skos:broader cl:10255;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "manual meter reading"@en .
+
+cl:10289 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An authomatic-electrical device to measure rainfall or other process which involve dripping water. A giving amount of water makes tipping a bucket, each bucket movement record a signal that can be measured by an automatic data logger or, in old models, recorded on paper"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "tipping-bucket gauge"@en .
+
+cl:10290 a skos:Concept;
+  skos:altLabel "Present weather sensors"@en;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, automatic device that automatically identifies and records or registers changes in weather parameters such as temperature, air humidity, pressure, radiation, precipitation"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "present weather sensor"@en .
+
+cl:10291 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, device that automatically identifies changes in solar radiation"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "phododiode sensor"@en .
+
+cl:10292 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, or automatic device that automatically identifies changes in air humidity"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "moisture sensor"@en .
+
+cl:10293 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, or automatic device that automatically identifies changes in pH of a solution"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "pH-meter"@en .
+
+cl:10294 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, or automatic device that automatically identifies changes in snow height"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "snow height sensor"@en .
+
+cl:10295 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, or automatic device that automatically identifies changes in soil moisture"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "soil moisture sensor"@en .
+
+cl:10296 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, or automatic device that automatically identifies changes in soil temperature"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "soil temperature sensor"@en .
+
+cl:10297 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, or automatic device that automatically identifies changes in temperature"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "temperature sensor"@en .
+
+cl:10298 a skos:Concept;
+  skos:broader cl:10254;
+  skos:definition "An electrical, electronic, or automatic device that automatically identifies changes in temperature of a body without contact with it, usually with infrared technology"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "non-contact T sensor"@en .
+
+cl:10299 a skos:Concept;
+  skos:broader cl:10254;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "weather station"@en .
+
+cl:10300 a skos:Concept;
+  skos:broader cl:10254;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "PAR sensor"@en .
+
+cl:10301 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10302, cl:10303;
+  skos:prefLabel "energy provision"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10302 a skos:Concept;
+  skos:broader cl:10301;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "central energy provision"@en .
+
+cl:10303 a skos:Concept;
+  skos:broader cl:10301;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "distributed energy provision"@en .
+
+cl:10304 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10305, cl:10306, cl:10307, cl:10308, cl:10309, cl:10310;
+  skos:prefLabel "energy supply type"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10305 a skos:Concept;
+  skos:broader cl:10304;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "fuel cell"@en .
+
+cl:10306 a skos:Concept;
+  skos:broader cl:10304;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "backup power supply system"@en .
+
+cl:10307 a skos:Concept;
+  skos:broader cl:10304;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "battery"@en .
+
+cl:10308 a skos:Concept;
+  skos:broader cl:10304;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "cable"@en .
+
+cl:10309 a skos:Concept;
+  skos:broader cl:10304;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "generator"@en .
+
+cl:10310 a skos:Concept;
+  skos:broader cl:10304;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "other energy supply type"@en .
+
+cl:10311 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10312, cl:10313, cl:10314;
+  skos:prefLabel "permanent energy supply"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10312 a skos:Concept;
+  skos:broader cl:10311;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "medium permanent energy supply"@en .
+
+cl:10313 a skos:Concept;
+  skos:broader cl:10311;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "low permanent energy supply"@en .
+
+cl:10314 a skos:Concept;
+  skos:broader cl:10311;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "large permanent energy supply"@en .
+
+cl:10315 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10316;
+  skos:prefLabel "maintenance infrastructure"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10316 a skos:Concept;
+  skos:broader cl:10315;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "snow clearing equipment"@en .
+
+cl:10317 a skos:Concept;
+  skos:definition "Type of the site of platform according to their inner heterogeneity. Simple sites are classical LTER sites measuring ecosystem processes in one or a very limited number of habitats. Complex sites are classical LTSER sites investigating processes and fluxes on a landscape or regional level or form the bracket over a number of LTER or simple sites."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10318, cl:10319, cl:10320, cl:10321, cl:10322, cl:10323, cl:10324;
+  skos:prefLabel "organisation design"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10318 a skos:Concept;
+  skos:broader cl:10317;
+  skos:definition "a local or regional socio-ecological complex, containing – natural, man-controlled and man-created and dominated ecosystems –, provides not only a multi-site research platform where inter and trans-disciplinary knowledge are produced, a space where the operational infrastructure, policies and adaptive management plans for sustainability can be designed, developed and tested. , \"[http://www.lter-europe.net/sites-platforms/categories] (Long-Term Socio-Ecological Research): Modular LTER-facility consisting of sites which are located in an area with defined boundaries. Besides this physical component, LTSER-Platforms provide multiple services like the networking of client groups (e.g. research, local stakeholders), data management, communication and representation (management component). The elements of LTSER Platforms represent the main habitats, land use forms and practices relevant for the broader region (up to 10000 km²) and cover all scales and levels relevant for LTSER (from local to landscape). LTSER-Platforms should represent economic and social units or coincide/overlap with such units where adequate information on land use history, economy and demography is available to allow for socio-ecological research."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "platform"@en .
+
+cl:10319 a skos:Concept;
+  skos:broader cl:10317;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "plot"@en .
+
+cl:10320 a skos:Concept;
+  skos:broader cl:10317;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "complex site"@en .
+
+cl:10321 a skos:Concept;
+  skos:broader cl:10317;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "sub site"@en .
+
+cl:10322 a skos:Concept;
+  skos:broader cl:10317;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "simple site"@en .
+
+cl:10323 a skos:Concept;
+  skos:broader cl:10317;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "Sensor"@en .
+
+cl:10324 a skos:Concept;
+  skos:broader cl:10317;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "network"@en .
+
+cl:10325 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10326, cl:10327, cl:10328, cl:10329, cl:10330;
+  skos:prefLabel "lodging"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10326 a skos:Concept;
+  skos:broader cl:10325;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "no lodging"@en .
+
+cl:10327 a skos:Concept;
+  skos:broader cl:10325;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "medium size lodging"@en .
+
+cl:10328 a skos:Concept;
+  skos:broader cl:10325;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "unknown number of beds"@en .
+
+cl:10329 a skos:Concept;
+  skos:broader cl:10325;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "small size lodging"@en .
+
+cl:10330 a skos:Concept;
+  skos:broader cl:10325;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "large size lodging"@en .
+
+cl:10331 a skos:Concept;
+  skos:definition "The data type 'Staff room and lodging' describes availability of a working space and lodging at the research site."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10332, cl:10333, cl:10334, cl:10335, cl:10336;
+  skos:prefLabel "staff room"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10332 a skos:Concept;
+  skos:broader cl:10331;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "small size staff room"@en .
+
+cl:10333 a skos:Concept;
+  skos:broader cl:10331;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "large size staff room"@en .
+
+cl:10334 a skos:Concept;
+  skos:broader cl:10331;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "no staff room"@en .
+
+cl:10335 a skos:Concept;
+  skos:broader cl:10331;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "unknown number of places"@en .
+
+cl:10336 a skos:Concept;
+  skos:broader cl:10331;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "medium size staff room"@en .
+
+cl:10337 a skos:Concept;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_02000125>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10338, cl:10339, cl:10340, cl:10341, cl:10342;
+  skos:prefLabel "transportation"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10338 a skos:Concept;
+  skos:broader cl:10337;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "snow mobile"@en .
+
+cl:10339 a skos:Concept;
+  skos:broader cl:10337;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "vehicle 4WD"@en .
+
+cl:10340 a skos:Concept;
+  skos:broader cl:10337;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01000608>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "boat"@en .
+
+cl:10341 a skos:Concept;
+  skos:broader cl:10337;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "helicopter"@en .
+
+cl:10342 a skos:Concept;
+  skos:broader cl:10337;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "vehicle 2WD"@en .
+
+cl:10343 a skos:Concept;
+  skos:definition "working environment for researcher"@en;
+  skos:exactMatch <http://www.eionet.europa.eu/gemet/concept/9375>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10344, cl:10345;
+  skos:prefLabel "workplace"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10344 a skos:Concept;
+  skos:broader cl:10343;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "laboratory"@en .
+
+cl:10345 a skos:Concept;
+  skos:broader cl:10343;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "field laboratory"@en .
+
+cl:10346 a skos:Concept;
+  skos:definition "This concept addresses spatial (e.g. plot, landscape scale) and temporal (e.g. day, year) scales of research projects."@en;
+  skos:exactMatch <http://mimi.case.edu/ontologies/2009/1/UnitsOntology#scale>;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:narrower cl:10347, cl:10348, cl:10349, cl:10350, cl:10351, cl:10352, cl:10353,
+    cl:10354, cl:10355, cl:10356, cl:10357, cl:10358, cl:10359, cl:10360, cl:10361, cl:10362,
+    cl:10363, cl:10364;
+  skos:prefLabel "scale"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
+
+cl:10347 a skos:Concept;
+  skos:broader cl:10346;
+  skos:definition "[Robert J. Beichner] SCALE-UP is an extension of the highly successful IMPEC project (Integrated Math, Physics, Engineering, and Chemistry), one of NC State's curricular reform efforts undertaken as part of the SUCCEED coalition..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "scaling up"@en .
+
+cl:10348 a skos:Concept;
+  skos:broader cl:10346;
+  skos:definition "[Siquan Tian] Spatial scale is an important factor that needs to be considered in data collection and analysis in ecological studies. Studies focusing on the quantitative evaluation of impacts of spatial scales are, however, limited in fisheries..."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "spatial scale"@en .
+
+cl:10349 a skos:Concept;
+  skos:altLabel "temporal scales"@en;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "temporal scale"@en .
+
+cl:10350 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "scale dependence"@en .
+
+cl:10351 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "ecosystem approach"@en .
+
+cl:10352 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "local scale"@en .
+
+cl:10353 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "global scale"@en .
+
+cl:10354 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "regional scale"@en .
+
+cl:10355 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "national scale"@en .
+
+cl:10356 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "field scale"@en .
+
+cl:10357 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "subcatchment scale"@en .
+
+cl:10358 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "continental scale"@en .
+
+cl:10359 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "catchment scale"@en .
+
+cl:10360 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "plot scale"@en .
+
+cl:10361 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "ecotron scale"@en .
+
+cl:10362 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "beyond catchment scale"@en .
+
+cl:10363 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "micro site scale"@en .
+
+cl:10364 a skos:Concept;
+  skos:broader cl:10346;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "landscape scale"@en .
 
 et:20935 skos:narrower et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
     et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
