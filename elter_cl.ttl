@@ -1170,7 +1170,7 @@ et:10143 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broader et:10145, cl:10009, cl:10012;
+  skos:broader et:10127, cl:10009, cl:10012;
   skos:definition "[NCIT]* Any of the 99 numbered points that divide an ordered set of scores into 100 parts each of which contains one-hundredth of the total."@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48919>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -1180,7 +1180,7 @@ et:10140 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broader et:10145, cl:10009, cl:10012;
+  skos:broader et:10127, cl:10009, cl:10012;
   skos:definition "[NEMO] median is the middle value of a set of ordered observations. When there is an even number of observations the median is the average of two values that fall either side of what would be the middle value."@en;
   skos:exactMatch <http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3768000>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -1250,7 +1250,7 @@ et:10139 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broader et:10145, cl:10009, cl:10012;
+  skos:broader et:10127, cl:10009, cl:10012;
   skos:definition "[SIO] A mean is the central tendency of a collection of numbers taken as the sum of the numbers divided by the size of the collection."@en;
   skos:exactMatch <http://semanticscience.org/resource/SIO_001109>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3370,9 +3370,11 @@ et:30212 a skos:Concept;
   iop:hasProperty et:21533 .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
-    et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10139, et:10140,
-    et:10141, et:10142, et:10143, et:10144, et:10146, et:10147, et:10148, et:10149, et:10151,
-    et:20231, et:20241, et:21585, cl:10136 .
+    et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
+    et:10144, et:10146, et:10147, et:10148, et:10149, et:10151, et:20231, et:20241, et:21585,
+    cl:10136 .
+
+et:10127 skos:narrower et:10139, et:10140, et:10143 .
 
 et:20935 skos:narrower et:30212, et:30217, et:30218, et:30219, et:30220, et:30221,
     et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237,
