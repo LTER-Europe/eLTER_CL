@@ -3374,8 +3374,7 @@ cl:10365 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20790, et:21155, et:21176, et:21202, et:21263, cl:10366, cl:10372,
-    cl:10379;
+  skos:narrower et:20790, et:21155, et:21176, et:21202, cl:10366, cl:10372, cl:10379;
   skos:prefLabel "eLTER Standard Observations"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -3522,10 +3521,10 @@ cl:10378 a skos:Concept;
 cl:10379 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broader cl:10365, cl:10379;
+  skos:broader cl:10365;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20915, et:20917, et:21880, cl:10371, cl:10379;
-  skos:prefLabel "biotic heterogeneity"@en, "terrestrial/aquatic"@en .
+  skos:narrower et:20915, et:20917, et:21880, cl:10371, cl:10381;
+  skos:prefLabel "biotic heterogeneity"@en .
 
 et:21880 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
@@ -3536,6 +3535,13 @@ et:21880 a skos:Concept;
   skos:prefLabel "terrestrial"@en;
   skos:scopeNote "GEO-BON Biome"@en .
 
+cl:10381 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10379;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "terrestrial/aquatic"@en .
+
 et:21155 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
@@ -3543,13 +3549,14 @@ et:21155 a skos:Concept;
   skos:broader et:20950, cl:10365;
   skos:definition "[Henderson's] balance of energy input and use in a biological system. It is expressed as consumption (C) = production (P) + respiration (R) + rejecta (faeces and urine) (F + U). see also assimilated energy."@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20790;
   skos:prefLabel "energy budget"@en .
 
 et:20790 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broader et:20935, et:21176, cl:10365, cl:21155;
+  skos:broader et:20935, et:21155, et:21176, cl:10365;
   skos:definition "[Henderson's] n. (1) total weight, volume or energy equivalent of organisms in a given area; (2) plant materials and animal wastes used as a source of fuel or other industrial products; (3) in biotechnology, the micro&shy;bial matter in the system."@en;
   skos:editorialNote "too unspecific for the concept of biological substance (this should be something which can be classified in a chemical way)"@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_926>, <http://en.wikipedia.org/wiki/biomass>,
@@ -3610,14 +3617,14 @@ et:21176 a skos:Concept;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:20950, cl:10365;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20790, et:20915, et:20917, et:21077, cl:10371;
+  skos:narrower et:20790, et:20915, et:20917, et:21077, et:21263, cl:10371;
   skos:prefLabel "matter budget"@en .
 
 et:21263 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broader et:20950, cl:10365;
+  skos:broader et:20950, et:21176;
   skos:definition "The process by which polluting material is precipitated from the atmosphere and accumulates in ecosystems."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_36094>, <https://vocab.lternet.edu/vocab/vocab/?tema=49>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3657,7 +3664,7 @@ et:20708 skos:narrower et:20715 .
 
 et:10313 skos:narrower et:21880 .
 
-cl:21155 skos:narrower et:20790, et:20791, et:21077 .
+cl:21155 skos:narrower et:20791, et:21077 .
 
 et:20982 skos:narrower et:21077 .
 
