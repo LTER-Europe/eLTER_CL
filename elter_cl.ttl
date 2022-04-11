@@ -3206,9 +3206,9 @@ cl:10346 a skos:Concept;
   skos:definition "This concept addresses spatial (e.g. plot, landscape scale) and temporal (e.g. day, year) scales of research projects."@en;
   skos:exactMatch <http://mimi.case.edu/ontologies/2009/1/UnitsOntology#scale>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10347, cl:10348, cl:10349, cl:10350, cl:10351, cl:10352, cl:10353,
-    cl:10354, cl:10355, cl:10356, cl:10357, cl:10358, cl:10359, cl:10360, cl:10361, cl:10362,
-    cl:10363, cl:10364;
+  skos:narrower cl:10347, cl:10349, cl:10350, cl:10351, cl:10352, cl:10353, cl:10354,
+    cl:10355, cl:10356, cl:10357, cl:10358, cl:10359, cl:10360, cl:10361, cl:10362, cl:10363,
+    cl:10364;
   skos:prefLabel "scale"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -3220,15 +3220,6 @@ cl:10347 a skos:Concept;
   skos:definition "[Robert J. Beichner] SCALE-UP is an extension of the highly successful IMPEC project (Integrated Math, Physics, Engineering, and Chemistry), one of NC State's curricular reform efforts undertaken as part of the SUCCEED coalition..."@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "scaling up"@en .
-
-cl:10348 a skos:Concept;
-  dct:created "2022-03-28"^^xsd:date;
-  dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10346;
-  skos:definition "[Siquan Tian] Spatial scale is an important factor that needs to be considered in data collection and analysis in ecological studies. Studies focusing on the quantitative evaluation of impacts of spatial scales are, however, limited in fisheries..."@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "spatial scale"@en .
 
 cl:10349 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3374,7 +3365,7 @@ cl:10365 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20790, et:21155, et:21176, et:21202, cl:10366, cl:10372, cl:10379;
+  skos:narrower et:21155, et:21176, et:21202, cl:10366, cl:10372, cl:10379;
   skos:prefLabel "eLTER Standard Observations"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -3549,14 +3540,14 @@ et:21155 a skos:Concept;
   skos:broader et:20950, cl:10365;
   skos:definition "[Henderson's] balance of energy input and use in a biological system. It is expressed as consumption (C) = production (P) + respiration (R) + rejecta (faeces and urine) (F + U). see also assimilated energy."@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20790;
+  skos:narrower et:20790, et:20791, et:21077;
   skos:prefLabel "energy budget"@en .
 
 et:20790 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broader et:20935, et:21155, et:21176, cl:10365;
+  skos:broader et:20935, et:21155, et:21176;
   skos:definition "[Henderson's] n. (1) total weight, volume or energy equivalent of organisms in a given area; (2) plant materials and animal wastes used as a source of fuel or other industrial products; (3) in biotechnology, the micro&shy;bial matter in the system."@en;
   skos:editorialNote "too unspecific for the concept of biological substance (this should be something which can be classified in a chemical way)"@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_926>, <http://en.wikipedia.org/wiki/biomass>,
@@ -3573,7 +3564,7 @@ et:20790 a skos:Concept;
 et:20791 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broader cl:21155;
+  skos:broader et:21155;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "radiation budget"@en .
 
@@ -3582,7 +3573,7 @@ et:21077 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:altLabel "NEE"@en;
-  skos:broader et:20982, et:21176, cl:21155;
+  skos:broader et:20982, et:21155, et:21176;
   skos:definition "pNet Ecosystem Exchange (NEE) and Net Ecosystem Production (NEP) refer to net primary production minus carbon losses in heterotrophic respiration, Rh: NEE = NEP = NPP - Rh/p"@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=883>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3663,8 +3654,6 @@ et:10003 skos:narrower et:24 .
 et:20708 skos:narrower et:20715 .
 
 et:10313 skos:narrower et:21880 .
-
-cl:21155 skos:narrower et:20791, et:21077 .
 
 et:20982 skos:narrower et:21077 .
 
