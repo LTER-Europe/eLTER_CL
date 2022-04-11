@@ -133,10 +133,10 @@ cl:10009 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10109, cl:10110, cl:10111, cl:10112, cl:10113, cl:10114, cl:10115,
-    cl:10116, cl:10117, cl:10118, cl:10119, cl:10120, cl:10121, cl:10122, cl:10123, cl:10124,
-    cl:10125, cl:10126, cl:10127, cl:10128, cl:10129, cl:10130, cl:10131, cl:10132, cl:10133,
-    cl:10134, cl:10135;
+  skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131, et:10132,
+    et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10139, et:10140, et:10141,
+    et:10142, et:10143, et:10144, et:10146, et:10147, et:10148, et:10149, et:10151, et:20231,
+    et:20241, et:21585, cl:10136;
   skos:prefLabel "method"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -145,7 +145,7 @@ cl:10010 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10136, cl:10137, cl:10138;
+  skos:narrower cl:10137, cl:10138;
   skos:prefLabel "data reliability"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -163,8 +163,8 @@ cl:10012 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:10139, et:10140, et:10143, cl:10119, cl:10120, cl:10127, cl:10182,
-    cl:10183, cl:10184, cl:10185, cl:10186;
+  skos:narrower et:10139, et:10140, et:10143, cl:10182, cl:10183, cl:10184, cl:10185,
+    cl:10186;
   skos:prefLabel "processing step"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -1068,267 +1068,267 @@ cl:10108 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "more than 10 years"@en .
 
-cl:10109 a skos:Concept;
+et:10109 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[ NCIT ][ SUICIDEO ]* Division of a distribution into equal, ordered subgroups; a set of 'cut points' that divide a sample of data into groups containing (as far as possible) equal numbers of observations."@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48920>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "quantile"@en .
 
-cl:10110 a skos:Concept;
+et:10149 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[ SUICIDEO ][ NCIT ]* A measure of the range of values in a set of numbers. Standard deviation is a statistic used as a measure of the dispersion or variation in a distribution, equal to the square root of the arithmetic mean of the squares of the deviations from the arithmetic mean."@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53322>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "standard deviation"@en .
 
-cl:10111 a skos:Concept;
+et:20231 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[David B. Wilson] Meta-analysis is a statistical method of synthesizing quantitative results across studies examining a common research question.&nbsp;"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "meta analysis"@en .
 
-cl:10112 a skos:Concept;
+et:10148 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[DCM] Measure of the asymmetry of the probability distribution of a real-valued random variable about its mean."@en;
   skos:exactMatch <http://dicom.nema.org/resources/ontology/DCM/126051>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "skewness"@en .
 
-cl:10113 a skos:Concept;
+et:10151 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[ECG] A measure of the variability in a sample or population. It is calculated as the mean squared deviation (MSD) of the individual values from their common mean. In calculating the MSD, the divisor n is commonly used for a population variance and the divisor n-1 for a sample variance."@en;
   skos:exactMatch <http://www.cvrgrid.org/files/ECGOntologyv1.owl#ECG_000001079>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "variance"@en .
 
-cl:10114 a skos:Concept;
+et:10132 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[HUPSON] A statistical measure referring to the relationship between two random variables. It is a positive correlation when each variable tends to increase or decrease as the other does, and a negative or inverse correlation if one tends to increase as the other decreases. source: http://shodor.org/interactivate/dictionary/"@en;
   skos:exactMatch <http://scai.fraunhofer.de/HuPSON#SCAIVPH_00000266>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "correlation"@en .
 
-cl:10115 a skos:Concept;
+et:21585 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[Malika Khalili] Spatial autocorrelation is a correlation between the values of a single variable, considering their geographical locations."@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "spatial autocorrelation"@en .
 
-cl:10116 a skos:Concept;
+et:10131 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A data item with a specific table layout that allows visualization of the performance of an algorithm. Each column of the matrix represents the instances in a predicted class, while each row represents the instances in an actual class."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000145>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "confusion matrix"@en .
 
-cl:10117 a skos:Concept;
+et:10129 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A quantitative confidence value that is the standard deviation of a data set divided by the mean of the same data set; a normalized measure of dispersion of a probability distribution"@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000081>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "coefficient of variation"@en .
 
-cl:10118 a skos:Concept;
+et:10144 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[NCIT]* A measure of the expectation of the occurrence of a particular event."@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54154>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "probability"@en .
 
-cl:10119 a skos:Concept;
+et:10143 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009, cl:10012;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009, cl:10012;
   skos:definition "[NCIT]* Any of the 99 numbered points that divide an ordered set of scores into 100 parts each of which contains one-hundredth of the total."@en;
   skos:exactMatch <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48919>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "percentile"@en .
 
-cl:10120 a skos:Concept;
+et:10140 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009, cl:10012;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009, cl:10012;
   skos:definition "[NEMO] median is the middle value of a set of ordered observations. When there is an even number of observations the median is the average of two values that fall either side of what would be the middle value."@en;
   skos:exactMatch <http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3768000>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "median"@en .
 
-cl:10121 a skos:Concept;
+et:10141 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[NPO] A measure of central tendency which is the most frequently occurring value in a set of numerical values."@en;
   skos:exactMatch <http://purl.bioontology.org/ontology/npo#NPO_1802>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mode"@en .
 
-cl:10122 a skos:Concept;
+et:10134 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A quantitative confidence value that is used in Bayesian analysis to describe the range in which a posterior probability estimate is likely to reside."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000071>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "credible interval"@en .
 
-cl:10123 a skos:Concept;
+et:10130 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A quantitative confidence value that refers to an interval give values within which there is a high probability (95 percent by convention) that the true population value can be found. The calculation of a confidence interval considers the standard deviation of the data and the number of observations. Thus, a confidence interval narrows as the number of observations increases, or its variance (dispersion) decreases."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000070>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "confidence interval"@en .
 
-cl:10124 a skos:Concept;
+et:10137 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A quantitative confidence value that refers to the upper and lower values defining the central 50 percent of observations. The boundaries are equal to the 25th and 75th percentiles. The interquartile range can be depicted in a box and whiskers plot."@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000072>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "interquartile range"@en .
 
-cl:10125 a skos:Concept;
+et:10147 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[OCRE] The range is the difference between the lowest and highest numerical values; the limits or scale of variation."@en;
   skos:exactMatch <http://purl.org/net/OCRe/statistics.owl#OCRE200007>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "range (statistics)"@en .
 
-cl:10126 a skos:Concept;
+et:10138 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[RO]* Kurtosis is a measure of how outlier-prone a distribution is. The kurtosis of the normal distribution is 3. Distributions that are more outlier-prone than the normal distribution have kurtosis greater than 3; distributions that are less outlier-prone have kurtosis less than 3"@en;
   skos:exactMatch <http://www.semanticweb.org/alberto.traverso/ontologies/2017/1/RADIOMICS-ontology#OWLClass_010008>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "kurtosis"@en .
 
-cl:10127 a skos:Concept;
+et:10139 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009, cl:10012;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009, cl:10012;
   skos:definition "[SIO] A mean is the central tendency of a collection of numbers taken as the sum of the numbers divided by the size of the collection."@en;
   skos:exactMatch <http://semanticscience.org/resource/SIO_001109>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mean"@en .
 
-cl:10128 a skos:Concept;
+et:10135 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[STATO] a decile is a quantile where n=10 and which splits data into sections accrued of 10% of data, so the first decile delineates 10% of the data, the second decile delineates 20% of the data and the nineth decile, 90 % of the data"@en;
   skos:exactMatch <http://purl.obolibrary.org/obo/STATO_0000292>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "decile"@en .
 
-cl:10129 a skos:Concept;
+et:10146 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "[STATO] a quartile is a quantile which splits data into sections accrued of 25% of data, so the first quartile delineates 25% of the data, the second quartile delineates 50% of the data and the third quartile, 75 % of the data"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "quartile"@en .
 
-cl:10130 a skos:Concept;
+et:10128 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:definition "For a given positive natural number k, the k-th central moment of a random variable x is defined as k=E[(x−E[x])k]. That is, it is the expected value of the deviation from the mean to the power k. In particular, 0=1, 1=0 and 2 is the variance of x. [UncertML] http://www.uncertml.org/statistics/centred-moment"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "centred moment"@en .
 
-cl:10131 a skos:Concept;
+et:20241 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "neutral theory"@en .
 
-cl:10132 a skos:Concept;
+et:10133 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "covariance matrix"@en .
 
-cl:10133 a skos:Concept;
+et:10136 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "discrete probability"@en .
 
-cl:10134 a skos:Concept;
+et:10142 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "moment"@en .
 
-cl:10135 a skos:Concept;
+et:10027 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10009;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "changes over time"@en .
 
 cl:10136 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10010;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10145, cl:10009;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "high"@en .
 
@@ -1712,30 +1712,6 @@ cl:10183 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "statistical disaggregation"@en .
 
-et:10139 a skos:Concept;
-  dct:created "2022-03-28"^^xsd:date;
-  dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10012;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "mean"@en .
-
-et:10143 a skos:Concept;
-  dct:created "2022-03-28"^^xsd:date;
-  dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10012;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "percentile"@en .
-
-et:10140 a skos:Concept;
-  dct:created "2022-03-28"^^xsd:date;
-  dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10012;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "median"@en .
-
 cl:10184 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
@@ -1765,11 +1741,11 @@ cl:10187 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:30212, et:30218, et:30219, et:30220, et:30221, et:30229, et:30230,
-    et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238, et:30239,
-    et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247, et:30248,
-    et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256, et:30257,
-    et:30258, et:30259, et:30260, et:30261, et:30262;
+  skos:narrower et:30212, et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
+    et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
+    et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247,
+    et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256,
+    et:30257, et:30258, et:30259, et:30260, et:30261, et:30262;
   skos:prefLabel "MONERIS variable"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -1777,14 +1753,13 @@ et:30217 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
-  skos:broadMatch cl:10187;
-  skos:broader et:20935;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of slope <1% arable land of catchment"@en;
-  skos:related et:21533;
-  iop:hasContextObject et:30213;
-  iop:hasMatrix et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_01001177> .
+  iop:hasConstraint et:30213;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
 
 et:30218 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1793,22 +1768,22 @@ et:30218 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of slope 1-2% arable land of catchment"@en;
-  skos:related et:21533;
-  iop:hasContextObject et:30214;
-  iop:hasMatrix et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_01001177> .
+  iop:hasConstraint et:30214;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
 
 et:30219 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of slope 3-4% arable land of catchment"@en;
-  skos:related et:21533;
-  iop:hasContextObject et:30215;
-  iop:hasMatrix et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_01001177> .
+  iop:hasConstraint et:30215;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
 
 et:30220 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1817,10 +1792,10 @@ et:30220 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of slope 4-8% arable land of catchment"@en;
-  skos:related et:21533;
-  iop:hasContextObject et:30205;
-  iop:hasMatrix et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_01001177> .
+  iop:hasConstraint et:30205;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
 
 et:30221 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1829,10 +1804,10 @@ et:30221 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of slope >8% arable land of catchment"@en;
-  skos:related et:21533;
-  iop:hasContextObject et:30216;
-  iop:hasMatrix et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_01001177> .
+  iop:hasConstraint et:30216;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
 
 et:30229 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1841,9 +1816,9 @@ et:30229 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of grassland of catchment"@en;
-  skos:related et:21533;
-  iop:hasMatrix et:10092;
-  iop:hasProperty et:21855 .
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:21855;
+  iop:hasProperty et:21533 .
 
 et:30230 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1852,9 +1827,9 @@ et:30230 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of woodland and forest of catchment"@en;
-  skos:related et:21533;
-  iop:hasMatrix et:10092;
-  iop:hasProperty et:53 .
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:53;
+  iop:hasProperty et:21533 .
 
 et:30231 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1863,9 +1838,9 @@ et:30231 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of unvegetated land of catchment"@en;
-  skos:related et:21533;
-  iop:hasMatrix et:10092;
-  iop:hasProperty et:55 .
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:55;
+  iop:hasProperty et:21533 .
 
 et:30232 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1874,9 +1849,9 @@ et:30232 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of glacier of catchment"@en;
-  skos:related et:21533;
-  iop:hasMatrix et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_00000133> .
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00000133>;
+  iop:hasProperty et:21533 .
 
 et:30233 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1885,8 +1860,8 @@ et:30233 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "slope of catchment"@en;
-  skos:related <http://purl.obolibrary.org/obo/ENVO_00002000>;
-  iop:hasProperty et:10092 .
+  iop:hasObjectOfInterest et:10092;
+  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_00002000> .
 
 et:30234 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1895,11 +1870,11 @@ et:30234 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion in slope <1% arable land of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerAreaTime>;
-  iop:hasContextObject et:30213;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:30213;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
 et:30235 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1908,11 +1883,11 @@ et:30235 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion in slope 1-2% arable land of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerAreaTime>;
-  iop:hasContextObject et:30214;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:30214;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
 et:30236 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1921,11 +1896,11 @@ et:30236 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion in slope 3-4% arable land of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerAreaTime>;
-  iop:hasContextObject et:30215;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:30215;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
 et:30237 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1934,11 +1909,11 @@ et:30237 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion in slope 4-8% arable land of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerAreaTime>;
-  iop:hasContextObject et:30205;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:30205;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
 et:30238 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1947,11 +1922,11 @@ et:30238 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion in slope >8% arable land of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerAreaTime>;
-  iop:hasContextObject et:30216;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:30216;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
 et:30239 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1960,9 +1935,9 @@ et:30239 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerAreaTime>;
-  iop:hasMatrix et:10092;
-  iop:hasProperty et:21286 .
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
 et:30240 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1971,10 +1946,10 @@ et:30240 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion in grassland of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerAreaTime>;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest et:21855;
-  iop:hasProperty et:21286 .
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:21855;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
 et:30241 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1983,10 +1958,10 @@ et:30241 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of with conservation tillage arable land of catchment"@en;
-  skos:related et:21533;
-  iop:hasContextObject et:30222;
-  iop:hasMatrix et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_01001177> .
+  iop:hasConstraint et:30222;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
 
 et:30242 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1996,10 +1971,10 @@ et:30242 a skos:Concept;
   skos:definition "different types of phosphorus: organic, inorganic, which is measured as Total Posphorus"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of accumulated surplus total phosphorus of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasContextObject et:30263;
-  iop:hasMatrix et:10092;
-  iop:hasProperty et:20863 .
+  iop:hasConstraint et:30263;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:20863;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30243 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2008,9 +1983,9 @@ et:30243 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of arable land of catchment"@en;
-  skos:related et:21533;
-  iop:hasMatrix et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_01001177> .
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasProperty et:21533 .
 
 et:30244 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2019,10 +1994,10 @@ et:30244 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion in arable land of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerAreaTime>;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21286 .
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
 et:30245 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2032,8 +2007,8 @@ et:30245 a skos:Concept;
   skos:definition "used for calculation of Im-BE; Current agricultural soil loss"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "correction of R-factor"@en;
-  skos:related et:30225;
-  iop:hasProperty et:30224 .
+  iop:hasObjectOfInterest et:30224;
+  iop:hasProperty et:30225 .
 
 et:30246 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2043,11 +2018,11 @@ et:30246 a skos:Concept;
   skos:definition "used to calculate Im-BE; soil loss from arable land is modified by specific actual (2007-2013) R-factor (precipitation intensities and amounts, which are not described by long-year averages)"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of actual soil erosion in arable land of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasContextObject et:10314;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:10314;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30247 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2056,11 +2031,11 @@ et:30247 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of actual soil erosion in woodland and forest of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasContextObject et:10315;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest et:53;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:10315;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:53;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30248 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2069,11 +2044,11 @@ et:30248 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of actual soil erosion in unvegetated land of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasContextObject et:10315;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest et:55;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:10315;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:55;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30249 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2082,11 +2057,11 @@ et:30249 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of actual soil erosion in glacier of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasContextObject et:10315;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00000133>;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:10315;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_00000133>;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30250 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2095,10 +2070,10 @@ et:30250 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of actual soil erosion of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasContextObject et:10315;
-  iop:hasMatrix et:10092;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:10315;
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30251 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2108,10 +2083,10 @@ et:30251 a skos:Concept;
   skos:definition "Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "portion of soil erosion in sediment of catchment"@en;
-  skos:related et:30207;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest et:20899;
-  iop:hasProperty et:21286 .
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:20899;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty et:30207 .
 
 et:30252 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2121,10 +2096,10 @@ et:30252 a skos:Concept;
   skos:definition "Amount of soils, which enter the surface water"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of soil erosion in sediment of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest et:20899;
-  iop:hasProperty et:21286 .
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:20899;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30253 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2133,10 +2108,10 @@ et:30253 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "content of clay in topsoil of catchment"@en;
-  skos:related et:21546;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://sweetontology.net/realmSoil/Topsoil>;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_00002982> .
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
+  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00002982>;
+  iop:hasProperty et:21546 .
 
 et:30254 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2145,11 +2120,11 @@ et:30254 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "content of basis total phosphorus in agricultural topsoil of catchment"@en;
-  skos:related et:21546;
-  iop:hasContextObject et:21873;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://sweetontology.net/realmSoil/Topsoil>;
-  iop:hasProperty et:20863 .
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
+  iop:hasObjectOfInterest et:20863;
+  iop:hasProperty et:21546 .
 
 et:30255 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2158,11 +2133,11 @@ et:30255 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "content of total phosphorus in agricultural topsoil of catchment"@en;
-  skos:related et:21546;
-  iop:hasContextObject et:21873;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest <http://sweetontology.net/realmSoil/Topsoil>;
-  iop:hasProperty et:20863 .
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
+  iop:hasObjectOfInterest et:20863;
+  iop:hasProperty et:21546 .
 
 et:30256 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2171,9 +2146,9 @@ et:30256 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "enrichment ratio of total phosphorus in catchment"@en;
-  skos:related et:30226;
-  iop:hasMatrix et:10092;
-  iop:hasProperty et:20863 .
+  iop:hasContextObject et:10092;
+  iop:hasObjectOfInterest et:20863;
+  iop:hasProperty et:30226 .
 
 et:30257 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2182,11 +2157,11 @@ et:30257 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of agricultural soil erosion in sediment of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasContextObject et:21873;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest et:20899;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:20899;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30258 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2195,11 +2170,11 @@ et:30258 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area of natural soil erosion in sediment of catchment"@en;
-  skos:related <http://qudt.org/vocab/quantitykind/MassPerArea>;
-  iop:hasContextObject et:30227;
-  iop:hasMatrix et:10092;
-  iop:hasObjectOfInterest et:20899;
-  iop:hasProperty et:21286 .
+  iop:hasConstraint et:30227;
+  iop:hasContextObject et:10092;
+  iop:hasMatrix et:20899;
+  iop:hasObjectOfInterest et:21286;
+  iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
 et:30259 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2208,10 +2183,10 @@ et:30259 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "emission of total phosphorus from agricultural soil erosion"@en;
-  skos:related et:21934;
-  iop:hasContextObject et:21873;
-  iop:hasMatrix et:21286;
-  iop:hasProperty et:20863 .
+  iop:hasConstraint et:21873;
+  iop:hasContextObject et:21286;
+  iop:hasObjectOfInterest et:20863;
+  iop:hasProperty et:21934 .
 
 et:30260 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2220,10 +2195,10 @@ et:30260 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "emission of total phosphorus from natural soil erosion"@en;
-  skos:related et:21934;
-  iop:hasContextObject et:30227;
-  iop:hasMatrix et:21286;
-  iop:hasProperty et:20863 .
+  iop:hasConstraint et:30227;
+  iop:hasContextObject et:21286;
+  iop:hasObjectOfInterest et:20863;
+  iop:hasProperty et:21934 .
 
 et:30261 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2232,19 +2207,19 @@ et:30261 a skos:Concept;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "emission of total phosphorus from diffuse sources"@en;
-  skos:related et:21934;
-  iop:hasMatrix et:30228;
-  iop:hasProperty et:20863 .
+  iop:hasContextObject et:30228;
+  iop:hasObjectOfInterest et:20863;
+  iop:hasProperty et:21934 .
 
 et:30262 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "total emission of total phosphorus"@en;
-  skos:related et:21934;
-  iop:hasProperty et:20863 .
+  iop:hasObjectOfInterest et:20863;
+  iop:hasProperty et:21934 .
 
 cl:10188 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2271,7 +2246,7 @@ et:21747 a skos:Concept;
   dct:contributor "2016-03-31T00:00:00Z"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:30031, cl:10189;
   skos:definition "[GEMET] The science that treats the occurrence, circulation, distribution, and properties of the waters of the earth, and their reaction with the environment."@en;
   skos:editorialNote "US LTER controlled vocabulary"@en;
@@ -2284,8 +2259,7 @@ et:21747 a skos:Concept;
     "hidrologija"@sk, "hidrología"@el, "hidroloģija"@lt, "hidrológia"@hr, "hydrologi"@cs,
     "hydrologi"@nl, "hydrologi"@sl, "hydrologia"@no, "hydrologie"@bg, "hydrologie"@fi,
     "hydrologie"@lv, "hydrology"@en, "hydrológia"@ro, "hüdroloogia"@es, "idrologia"@hu,
-    "vesitiede, hydrologia"@et, "υδρολογία"@da, "Хидрология"@ar, "الهيدرولوجيا - علم المياه"@de;
-  iop:hasConstraint "[controlled by ] Lars Lundin 20130611"@en .
+    "vesitiede, hydrologia"@et, "υδρολογία"@da, "Хидрология"@ar, "الهيدرولوجيا - علم المياه"@de .
 
 et:29 a skos:Concept;
   dct:contributor "2013-02-14T15:32:15Z"@en;
@@ -2302,8 +2276,7 @@ et:29 a skos:Concept;
     "morfologie"@lv, "morfologie"@pt, "morfologija"@fr, "morfologija"@ja, "morfologija"@sk,
     "morfología (biológica)"@el, "morfoloogia, kujuõpetus"@es, "morfoloģija"@lt, "morfológia"@hr,
     "morfológia"@ro, "morphologie"@fi, "morphology"@en, "μορφολογία"@da, "Прахова емисия"@ar,
-    "المورفولوجيا"@de;
-  iop:hasConstraint "22 May 2013"@en, "[controlled by ] Mark Frenzel"@en .
+    "المورفولوجيا"@de .
 
 et:20117 a skos:Concept;
   dct:contributor "2016-03-31T00:00:00Z"@en;
@@ -2315,8 +2288,7 @@ et:20117 a skos:Concept;
   skos:exactMatch <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/105240>, <http://www.eionet.europa.eu/gemet/concept/4466>,
     <https://vocab.lternet.edu/vocab/vocab/?tema=270>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "inventory"@en;
-  iop:hasConstraint "2013-08-22"@en, "[controlled by ] U Grandin"@en .
+  skos:prefLabel "inventory"@en .
 
 et:30264 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2359,8 +2331,7 @@ et:21285 a skos:Concept;
   skos:prefLabel "eroosio"@et, "erosie"@lv, "erosion"@cs, "erosion"@en, "erosion"@sl,
     "erosione"@hu, "erosioon, uuristus"@es, "erosión"@el, "erosjon"@nl, "erosão"@pl, "eroze"@bg,
     "erozija"@fr, "erozija"@ja, "erozija"@lt, "erozija"@sk, "eroziune"@pt, "erozja"@no,
-    "erózia"@ro, "erózió"@hr, "érosion"@fi, "διάβρωση"@da, "Ерозия"@ar, "تآكل"@de;
-  iop:hasConstraint "[controlled by ] Staszewski 08.06.2013"@en .
+    "erózia"@ro, "erózió"@hr, "érosion"@fi, "διάβρωση"@da, "Ерозия"@ar, "تآكل"@de .
 
 et:21934 a skos:Concept;
   dct:contributor "2016-03-31T00:00:00Z"@en;
@@ -2414,8 +2385,7 @@ et:21752 a skos:Concept;
     "meteorologia"@hu, "meteorologia"@no, "meteorologia"@pl, "meteorologie"@bg, "meteorologie"@pt,
     "meteorologija"@fr, "meteorologija"@ja, "meteorologija, vremenoslovje"@sk, "meteorology"@en,
     "meteoroloogia"@es, "meteoroloģija"@lt, "meteorológia"@hr, "meteorológia"@ro, "météorologie"@fi,
-    "säätiede, ilmatiede"@et, "weerkunde"@lv, "μετεωρολογία"@da, "Метеорология"@ar, "علم الأرصاد الجوية"@de;
-  iop:hasConstraint "23/05/2013"@en, "[controlled by ] Giorgio Matteucci"@en .
+    "säätiede, ilmatiede"@et, "weerkunde"@lv, "μετεωρολογία"@da, "Метеорология"@ar, "علم الأرصاد الجوية"@de .
 
 cl:10192 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2485,8 +2455,7 @@ cl:10199 a skos:Concept;
   skos:editorialNote "US LTER controlled vocabulary"@en;
   skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=135>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "datalogger"@en;
-  iop:hasConstraint "\"[source of definition ] wikipedia"@en, "[controlled by ] Neagu Stefan 31/05/13\""@en .
+  skos:prefLabel "datalogger"@en .
 
 cl:10200 a skos:Concept;
   dct:contributor "2015-05-19T13:24:09Z"@en;
@@ -3399,6 +3368,11 @@ et:30212 a skos:Concept;
   skos:prefLabel "catchment area"@en;
   iop:hasObjectOfInterest et:10092;
   iop:hasProperty et:21533 .
+
+et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
+    et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10139, et:10140,
+    et:10141, et:10142, et:10143, et:10144, et:10146, et:10147, et:10148, et:10149, et:10151,
+    et:20231, et:20241, et:21585, cl:10136 .
 
 et:20935 skos:narrower et:30212, et:30217, et:30218, et:30219, et:30220, et:30221,
     et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237,
