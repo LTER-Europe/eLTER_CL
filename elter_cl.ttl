@@ -35,7 +35,7 @@
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10200, cl:10211, cl:10223, cl:10228,
     cl:10235, cl:10301, cl:10304, cl:10311, cl:10315, cl:10317, cl:10325, cl:10331, cl:10337,
-    cl:10343, cl:10346 .
+    cl:10343, cl:10346, cl:10365 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3362,12 +3362,267 @@ cl:10364 a skos:Concept;
 et:30212 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "catchment area"@en;
   iop:hasObjectOfInterest et:10092;
   iop:hasProperty et:21533 .
+
+cl:10365 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20790, et:21155, et:21176, et:21202, et:21263, cl:10366, cl:10372,
+    cl:10379;
+  skos:prefLabel "eLTER Standard Observations"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10366 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10365;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20506, et:20915, et:20917, et:24, cl:10371;
+  skos:prefLabel "abiotic site characteristics"@en .
+
+et:20506 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:21753, cl:10366;
+  skos:definition "[MESH] The longterm manifestations of WEATHER. (McGraw-Hill Dictionary of Scientific and Technical Terms, 6th ed)"@en;
+  skos:exactMatch <http://purl.bioontology.org/ontology/MESH/D002980>, <http://purl.obolibrary.org/obo/ENVO_01001082>,
+    <http://www.eionet.europa.eu/gemet/concept/1462>, <https://vocab.lternet.edu/vocab/vocab/?tema=109>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Klima"@de, "clima"@es, "clima"@it, "clima"@pt, "climat"@fr, "climate"@en,
+    "climă"@ro, "ilmasto"@fi, "kliima"@et, "klima"@da, "klima"@hr, "klima"@no, "klimaat"@nl,
+    "klimat"@pl, "klimat"@sv, "klimatas"@lt, "klimats"@lv, "klíma"@sk, "podnebje, klima"@sl,
+    "podnebí"@cs, "éghajlat"@hu, "κλίμα"@el, "Климат"@bg, "مناخ"@ar, "气候"@zh, "気候"@ja .
+
+et:20917 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:altLabel "ground water"@en;
+  skos:broader et:20538, et:21176, et:21202, cl:10366, cl:10379;
+  skos:definition "[Henderson's] n. (1) water that sinks down through soil and rock and collects in underground aquifers."@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_3391>, <http://en.wikipedia.org/wiki/groundwater>,
+    <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/28120>, <http://www.eionet.europa.eu/gemet/concept/3780>,
+    <https://vocab.lternet.edu/vocab/vocab/?tema=235>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Grundwasser"@de, "acqua sotterranea"@it, "agua subterránea"@es, "ape subterane"@ro,
+    "eaux souterraines"@fr, "grondwater"@nl, "groundwater"@en, "grunnvann"@no, "gruntinis vanduo"@lt,
+    "gruntsūdens"@lv, "podtalnica"@sl, "podzemne vode"@hr, "podzemná voda"@sk, "pohjavesi"@fi,
+    "põhjavesi"@et, "talajvíz"@hu, "voda podzemní"@cs, "woda gruntowa"@pl, "águas intersticiais"@pt,
+    "υπόγειο νερό"@el, "Подпочвени води"@bg, "مياه جوفية"@ar, "地下水"@ja, "地下水"@zh;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:20915 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  owl:deprecated "False"@en;
+  skos:altLabel "lakes"@en;
+  skos:broader et:21176, et:21202, et:32, cl:10366, cl:10379;
+  skos:definition "[GEMET] An enclosed body of water, usually but not necessarily fresh water, from which the sea is excluded."@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_4160>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/41590>,
+    <http://purl.obolibrary.org/obo/ENVO_00000020>, <https://vocab.lternet.edu/vocab/vocab/?tema=278>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "lake"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:24 a skos:Concept;
+  dct:contributor "0000-0003-0631-8231"@en;
+  dct:created "2013-02-14"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10003, et:21202, cl:10366;
+  skos:definition "[GEMET] The top layer of the land surface of the earth that is composed of disintegrated rock particles, humus, water and air."@en;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_00001998>, <http://www.eionet.europa.eu/gemet/concept/7843>,
+    <https://vocab.lternet.edu/vocab/vocab/?tema=535>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:note "[controlled by ] Lars Lundin 20130614"@en;
+  skos:prefLabel "Boden"@de, "augsne"@lv, "bodem"@nl, "dirvožemis, gruntas"@lt, "gleba"@pl,
+    "jord"@da, "jord"@sv, "jordsmonn"@no, "maaperä"@fi, "muld"@et, "pôda"@sk, "půda"@cs,
+    "soil"@en, "sol"@fr, "sol"@ro, "solos"@pt, "suelos"@es, "suolo"@it, "talaj"@hu, "tla, prst, zemlja"@sl,
+    "tlo"@hr, "έδαφος"@el, "Почва"@bg, "تربة"@ar .
+
+cl:10371 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:21176, et:21202, cl:10366, cl:10379;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "streams/rivers"@en .
+
+cl:10372 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10365;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20715, cl:10373, cl:10374, cl:10375, cl:10376, cl:10377, cl:10378;
+  skos:prefLabel "socio-ecology"@en .
+
+cl:10373 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10372;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "agriculture and forestry"@en .
+
+cl:10374 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10372;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "governance and stakeholders"@en .
+
+cl:10375 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10372;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "land use and land cover change"@en .
+
+cl:10376 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10372;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "platform characteristics"@en .
+
+et:20715 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:altLabel "populations"@en;
+  skos:broader et:20708, cl:10372;
+  skos:definition "[Henderson's] n. a group of individuals of the same species living in a certain deﬁned area."@en;
+  skos:exactMatch <http://en.wikipedia.org/wiki/populations>, <https://vocab.lternet.edu/vocab/vocab/?tema=439>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "population"@en;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+cl:10377 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10372;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "resource use"@en .
+
+cl:10378 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10372;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "transportation and industry"@en .
+
+cl:10379 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:10365, cl:10379;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20915, et:20917, et:21880, cl:10371, cl:10379;
+  skos:prefLabel "biotic heterogeneity"@en, "terrestrial/aquatic"@en .
+
+et:21880 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:10313, cl:10379;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "terrestrial"@en;
+  skos:scopeNote "GEO-BON Biome"@en .
+
+et:21155 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:20950, cl:10365;
+  skos:definition "[Henderson's] balance of energy input and use in a biological system. It is expressed as consumption (C) = production (P) + respiration (R) + rejecta (faeces and urine) (F + U). see also assimilated energy."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "energy budget"@en .
+
+et:20790 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:20935, et:21176, cl:10365, cl:21155;
+  skos:definition "[Henderson's] n. (1) total weight, volume or energy equivalent of organisms in a given area; (2) plant materials and animal wastes used as a source of fuel or other industrial products; (3) in biotechnology, the micro&shy;bial matter in the system."@en;
+  skos:editorialNote "too unspecific for the concept of biological substance (this should be something which can be classified in a chemical way)"@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_926>, <http://en.wikipedia.org/wiki/biomass>,
+    <http://eurovoc.europa.eu/4930>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/30170>,
+    <http://www.eionet.europa.eu/gemet/concept/883>, <https://vocab.lternet.edu/vocab/vocab/?tema=68>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Biomasse"@de, "biomasa"@cs, "biomasa"@es, "biomasa"@lv, "biomasa"@pl,
+    "biomasa"@sk, "biomasa"@sl, "biomass"@en, "biomass"@hr, "biomass, elusaine hulk"@et,
+    "biomassa"@fi, "biomassa"@it, "biomassa"@nl, "biomassa"@pt, "biomassa"@sv, "biomasse"@da,
+    "biomasse"@fr, "biomasse"@no, "biomassza"@hu, "biomasă"@ro, "biomasė"@lt, "βιομάζα"@el,
+    "Биомаса"@bg, "الكتلة الحيوية"@ar, "生物产量"@zh, "生物体系学"@ja;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:20791 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader cl:21155;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "radiation budget"@en .
+
+et:21077 a skos:Concept;
+  dct:created "2016-10-12"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:altLabel "NEE"@en;
+  skos:broader et:20982, et:21176, cl:21155;
+  skos:definition "pNet Ecosystem Exchange (NEE) and Net Ecosystem Production (NEP) refer to net primary production minus carbon losses in heterotrophic respiration, Rh: NEE = NEP = NPP - Rh/p"@en;
+  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=883>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:note "Definition from: http://www.steverox.info/Downloads/Software/C%20Accounting%20Definitions.pdf"@en;
+  skos:prefLabel "net ecosystem exchange"@en;
+  skos:scopeNote "MS Academic Keywords"@en .
+
+et:21202 a skos:Concept;
+  dct:created "2013-02-14"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:21243, cl:10365;
+  skos:definition "[Henderson's] the balance between the water intake of an organism directly, in food, and as metabolic water, and the water lost by excretion and evaporation."@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_8311>, <http://en.wikipedia.org/wiki/water_balance>,
+    <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/22220>, <https://vocab.lternet.edu/vocab/vocab/?tema=618>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20915, et:20917, et:24, cl:10371, cl:10380;
+  skos:note "[controlled by ] Leca Stefan 14.06.2013"@en;
+  skos:prefLabel "water balance"@en, "水分平衡"@zh, "水収支"@ja;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+cl:10380 a skos:Concept;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:21202;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "streams/rivers/lakes"@en .
+
+et:21176 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:20950, cl:10365;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20790, et:20915, et:20917, et:21077, cl:10371;
+  skos:prefLabel "matter budget"@en .
+
+et:21263 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2022-04-11"^^xsd:date;
+  skos:broader et:20950, cl:10365;
+  skos:definition "The process by which polluting material is precipitated from the atmosphere and accumulates in ecosystems."@en;
+  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_36094>, <https://vocab.lternet.edu/vocab/vocab/?tema=49>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "atmospheric deposition"@en, "大气沉降"@zh, "大気降下物"@ja;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
@@ -3376,18 +3631,34 @@ et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:1013
 
 et:10127 skos:narrower et:10139, et:10140, et:10143 .
 
-et:20935 skos:narrower et:30212, et:30217, et:30218, et:30219, et:30220, et:30221,
-    et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237,
-    et:30238, et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246,
-    et:30247, et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255,
-    et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262 .
+et:20935 skos:narrower et:20790, et:30212, et:30217, et:30218, et:30219, et:30220,
+    et:30221, et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236,
+    et:30237, et:30238, et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245,
+    et:30246, et:30247, et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254,
+    et:30255, et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262 .
 
 et:30031 skos:narrower et:21747, et:21752, et:29 .
 
 et:20118 skos:narrower et:20117 .
 
-et:20538 skos:narrower et:30264 .
+et:20538 skos:narrower et:20917, et:30264 .
 
-et:20950 skos:narrower et:21285 .
+et:20950 skos:narrower et:21155, et:21176, et:21263, et:21285 .
 
 et:20748 skos:narrower et:20854, et:21934 .
+
+et:21753 skos:narrower et:20506 .
+
+et:32 skos:narrower et:20915 .
+
+et:10003 skos:narrower et:24 .
+
+et:20708 skos:narrower et:20715 .
+
+et:10313 skos:narrower et:21880 .
+
+cl:21155 skos:narrower et:20790, et:20791, et:21077 .
+
+et:20982 skos:narrower et:21077 .
+
+et:21243 skos:narrower et:21202 .
