@@ -35,7 +35,7 @@
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10200, cl:10211, cl:10223, cl:10228,
     cl:10235, cl:10301, cl:10304, cl:10311, cl:10315, cl:10317, cl:10325, cl:10331, cl:10337,
-    cl:10343, cl:10346, cl:10365 .
+    cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10413 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3151,7 +3151,7 @@ cl:10340 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10337;
+  skos:broader cl:10337, cl:10402;
   skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01000608>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "boat"@en .
@@ -3527,11 +3527,12 @@ et:21880 a skos:Concept;
   skos:scopeNote "GEO-BON Biome"@en .
 
 cl:10381 a skos:Concept;
-  dct:created "2022-04-11"^^xsd:date;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:created "2022-04-11"^^xsd:date, "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date, "2022-04-15"^^xsd:date;
   skos:broader cl:10379;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "terrestrial/aquatic"@en .
+  skos:narrower cl:10382, cl:10383, cl:10384, cl:10385, cl:10386;
+  skos:prefLabel "GEO-BON Biome"@en, "terrestrial/aquatic"@en .
 
 et:21155 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
@@ -3546,7 +3547,7 @@ et:21155 a skos:Concept;
 et:20790 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
   skos:broader et:20935, et:21155, et:21176;
   skos:definition "[Henderson's] n. (1) total weight, volume or energy equivalent of organisms in a given area; (2) plant materials and animal wastes used as a source of fuel or other industrial products; (3) in biotechnology, the micro&shy;bial matter in the system."@en;
   skos:editorialNote "too unspecific for the concept of biological substance (this should be something which can be classified in a chemical way)"@en;
@@ -3614,13 +3615,231 @@ et:21176 a skos:Concept;
 et:21263 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
   skos:broader et:20950, et:21176;
   skos:definition "The process by which polluting material is precipitated from the atmosphere and accumulates in ecosystems."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_36094>, <https://vocab.lternet.edu/vocab/vocab/?tema=49>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "atmospheric deposition"@en, "大气沉降"@zh, "大気降下物"@ja;
   skos:scopeNote "US LTER controlled vocabulary"@en .
+
+cl:10382 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10381, cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Marine"@en .
+
+cl:10383 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10381, cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Coastal"@en .
+
+cl:10384 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10381, cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Fresh water lakes"@en .
+
+cl:10385 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10381, cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Fresh water rivers"@en .
+
+cl:10386 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10381;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Terrestrial"@en .
+
+cl:10387 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10382, cl:10383, cl:10384, cl:10385, cl:10388, cl:10389, cl:10390,
+    cl:10391, cl:10392, cl:10393, cl:10394, cl:10395, cl:10396, cl:10397, cl:10398, cl:10399,
+    cl:10400, cl:10401;
+  skos:prefLabel "Biome"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10388 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Agricultural"@en .
+
+cl:10389 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Alpine"@en .
+
+cl:10390 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Chaparral"@en .
+
+cl:10391 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Deciduous Forest"@en .
+
+cl:10392 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Evergreen Forest"@en .
+
+cl:10393 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Mixed Forest"@en .
+
+cl:10394 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Desert"@en .
+
+cl:10395 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Desert-scrub"@en .
+
+cl:10396 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Grasslands"@en .
+
+cl:10397 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Rainforest"@en .
+
+cl:10398 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Savanna"@en .
+
+cl:10399 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Taiga"@en .
+
+cl:10400 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Tundra"@en .
+
+cl:10401 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Urban"@en .
+
+cl:10402 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10340, cl:10403, cl:10404, cl:10405, cl:10406, cl:10407;
+  skos:prefLabel "access type"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10403 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10402;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "cable car"@en .
+
+cl:10404 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10402;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "dirt road"@en .
+
+cl:10405 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10402;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "trail"@en .
+
+cl:10406 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10402;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "paved road"@en .
+
+cl:10407 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10402;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "regular car"@en .
+
+cl:10408 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10409, cl:10410, cl:10411, cl:10412;
+  skos:prefLabel "design of observation"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10409 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10408;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "mainly observation"@en .
+
+cl:10410 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10408;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "no observation of natural environment"@en .
+
+cl:10411 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10408;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "only observation"@en .
+
+cl:10412 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10408;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "partly observation"@en .
+
+cl:10413 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10414, cl:10415;
+  skos:prefLabel "permanent power supply location"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10414 a skos:Concept;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10413;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "catchment"@en .
+
+cl:10415 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10413;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "central station"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
