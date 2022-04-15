@@ -3527,12 +3527,11 @@ et:21880 a skos:Concept;
   skos:scopeNote "GEO-BON Biome"@en .
 
 cl:10381 a skos:Concept;
-  dct:created "2022-04-11"^^xsd:date, "2022-04-15"^^xsd:date;
-  dct:modified "2022-04-11"^^xsd:date, "2022-04-15"^^xsd:date;
+  dct:created "2022-04-11"^^xsd:date;
+  dct:modified "2022-04-11"^^xsd:date;
   skos:broader cl:10379;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10382, cl:10383, cl:10384, cl:10385, cl:10386;
-  skos:prefLabel "GEO-BON Biome"@en, "terrestrial/aquatic"@en .
+  skos:prefLabel "terrestrial/aquatic"@en .
 
 et:21155 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
@@ -3623,35 +3622,43 @@ et:21263 a skos:Concept;
   skos:prefLabel "atmospheric deposition"@en, "大气沉降"@zh, "大気降下物"@ja;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
+cl:10415 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:modified "2022-04-15"^^xsd:date;
+  skos:broader cl:10413;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10382, cl:10383, cl:10384, cl:10385, cl:10386;
+  skos:prefLabel "GEO-BON Biome"@en, "central station"@en .
+
 cl:10382 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:modified "2022-04-15"^^xsd:date;
-  skos:broader cl:10381, cl:10387;
+  skos:broader cl:10387, cl:10415;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine"@en .
 
 cl:10383 a skos:Concept;
   dct:modified "2022-04-15"^^xsd:date;
-  skos:broader cl:10381, cl:10387;
+  skos:broader cl:10387, cl:10415;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Coastal"@en .
 
 cl:10384 a skos:Concept;
   dct:modified "2022-04-15"^^xsd:date;
-  skos:broader cl:10381, cl:10387;
+  skos:broader cl:10387, cl:10415;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Fresh water lakes"@en .
 
 cl:10385 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:modified "2022-04-15"^^xsd:date;
-  skos:broader cl:10381, cl:10387;
+  skos:broader cl:10387, cl:10415;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Fresh water rivers"@en .
 
 cl:10386 a skos:Concept;
   dct:modified "2022-04-15"^^xsd:date;
-  skos:broader cl:10381;
+  skos:broader cl:10415;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Terrestrial"@en .
 
@@ -3833,13 +3840,6 @@ cl:10414 a skos:Concept;
   skos:broader cl:10413;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "catchment"@en .
-
-cl:10415 a skos:Concept;
-  dct:created "2022-04-15"^^xsd:date;
-  dct:modified "2022-04-15"^^xsd:date;
-  skos:broader cl:10413;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "central station"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
