@@ -3455,13 +3455,15 @@ et:24 a skos:Concept;
 
 cl:10371 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-16"^^xsd:date;
   skos:broader et:21176, et:21202, cl:10366, cl:10379;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "streams/rivers"@en .
 
 cl:10372 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader cl:10365;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3470,6 +3472,7 @@ cl:10372 a skos:Concept;
 
 cl:10373 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader cl:10372;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3477,6 +3480,7 @@ cl:10373 a skos:Concept;
 
 cl:10374 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader cl:10372;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3484,6 +3488,7 @@ cl:10374 a skos:Concept;
 
 cl:10375 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader cl:10372;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3491,6 +3496,7 @@ cl:10375 a skos:Concept;
 
 cl:10376 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader cl:10372;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3510,13 +3516,15 @@ et:20715 a skos:Concept;
 
 cl:10377 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10372;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "resource use"@en .
 
 cl:10378 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader cl:10372;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3524,6 +3532,7 @@ cl:10378 a skos:Concept;
 
 cl:10379 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader cl:10365;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3541,7 +3550,8 @@ et:21880 a skos:Concept;
 
 cl:10381 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10379;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "terrestrial/aquatic"@en .
@@ -3576,7 +3586,8 @@ et:20790 a skos:Concept;
 
 et:20791 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-16"^^xsd:date;
   skos:broader et:21155;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "radiation budget"@en .
@@ -3610,7 +3621,8 @@ et:21202 a skos:Concept;
 
 cl:10380 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-16"^^xsd:date;
   skos:broader et:21202;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "streams/rivers/lakes"@en .
@@ -3637,7 +3649,8 @@ et:21263 a skos:Concept;
 
 cl:10416 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date, "2022-04-16"^^xsd:date;
-  dct:modified "2022-04-15"^^xsd:date, "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10382, cl:10383, cl:10384, cl:10385, cl:10386, cl:10417, cl:10418,
     cl:10419, cl:10420;
@@ -3646,6 +3659,7 @@ cl:10416 a skos:Concept;
 
 cl:10382 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "marine"@en;
   skos:broader cl:10387, cl:10416;
@@ -3653,6 +3667,8 @@ cl:10382 a skos:Concept;
   skos:prefLabel "Marine"@en .
 
 cl:10383 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "coastal"@en;
   skos:broader cl:10387, cl:10416;
@@ -3660,6 +3676,8 @@ cl:10383 a skos:Concept;
   skos:prefLabel "Coastal"@en .
 
 cl:10384 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "freshwater_lakes"@en;
   skos:broader cl:10387, cl:10416;
@@ -3668,6 +3686,7 @@ cl:10384 a skos:Concept;
 
 cl:10385 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "fresthwater_rivers"@en;
   skos:broader cl:10387, cl:10416;
@@ -3675,6 +3694,8 @@ cl:10385 a skos:Concept;
   skos:prefLabel "Fresh Water Rivers"@en .
 
 cl:10386 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "terrestrial"@en;
   skos:broader cl:10416;
@@ -3683,6 +3704,7 @@ cl:10386 a skos:Concept;
 
 cl:10387 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10382, cl:10383, cl:10384, cl:10385, cl:10388, cl:10389, cl:10390,
@@ -3692,6 +3714,8 @@ cl:10387 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10388 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "agricultural"@en;
   skos:broader cl:10387;
@@ -3699,6 +3723,8 @@ cl:10388 a skos:Concept;
   skos:prefLabel "Agricultural"@en .
 
 cl:10389 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "alpine"@en;
   skos:broader cl:10387;
@@ -3706,6 +3732,8 @@ cl:10389 a skos:Concept;
   skos:prefLabel "Alpine"@en .
 
 cl:10390 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "chaparral"@en;
   skos:broader cl:10387;
@@ -3713,6 +3741,8 @@ cl:10390 a skos:Concept;
   skos:prefLabel "Chaparral"@en .
 
 cl:10391 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "deciduous_forest"@en;
   skos:broader cl:10387;
@@ -3720,6 +3750,8 @@ cl:10391 a skos:Concept;
   skos:prefLabel "Deciduous Forest"@en .
 
 cl:10392 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "evergreen_forest"@en;
   skos:broader cl:10387;
@@ -3728,6 +3760,7 @@ cl:10392 a skos:Concept;
 
 cl:10393 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "mixed_forest"@en;
   skos:broader cl:10387;
@@ -3735,6 +3768,8 @@ cl:10393 a skos:Concept;
   skos:prefLabel "Mixed Forest"@en .
 
 cl:10394 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "desert"@en;
   skos:broader cl:10387;
@@ -3742,6 +3777,8 @@ cl:10394 a skos:Concept;
   skos:prefLabel "Desert"@en .
 
 cl:10395 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "desert_scub"@en;
   skos:broader cl:10387;
@@ -3749,6 +3786,8 @@ cl:10395 a skos:Concept;
   skos:prefLabel "Desert-scrub"@en .
 
 cl:10396 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "grasslands"@en;
   skos:broader cl:10387;
@@ -3756,6 +3795,8 @@ cl:10396 a skos:Concept;
   skos:prefLabel "Grasslands"@en .
 
 cl:10397 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "rainforest"@en;
   skos:broader cl:10387;
@@ -3763,6 +3804,8 @@ cl:10397 a skos:Concept;
   skos:prefLabel "Rainforest"@en .
 
 cl:10398 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "savanna"@en;
   skos:broader cl:10387;
@@ -3770,6 +3813,8 @@ cl:10398 a skos:Concept;
   skos:prefLabel "Savanna"@en .
 
 cl:10399 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "taiga"@en;
   skos:broader cl:10387;
@@ -3777,6 +3822,8 @@ cl:10399 a skos:Concept;
   skos:prefLabel "Taiga"@en .
 
 cl:10400 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "tundra"@en;
   skos:broader cl:10387;
@@ -3784,6 +3831,8 @@ cl:10400 a skos:Concept;
   skos:prefLabel "Tundra"@en .
 
 cl:10401 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "urban"@en;
   skos:broader cl:10387;
@@ -3792,6 +3841,7 @@ cl:10401 a skos:Concept;
 
 cl:10402 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10340, cl:10403, cl:10404, cl:10405, cl:10406, cl:10407;
@@ -3799,6 +3849,8 @@ cl:10402 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10403 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "cable_car"@en;
   skos:broader cl:10402;
@@ -3806,6 +3858,8 @@ cl:10403 a skos:Concept;
   skos:prefLabel "cable car"@en .
 
 cl:10404 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "dirt_road"@en;
   skos:broader cl:10402;
@@ -3813,6 +3867,8 @@ cl:10404 a skos:Concept;
   skos:prefLabel "dirt road"@en .
 
 cl:10405 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "footpath"@en;
   skos:broader cl:10402;
@@ -3821,6 +3877,7 @@ cl:10405 a skos:Concept;
 
 cl:10406 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "paved_road"@en;
   skos:broader cl:10402;
@@ -3828,6 +3885,8 @@ cl:10406 a skos:Concept;
   skos:prefLabel "paved road"@en .
 
 cl:10407 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "regular_car"@en;
   skos:broader cl:10402;
@@ -3836,6 +3895,7 @@ cl:10407 a skos:Concept;
 
 cl:10408 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10409, cl:10410, cl:10411, cl:10412;
@@ -3843,30 +3903,40 @@ cl:10408 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10409 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:broader cl:10408;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mainly observation"@en .
 
 cl:10410 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:broader cl:10408;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "no observation of natural environment"@en .
 
 cl:10411 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:broader cl:10408;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "only observation"@en .
 
 cl:10412 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:broader cl:10408;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "partly observation"@en .
 
 cl:10413 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10414, cl:10415;
@@ -3874,6 +3944,8 @@ cl:10413 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10414 a skos:Concept;
+  dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-15"^^xsd:date;
   skos:broader cl:10413;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3881,6 +3953,7 @@ cl:10414 a skos:Concept;
 
 cl:10415 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10413;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3888,18 +3961,23 @@ cl:10415 a skos:Concept;
 
 cl:10417 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10416;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mainly experimentation"@en .
 
 cl:10418 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10416;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "partly experimentation"@en .
 
 cl:10419 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10416;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3907,6 +3985,7 @@ cl:10419 a skos:Concept;
 
 cl:10420 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10416;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3914,6 +3993,7 @@ cl:10420 a skos:Concept;
 
 cl:10421 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10200, cl:10201, cl:10202, cl:10203, cl:10204, cl:10210;
@@ -3922,12 +4002,15 @@ cl:10421 a skos:Concept;
 
 cl:10422 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10235;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "data transmission type (from site)"@en .
 
 cl:10423 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10236, cl:10238, cl:10239, cl:10240, cl:10242, cl:10424;
@@ -3936,6 +4019,7 @@ cl:10423 a skos:Concept;
 
 cl:10424 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10423;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3943,6 +4027,7 @@ cl:10424 a skos:Concept;
 
 cl:10425 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10426, cl:10427, cl:10428;
@@ -3950,12 +4035,16 @@ cl:10425 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10426 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10425;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "existing"@en .
 
 cl:10427 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10425;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3963,6 +4052,7 @@ cl:10427 a skos:Concept;
 
 cl:10428 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "inactive"@en;
   skos:broader cl:10425;
@@ -3971,6 +4061,7 @@ cl:10428 a skos:Concept;
 
 cl:10429 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10430, cl:10431, cl:10432, cl:10433, cl:10434;
@@ -3978,24 +4069,32 @@ cl:10429 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10430 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10429;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "entire catchment"@en .
 
 cl:10431 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10429;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "plot within catchment"@en .
 
 cl:10432 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10429;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "plot without link to explicit catchment"@en .
 
 cl:10433 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10429;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4003,12 +4102,15 @@ cl:10433 a skos:Concept;
 
 cl:10434 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10429;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "beyond catchment"@en .
 
 cl:10435 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10227, cl:10436, cl:10437, cl:10438, cl:10439, cl:10440;
@@ -4017,12 +4119,15 @@ cl:10435 a skos:Concept;
 
 cl:10436 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10435;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "LTSER"@en .
 
 cl:10437 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "master"@en;
   skos:broader cl:10435;
@@ -4030,6 +4135,8 @@ cl:10437 a skos:Concept;
   skos:prefLabel "master site"@en .
 
 cl:10438 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "regular"@en;
   skos:broader cl:10435;
@@ -4037,6 +4144,8 @@ cl:10438 a skos:Concept;
   skos:prefLabel "regular site"@en .
 
 cl:10439 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "extensive"@en;
   skos:broader cl:10435;
@@ -4044,6 +4153,8 @@ cl:10439 a skos:Concept;
   skos:prefLabel "extensive site"@en .
 
 cl:10440 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:altLabel "emerging"@en;
   skos:broader cl:10435;
@@ -4052,6 +4163,7 @@ cl:10440 a skos:Concept;
 
 cl:10441 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10315;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4059,6 +4171,8 @@ cl:10441 a skos:Concept;
   skos:prefLabel "snow clearing frequency"@en .
 
 cl:10442 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10441;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4066,12 +4180,15 @@ cl:10442 a skos:Concept;
 
 cl:10443 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "permanent power produced"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10444 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10444;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4079,12 +4196,16 @@ cl:10444 a skos:Concept;
   skos:prefLabel "1-5 kW"@en .
 
 cl:10445 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10444;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "10-100 kW"@en .
 
 cl:10446 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10444;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4092,12 +4213,15 @@ cl:10446 a skos:Concept;
 
 cl:10447 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10444;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "less than 1 kW"@en .
 
 cl:10448 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10444;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4105,6 +4229,7 @@ cl:10448 a skos:Concept;
 
 cl:10449 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10450, cl:10451, cl:10456;
@@ -4112,6 +4237,8 @@ cl:10449 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10450 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10449;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4119,12 +4246,16 @@ cl:10450 a skos:Concept;
   skos:prefLabel "measurement tower"@en .
 
 cl:10451 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10449;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "temperature controlled container"@en .
 
 cl:10452 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10450;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4132,18 +4263,23 @@ cl:10452 a skos:Concept;
 
 cl:10453 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10450;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "less than 10 m above canopy"@en .
 
 cl:10454 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10450;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "more than 10 m above canopy"@en .
 
 cl:10455 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10450;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4151,6 +4287,7 @@ cl:10455 a skos:Concept;
 
 cl:10456 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10449;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
