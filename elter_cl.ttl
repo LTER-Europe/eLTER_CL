@@ -36,7 +36,7 @@
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10211, cl:10223, cl:10228, cl:10235,
     cl:10301, cl:10304, cl:10311, cl:10315, cl:10317, cl:10325, cl:10331, cl:10337, cl:10343,
     cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10413, cl:10416, cl:10421, cl:10423,
-    cl:10425, cl:10429, cl:10435, cl:10443, cl:10449, cl:10457 .
+    cl:10425, cl:10429, cl:10435, cl:10443, cl:10449, cl:10457, cl:10458 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -4298,6 +4298,13 @@ cl:10457 a skos:Concept;
   dct:modified "2022-09-27"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "infrastructure"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10458 a skos:Concept;
+  dct:created "2022-09-27"^^xsd:date;
+  dct:modified "2022-09-27"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "test"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
