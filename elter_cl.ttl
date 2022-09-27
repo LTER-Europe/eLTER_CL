@@ -4297,6 +4297,7 @@ cl:10457 a skos:Concept;
   dct:created "2022-09-27"^^xsd:date;
   dct:modified "2022-09-27"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "infrastructure"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
