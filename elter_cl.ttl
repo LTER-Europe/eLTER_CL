@@ -3427,7 +3427,7 @@ et:20915 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2022-04-11"^^xsd:date;
-  owl:deprecated "False"@en;
+  owl:deprecated false;
   skos:altLabel "lakes"@en;
   skos:broader et:21176, et:21202, et:32, cl:10366, cl:10379;
   skos:definition "[GEMET] An enclosed body of water, usually but not necessarily fresh water, from which the sea is excluded."@en;
