@@ -35,7 +35,7 @@
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10223, cl:10228, cl:10301, cl:10304,
     cl:10311, cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416,
-    cl:10425, cl:10429, cl:10435, cl:10457 .
+    cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -4323,6 +4323,104 @@ cl:10460 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10325, cl:10331, cl:10337;
   skos:prefLabel "supporting infrastructure"@en .
+
+cl:10461 a skos:Concept;
+  dct:created "2022-09-30"^^xsd:date;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10462, cl:10463, cl:10464, cl:10465;
+  skos:prefLabel "institution type"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10462 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10461;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "NGO"@en .
+
+cl:10463 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10461;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "government"@en .
+
+cl:10464 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10461;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "reserach center"@en .
+
+cl:10465 a skos:Concept;
+  dct:created "2022-09-30"^^xsd:date;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10461;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "university"@en .
+
+cl:10466 a skos:Concept;
+  dct:created "2022-09-30"^^xsd:date;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10467, cl:10468, cl:10469, cl:10470;
+  skos:prefLabel "data availability"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10467 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10466;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "available"@en .
+
+cl:10468 a skos:Concept;
+  dct:created "2022-09-30"^^xsd:date;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10466;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "by request"@en .
+
+cl:10469 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10466;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "not available"@en .
+
+cl:10470 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10466;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "only summary data (e.g. trends) available"@en .
+
+cl:10471 a skos:Concept;
+  dct:created "2022-09-30"^^xsd:date;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10472, cl:10473, cl:10474, cl:10475;
+  skos:prefLabel "willingness to share data"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10472 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10471;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "maybe, if I can control who uses it and how"@en .
+
+cl:10473 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10471;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "maybe, if I can get some funding in exchange"@en .
+
+cl:10474 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10471;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "yes, if I can get some assistance in doing it"@en .
+
+cl:10475 a skos:Concept;
+  dct:modified "2022-09-30"^^xsd:date;
+  skos:broader cl:10471;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "not yet determined"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
