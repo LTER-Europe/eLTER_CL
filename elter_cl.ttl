@@ -35,7 +35,7 @@
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10223, cl:10228, cl:10301, cl:10304,
     cl:10311, cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416,
-    cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471 .
+    cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2466,7 +2466,7 @@ cl:10200 a skos:Concept;
   skos:definition "The data type 'Data services' describes the availability of data services (e.g. WFS) to connect to the data."@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10201, cl:10202, cl:10203, cl:10204, cl:10205, cl:10206, cl:10207,
-    cl:10208, cl:10209, cl:10210;
+    cl:10208, cl:10209, cl:10210, cl:10481;
   skos:prefLabel "data service"@en .
 
 cl:10201 a skos:Concept;
@@ -2518,11 +2518,11 @@ cl:10205 a skos:Concept;
 cl:10206 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "rest_api"@en;
   skos:broader cl:10200;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "REST API"@en .
+  skos:prefLabel "REST-API"@en .
 
 cl:10207 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2553,8 +2553,8 @@ cl:10209 a skos:Concept;
 cl:10210 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
-  skos:broader cl:10200, cl:10421;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10200;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other data service"@en .
 
@@ -3646,13 +3646,12 @@ et:21263 a skos:Concept;
   skos:scopeNote "US LTER controlled vocabulary"@en .
 
 cl:10416 a skos:Concept;
-  dct:created "2022-04-15"^^xsd:date, "2022-04-16"^^xsd:date;
+  dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10382, cl:10383, cl:10384, cl:10385, cl:10386, cl:10417, cl:10418,
-    cl:10419, cl:10420;
-  skos:prefLabel "GEO-BON Biome"@en, "design of experimentation"@en;
+  skos:narrower cl:10382, cl:10383, cl:10384, cl:10385, cl:10386;
+  skos:prefLabel "GEO-BON Biome"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10382 a skos:Concept;
@@ -3858,20 +3857,20 @@ cl:10403 a skos:Concept;
 cl:10404 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "dirt_road"@en;
   skos:broader cl:10402;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "dirt road"@en .
+  skos:prefLabel "dirt road (4WD)"@en .
 
 cl:10405 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "footpath"@en;
   skos:broader cl:10402;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "trail"@en .
+  skos:prefLabel "footpath or trail"@en .
 
 cl:10406 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
@@ -3935,7 +3934,7 @@ cl:10412 a skos:Concept;
 cl:10413 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-09-30"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10459;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10414, cl:10415;
@@ -3957,19 +3956,28 @@ cl:10415 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "central station(s)"@en .
 
+cl:10480 a skos:Concept;
+  dct:created "2022-04-16"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10417, cl:10418, cl:10419, cl:10420;
+  skos:prefLabel "design of experimentation"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
 cl:10417 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
-  skos:broader cl:10416;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10480;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mainly experimentation"@en .
 
 cl:10418 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
-  skos:broader cl:10416;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10480;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "partly experimentation"@en .
 
@@ -3977,7 +3985,7 @@ cl:10419 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
-  skos:broader cl:10416;
+  skos:broader cl:10480;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "only experimentation"@en .
 
@@ -3985,7 +3993,7 @@ cl:10420 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-04-16"^^xsd:date;
-  skos:broader cl:10416;
+  skos:broader cl:10480;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "no experimentation"@en .
 
@@ -3995,7 +4003,7 @@ cl:10421 a skos:Concept;
   dct:modified "2022-09-30"^^xsd:date;
   skos:broader cl:10457;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10200, cl:10210, cl:10211;
+  skos:narrower cl:10200, cl:10211;
   skos:prefLabel "data infrastructure"@en .
 
 cl:10422 a skos:Concept;
@@ -4438,6 +4446,12 @@ cl:10479 a skos:Concept;
   skos:broader cl:10449;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "probe continuous measurement"@en .
+
+cl:10481 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10200;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "linked data service"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
