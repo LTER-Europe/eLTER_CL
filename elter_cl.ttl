@@ -36,7 +36,7 @@
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10223, cl:10228, cl:10301, cl:10304,
     cl:10311, cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416,
     cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482,
-    cl:10484, cl:10489, cl:10497, cl:10520 .
+    cl:10484, cl:10489, cl:10497, cl:10520, cl:10546 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3733,36 +3733,36 @@ cl:10389 a skos:Concept;
 cl:10390 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "chaparral"@en;
-  skos:broader cl:10387;
+  skos:broader cl:10387, cl:10523;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Chaparral"@en .
 
 cl:10391 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "deciduous_forest"@en;
-  skos:broader cl:10387;
+  skos:broader cl:10387, cl:10523;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Deciduous Forest"@en .
 
 cl:10392 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "evergreen_forest"@en;
-  skos:broader cl:10387;
+  skos:broader cl:10387, cl:10523;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Evergreen Forest"@en .
 
 cl:10393 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "mixed_forest"@en;
-  skos:broader cl:10387;
+  skos:broader cl:10387, cl:10523;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Mixed Forest"@en .
 
@@ -3798,9 +3798,9 @@ cl:10396 a skos:Concept;
 cl:10397 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "rainforest"@en;
-  skos:broader cl:10387;
+  skos:broader cl:10387, cl:10523;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Rainforest"@en .
 
@@ -3816,9 +3816,9 @@ cl:10398 a skos:Concept;
 cl:10399 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "taiga"@en;
-  skos:broader cl:10387;
+  skos:broader cl:10387, cl:10523;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Taiga"@en .
 
@@ -4714,37 +4714,44 @@ cl:10520 a skos:Concept;
 cl:10521 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10394;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Deserts and xeric shrublands"@en .
 
 cl:10522 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10394;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Xeric basins"@en .
 
 cl:10523 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10520;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10524, cl:10525, cl:10526, cl:10527, cl:10528, cl:10529, cl:10530;
+  skos:narrower cl:10390, cl:10391, cl:10392, cl:10393, cl:10397, cl:10399, cl:10524,
+    cl:10525, cl:10526, cl:10527, cl:10528, cl:10529, cl:10530;
   skos:prefLabel "Forest"@en .
 
 cl:10524 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10523;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Mangroves"@en .
 
 cl:10525 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10523;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Mediterranean forests, woodlands, and shrub"@en .
 
 cl:10526 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10523;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Temperate broadleaf and mixed forests"@en .
 
@@ -4752,115 +4759,261 @@ cl:10527 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10523;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Temperate coniferous forests"@en .
 
 cl:10528 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10523;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Tropical and subtropical coniferous forests"@en .
 
 cl:10529 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10523;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Tropical and subtropical dry broadleaf forests"@en .
 
 cl:10530 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10523;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Tropical and subtropical moist broadleaf forests"@en .
 
 cl:10531 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10396;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Flooded grasslands and savannas"@en .
 
 cl:10532 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10396;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Montane grasslands and shrublands"@en .
 
 cl:10533 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10396;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Temperate grasslands, savannas, and shrublands"@en .
 
 cl:10534 a skos:Concept;
   skos:broader cl:10396;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Tropical and subtropical grasslands, savannas, and shrublands"@en .
 
 cl:10535 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10519;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Large lakes"@en .
 
 cl:10536 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10519;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Small lakes"@en .
 
 cl:10537 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10382;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Temperate shelfs and seas"@en .
 
 cl:10538 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10382;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Temperate upwelling"@en .
 
 cl:10539 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10382;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Tropical coral"@en .
 
 cl:10540 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10382;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Tropical upwelling"@en .
 
 cl:10541 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10520;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Polar"@en .
 
 cl:10542 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10513;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Large river deltas"@en .
 
 cl:10543 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10513;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Large river headwaters"@en .
 
 cl:10544 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10513;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Large rivers"@en .
 
 cl:10545 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10513;
+  skos:closeMatch <https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Small rivers"@en .
+
+cl:10546 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:definition "A designated area of the Earth determined by the distribution of flora and fauna. The concept has been adoped by the European Union, which has recognised nine terrestrial biogeographical regions, each with its own characteristic blend of vegetation, climate and geology. Marine regions were created for practical reasons for the Article 17 reporting and they are used also in the assessment of marine Natura 2000 sites during biogeographical seminars and associated bilateral meetings (EEA, 2002)."@en;
+  skos:exactMatch <http://www.eea.europa.eu/data-and-maps/figures/biogeographical-regions-in-europe-1>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10547, cl:10548, cl:10549, cl:10550, cl:10551, cl:10552, cl:10553,
+    cl:10554, cl:10555, cl:10556, cl:10557, cl:10558, cl:10559, cl:10560, cl:10561, cl:10562;
+  skos:prefLabel "Bio-geographical Region"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10547 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "ANA"@en, "anatolian"@en;
+  skos:broader cl:10546;
+  skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/anatolian.pdf>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Anatolian Bio-geographical Region"@en .
+
+cl:10548 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "BOR"@en, "boreal"@en;
+  skos:broader cl:10546;
+  skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/Boreal_Region.pdf>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Boreal Bio-geographical Region"@en .
+
+cl:10549 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "STE"@en, "steppic"@en;
+  skos:broader cl:10546;
+  skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/steppic.pdf>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Steppic Bio-geographical Region"@en .
+
+cl:10550 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "ATL"@en, "atlantic"@en;
+  skos:broader cl:10546;
+  skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/the_atlantic_region.pdf>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Atlantic Bio-geographical Region"@en .
+
+cl:10551 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "PAN"@en, "pannonian"@en;
+  skos:broader cl:10546;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Pannonian Bio-geographical Region"@en .
+
+cl:10552 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "CON"@en, "continental"@en;
+  skos:broader cl:10546;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Continental Bio-geographical Region"@en .
+
+cl:10553 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "MAC"@en, "macaronesian"@en;
+  skos:broader cl:10546;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Macaronesian Bio-geographical Region"@en .
+
+cl:10554 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "ALP"@en, "alpine"@en;
+  skos:broader cl:10546;
+  skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/alpine.pdf>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Alpine Bio-geographical Region"@en .
+
+cl:10555 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "ARC"@en, "artic"@en;
+  skos:broader cl:10546;
+  skos:exactMatch <https://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/arcticReg.pdf>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Arctic Bio-geographical Region"@en .
+
+cl:10556 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "BLS"@en, "blackSea"@en;
+  skos:broader cl:10546;
+  skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/blackseareg.pdf>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Black Sea Bio-geographical Region"@en .
+
+cl:10557 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "MED"@en, "mediterranean"@en;
+  skos:broader cl:10546;
+  skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01000207>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Mediterranean Bio-geographical Region"@en .
+
+cl:10558 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:altLabel "MATL"@en, "marineAtlantic"@en;
+  skos:broader cl:10546;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Marine Atlantic Region"@en .
+
+cl:10559 a skos:Concept;
+  skos:altLabel "MBAL"@en, "marineBaltic"@en;
+  skos:broader cl:10546;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Marine Baltic Region"@en .
+
+cl:10560 a skos:Concept;
+  skos:altLabel "MBLS"@en, "marineBlackSea"@en;
+  skos:broader cl:10546;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Marine Region Black Sea"@en .
+
+cl:10561 a skos:Concept;
+  skos:altLabel "MMAC"@en, "marineMacaronesian"@en;
+  skos:broader cl:10546;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Marine Macaronesian Region"@en .
+
+cl:10562 a skos:Concept;
+  skos:altLabel "MMED"@en, "marineMediterranean"@en;
+  skos:broader cl:10546;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Marine Mediterranean Region"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
