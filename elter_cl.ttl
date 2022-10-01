@@ -36,7 +36,7 @@
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10223, cl:10228, cl:10301, cl:10304,
     cl:10311, cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416,
     cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482,
-    cl:10484, cl:10489, cl:10497, cl:10520, cl:10546 .
+    cl:10484, cl:10489, cl:10497, cl:10520, cl:10546, cl:10569, cl:10575 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2416,8 +2416,8 @@ cl:10194 a skos:Concept;
 cl:10195 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10192;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10192, cl:10560, cl:10563, cl:10569, cl:10575;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other"@en .
 
@@ -4998,22 +4998,201 @@ cl:10559 a skos:Concept;
   skos:prefLabel "Marine Baltic Region"@en .
 
 cl:10560 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "MBLS"@en, "marineBlackSea"@en;
   skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Marine Region Black Sea"@en .
+  skos:narrower et:20383, et:20387, et:20728, et:21126, et:22143, et:30300, cl:10195,
+    cl:10561, cl:10562, cl:10563;
+  skos:prefLabel "Marine Region Black Sea"@en, "biodiversity threats and pressures addressed"@en .
 
 cl:10561 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "MMAC"@en, "marineMacaronesian"@en;
-  skos:broader cl:10546;
+  skos:broader cl:10546, cl:10560;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Marine Macaronesian Region"@en .
+  skos:prefLabel "Marine Macaronesian Region"@en, "habitat loss and fragmentation"@en .
 
 cl:10562 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "MMED"@en, "marineMediterranean"@en;
-  skos:broader cl:10546;
+  skos:broader cl:10546, cl:10560;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Marine Mediterranean Region"@en .
+  skos:prefLabel "Marine Mediterranean Region"@en, "harvesting or management"@en .
+
+cl:10563 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10560;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10195, cl:10564, cl:10565, cl:10566, cl:10567, cl:10568;
+  skos:prefLabel "catastrophic event"@en, "funding source"@en .
+
+cl:10564 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10563;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "EU"@en .
+
+cl:10565 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10563;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "national"@en .
+
+cl:10566 a skos:Concept;
+  skos:broader cl:10563;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "regional"@en .
+
+cl:10567 a skos:Concept;
+  skos:broader cl:10563;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "scientific grant"@en .
+
+cl:10568 a skos:Concept;
+  skos:broader cl:10563;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "private"@en .
+
+cl:10569 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10195, cl:10570, cl:10571, cl:10572, cl:10573, cl:10574;
+  skos:prefLabel "motivation to launch monitoring scheme"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10570 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10569;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "EU directive"@en .
+
+cl:10571 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10569;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "other international obligation"@en .
+
+cl:10572 a skos:Concept;
+  skos:broader cl:10569;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "national law"@en .
+
+cl:10573 a skos:Concept;
+  skos:broader cl:10569;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "scientific interest"@en .
+
+cl:10574 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10569;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "management or restoration"@en .
+
+cl:10575 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:21472, et:21478, et:30298, et:30299, cl:10195, cl:10576, cl:10577,
+    cl:10578, cl:10579;
+  skos:prefLabel "scope of monitoring"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10576 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10575;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "population trend"@en .
+
+cl:10577 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10575;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "distribution trend"@en .
+
+cl:10578 a skos:Concept;
+  skos:broader cl:10575;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "demographic parameters"@en .
+
+cl:10579 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10575;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "physical-chemical environment"@en .
+
+et:30299 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10575;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "genetic variablity"@en .
+
+et:21472 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10575;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "community structure"@en .
+
+et:21478 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10575;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "habitat structure"@en .
+
+et:30298 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10575;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "habitat function"@en .
+
+et:20387 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10560;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "pollution"@en .
+
+et:22143 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10560;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "land use"@en .
+
+et:30300 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10560;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "climatic change"@en .
+
+et:20728 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10560;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "invasive species"@en .
+
+et:20383 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10560;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "flood"@en .
+
+et:21126 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10560;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "succession"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
