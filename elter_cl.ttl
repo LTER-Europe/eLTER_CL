@@ -36,7 +36,8 @@
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10223, cl:10228, cl:10301, cl:10304,
     cl:10311, cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416,
     cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482,
-    cl:10484, cl:10489, cl:10497, cl:10520, cl:10546, cl:10569, cl:10575 .
+    cl:10484, cl:10489, cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580,
+    cl:10584, cl:10591, cl:10596, cl:10601, cl:10605 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2393,7 +2394,8 @@ cl:10192 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10193, cl:10194, cl:10195, cl:10196, cl:10197;
+  skos:narrower cl:10193, cl:10194, cl:10195, cl:10196, cl:10197, cl:10227, cl:10469,
+    cl:10594, cl:10595;
   skos:prefLabel "generic answer option"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -2408,8 +2410,8 @@ cl:10193 a skos:Concept;
 cl:10194 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10192;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10192, cl:10601;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "none"@en .
 
@@ -2417,7 +2419,8 @@ cl:10195 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10192, cl:10560, cl:10563, cl:10569, cl:10575;
+  skos:broader cl:10192, cl:10563, cl:10569, <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605>,
+    cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other"@en .
 
@@ -2701,7 +2704,7 @@ cl:10227 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "na"@en;
-  skos:broader cl:10223, cl:10317, cl:10435, cl:10482, cl:10489, cl:10497;
+  skos:broader cl:10192, cl:10223, cl:10317, cl:10435, cl:10482, cl:10489, cl:10497;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "not applicable"@en .
 
@@ -4383,8 +4386,8 @@ cl:10468 a skos:Concept;
   skos:prefLabel "by request"@en .
 
 cl:10469 a skos:Concept;
-  dct:modified "2022-09-30"^^xsd:date;
-  skos:broader cl:10466;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10192, cl:10466;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "not available"@en .
 
@@ -4998,53 +5001,46 @@ cl:10559 a skos:Concept;
   skos:prefLabel "Marine Baltic Region"@en .
 
 cl:10560 a skos:Concept;
-  dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "MBLS"@en, "marineBlackSea"@en;
   skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20383, et:20387, et:20728, et:21126, et:22143, et:30300, cl:10195,
-    cl:10561, cl:10562, cl:10563;
-  skos:prefLabel "Marine Region Black Sea"@en, "biodiversity threats and pressures addressed"@en .
+  skos:prefLabel "Marine Region Black Sea"@en .
 
 cl:10561 a skos:Concept;
-  dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "MMAC"@en, "marineMacaronesian"@en;
-  skos:broader cl:10546, cl:10560;
+  skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Marine Macaronesian Region"@en, "habitat loss and fragmentation"@en .
+  skos:prefLabel "Marine Macaronesian Region"@en .
 
 cl:10562 a skos:Concept;
-  dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "MMED"@en, "marineMediterranean"@en;
-  skos:broader cl:10546, cl:10560;
+  skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Marine Mediterranean Region"@en, "harvesting or management"@en .
+  skos:prefLabel "Marine Mediterranean Region"@en .
 
 cl:10563 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10560;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10195, cl:10564, cl:10565, cl:10566, cl:10567, cl:10568;
-  skos:prefLabel "catastrophic event"@en, "funding source"@en .
+  skos:prefLabel "funding source"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10564 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10563;
+  skos:broader cl:10563, cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "EU"@en .
 
 cl:10565 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10563;
+  skos:broader cl:10563, cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "national"@en .
 
 cl:10566 a skos:Concept;
-  skos:broader cl:10563;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10563, cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "regional"@en .
 
@@ -5096,8 +5092,8 @@ cl:10574 a skos:Concept;
 cl:10575 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:21472, et:21478, et:30298, et:30299, cl:10195, cl:10576, cl:10577,
-    cl:10578, cl:10579;
+  skos:narrower et:21472, et:21478, et:30298, et:30299, cl:10576, cl:10577, cl:10578,
+    cl:10579;
   skos:prefLabel "scope of monitoring"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -5152,47 +5148,290 @@ et:30298 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "habitat function"@en .
 
+cl:10580 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20383, et:20387, et:20728, et:21126, et:22143, et:30300, cl:10581,
+    cl:10582, cl:10583;
+  skos:prefLabel "biodiversity threats and pressures addressed"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
 et:20387 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10560;
+  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "pollution"@en .
 
 et:22143 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10560;
+  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "land use"@en .
 
 et:30300 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10560;
+  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "climatic change"@en .
 
 et:20728 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10560;
+  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "invasive species"@en .
+
+cl:10581 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10580;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "habitat loss and fragmentation"@en .
+
+cl:10582 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10580;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "harvesting or management"@en .
 
 et:20383 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10560;
+  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "flood"@en .
 
 et:21126 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10560;
+  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "succession"@en .
+
+cl:10583 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10580;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "catastrophic event"@en .
+
+cl:10584 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20986, et:21539, et:21541, et:21548, et:21647, cl:10195, cl:10585,
+    cl:10586, cl:10587, cl:10588, cl:10589, cl:10590;
+  skos:prefLabel "type of data collected"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10585 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "presence-absence"@en .
+
+et:21548 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "count"@en .
+
+et:21541 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "abundance"@en .
+
+et:21539 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "density"@en .
+
+cl:10586 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "mark-recapture"@en .
+
+cl:10587 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "individual traits"@en .
+
+et:20986 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "animal movement"@en .
+
+cl:10588 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "age or size structure"@en .
+
+cl:10589 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "genetic or genomic"@en .
+
+et:21647 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "phenology"@en .
+
+cl:10590 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10584;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "abiotic parameters"@en .
+
+cl:10591 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10564, cl:10565, cl:10566, cl:10592, cl:10593;
+  skos:prefLabel "geographical scope"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10592 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10591;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "international"@en .
+
+cl:10593 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10591;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "local"@en .
+
+cl:10594 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10192;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "partially"@en .
+
+cl:10595 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10192;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "entirely"@en .
+
+cl:10596 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10597, cl:10598, cl:10599, cl:10600;
+  skos:prefLabel "habitat classification authority"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10597 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10596;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "EUNIS"@en .
+
+cl:10598 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10596;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CORINE"@en .
+
+cl:10599 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10596;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Habitats Directive ANNEX I"@en .
+
+cl:10600 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10596;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "national classification"@en .
+
+cl:10601 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10194, cl:10602, cl:10603, cl:10604;
+  skos:prefLabel "experimental design"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10602 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10601;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "design with before vs. after comparison"@en .
+
+cl:10603 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10601;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "design with a control treatment"@en .
+
+cl:10604 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10601;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "design with before vs. after comparison and control treatment"@en .
+
+cl:10605 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10606, cl:10607, cl:10608, cl:10609, cl:10610;
+  skos:prefLabel "site selection"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10606 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10605;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "exhaustive sampling (all possible sites)"@en .
+
+cl:10607 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10605;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "random sampling"@en .
+
+cl:10608 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10605;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "systematic sampling (e.g. each cell of a grid)"@en .
+
+cl:10609 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10605;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "convenience (sampling sites chosen according to personnal or expert knowledge)"@en .
+
+cl:10610 a skos:Concept;
+  skos:broader cl:10605;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "stratified sampling"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
@@ -5216,6 +5455,8 @@ et:20538 skos:narrower et:20917, et:30264 .
 et:20950 skos:narrower et:21155, et:21176, et:21263, et:21285 .
 
 et:20748 skos:narrower et:20854, et:21934 .
+
+<http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
 
 et:21753 skos:narrower et:20506 .
 
