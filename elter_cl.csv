@@ -639,3 +639,41 @@ cl:10607,random sampling,,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10608,systematic sampling (e.g. each cell of a grid),,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10609,convenience (sampling sites chosen according to personnal or expert knowledge),,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10610,stratified sampling,,,,cl:10605
+cl:10611,license,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+cl:10612,CC0-1.0,Creative Commons Zero v1.0 Universal,,http://vocab.fairdatacollective.org/gdmt/CC01.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+cl:10613,CC-BY-1.0,Creative Commons Attribution 1.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBY1.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
+cl:10614,CC-BY-2.0,Creative Commons Attribution 2.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBY2.0,cl:10611
+cl:10615,CC-BY-2.5,Creative Commons Attribution 2.5 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBY2.5,cl:10611
+cl:10616,CC-BY-3.0,Creative Commons Attribution 3.0 Unported,,http://vocab.fairdatacollective.org/gdmt/CCBY3.0,cl:10611
+cl:10617,CC-BY-3.0-AT,Creative Commons Attribution 3.0 Austria,,http://vocab.fairdatacollective.org/gdmt/CCBY3.0AT,cl:10611
+cl:10618,CC-BY-3.0-US,Creative Commons Attribution 3.0 United States,,http://vocab.fairdatacollective.org/gdmt/CCBY3.0US,cl:10611
+cl:10619,CC-BY-4.0,Creative Commons Attribution 4.0 International,,http://vocab.fairdatacollective.org/gdmt/CCBY4.0,cl:10611
+cl:10620,CC-BY-NC-1.0,Creative Commons Attribution Non Commercial 1.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNC1.0,cl:10611
+cl:10621,CC-BY-NC-2.0,Creative Commons Attribution Non Commercial 2.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNC2.0,cl:10611
+cl:10622,CC-BY-NC-2.5,Creative Commons Attribution Non Commercial 2.5 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNC2.5,cl:10611
+cl:10623,CC-BY-NC-3.0,Creative Commons Attribution Non Commercial 3.0 Unported,,http://vocab.fairdatacollective.org/gdmt/CCBYNC3.0,cl:10611
+cl:10624,CC-BY-NC-4.0,Creative Commons Attribution Non Commercial 4.0 International,,http://vocab.fairdatacollective.org/gdmt/CCBYNC4.0,cl:10611
+cl:10625,CC-BY-NC-ND-1.0,Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND1.0,cl:10611
+cl:10626,CC-BY-NC-ND-2.0,Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND2.0,cl:10611
+cl:10627,CC-BY-NC-ND-2.5,Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND2.5,cl:10611
+cl:10628,CC-BY-NC-ND-3.0,Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND3.0,cl:10611
+cl:10629,CC-BY-NC-ND-3.0-IGO,Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND3.0IGO,cl:10611
+cl:10630,CC-BY-NC-ND-4.0,Creative Commons Attribution Non Commercial No Derivatives 4.0 International,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND4.0,cl:10611
+cl:10631,CC-BY-NC-SA-1.0,Creative Commons Attribution Non Commercial Share Alike 1.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA1.0,cl:10611
+cl:10632,CC-BY-NC-SA-2.0,Creative Commons Attribution Non Commercial Share Alike 2.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA2.0,cl:10611
+cl:10633,CC-BY-NC-SA-2.5,Creative Commons Attribution Non Commercial Share Alike 2.5 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA2.5,cl:10611
+cl:10634,CC-BY-NC-SA-3.0,Creative Commons Attribution Non Commercial Share Alike 3.0 Unported,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA3.0,cl:10611
+cl:10635,CC-BY-NC-SA-4.0,Creative Commons Attribution Non Commercial Share Alike 4.0 International,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA4.0,cl:10611
+cl:10636,CC-BY-ND-1.0,Creative Commons Attribution No Derivatives 1.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYND1.0,cl:10611
+cl:10637,CC-BY-ND-2.0,Creative Commons Attribution No Derivatives 2.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYND2.0,cl:10611
+cl:10638,CC-BY-ND-2.5,Creative Commons Attribution No Derivatives 2.5 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYND2.5,cl:10611
+cl:10639,CC-BY-ND-3.0,Creative Commons Attribution No Derivatives 3.0 Unported,,http://vocab.fairdatacollective.org/gdmt/CCBYND3.0,cl:10611
+cl:10640,CC-BY-ND-4.0,Creative Commons Attribution No Derivatives 4.0 International,,http://vocab.fairdatacollective.org/gdmt/CCBYND4.0,cl:10611
+cl:10641,CC-BY-SA-1.0,Creative Commons Attribution Share Alike 1.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYSA1.0,cl:10611
+cl:10642,CC-BY-SA-2.0,Creative Commons Attribution Share Alike 2.0 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYSA2.0,cl:10611
+cl:10643,CC-BY-SA-2.0-UK,Creative Commons Attribution Share Alike 2.0 England and Wales,,http://vocab.fairdatacollective.org/gdmt/CCBYSA2.0UK,cl:10611
+cl:10644,CC-BY-SA-2.5,Creative Commons Attribution Share Alike 2.5 Generic,,http://vocab.fairdatacollective.org/gdmt/CCBYSA2.5,cl:10611
+cl:10645,CC-BY-SA-3.0,Creative Commons Attribution Share Alike 3.0 Unported,,http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0,cl:10611
+cl:10646,CC-BY-SA-3.0-AT,Creative Commons Attribution-Share Alike 3.0 Austria,,http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0AT,cl:10611
+cl:10647,CC-BY-SA-4.0,Creative Commons Attribution Share Alike 4.0 International,,http://vocab.fairdatacollective.org/gdmt/CCBYSA4.0,cl:10611
+cl:10648,CC-PDDC,Creative Commons Public Domain Dedication and Certification,,http://vocab.fairdatacollective.org/gdmt/CCPDDC,cl:10611

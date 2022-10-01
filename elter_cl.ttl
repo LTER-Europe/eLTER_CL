@@ -37,7 +37,7 @@
     cl:10311, cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416,
     cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482,
     cl:10484, cl:10489, cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580,
-    cl:10584, cl:10591, cl:10596, cl:10601, cl:10605 .
+    cl:10584, cl:10591, cl:10596, cl:10601, cl:10605, cl:10611 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -5432,6 +5432,280 @@ cl:10610 a skos:Concept;
   skos:broader cl:10605;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "stratified sampling"@en .
+
+cl:10611 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10612, cl:10613, cl:10614, cl:10615, cl:10616, cl:10617, cl:10618,
+    cl:10619, cl:10620, cl:10621, cl:10622, cl:10623, cl:10624, cl:10625, cl:10626, cl:10627,
+    cl:10628, cl:10629, cl:10630, cl:10631, cl:10632, cl:10633, cl:10634, cl:10635, cl:10636,
+    cl:10637, cl:10638, cl:10639, cl:10640, cl:10641, cl:10642, cl:10643, cl:10644, cl:10645,
+    cl:10646, cl:10647, cl:10648;
+  skos:prefLabel "license"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10612 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CC01.0>;
+  skos:altLabel "Creative Commons Zero v1.0 Universal"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC0-1.0"@en .
+
+cl:10613 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY1.0>;
+  skos:altLabel "Creative Commons Attribution 1.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-1.0"@en .
+
+cl:10614 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY2.0>;
+  skos:altLabel "Creative Commons Attribution 2.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-2.0"@en .
+
+cl:10615 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY2.5>;
+  skos:altLabel "Creative Commons Attribution 2.5 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-2.5"@en .
+
+cl:10616 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY3.0>;
+  skos:altLabel "Creative Commons Attribution 3.0 Unported"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-3.0"@en .
+
+cl:10617 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY3.0AT>;
+  skos:altLabel "Creative Commons Attribution 3.0 Austria"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-3.0-AT"@en .
+
+cl:10618 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY3.0US>;
+  skos:altLabel "Creative Commons Attribution 3.0 United States"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-3.0-US"@en .
+
+cl:10619 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY4.0>;
+  skos:altLabel "Creative Commons Attribution 4.0 International"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-4.0"@en .
+
+cl:10620 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC1.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial 1.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-1.0"@en .
+
+cl:10621 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC2.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial 2.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-2.0"@en .
+
+cl:10622 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC2.5>;
+  skos:altLabel "Creative Commons Attribution Non Commercial 2.5 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-2.5"@en .
+
+cl:10623 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC3.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial 3.0 Unported"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-3.0"@en .
+
+cl:10624 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC4.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial 4.0 International"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-4.0"@en .
+
+cl:10625 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND1.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-ND-1.0"@en .
+
+cl:10626 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND2.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-ND-2.0"@en .
+
+cl:10627 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND2.5>;
+  skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-ND-2.5"@en .
+
+cl:10628 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND3.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-ND-3.0"@en .
+
+cl:10629 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND3.0IGO>;
+  skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-ND-3.0-IGO"@en .
+
+cl:10630 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND4.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 4.0 International"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-ND-4.0"@en .
+
+cl:10631 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA1.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 1.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-SA-1.0"@en .
+
+cl:10632 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA2.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 2.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-SA-2.0"@en .
+
+cl:10633 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA2.5>;
+  skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 2.5 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-SA-2.5"@en .
+
+cl:10634 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA3.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-SA-3.0"@en .
+
+cl:10635 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA4.0>;
+  skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 4.0 International"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-NC-SA-4.0"@en .
+
+cl:10636 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND1.0>;
+  skos:altLabel "Creative Commons Attribution No Derivatives 1.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-ND-1.0"@en .
+
+cl:10637 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND2.0>;
+  skos:altLabel "Creative Commons Attribution No Derivatives 2.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-ND-2.0"@en .
+
+cl:10638 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND2.5>;
+  skos:altLabel "Creative Commons Attribution No Derivatives 2.5 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-ND-2.5"@en .
+
+cl:10639 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND3.0>;
+  skos:altLabel "Creative Commons Attribution No Derivatives 3.0 Unported"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-ND-3.0"@en .
+
+cl:10640 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND4.0>;
+  skos:altLabel "Creative Commons Attribution No Derivatives 4.0 International"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-ND-4.0"@en .
+
+cl:10641 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA1.0>;
+  skos:altLabel "Creative Commons Attribution Share Alike 1.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-SA-1.0"@en .
+
+cl:10642 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA2.0>;
+  skos:altLabel "Creative Commons Attribution Share Alike 2.0 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-SA-2.0"@en .
+
+cl:10643 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA2.0UK>;
+  skos:altLabel "Creative Commons Attribution Share Alike 2.0 England and Wales"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-SA-2.0-UK"@en .
+
+cl:10644 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA2.5>;
+  skos:altLabel "Creative Commons Attribution Share Alike 2.5 Generic"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-SA-2.5"@en .
+
+cl:10645 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0>;
+  skos:altLabel "Creative Commons Attribution Share Alike 3.0 Unported"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-SA-3.0"@en .
+
+cl:10646 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0AT>;
+  skos:altLabel "Creative Commons Attribution-Share Alike 3.0 Austria"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-SA-3.0-AT"@en .
+
+cl:10647 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA4.0>;
+  skos:altLabel "Creative Commons Attribution Share Alike 4.0 International"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-BY-SA-4.0"@en .
+
+cl:10648 a skos:Concept;
+  dct:source <http://vocab.fairdatacollective.org/gdmt/CCPDDC>;
+  skos:altLabel "Creative Commons Public Domain Dedication and Certification"@en;
+  skos:broader cl:10611;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "CC-PDDC"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
