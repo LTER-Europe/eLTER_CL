@@ -35,7 +35,8 @@
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10223, cl:10228, cl:10301, cl:10304,
     cl:10311, cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416,
-    cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480 .
+    cl:10425, cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482,
+    cl:10484, cl:10489, cl:10497 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2698,9 +2699,9 @@ cl:10226 a skos:Concept;
 cl:10227 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "na"@en;
-  skos:broader cl:10223, cl:10317, cl:10435;
+  skos:broader cl:10223, cl:10317, cl:10435, cl:10482, cl:10489, cl:10497;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "not applicable"@en .
 
@@ -3020,10 +3021,10 @@ cl:10322 a skos:Concept;
 cl:10323 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10317;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Sensor"@en .
+  skos:prefLabel "sensor"@en .
 
 cl:10324 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3324,8 +3325,8 @@ cl:10359 a skos:Concept;
 cl:10360 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10346;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10346, cl:10482;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "plot scale"@en .
 
@@ -3424,10 +3425,10 @@ et:20917 a skos:Concept;
 et:20915 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   owl:deprecated false;
   skos:altLabel "lakes"@en;
-  skos:broader et:21176, et:21202, et:32, cl:10366, cl:10379;
+  skos:broader et:21176, et:21202, et:32, cl:10366, cl:10379, cl:10510;
   skos:definition "[GEMET] An enclosed body of water, usually but not necessarily fresh water, from which the sea is excluded."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_4160>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/41590>,
     <http://purl.obolibrary.org/obo/ENVO_00000020>, <https://vocab.lternet.edu/vocab/vocab/?tema=278>;
@@ -4070,8 +4071,8 @@ cl:10429 a skos:Concept;
 cl:10430 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
-  skos:broader cl:10429;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10429, cl:10482;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "entire catchment"@en .
 
@@ -4102,8 +4103,8 @@ cl:10433 a skos:Concept;
 cl:10434 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
-  skos:broader cl:10429;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10429, cl:10482;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "beyond catchment"@en .
 
@@ -4452,6 +4453,243 @@ cl:10481 a skos:Concept;
   skos:broader cl:10200;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "linked data service"@en .
+
+cl:10482 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10227, cl:10360, cl:10430, cl:10434, cl:10483;
+  skos:prefLabel "scale of experimentation"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10483 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10482;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "micro sites"@en .
+
+cl:10484 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10485, cl:10486, cl:10487, cl:10488;
+  skos:prefLabel "standard reference period"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10485 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10484;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "1991 - 2020"@en .
+
+cl:10486 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10484;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "1981 - 2010"@en .
+
+cl:10487 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10484;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "1961 - 1990"@en .
+
+cl:10488 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10484;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "other, non-standardised or incomplete reference period"@en .
+
+cl:10489 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10227, cl:10490, cl:10491, cl:10492, cl:10493, cl:10494, cl:10495,
+    cl:10496;
+  skos:prefLabel "location type"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10490 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10489;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "air shed"@en .
+
+cl:10491 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10489;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "equipment location"@en .
+
+cl:10492 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10489;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "hydrological catchment"@en .
+
+cl:10493 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10489;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "model area"@en .
+
+cl:10494 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10489;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "sampling area"@en .
+
+cl:10495 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10489;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "socio-ecological reference area"@en .
+
+cl:10496 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10489;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "remote sensing analysis area"@en .
+
+cl:10497 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10227, cl:10498, cl:10499, cl:10505, cl:10507, cl:10510, cl:10514;
+  skos:prefLabel "landform"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10498 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10497;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Aeolian"@en .
+
+cl:10499 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10497;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10500, cl:10501, cl:10502, cl:10503, cl:10504;
+  skos:prefLabel "Coastal and oceanic"@en .
+
+cl:10500 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10499;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Bay or Gulf"@en .
+
+cl:10501 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10499;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Coast"@en .
+
+cl:10502 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10499;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Island"@en .
+
+cl:10503 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10499;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Lagoon"@en .
+
+cl:10504 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10499;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Ocean"@en .
+
+cl:10505 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10497;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10506;
+  skos:prefLabel "Continental plain"@en .
+
+cl:10506 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10505;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Plain"@en .
+
+cl:10507 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10497;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10508, cl:10509;
+  skos:prefLabel "Depression"@en .
+
+cl:10508 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10507;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Basin"@en .
+
+cl:10509 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10507;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Cave"@en .
+
+cl:10510 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10497;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20915, cl:10511, cl:10512, cl:10513;
+  skos:prefLabel "Fluvial and limnic"@en .
+
+cl:10511 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10510;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Canyon"@en .
+
+cl:10512 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10510;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Delta"@en .
+
+cl:10513 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10510;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "River"@en .
+
+cl:10514 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10497;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10515, cl:10516, cl:10517, cl:10518;
+  skos:prefLabel "Mountainous"@en .
+
+cl:10515 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10514;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Hill"@en .
+
+cl:10516 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10514;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Mountain"@en .
+
+cl:10517 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10514;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Plateau"@en .
+
+cl:10518 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10514;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Valley"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
