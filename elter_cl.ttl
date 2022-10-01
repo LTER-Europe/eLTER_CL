@@ -2473,8 +2473,8 @@ cl:10201 a skos:Concept;
   dct:contributor "2016-03-31T00:00:00Z"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2022-04-16"^^xsd:date;
-  skos:broader cl:10200, cl:10421;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10200;
   skos:editorialNote "data services"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "data portal"@en .
@@ -2482,29 +2482,29 @@ cl:10201 a skos:Concept;
 cl:10202 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "WMS"@en;
-  skos:broader cl:10200, cl:10421;
+  skos:broader cl:10200;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Web Map Service"@en .
+  skos:prefLabel "Web Map Service (WMS)"@en .
 
 cl:10203 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "WFS"@en;
-  skos:broader cl:10200, cl:10421;
+  skos:broader cl:10200;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Web Feature Service"@en .
+  skos:prefLabel "Web Feature Service (WFS)"@en .
 
 cl:10204 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "WCS"@en;
-  skos:broader cl:10200, cl:10421;
+  skos:broader cl:10200;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Web Coverage Service"@en .
+  skos:prefLabel "Web Coverage Service (WCS)"@en .
 
 cl:10205 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2527,20 +2527,20 @@ cl:10206 a skos:Concept;
 cl:10207 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "SWE"@en;
   skos:broader cl:10200;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Sensor Web Enablement"@en .
+  skos:prefLabel "Sensor Web Enablement (SWE)"@en .
 
 cl:10208 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "CSW"@en;
   skos:broader cl:10200;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Web Catalog Service"@en .
+  skos:prefLabel "Web Catalog Service (CSW)"@en .
 
 cl:10209 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2614,10 +2614,10 @@ cl:10216 a skos:Concept;
 cl:10217 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10211;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "structured file or spreadsheet"@en .
+  skos:prefLabel "structured file"@en .
 
 cl:10218 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2638,10 +2638,10 @@ cl:10219 a skos:Concept;
 cl:10220 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10211;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "other data storage format"@en .
+  skos:prefLabel "other data storage"@en .
 
 cl:10221 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2770,7 +2770,7 @@ cl:10235 a skos:Concept;
   dct:modified "2022-09-30"^^xsd:date;
   skos:broader cl:10458;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10237, cl:10422, cl:10423;
+  skos:narrower cl:10422, cl:10423;
   skos:prefLabel "data transmission"@en .
 
 cl:10236 a skos:Concept;
@@ -2784,10 +2784,10 @@ cl:10236 a skos:Concept;
 cl:10237 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
-  skos:broader cl:10235;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10422, cl:10423;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "other data transmission"@en .
+  skos:prefLabel "other transmission type"@en .
 
 cl:10238 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3045,18 +3045,18 @@ cl:10325 a skos:Concept;
 cl:10326 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10325;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "no lodging"@en .
+  skos:prefLabel "no lodging possible"@en .
 
 cl:10327 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10325;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "medium size lodging"@en .
+  skos:prefLabel "6 - 10 beds"@en .
 
 cl:10328 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3069,18 +3069,18 @@ cl:10328 a skos:Concept;
 cl:10329 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10325;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "small size lodging"@en .
+  skos:prefLabel "1 - 5 beds"@en .
 
 cl:10330 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10325;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "large size lodging"@en .
+  skos:prefLabel "> 10 beds"@en .
 
 cl:10331 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3095,18 +3095,18 @@ cl:10331 a skos:Concept;
 cl:10332 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10331;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "small size staff room"@en .
+  skos:prefLabel "1 place"@en .
 
 cl:10333 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10331;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "large size staff room"@en .
+  skos:prefLabel "> 5 places"@en .
 
 cl:10334 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3127,10 +3127,10 @@ cl:10335 a skos:Concept;
 cl:10336 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10331;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "medium size staff room"@en .
+  skos:prefLabel "2 - 5 places"@en .
 
 cl:10337 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -3944,18 +3944,18 @@ cl:10413 a skos:Concept;
 cl:10414 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-15"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10413;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "catchment"@en .
+  skos:prefLabel "all over site or catchment"@en .
 
 cl:10415 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-16"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10413;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "central station"@en .
+  skos:prefLabel "central station(s)"@en .
 
 cl:10417 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
@@ -3995,7 +3995,7 @@ cl:10421 a skos:Concept;
   dct:modified "2022-09-30"^^xsd:date;
   skos:broader cl:10457;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10200, cl:10201, cl:10202, cl:10203, cl:10204, cl:10210, cl:10211;
+  skos:narrower cl:10200, cl:10210, cl:10211;
   skos:prefLabel "data infrastructure"@en .
 
 cl:10422 a skos:Concept;
@@ -4004,7 +4004,7 @@ cl:10422 a skos:Concept;
   dct:modified "2022-04-16"^^xsd:date;
   skos:broader cl:10235;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10236, cl:10238, cl:10239, cl:10240, cl:10241, cl:10242, cl:10424;
+  skos:narrower cl:10236, cl:10237, cl:10238, cl:10239, cl:10240, cl:10241, cl:10242;
   skos:prefLabel "data transmission type (from site)"@en .
 
 cl:10423 a skos:Concept;
@@ -4013,16 +4013,8 @@ cl:10423 a skos:Concept;
   dct:modified "2022-09-30"^^xsd:date;
   skos:broader cl:10235;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10236, cl:10238, cl:10239, cl:10240, cl:10242;
+  skos:narrower cl:10236, cl:10237, cl:10238, cl:10239, cl:10240, cl:10242;
   skos:prefLabel "data transmission type (within site)"@en .
-
-cl:10424 a skos:Concept;
-  dct:created "2022-04-16"^^xsd:date;
-  dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-09-30"^^xsd:date;
-  skos:broader cl:10422;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "no data transmission from site"@en .
 
 cl:10425 a skos:Concept;
   dct:created "2022-04-16"^^xsd:date;
@@ -4232,7 +4224,7 @@ cl:10449 a skos:Concept;
   dct:modified "2022-09-30"^^xsd:date;
   skos:broader cl:10457;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10450, cl:10451, cl:10456;
+  skos:narrower cl:10450, cl:10451, cl:10456, cl:10476, cl:10477, cl:10478, cl:10479;
   skos:prefLabel "observation device"@en .
 
 cl:10450 a skos:Concept;
@@ -4421,6 +4413,31 @@ cl:10475 a skos:Concept;
   skos:broader cl:10471;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "not yet determined"@en .
+
+cl:10476 a skos:Concept;
+  dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10449;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "camera trap"@en .
+
+cl:10477 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10449;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "open-top chamber"@en .
+
+cl:10478 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10449;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "phenocam"@en .
+
+cl:10479 a skos:Concept;
+  dct:modified "2022-10-01"^^xsd:date;
+  skos:broader cl:10449;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "probe continuous measurement"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
