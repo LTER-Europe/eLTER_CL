@@ -4316,10 +4316,10 @@ cl:10463 a skos:Concept;
   skos:prefLabel "government"@en .
 
 cl:10464 a skos:Concept;
-  dct:modified "2022-09-30"^^xsd:date;
+  dct:modified "2022-10-09"^^xsd:date;
   skos:broader cl:10461;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "reserach center"@en .
+  skos:prefLabel "research center"@en .
 
 cl:10465 a skos:Concept;
   dct:created "2022-09-30"^^xsd:date;
@@ -5314,19 +5314,24 @@ cl:10597 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10596;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10649, cl:10650, cl:10651, cl:10652, cl:10653, cl:10654, cl:10655,
+    cl:10656, cl:10657, cl:10658;
   skos:prefLabel "EUNIS"@en .
 
 cl:10598 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:broader cl:10596;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10659, cl:10660, cl:10661, cl:10662, cl:10663, cl:10664, cl:10665;
   skos:prefLabel "CORINE"@en .
 
 cl:10599 a skos:Concept;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-09"^^xsd:date;
   skos:broader cl:10596;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Habitats Directive ANNEX I"@en .
+  skos:narrower cl:10650, cl:10662, cl:10666, cl:10667, cl:10668, cl:10669, cl:10670,
+    cl:10671, cl:10672;
+  skos:prefLabel "Habitats Directive"@en .
 
 cl:10600 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
@@ -5399,14 +5404,15 @@ cl:10610 a skos:Concept;
 
 cl:10611 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:altLabel "CC license"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10612, cl:10613, cl:10614, cl:10615, cl:10616, cl:10617, cl:10618,
     cl:10619, cl:10620, cl:10621, cl:10622, cl:10623, cl:10624, cl:10625, cl:10626, cl:10627,
     cl:10628, cl:10629, cl:10630, cl:10631, cl:10632, cl:10633, cl:10634, cl:10635, cl:10636,
     cl:10637, cl:10638, cl:10639, cl:10640, cl:10641, cl:10642, cl:10643, cl:10644, cl:10645,
     cl:10646, cl:10647, cl:10648;
-  skos:prefLabel "license"@en;
+  skos:prefLabel "Creative Commons license"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10612 a skos:Concept;
@@ -5670,6 +5676,153 @@ cl:10648 a skos:Concept;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-PDDC"@en .
+
+cl:10649 a skos:Concept;
+  dct:created "2022-10-09"^^xsd:date;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "marine habitats"@en .
+
+cl:10650 a skos:Concept;
+  dct:created "2022-10-09"^^xsd:date;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597, cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "coastal and halophytic habitats"@en .
+
+cl:10651 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "freshwater aquatic habitats"@en .
+
+cl:10652 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "wetland habitats"@en .
+
+cl:10653 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "grassland habitats"@en .
+
+cl:10654 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "heathland and scrub habitats"@en .
+
+cl:10655 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "woodland and forest habitats and other wooded lands"@en .
+
+cl:10656 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "inland sparsely vegetated or unvegetated habitats"@en .
+
+cl:10657 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "regularly or recently cultivated habitats and gardens"@en .
+
+cl:10658 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "constructed industrial and other artificial habitats"@en .
+
+cl:10659 a skos:Concept;
+  dct:created "2022-10-09"^^xsd:date;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10598;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "coastal and halophytic communities"@en .
+
+cl:10660 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10598;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "non-marine waters"@en .
+
+cl:10661 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10598;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "scrub and grassland"@en .
+
+cl:10662 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10598, cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "forests"@en .
+
+cl:10663 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10598;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "bogs and marshes"@en .
+
+cl:10664 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10598;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "inland rocks, screes and sands"@en .
+
+cl:10665 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10598;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "agricultural land and artificial landscapes"@en .
+
+cl:10666 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "coastal sand dunes and inland dunes"@en .
+
+cl:10667 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "freshwater habitats"@en .
+
+cl:10668 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "temperate heath and scrub"@en .
+
+cl:10669 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "sclerophyllous scrub (matorral)"@en .
+
+cl:10670 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "natural and semi-natural grassland formations"@en .
+
+cl:10671 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "raised bogs and mires and fens"@en .
+
+cl:10672 a skos:Concept;
+  dct:modified "2022-10-09"^^xsd:date;
+  skos:broader cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "rocky habitats and caves"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
