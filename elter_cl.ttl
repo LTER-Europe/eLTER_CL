@@ -5303,10 +5303,10 @@ cl:10595 a skos:Concept;
   skos:prefLabel "entirely"@en .
 
 cl:10596 a skos:Concept;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2022-10-09"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10597, cl:10598, cl:10599, cl:10600;
-  skos:prefLabel "habitat classification authority"@en;
+  skos:prefLabel "habitat classification"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10597 a skos:Concept;
