@@ -37,7 +37,7 @@
     cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425,
     cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484,
     cl:10489, cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584,
-    cl:10591, cl:10596, cl:10601, cl:10605, cl:10611 .
+    cl:10591, cl:10596, cl:10601, cl:10605, cl:10611, cl:10673 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -2420,7 +2420,7 @@ cl:10195 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-10-11"^^xsd:date;
   skos:broader cl:10192, cl:10563, cl:10569, <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605>,
-    cl:10584, cl:10673;
+    cl:10584, cl:10678;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other"@en .
 
@@ -5521,7 +5521,7 @@ cl:10626 a skos:Concept;
   skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10673;
+  skos:narrower cl:10679;
   skos:prefLabel "CC-BY-NC-ND-2.0"@en .
 
 cl:10627 a skos:Concept;
@@ -5828,10 +5828,10 @@ cl:10672 a skos:Concept;
 cl:10673 a skos:Concept;
   dct:created "2022-10-11"^^xsd:date;
   dct:modified "2022-10-11"^^xsd:date;
-  skos:broader cl:10626;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20593, et:20626, et:20635, et:20676, cl:10195, cl:10674, cl:10678;
-  skos:prefLabel "organism group"@en, "other birds"@en .
+  skos:narrower et:20593, et:20626, et:20635, et:20676, cl:10674, cl:10678;
+  skos:prefLabel "organism group"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 et:20626 a skos:Concept;
   dct:created "2022-10-11"^^xsd:date;
@@ -5870,6 +5870,13 @@ et:30304 a skos:Concept;
   skos:broader et:20626;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "near-passerines"@en .
+
+cl:10679 a skos:Concept;
+  dct:created "2022-10-11"^^xsd:date;
+  dct:modified "2022-10-11"^^xsd:date;
+  skos:broader cl:10626;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "other birds"@en .
 
 et:20635 a skos:Concept;
   dct:created "2022-10-11"^^xsd:date;
@@ -6172,12 +6179,13 @@ cl:10678 a skos:Concept;
   dct:modified "2022-10-11"^^xsd:date;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:20650, et:20660, cl:10195;
   skos:prefLabel "other organisms"@en .
 
 et:20660 a skos:Concept;
   dct:created "2022-10-11"^^xsd:date;
   dct:modified "2022-10-11"^^xsd:date;
-  skos:broader et:26;
+  skos:broader et:26, cl:10678;
   skos:definition "[Henderson's] n. a composite organism formed from the symbiotic association of certain basidiomycete or ascomycete fungi and a green alga or a cyanobacterium. This forms a simple thallus, found e.g. encrusting rocks and tree trunks."@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/lichens>, <https://vocab.lternet.edu/vocab/vocab/?tema=297>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -6187,7 +6195,7 @@ et:20650 a skos:Concept;
   dct:created "2022-10-11"^^xsd:date;
   dct:modified "2022-10-11"^^xsd:date;
   skos:altLabel "fungus"@en;
-  skos:broader et:26;
+  skos:broader et:26, cl:10678;
   skos:definition "A fungus is a member of a large group of eukaryotic organisms that includes microorganisms such as yeasts and molds (British English: moulds), as well as the more familiar mushrooms."@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_3145>, <http://en.wikipedia.org/wiki/fungi>,
     <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/31180>, <https://vocab.lternet.edu/vocab/vocab/?tema=218>;
