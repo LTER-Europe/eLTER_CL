@@ -37,7 +37,7 @@
     cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425,
     cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484,
     cl:10489, cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584,
-    cl:10591, cl:10596, cl:10601, cl:10605, cl:10611, cl:10673 .
+    cl:10591, cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -5086,10 +5086,10 @@ cl:10579 a skos:Concept;
 
 et:30299 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2023-01-13"^^xsd:date;
   skos:broader cl:10575;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "genetic variablity"@en .
+  skos:prefLabel "genetic variability"@en .
 
 et:21472 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
@@ -6201,6 +6201,48 @@ et:20650 a skos:Concept;
     <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/31180>, <https://vocab.lternet.edu/vocab/vocab/?tema=218>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "fungi"@en .
+
+cl:10680 a skos:Concept;
+  dct:created "2023-02-09"^^xsd:date;
+  dct:modified "2023-02-09"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10681, cl:10682, cl:10683;
+  skos:prefLabel "access scheme"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10681 a skos:Concept;
+  dct:created "2023-02-09"^^xsd:date;
+  dct:modified "2023-02-09"^^xsd:date;
+  skos:altLabel "RA"@en;
+  skos:broader cl:10680;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Remote Access"@en .
+
+cl:10682 a skos:Concept;
+  dct:created "2023-02-09"^^xsd:date;
+  dct:modified "2023-02-09"^^xsd:date;
+  skos:altLabel "TA"@en;
+  skos:broader cl:10680;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Transnational Access"@en .
+
+cl:10683 a skos:Concept;
+  dct:created "2023-02-09"^^xsd:date;
+  dct:modified "2023-02-09"^^xsd:date;
+  skos:altLabel "TA-RA"@en;
+  skos:broader cl:10680;
+  skos:definition "Through its dedicated access scheme, the eLTER PLUS project opens up the eLTER Research Infrastructure (eLTER RI) and aims to attract a wide range of users from various disciplines. The scheme addresses both physical access to long-term research sites (Transnational Access-TA) and an access mode in which local site staff perform measurements/sampling according to user defined protocols (Remote Access-RA), or a combination of both. Additionally the Virtual Access scheme provides access to the data from selected research sites. All access within the scheme is free of charge for users. TA and RA typically aid small to medium scale ecological and socio-ecological projects."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10684;
+  skos:prefLabel "Transnational Access and Remote Access"@en .
+
+cl:10684 a skos:Concept;
+  dct:created "2023-02-09"^^xsd:date;
+  dct:modified "2023-02-09"^^xsd:date;
+  dct:source <https://elter-ri.eu/transnational-remote-access-ta-ra>;
+  skos:broader cl:10683;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "TA-RA project"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
