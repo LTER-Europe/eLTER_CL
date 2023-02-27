@@ -3342,10 +3342,10 @@ et:30212 a skos:Concept;
 cl:10365 a skos:Concept;
   dct:created "2022-04-11"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-11"^^xsd:date;
+  dct:modified "2023-02-27"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower et:30316;
-  skos:prefLabel "eLTER Standard Observations"@en;
+  skos:prefLabel "eLTER standard observation"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30316 a skos:Concept;
@@ -3358,13 +3358,14 @@ et:30316 a skos:Concept;
 
 cl:10366 a skos:Concept;
   dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2023-02-26"^^xsd:date;
+  dct:modified "2023-02-27"^^xsd:date;
+  skos:altLabel "SOGEO_001"@en;
   skos:broader et:30316;
   skos:definition "soil inventory - pedological/geological characterization"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower et:22065, et:22245, et:22264, et:22279, et:30067, et:30319, et:30321,
     et:30323;
-  skos:prefLabel "SOGEO_001"@en .
+  skos:prefLabel "soil inventory"@en .
 
 et:22279 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
