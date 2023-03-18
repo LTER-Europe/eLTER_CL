@@ -658,11 +658,11 @@ cl:10645,CC-BY-SA-3.0,Creative Commons Attribution Share Alike 3.0 Unported,,htt
 cl:10646,CC-BY-SA-3.0-AT,Creative Commons Attribution-Share Alike 3.0 Austria,,http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0AT,cl:10611
 cl:10647,CC-BY-SA-4.0,Creative Commons Attribution Share Alike 4.0 International,,http://vocab.fairdatacollective.org/gdmt/CCBYSA4.0,cl:10611
 cl:10648,CC-PDDC,Creative Commons Public Domain Dedication and Certification,,http://vocab.fairdatacollective.org/gdmt/CCPDDC,cl:10611
-cl:10649,marine habitats,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09,,2022-10-09
+cl:10649,marine habitats,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09,,2023-03-18
 cl:10650,coastal and halophytic habitats,,,,"cl:10597,cl:10599",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09,,2022-10-09
 cl:10651,freshwater aquatic habitats,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
 cl:10652,wetland habitats,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
-cl:10653,grassland habitats,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
+cl:10653,grassland habitats,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
 cl:10654,heathland and scrub habitats,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
 cl:10655,woodland and forest habitats and other wooded lands,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
 cl:10656,inland sparsely vegetated or unvegetated habitats,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
@@ -681,7 +681,7 @@ cl:10668,temperate heath and scrub,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10669,sclerophyllous scrub (matorral),,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
 cl:10670,natural and semi-natural grassland formations,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
 cl:10671,raised bogs and mires and fens,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
-cl:10672,rocky habitats and caves,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
+cl:10672,rocky habitats and caves,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
 cl:10673,organism group,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
 et:20626,birds,bird,[Henderson's] Aves q.v.,,"et:20591,cl:10673","http://en.wikipedia.org/wiki/birds,http://aims.fao.org/aos/agrovoc/c_935,https://vocab.lternet.edu/vocab/vocab/?tema=69,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/19170",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
 et:30301,waterbirds,,,,et:20626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
@@ -735,13 +735,106 @@ et:21922,hydrosphere,,"[Henderson's] n. the portion of the planet which is water
 et:21921,biosphere,,[Henderson's] n. the part of the planet contain­ing living organisms: the living world.,,"et:21919,cl:10365","http://en.wikipedia.org/wiki/biosphere,http://eurovoc.europa.eu/4940,http://purl.obolibrary.org/obo/ENVO_01000817,http://www.eionet.europa.eu/gemet/concept/892,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/38140",,,,,,,,,,,,,,,,,LTER EU controlled vocabulary,,,,Biosphäre,المحيط الحيوي,Биосфера,biosféra,biosfære,βιόσφαιρα,biosfera,"biosfäär, elukond","biosfääri, eliökehä",biosphère,biosfera,bioszféra,biosfera,,biosfera,biosfēra,biosfeer,biosfære,biosfera,biosfera,biosferă,biosféra,biosfera,biosfär,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31,herbert.schentz@umweltbundesamt.at,2023-03-18
 et:21920,atmosphere,,[GEMET] The gaseous envelope surrounding the Earth in a several kilometers-thick layer.,,"et:21919,cl:10365","https://vocab.lternet.edu/vocab/vocab/?tema=48,http://www.eionet.europa.eu/gemet/concept/617,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/20870,http://en.wikipedia.org/wiki/atmosphere,http://purl.obolibrary.org/obo/ENVO_01000267",,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Atmosphäre,الجو- الغلاف الجوي,Атмосфера,atmosféra,atmosfære,ατμόσφαιρα,atmósfera,"atmosfäär, õhkkond",ilmakehä,atmosphère,atmosfera,atmoszféra,atmosfera,,atmosfera,atmosfēra,atmosfeer,atmosfære,atmosfera,atmosfera,atmosferă,atmosféra,"ozračje, atmosfera",atmosfär,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31,herbert.schentz@umweltbundesamt.at,2023-03-18
 et:30317,sociosphere,,,,"et:21919,cl:10365",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-26,,2023-03-18
-cl:10685,soil chemical and physical characteristics,SOGEO_003,,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
-cl:10686,soil water chemical characteristics,SOGEO_167,,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
-cl:10687,soil - percolation/infiltration,SOGEO_048,,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
-cl:10688,sediment inventory,SOGEO_155,sediment (aquatic and marine) inventory,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10685,soil chemical and physical characteristics,SOGEO_003,Soil chemical and physical characteristics,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10686,soil water chemical characteristics,SOGEO_167,Soil water chemical characteristics,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10687,soil - percolation/infiltration,SOGEO_048,percolation/infiltration - soil,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10688,sediment inventory,SOGEO_155,Sediment (aquatic and marine) inventory,,et:30316,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
 cl:10689,standing water characteristics profiles,SOHYD_004,Profiles of physical and chemical waters characteristics - surface water (standing),,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
 cl:10690,running water characteristics,SOHYD_005,Physical and chemical water characteristics - surface water (running waters),,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
 cl:10691,groundwater characteristics,SOHYD_006,Physical and chemical water characteristics - groundwater,,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
 cl:10692,running water nutrient concentration,SOHYD_169,"Nutrient concentration: NO2, NH4, DOC, DIC - running waters",,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
 cl:10693,standing water nutrient concentration profiles,SOHYD_170,"Profiles of nutrient concentration:  NO2, NH4, DOC, DIC - standing waters",,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
 cl:10694,major ion concentrations,SOHYD_171,"Major ion concentrations: Cl, SO4, Br,  Na, K, Mg, Ca, B, Silica - inland running/standing waters, transitional waters",,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10695,running water - water level ,SOHYD_010,water level - surface water (running water),,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10696,standing and transitional water - ice characteristics,SOHYD_011,Ice cover/thickness (standing and transitional water),,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10697,snow characteristics,SOHYD_012,Snow cover and depths,,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10698,Soil characteristics,SOHYD_168,Soil water content/soil temperature,,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10699,"standing, running waters - stable isotopes ",SOHYD_058,"Stable isotopes (18O, 2H) - standing, running waters",,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10700,groundwater - stable isotopes,SOHYD_059,"Stable Isotopes  (18O, 2H) - groundwater",,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10701,groundwater - major ion concentrations,SOHYD_062,"Major ion concentrations: Cl, SO4, Br, Na, K, Mg, Ca, B - groundwater",,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10702,groundwater - nutrient concentration,SOHYD_064,"Nutrient concentration: TP, SRP, TDN, NO3, NO2, NH4, DOC, DIC - groundwater",,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10703,groundwater - DOM composition ,SOHYD_065,DOM composition - groundwater,,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10704,running waters - micropollutants,SOHYD_067,Micropollutants: non-target screening [~1000 substances] - running waters,,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10705,glacier front variation,SOHYD_164,glacier front variation,,et:21922
+cl:10706,glacier mass balance,SOHYD_165,glacier mass balance,,et:21922
+cl:10707,glacier area,SOHYD_166,glacier area,,et:21922
+cl:10708,standing waters and transitional waters - Secchi-depth,SOHYD_174,Secchi-Depth; standing waters and transitional waters,,et:21922,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10709,flying insects,SOBIO_014,Flying insects,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10710,vegetation composition,SOBIO_017,Vegetation composition (mainly species level+abundance),,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10711,"birds, bats, frogs, insects",SOBIO_018,"Birds, bats, frogs, insects using acoustic recording",,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10712,pollen and spores,SOBIO_019,Pollen and spores,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10713,arthropods ,SOBIO_020,Arthropods (ground-dwelling),,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10714,eDNA Water,SOBIO_021,eDNA Water,,et:21921
+cl:10715,eDNA soil,SOBIO_022,eDNA soil,,et:21921
+cl:10716,standing  waters - algal community ,SOBIO_079,Algal community - standing freshwaters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10717,running waters - algal community ,SOBIO_080,Algal community - running waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10718,transitional waters - algal community ,SOBIO_179,Algal community - transitional waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10719,standing waters - zooplankton ,SOBIO_081,Zooplankton (quantitative) - standing freshwaters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10720,running waters - zooplankton ,SOBIO_180,Zooplankton (quantitative) - running waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10721,transitional waters - zooplankton ,SOBIO_157,Zooplankton - transitional waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10722,standing waters - fish community,SOBIO_082,Fish community - standing freshwaters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10723,running waters - fish community,SOBIO_083,Fish community - running waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10724,standing waters - macroinvertebrate community,SOBIO_084,Macroinvertebrate community (quantitative) - standing waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10725,running waters - macroinvertebrate community,SOBIO_181,Macroinvertebrate community (quantitative) - running waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10726,transitional waters - macroinvertebrate community,SOBIO_182,Macroinvertebrate community (quantitative) - transitional waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10727,"freshwater, transitional water - macrophyte community (quantitative) - ",SOBIO_086,"Macrophyte community (quantitative) - freshwater, transitional water",,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10728,mammals,SOBIO_087,Mammals - terrestrial,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10729,"standing, running waters - clorophyll a ",SOBIO_096,"Clorophyll a (benthic, pelagic) - standing, running waters",,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10730,transitional waters - fish community,SOBIO_158,Fish community - transitional waters,,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10731,running waters - nutrient concentration:,SOHYD_172,"Nutrient concentration: TP, SRP, TDN, NO3 - running waters",,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10732,standing waters - profiles of nutrient concentration,SOHYD_173,"Profiles of nutrient concentration: TP, SRP, TDN, NO3, - standing waters",,et:21921,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10733,meteorological data,SOATM_027,Meteorological data,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
+cl:10734,profile of air characteristics,SOATM_175,"Profile of air temperature, H2O and CO2 concentration",,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10735,radiation,SOATM_028,Radiation,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10736,ground heat flux,SOATM_098,Ground heat flux,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10737,atmospheric deposition in precipitation,SOATM_103,Atmospheric deposition in precipitation,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10738,atmospheric deposition in canopy troughfall,SOATM_105,Atmospheric deposition in canopy troughfall,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10739,Atmospheric deposition in stemflow,SOATM_107,"Atmospheric deposition in stemflow in stemflow - beech forest, 5 trees",,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10740,Dry deposition of N-components,SOATM_108,Dry deposition of N-components,,et:21920
+cl:10741,Eddy Covariance,SOATM_176,"CO2 flux and concentration, Latent heat flux, Sensible heat flux - Eddy Covariance",,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10742,forest - vegetation aboveground biomass ,SOBIO_023,Vegetation aboveground biomass - forest (site scale),,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10743,Tree growth,SOBIO_177,Tree growth,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10744,non-forested sites - vegetation aboveground biomass ,SOBIO_024,Vegetation aboveground biomass – non-forested sites,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10745,gross primary production,SOBIO_090,Gross primary production,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10746,transpiration ,SOBIO_091,Transpiration (Plants),,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10747,forests - aboveground litterfall,SOBIO_092,Aboveground litterfall - forests,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10748,terrestrial - belowground biomass,SOBIO_093,Belowground biomass - terrestrial,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10749,European scale  - vegetation phenology and Leaf Area Index ,SOBIO_015,Vegetation phenology and Leaf Area Index – European scale,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10750,site scale - vegetation phenology ,SOBIO_016,Vegetation phenology – site scale,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10751,forests - Leaf area index ,SOBIO_025,Leaf area index - forests (site scale),,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10752,non-forested sites - Leaf area index ,SOBIO_026,Leaf area index – non-forested sites,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10753,terrestria - leaf nutrients content ,SOBIO_095,"Leaf C, N, K, P, Ca, Mg, Mn content - terrestrial",,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10754,site scale - vegetation structure,SOBIO_140,Vegetation structure - site scale,,et:21920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10755,cropland - area under tillage,SOSOC_029,Area under tillage - cropland,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10756,cropland and forests - land-based income,SOSOC_030,Land-based income - cropland and forests,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10757,"cropland, forests, fishery - yield ",SOSOC_031,"Yield – cropland, forests, fishery",,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10758,governance structure and character,SOSOC_032,Governance structure and character,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10759,stakeholder engagement process indicators,SOSOC_033,Stakeholder engagement process indicators,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10760,basic services provision,SOSOC_034,Basic services provision: health & education,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10761,"land cover, land use, land cover change, land use change",SOSOC_036,"Land cover, land use, land cover change, land use change",,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10762,general information (DEIMS),SOSOC_039,General information (DEIMS),,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10763,ecosystem services profile,SOSOC_040,Ecosystem services profile,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10764,NUTS3 and Local Administrative Units ,SOSOC_041,NUTS3 and Local Administrative Units (LAU) spatial databases,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10765,per capita income,SOSOC_042,Per capita income,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10766,age profile- education attainment-residential profile-residential density,SOSOC_043,Age profile- education attainment-residential profile-residential density,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10767,status of employment,SOSOC_044,Status of employment,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10768,population consumption statistics,SOSOC_045,Population consumption statistics,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10769,"farmland - grazing timing, intensity",SOSOC_112,"Grazing timing, intensity - farmland",,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10770,farm gate economic return,SOSOC_113,Farm gate economic return,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10771,farmland - livestock ,SOSOC_114,livestock (livestock units) - farmland,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10772,"cropland, orchards - irrigation management, timing, intensity",SOSOC_115,"Irrigation management, timing, intensity - cropland, orchards",,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10773,"cropland, orchards - fertilizer input ",SOSOC_116,"Fertilizer input (N, P, K fertilisation, liming, pesticides) - cropland, orchards",,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10774,relevant regional actors and initiatives,SOSOC_118,"Relevant regional actors and initiatives (NGO's, civil society groups, etc.)",,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10775,property ownership/laws/institutions,SOSOC_120,Property ownership/laws/institutions,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10776,number of tourists/visitors,SOSOC_122,Number of tourists/visitors,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10777,records of important land users ,SOSOC_127,"Records of important land users (e.g., forest enterprises)",,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10778,physical infrastructure networks,SOSOC_130,Physical infrastructure networks,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10779,buildings and other structures,SOSOC_131,Buildings and other structures,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10780,"roads, railways, settlement areas",SOSOC_132,"Roads, Railways, settlement areas",,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10781,maritime traffic and recreational navigation,SOSOC_147,Maritime traffic and recreational navigation,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10782,aquaculture,SOSOC_149,Aquaculture,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10783,extraction of minerals,SOSOC_150,Extraction of minerals,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10784,oil and gas exploitation,SOSOC_151,Oil and gas exploitation,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10785,wind energy,SOSOC_152,Wind energy,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+cl:10786,protected areas,SOSOC_153,Protected areas,,et:30317,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18
+,,,,,et:30317
