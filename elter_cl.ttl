@@ -3344,7 +3344,7 @@ cl:10365 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2023-02-27"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:30316;
+  skos:narrower et:21921, et:21922, et:30316;
   skos:prefLabel "eLTER standard observation"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -3353,7 +3353,7 @@ et:30316 a skos:Concept;
   dct:modified "2023-02-26"^^xsd:date;
   skos:broader et:21919, cl:10365;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10366;
+  skos:narrower cl:10366, cl:10685, cl:10686, cl:10687, cl:10688;
   skos:prefLabel "geosphere"@en .
 
 cl:10366 a skos:Concept;
@@ -3363,8 +3363,8 @@ cl:10366 a skos:Concept;
   skos:broader et:30316;
   skos:definition "soil inventory - pedological/geological characterization"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:22065, et:22245, et:22264, et:22279, et:30067, et:30319, et:30321,
-    et:30323;
+  skos:narrower et:21920, et:22065, et:22245, et:22264, et:22279, et:30067, et:30319,
+    et:30321, et:30323;
   skos:prefLabel "soil inventory"@en .
 
 et:22279 a skos:Concept;
@@ -6099,6 +6099,147 @@ cl:10684 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "TA-RA project"@en .
 
+et:21922 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:broader et:21919, cl:10365;
+  skos:definition "[Henderson's] n. the portion of the planet which is water, e.g. the oceans, rivers, lakes, streams, and including soil water."@en;
+  skos:exactMatch <http://en.wikipedia.org/wiki/hydrosphere>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/25360>,
+    <http://purl.obolibrary.org/obo/ENVO_01000819>, <http://www.eionet.europa.eu/gemet/concept/4124>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10689, cl:10690, cl:10691, cl:10692, cl:10693, cl:10694;
+  skos:prefLabel "Hydrosphäre"@de, "hidrosfera"@es, "hidrosfera"@hr, "hidrosfera"@lt,
+    "hidrosfera"@pt, "hidrosfera"@sl, "hidrosferă"@ro, "hidrosfēra"@lv, "hidroszféra"@hu,
+    "hydrosfeer"@nl, "hydrosfera"@pl, "hydrosfär"@sv, "hydrosfære"@da, "hydrosfære"@no,
+    "hydrosféra"@cs, "hydrosféra"@sk, "hydrosphere"@en, "hydrosphère"@fr, "hüdrosfäär"@et,
+    "idrosfera"@it, "vesikehä, hydrosfääri"@fi, "υδρόσφαιρα"@el, "Хидросфера"@bg, "المحيط المائي - الغلاف المائي للأرض"@ar;
+  skos:scopeNote "LTER EU controlled vocabulary"@en .
+
+et:21921 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:broader et:21919, cl:10365;
+  skos:definition "[Henderson's] n. the part of the planet contain­ing living organisms: the living world."@en;
+  skos:exactMatch <http://en.wikipedia.org/wiki/biosphere>, <http://eurovoc.europa.eu/4940>,
+    <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/38140>, <http://purl.obolibrary.org/obo/ENVO_01000817>,
+    <http://www.eionet.europa.eu/gemet/concept/892>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Biosphäre"@de, "biosfeer"@nl, "biosfera"@es, "biosfera"@hr, "biosfera"@it,
+    "biosfera"@lt, "biosfera"@pl, "biosfera"@pt, "biosfera"@sl, "biosferă"@ro, "biosfär"@sv,
+    "biosfäär, elukond"@et, "biosfääri, eliökehä"@fi, "biosfære"@da, "biosfære"@no, "biosféra"@cs,
+    "biosféra"@sk, "biosfēra"@lv, "biosphere"@en, "biosphère"@fr, "bioszféra"@hu, "βιόσφαιρα"@el,
+    "Биосфера"@bg, "المحيط الحيوي"@ar;
+  skos:scopeNote "LTER EU controlled vocabulary"@en .
+
+et:21920 a skos:Concept;
+  dct:created "2016-03-31"^^xsd:date;
+  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:broader et:21919, cl:10366;
+  skos:definition "[GEMET] The gaseous envelope surrounding the Earth in a several kilometers-thick layer."@en;
+  skos:exactMatch <http://en.wikipedia.org/wiki/atmosphere>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/20870>,
+    <http://purl.obolibrary.org/obo/ENVO_01000267>, <http://www.eionet.europa.eu/gemet/concept/617>,
+    <https://vocab.lternet.edu/vocab/vocab/?tema=48>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Atmosphäre"@de, "atmosfeer"@nl, "atmosfera"@hr, "atmosfera"@it, "atmosfera"@lt,
+    "atmosfera"@pl, "atmosfera"@pt, "atmosferă"@ro, "atmosfär"@sv, "atmosfäär, õhkkond"@et,
+    "atmosfære"@da, "atmosfære"@no, "atmosféra"@cs, "atmosféra"@sk, "atmosfēra"@lv, "atmosphere"@en,
+    "atmosphère"@fr, "atmoszféra"@hu, "atmósfera"@es, "ilmakehä"@fi, "ozračje, atmosfera"@sl,
+    "ατμόσφαιρα"@el, "Атмосфера"@bg, "الجو- الغلاف الجوي"@ar;
+  skos:scopeNote "US LTER controlled vocabulary"@en .
+
+et:30317 a skos:Concept;
+  dct:created "2023-02-26"^^xsd:date;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:broader et:21919, cl:10367;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "sociosphere"@en .
+
+cl:10685 a skos:Concept;
+  dct:created "2023-03-18"^^xsd:date;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOGEO_003"@en;
+  skos:broader et:30316;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "soil chemical and physical characteristics"@en .
+
+cl:10686 a skos:Concept;
+  dct:created "2023-03-18"^^xsd:date;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOGEO_167"@en;
+  skos:broader et:30316;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "soil water chemical characteristics"@en .
+
+cl:10687 a skos:Concept;
+  dct:created "2023-03-18"^^xsd:date;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOGEO_048"@en;
+  skos:broader et:30316;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "soil - percolation/infiltration"@en .
+
+cl:10688 a skos:Concept;
+  dct:created "2023-03-18"^^xsd:date;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOGEO_155"@en;
+  skos:broader et:30316;
+  skos:definition "sediment (aquatic and marine) inventory"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "sediment inventory"@en .
+
+cl:10689 a skos:Concept;
+  dct:created "2023-03-18"^^xsd:date;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOHYD_004"@en;
+  skos:broader et:21922;
+  skos:definition "Profiles of physical and chemical waters characteristics - surface water (standing)"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "standing water characteristics profiles"@en .
+
+cl:10690 a skos:Concept;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOHYD_005"@en;
+  skos:broader et:21922;
+  skos:definition "Physical and chemical water characteristics - surface water (running waters)"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "running water characteristics"@en .
+
+cl:10691 a skos:Concept;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOHYD_006"@en;
+  skos:broader et:21922;
+  skos:definition "Physical and chemical water characteristics - groundwater"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "groundwater characteristics"@en .
+
+cl:10692 a skos:Concept;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOHYD_169"@en;
+  skos:broader et:21922;
+  skos:definition "Nutrient concentration: NO2, NH4, DOC, DIC - running waters"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "running water nutrient concentration"@en .
+
+cl:10693 a skos:Concept;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOHYD_170"@en;
+  skos:broader et:21922;
+  skos:definition "Profiles of nutrient concentration: NO2, NH4, DOC, DIC - standing waters"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "standing water nutrient concentration profiles"@en .
+
+cl:10694 a skos:Concept;
+  dct:created "2023-03-18"^^xsd:date;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:altLabel "SOHYD_171"@en;
+  skos:broader et:21922;
+  skos:definition "Major ion concentrations: Cl, SO4, Br, Na, K, Mg, Ca, B, Silica - inland running/standing waters, transitional waters"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Major ion concentrations"@en .
+
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
     et:10144, et:10146, et:10147, et:10148, et:10149, et:10151, et:20231, et:20241, et:21585,
@@ -6125,10 +6266,12 @@ et:20748 skos:narrower et:20854, et:21934 .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
 
-et:21919 skos:narrower et:30316 .
+et:21919 skos:narrower et:21920, et:21921, et:21922, et:30316, et:30317 .
 
 et:22133 skos:narrower et:30319 .
 
 et:20591 skos:narrower et:20593, et:20626, et:20635 .
 
 et:26 skos:narrower et:20650, et:20660, et:20676 .
+
+cl:10367 skos:narrower et:30317 .
