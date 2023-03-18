@@ -3344,7 +3344,7 @@ cl:10365 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2023-02-27"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:21921, et:21922, et:30316;
+  skos:narrower et:21920, et:21921, et:21922, et:30316, et:30317;
   skos:prefLabel "eLTER standard observation"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -3363,8 +3363,8 @@ cl:10366 a skos:Concept;
   skos:broader et:30316;
   skos:definition "soil inventory - pedological/geological characterization"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:21920, et:22065, et:22245, et:22264, et:22279, et:30067, et:30319,
-    et:30321, et:30323;
+  skos:narrower et:22065, et:22245, et:22264, et:22279, et:30067, et:30319, et:30321,
+    et:30323;
   skos:prefLabel "soil inventory"@en .
 
 et:22279 a skos:Concept;
@@ -6137,7 +6137,7 @@ et:21920 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
   dct:modified "2023-03-18"^^xsd:date;
-  skos:broader et:21919, cl:10366;
+  skos:broader et:21919, cl:10365;
   skos:definition "[GEMET] The gaseous envelope surrounding the Earth in a several kilometers-thick layer."@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/atmosphere>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/20870>,
     <http://purl.obolibrary.org/obo/ENVO_01000267>, <http://www.eionet.europa.eu/gemet/concept/617>,
@@ -6153,7 +6153,7 @@ et:21920 a skos:Concept;
 et:30317 a skos:Concept;
   dct:created "2023-02-26"^^xsd:date;
   dct:modified "2023-03-18"^^xsd:date;
-  skos:broader et:21919, cl:10367;
+  skos:broader et:21919, cl:10365;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "sociosphere"@en .
 
@@ -6238,7 +6238,7 @@ cl:10694 a skos:Concept;
   skos:broader et:21922;
   skos:definition "Major ion concentrations: Cl, SO4, Br, Na, K, Mg, Ca, B, Silica - inland running/standing waters, transitional waters"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Major ion concentrations"@en .
+  skos:prefLabel "major ion concentrations"@en .
 
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
@@ -6273,5 +6273,3 @@ et:22133 skos:narrower et:30319 .
 et:20591 skos:narrower et:20593, et:20626, et:20635 .
 
 et:26 skos:narrower et:20650, et:20660, et:20676 .
-
-cl:10367 skos:narrower et:30317 .
