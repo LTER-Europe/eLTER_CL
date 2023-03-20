@@ -3364,7 +3364,7 @@ cl:10366 a skos:Concept;
   skos:definition "soil inventory - pedological/geological characterization"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower et:22065, et:22245, et:22264, et:22279, et:30067, et:30319, et:30321,
-    et:30323;
+    et:30323, et:30324;
   skos:prefLabel "soil inventory"@en .
 
 et:22279 a skos:Concept;
@@ -3419,9 +3419,9 @@ et:22245 a skos:Concept;
 et:22264 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-02-26"^^xsd:date;
+  dct:modified "2023-03-19"^^xsd:date;
   skos:altLabel "pH of soil"@en, "soil pH"@en, "soil solution pH"@en;
-  skos:broader et:20935, cl:10366;
+  skos:broader et:20935, cl:10366, cl:10685;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "soil pH value"@en;
   iop:hasObjectOfInterest et:24;
@@ -3430,8 +3430,8 @@ et:22264 a skos:Concept;
 et:30067 a skos:Concept;
   dct:created "2018-11-22"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-02-26"^^xsd:date;
-  skos:broader et:20935, cl:10366;
+  dct:modified "2023-03-19"^^xsd:date;
+  skos:broader et:20935, cl:10366, cl:10685;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "soil cation exchange capacity"@en;
   iop:hasMatrix et:24;
@@ -3441,11 +3441,11 @@ et:30067 a skos:Concept;
 et:22065 a skos:Concept;
   dct:created "2016-03-31"^^xsd:date;
   dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-02-26"^^xsd:date;
-  skos:broader et:20935, cl:10366;
+  dct:modified "2023-03-19"^^xsd:date;
+  skos:broader et:20935, cl:10366, cl:10685;
   skos:definition "Base saturation is a measure of the amount of basic nutrients in the soil, expressed as a percentage of the total cation exchange capacity."@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "base saturation"@en;
+  skos:prefLabel "soil base saturation"@en;
   iop:hasMatrix et:24;
   iop:hasObjectOfInterest et:30320;
   iop:hasProperty et:21520 .
@@ -6177,6 +6177,7 @@ cl:10685 a skos:Concept;
   skos:broader et:30316;
   skos:definition "Soil chemical and physical characteristics"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower et:22065, et:22264, et:30067, et:30325;
   skos:prefLabel "soil chemical and physical characteristics"@en .
 
 cl:10686 a skos:Concept;
@@ -6613,14 +6614,15 @@ cl:10739 a skos:Concept;
   skos:broader et:21920;
   skos:definition "Atmospheric deposition in stemflow in stemflow - beech forest, 5 trees"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Atmospheric deposition in stemflow"@en .
+  skos:prefLabel "atmospheric deposition in stemflow"@en .
 
 cl:10740 a skos:Concept;
+  dct:modified "2023-03-18"^^xsd:date;
   skos:altLabel "SOATM_108"@en;
   skos:broader et:21920;
   skos:definition "Dry deposition of N-components"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Dry deposition of N-components"@en .
+  skos:prefLabel "sry deposition of N-components"@en .
 
 cl:10741 a skos:Concept;
   dct:modified "2023-03-18"^^xsd:date;
@@ -6644,7 +6646,7 @@ cl:10743 a skos:Concept;
   skos:broader et:21920;
   skos:definition "Tree growth"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Tree growth"@en .
+  skos:prefLabel "tree growth"@en .
 
 cl:10744 a skos:Concept;
   dct:modified "2023-03-18"^^xsd:date;
@@ -6990,6 +6992,24 @@ cl:10786 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "protected areas"@en .
 
+et:30324 a skos:Concept;
+  dct:created "2023-03-18"^^xsd:date;
+  dct:modified "2023-03-18"^^xsd:date;
+  skos:broader et:20935, cl:10366;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "geological site characterization"@en .
+
+et:30325 a skos:Concept;
+  dct:created "2023-03-19"^^xsd:date;
+  dct:modified "2023-03-19"^^xsd:date;
+  skos:broader et:20935, cl:10685;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "total organic carbon in soil"@en;
+  iop:hasContextObject et:24;
+  iop:hasMatrix et:20887;
+  iop:hasObjectOfInterest et:20805;
+  iop:hasProperty et:21520 .
+
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
     et:10144, et:10146, et:10147, et:10148, et:10149, et:10151, et:20231, et:20241, et:21585,
@@ -7002,7 +7022,7 @@ et:20935 skos:narrower et:22065, et:22245, et:22264, et:22279, et:30067, et:3021
     et:30233, et:30234, et:30235, et:30236, et:30237, et:30238, et:30239, et:30240, et:30241,
     et:30242, et:30243, et:30244, et:30245, et:30246, et:30247, et:30248, et:30249, et:30250,
     et:30251, et:30252, et:30253, et:30254, et:30255, et:30256, et:30257, et:30258, et:30259,
-    et:30260, et:30261, et:30262, et:30321, et:30323 .
+    et:30260, et:30261, et:30262, et:30321, et:30323, et:30324, et:30325 .
 
 et:30031 skos:narrower et:21747, et:21752, et:29 .
 
