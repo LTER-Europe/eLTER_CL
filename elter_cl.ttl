@@ -6,6 +6,7 @@
 @prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix iop: <https://w3id.org/iadopt/ont/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
@@ -34,10 +35,10 @@
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10228, cl:10301, cl:10304, cl:10311,
-    cl:10317, cl:10343, cl:10346, cl:10365, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425,
-    cl:10429, cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484,
-    cl:10489, cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584,
-    cl:10591, cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680 .
+    cl:10317, cl:10343, cl:10346, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425, cl:10429,
+    cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484, cl:10489,
+    cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584, cl:10591,
+    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1144,7 +1145,7 @@ et:10131 a skos:Concept;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A data item with a specific table layout that allows visualization of the performance of an algorithm. Each column of the matrix represents the instances in a predicted class, while each row represents the instances in an actual class."@en;
-  skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000145>;
+  skos:exactMatch obo:OBCS_0000145;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "confusion matrix"@en .
 
@@ -1154,7 +1155,7 @@ et:10129 a skos:Concept;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A quantitative confidence value that is the standard deviation of a data set divided by the mean of the same data set; a normalized measure of dispersion of a probability distribution"@en;
-  skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000081>;
+  skos:exactMatch obo:OBCS_0000081;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "coefficient of variation"@en .
 
@@ -1204,7 +1205,7 @@ et:10134 a skos:Concept;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A quantitative confidence value that is used in Bayesian analysis to describe the range in which a posterior probability estimate is likely to reside."@en;
-  skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000071>;
+  skos:exactMatch obo:OBCS_0000071;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "credible interval"@en .
 
@@ -1214,7 +1215,7 @@ et:10130 a skos:Concept;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A quantitative confidence value that refers to an interval give values within which there is a high probability (95 percent by convention) that the true population value can be found. The calculation of a confidence interval considers the standard deviation of the data and the number of observations. Thus, a confidence interval narrows as the number of observations increases, or its variance (dispersion) decreases."@en;
-  skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000070>;
+  skos:exactMatch obo:OBCS_0000070;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "confidence interval"@en .
 
@@ -1224,7 +1225,7 @@ et:10137 a skos:Concept;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:10145, cl:10009;
   skos:definition "[OBCS] A quantitative confidence value that refers to the upper and lower values defining the central 50 percent of observations. The boundaries are equal to the 25th and 75th percentiles. The interquartile range can be depicted in a box and whiskers plot."@en;
-  skos:exactMatch <http://purl.obolibrary.org/obo/OBCS_0000072>;
+  skos:exactMatch obo:OBCS_0000072;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "interquartile range"@en .
 
@@ -1264,7 +1265,7 @@ et:10135 a skos:Concept;
   dct:modified "2022-04-11"^^xsd:date;
   skos:broader et:10145, cl:10009;
   skos:definition "[STATO] a decile is a quantile where n=10 and which splits data into sections accrued of 10% of data, so the first decile delineates 10% of the data, the second decile delineates 20% of the data and the nineth decile, 90 % of the data"@en;
-  skos:exactMatch <http://purl.obolibrary.org/obo/STATO_0000292>;
+  skos:exactMatch obo:STATO_0000292;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "decile"@en .
 
@@ -1760,7 +1761,7 @@ et:30217 a skos:Concept;
   skos:prefLabel "area of slope <1% arable land of catchment"@en;
   iop:hasConstraint et:30213;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest obo:ENVO_01001177;
   iop:hasProperty et:21533 .
 
 et:30218 a skos:Concept;
@@ -1772,7 +1773,7 @@ et:30218 a skos:Concept;
   skos:prefLabel "area of slope 1-2% arable land of catchment"@en;
   iop:hasConstraint et:30214;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest obo:ENVO_01001177;
   iop:hasProperty et:21533 .
 
 et:30219 a skos:Concept;
@@ -1784,7 +1785,7 @@ et:30219 a skos:Concept;
   skos:prefLabel "area of slope 3-4% arable land of catchment"@en;
   iop:hasConstraint et:30215;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest obo:ENVO_01001177;
   iop:hasProperty et:21533 .
 
 et:30220 a skos:Concept;
@@ -1796,7 +1797,7 @@ et:30220 a skos:Concept;
   skos:prefLabel "area of slope 4-8% arable land of catchment"@en;
   iop:hasConstraint et:30205;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest obo:ENVO_01001177;
   iop:hasProperty et:21533 .
 
 et:30221 a skos:Concept;
@@ -1808,7 +1809,7 @@ et:30221 a skos:Concept;
   skos:prefLabel "area of slope >8% arable land of catchment"@en;
   iop:hasConstraint et:30216;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest obo:ENVO_01001177;
   iop:hasProperty et:21533 .
 
 et:30229 a skos:Concept;
@@ -1852,7 +1853,7 @@ et:30232 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of glacier of catchment"@en;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00000133>;
+  iop:hasObjectOfInterest obo:ENVO_00000133;
   iop:hasProperty et:21533 .
 
 et:30233 a skos:Concept;
@@ -1863,7 +1864,7 @@ et:30233 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "slope of catchment"@en;
   iop:hasObjectOfInterest et:10092;
-  iop:hasProperty <http://purl.obolibrary.org/obo/ENVO_00002000> .
+  iop:hasProperty obo:ENVO_00002000 .
 
 et:30234 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1874,7 +1875,7 @@ et:30234 a skos:Concept;
   skos:prefLabel "mass per area per time of soil erosion in slope <1% arable land of catchment"@en;
   iop:hasConstraint et:30213;
   iop:hasContextObject et:10092;
-  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasMatrix obo:ENVO_01001177;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
@@ -1887,7 +1888,7 @@ et:30235 a skos:Concept;
   skos:prefLabel "mass per area per time of soil erosion in slope 1-2% arable land of catchment"@en;
   iop:hasConstraint et:30214;
   iop:hasContextObject et:10092;
-  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasMatrix obo:ENVO_01001177;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
@@ -1900,7 +1901,7 @@ et:30236 a skos:Concept;
   skos:prefLabel "mass per area per time of soil erosion in slope 3-4% arable land of catchment"@en;
   iop:hasConstraint et:30215;
   iop:hasContextObject et:10092;
-  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasMatrix obo:ENVO_01001177;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
@@ -1913,7 +1914,7 @@ et:30237 a skos:Concept;
   skos:prefLabel "mass per area per time of soil erosion in slope 4-8% arable land of catchment"@en;
   iop:hasConstraint et:30205;
   iop:hasContextObject et:10092;
-  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasMatrix obo:ENVO_01001177;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
@@ -1926,7 +1927,7 @@ et:30238 a skos:Concept;
   skos:prefLabel "mass per area per time of soil erosion in slope >8% arable land of catchment"@en;
   iop:hasConstraint et:30216;
   iop:hasContextObject et:10092;
-  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasMatrix obo:ENVO_01001177;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
@@ -1962,7 +1963,7 @@ et:30241 a skos:Concept;
   skos:prefLabel "area of with conservation tillage arable land of catchment"@en;
   iop:hasConstraint et:30222;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest obo:ENVO_01001177;
   iop:hasProperty et:21533 .
 
 et:30242 a skos:Concept;
@@ -1986,7 +1987,7 @@ et:30243 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "area of arable land of catchment"@en;
   iop:hasContextObject et:10092;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasObjectOfInterest obo:ENVO_01001177;
   iop:hasProperty et:21533 .
 
 et:30244 a skos:Concept;
@@ -1997,7 +1998,7 @@ et:30244 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mass per area per time of soil erosion in arable land of catchment"@en;
   iop:hasContextObject et:10092;
-  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasMatrix obo:ENVO_01001177;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerAreaTime> .
 
@@ -2022,7 +2023,7 @@ et:30246 a skos:Concept;
   skos:prefLabel "mass per area of actual soil erosion in arable land of catchment"@en;
   iop:hasConstraint et:10314;
   iop:hasContextObject et:10092;
-  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_01001177>;
+  iop:hasMatrix obo:ENVO_01001177;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
@@ -2061,7 +2062,7 @@ et:30249 a skos:Concept;
   skos:prefLabel "mass per area of actual soil erosion in glacier of catchment"@en;
   iop:hasConstraint et:10315;
   iop:hasContextObject et:10092;
-  iop:hasMatrix <http://purl.obolibrary.org/obo/ENVO_00000133>;
+  iop:hasMatrix obo:ENVO_00000133;
   iop:hasObjectOfInterest et:21286;
   iop:hasProperty <http://qudt.org/vocab/quantitykind/MassPerArea> .
 
@@ -2112,7 +2113,7 @@ et:30253 a skos:Concept;
   skos:prefLabel "content of clay in topsoil of catchment"@en;
   iop:hasContextObject et:10092;
   iop:hasMatrix <http://sweetontology.net/realmSoil/Topsoil>;
-  iop:hasObjectOfInterest <http://purl.obolibrary.org/obo/ENVO_00002982>;
+  iop:hasObjectOfInterest obo:ENVO_00002982;
   iop:hasProperty et:21546 .
 
 et:30254 a skos:Concept;
@@ -2326,8 +2327,7 @@ et:21285 a skos:Concept;
   skos:editorialNote "US LTER controlled vocabulary"@en;
   skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_2651>, <http://en.wikipedia.org/wiki/erosion>,
     <http://eurovoc.europa.eu/3158>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/14240>,
-    <http://purl.obolibrary.org/obo/ENVO_01001346>, <http://www.eionet.europa.eu/gemet/concept/2963>,
-    <https://vocab.lternet.edu/vocab/vocab/?tema=181>;
+    obo:ENVO_01001346, <http://www.eionet.europa.eu/gemet/concept/2963>, <https://vocab.lternet.edu/vocab/vocab/?tema=181>;
   skos:hiddenLabel "Erosion"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "eroosio"@et, "erosie"@lv, "erosion"@cs, "erosion"@en, "erosion"@sl,
@@ -3105,7 +3105,7 @@ cl:10337 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-09-30"^^xsd:date;
   skos:broader cl:10460;
-  skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_02000125>;
+  skos:exactMatch obo:ENVO_02000125;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10338, cl:10339, cl:10340, cl:10341, cl:10342;
   skos:prefLabel "transportation"@en .
@@ -3131,7 +3131,7 @@ cl:10340 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
   skos:broader cl:10337, cl:10402;
-  skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01000608>;
+  skos:exactMatch obo:ENVO_01000608;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "boat"@en .
 
@@ -3338,135 +3338,6 @@ et:30212 a skos:Concept;
   skos:prefLabel "catchment area"@en;
   iop:hasObjectOfInterest et:10092;
   iop:hasProperty et:21533 .
-
-cl:10365 a skos:Concept;
-  dct:created "2022-04-11"^^xsd:date;
-  dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-02-27"^^xsd:date;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:21920, et:21921, et:21922, et:30316, et:30317;
-  skos:prefLabel "eLTER standard observation"@en;
-  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30316 a skos:Concept;
-  dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2023-02-26"^^xsd:date;
-  skos:broader et:21919, cl:10365;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10366, cl:10685, cl:10686, cl:10687, cl:10688;
-  skos:prefLabel "geosphere"@en .
-
-cl:10366 a skos:Concept;
-  dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2023-02-27"^^xsd:date;
-  skos:altLabel "SOGEO_001"@en;
-  skos:broader et:30316;
-  skos:definition "soil inventory - pedological/geological characterization"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:22065, et:22245, et:22264, et:22279, et:30067, et:30319, et:30321,
-    et:30323, et:30324;
-  skos:prefLabel "soil inventory"@en .
-
-et:22279 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
-  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-02-26"^^xsd:date;
-  dct:source <http://www.eionet.europa.eu/gemet/concept/7898>;
-  skos:altLabel "texture of soil"@en;
-  skos:broader et:20935, cl:10366;
-  skos:definition "1) Refers to the relative proportions of the various size groups (sand, silt and clay) of the individual soil grains in a mass of soil. 2) Classification of soil by the proportion and graduations of the three size groups of soil grains, i.e., sand, silt and clay, present in the soil."@en;
-  skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_7199>, <http://en.wikipedia.org/wiki/soil_texture>,
-    <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/30390>, <http://www.eionet.europa.eu/gemet/concept/7898>,
-    <https://vocab.lternet.edu/vocab/vocab/?tema=531>;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:note "[controlled by ] Lars Lundin 20130614"@en;
-  skos:prefLabel "Bodentextur"@de, "augsnes tekstūra"@lv, "bodemtextuur"@nl, "dirvožemio tekstūra"@lt,
-    "jordtekstur"@da, "jordtekstur"@no, "maaperän koostumus"@fi, "marktextur"@sv, "mullalõimis, mulla granulomeetriline koostis"@et,
-    "složení půdy"@cs, "soil texture"@en, "talajszerkezet"@hu, "tekstura tal"@sl, "tekstura tla"@hr,
-    "tessitura del suolo"@it, "textura de suelo"@es, "textura do solo"@pt, "texture du sol"@fr,
-    "textură a solului"@ro, "uziarnienie gleby"@pl, "zrnitosť pôdy"@sk, "υφή (σύσταση) του εδάφους"@el,
-    "Структура на почвите"@bg, "تكوين التربة"@ar;
-  skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:hasObjectOfInterest et:24;
-  iop:hasProperty et:10363 .
-
-et:30319 a skos:Concept;
-  dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2023-02-26"^^xsd:date;
-  skos:broader et:22133, cl:10366;
-  skos:definition "Soil hydraulic conductivity is a measure of the efficiency of bulk flow through soil, and defined as the flow rate per unit pressure driving force."@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "soil hydraulic conductivity"@en;
-  iop:hasMatrix et:24;
-  iop:hasObjectOfInterest et:20538;
-  iop:hasProperty et:30318 .
-
-et:22245 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
-  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-02-26"^^xsd:date;
-  skos:altLabel "bulk density in soil"@en;
-  skos:broader et:20935, cl:10366;
-  skos:definition "Soil bulk density is a measure of the mass of dry soil per unit volume, including the air between particles."@en;
-  skos:exactMatch <https://vocab.lternet.edu/vocab/vocab/?tema=519>;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:note "[controlled by ] Lars Lundin 20130614\" , \"[source of definition ] Lars Lundin"@en;
-  skos:prefLabel "soil bulk density"@en;
-  skos:scopeNote "US LTER controlled vocabulary"@en;
-  iop:hasObjectOfInterest et:24;
-  iop:hasProperty et:22074 .
-
-et:22264 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
-  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-03-19"^^xsd:date;
-  skos:altLabel "pH of soil"@en, "soil pH"@en, "soil solution pH"@en;
-  skos:broader et:20935, cl:10366, cl:10685;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "soil pH value"@en;
-  iop:hasObjectOfInterest et:24;
-  iop:hasProperty et:21459 .
-
-et:30067 a skos:Concept;
-  dct:created "2018-11-22"^^xsd:date;
-  dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2023-03-19"^^xsd:date;
-  skos:broader et:20935, cl:10366, cl:10685;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "soil cation exchange capacity"@en;
-  iop:hasMatrix et:24;
-  iop:hasObjectOfInterest et:20881;
-  iop:hasProperty et:10036 .
-
-et:22065 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
-  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-03-19"^^xsd:date;
-  skos:broader et:20935, cl:10366, cl:10685;
-  skos:definition "Base saturation is a measure of the amount of basic nutrients in the soil, expressed as a percentage of the total cation exchange capacity."@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "soil base saturation"@en;
-  iop:hasMatrix et:24;
-  iop:hasObjectOfInterest et:30320;
-  iop:hasProperty et:21520 .
-
-et:30321 a skos:Concept;
-  dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2023-02-26"^^xsd:date;
-  skos:broader et:20935, cl:10366;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "amount of organic matter"@en;
-  iop:hasObjectOfInterest et:20887;
-  iop:hasProperty et:21520 .
-
-et:30323 a skos:Concept;
-  dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2023-02-26"^^xsd:date;
-  skos:broader et:20935, cl:10366;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "soil type classification"@en;
-  iop:hasObjectOfInterest et:10126;
-  iop:hasProperty et:30322 .
 
 cl:10416 a skos:Concept;
   dct:created "2022-04-15"^^xsd:date;
@@ -4802,7 +4673,7 @@ cl:10557 a skos:Concept;
   dct:modified "2022-10-01"^^xsd:date;
   skos:altLabel "MED"@en, "mediterranean"@en;
   skos:broader cl:10546;
-  skos:exactMatch <http://purl.obolibrary.org/obo/ENVO_01000207>;
+  skos:exactMatch obo:ENVO_01000207;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Mediterranean Bio-geographical Region"@en .
 
@@ -5750,7 +5621,7 @@ et:30041 a skos:Concept;
   dct:created "2022-10-11"^^xsd:date;
   dct:modified "2022-10-11"^^xsd:date;
   skos:broader et:20635;
-  skos:exactMatch <http://purl.obolibrary.org/obo/NCBITaxon_9989>;
+  skos:exactMatch obo:NCBITaxon_9989;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "rodents"@en .
 
@@ -5886,7 +5757,7 @@ et:20602 a skos:Concept;
   skos:broader et:20593;
   skos:definition "A butterfly is a mainly day-flying insect of the order Lepidoptera, which includes the butterflies and moths"@en;
   skos:exactMatch <http://en.wikipedia.org/wiki/butterflies>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/98750>,
-    <http://purl.obolibrary.org/obo/NCBITaxon_7088>;
+    obo:NCBITaxon_7088;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "butterflies"@en .
 
@@ -6100,916 +5971,6 @@ cl:10684 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "TA-RA project"@en .
 
-et:21922 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
-  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:broader et:21919, cl:10365;
-  skos:definition "[Henderson's] n. the portion of the planet which is water, e.g. the oceans, rivers, lakes, streams, and including soil water."@en;
-  skos:exactMatch <http://en.wikipedia.org/wiki/hydrosphere>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/25360>,
-    <http://purl.obolibrary.org/obo/ENVO_01000819>, <http://www.eionet.europa.eu/gemet/concept/4124>;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10689, cl:10690, cl:10691, cl:10692, cl:10693, cl:10694, cl:10695,
-    cl:10696, cl:10697, cl:10698, cl:10699, cl:10700, cl:10701, cl:10702, cl:10703, cl:10704,
-    cl:10705, cl:10706, cl:10707, cl:10708;
-  skos:prefLabel "Hydrosphäre"@de, "hidrosfera"@es, "hidrosfera"@hr, "hidrosfera"@lt,
-    "hidrosfera"@pt, "hidrosfera"@sl, "hidrosferă"@ro, "hidrosfēra"@lv, "hidroszféra"@hu,
-    "hydrosfeer"@nl, "hydrosfera"@pl, "hydrosfär"@sv, "hydrosfære"@da, "hydrosfære"@no,
-    "hydrosféra"@cs, "hydrosféra"@sk, "hydrosphere"@en, "hydrosphère"@fr, "hüdrosfäär"@et,
-    "idrosfera"@it, "vesikehä, hydrosfääri"@fi, "υδρόσφαιρα"@el, "Хидросфера"@bg, "المحيط المائي - الغلاف المائي للأرض"@ar;
-  skos:scopeNote "LTER EU controlled vocabulary"@en .
-
-et:21921 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
-  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:broader et:21919, cl:10365;
-  skos:definition "[Henderson's] n. the part of the planet contain­ing living organisms: the living world."@en;
-  skos:exactMatch <http://en.wikipedia.org/wiki/biosphere>, <http://eurovoc.europa.eu/4940>,
-    <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/38140>, <http://purl.obolibrary.org/obo/ENVO_01000817>,
-    <http://www.eionet.europa.eu/gemet/concept/892>;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10709, cl:10710, cl:10711, cl:10712, cl:10713, cl:10714, cl:10715,
-    cl:10716, cl:10717, cl:10718, cl:10719, cl:10720, cl:10721, cl:10722, cl:10723, cl:10724,
-    cl:10725, cl:10726, cl:10727, cl:10728, cl:10729, cl:10730, cl:10731, cl:10732;
-  skos:prefLabel "Biosphäre"@de, "biosfeer"@nl, "biosfera"@es, "biosfera"@hr, "biosfera"@it,
-    "biosfera"@lt, "biosfera"@pl, "biosfera"@pt, "biosfera"@sl, "biosferă"@ro, "biosfär"@sv,
-    "biosfäär, elukond"@et, "biosfääri, eliökehä"@fi, "biosfære"@da, "biosfære"@no, "biosféra"@cs,
-    "biosféra"@sk, "biosfēra"@lv, "biosphere"@en, "biosphère"@fr, "bioszféra"@hu, "βιόσφαιρα"@el,
-    "Биосфера"@bg, "المحيط الحيوي"@ar;
-  skos:scopeNote "LTER EU controlled vocabulary"@en .
-
-et:21920 a skos:Concept;
-  dct:created "2016-03-31"^^xsd:date;
-  dct:creator "herbert.schentz@umweltbundesamt.at"@en;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:broader et:21919, cl:10365;
-  skos:definition "[GEMET] The gaseous envelope surrounding the Earth in a several kilometers-thick layer."@en;
-  skos:exactMatch <http://en.wikipedia.org/wiki/atmosphere>, <http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/20870>,
-    <http://purl.obolibrary.org/obo/ENVO_01000267>, <http://www.eionet.europa.eu/gemet/concept/617>,
-    <https://vocab.lternet.edu/vocab/vocab/?tema=48>;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10733, cl:10734, cl:10735, cl:10736, cl:10737, cl:10738, cl:10739,
-    cl:10740, cl:10741, cl:10742, cl:10743, cl:10744, cl:10745, cl:10746, cl:10747, cl:10748,
-    cl:10749, cl:10750, cl:10751, cl:10752, cl:10753, cl:10754;
-  skos:prefLabel "Atmosphäre"@de, "atmosfeer"@nl, "atmosfera"@hr, "atmosfera"@it, "atmosfera"@lt,
-    "atmosfera"@pl, "atmosfera"@pt, "atmosferă"@ro, "atmosfär"@sv, "atmosfäär, õhkkond"@et,
-    "atmosfære"@da, "atmosfære"@no, "atmosféra"@cs, "atmosféra"@sk, "atmosfēra"@lv, "atmosphere"@en,
-    "atmosphère"@fr, "atmoszféra"@hu, "atmósfera"@es, "ilmakehä"@fi, "ozračje, atmosfera"@sl,
-    "ατμόσφαιρα"@el, "Атмосфера"@bg, "الجو- الغلاف الجوي"@ar;
-  skos:scopeNote "US LTER controlled vocabulary"@en .
-
-et:30317 a skos:Concept;
-  dct:created "2023-02-26"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:broader et:21919, cl:10365;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10755, cl:10756, cl:10757, cl:10758, cl:10759, cl:10760, cl:10761,
-    cl:10762, cl:10763, cl:10764, cl:10765, cl:10766, cl:10767, cl:10768, cl:10769, cl:10770,
-    cl:10771, cl:10772, cl:10773, cl:10774, cl:10775, cl:10776, cl:10777, cl:10778, cl:10779,
-    cl:10780, cl:10781, cl:10782, cl:10783, cl:10784, cl:10785, cl:10786;
-  skos:prefLabel "sociosphere"@en .
-
-cl:10685 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOGEO_003"@en;
-  skos:broader et:30316;
-  skos:definition "Soil chemical and physical characteristics"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:22065, et:22264, et:30067, et:30325;
-  skos:prefLabel "soil chemical and physical characteristics"@en .
-
-cl:10686 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOGEO_167"@en;
-  skos:broader et:30316;
-  skos:definition "Soil water chemical characteristics"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "soil water chemical characteristics"@en .
-
-cl:10687 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOGEO_048"@en;
-  skos:broader et:30316;
-  skos:definition "percolation/infiltration - soil"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "soil - percolation/infiltration"@en .
-
-cl:10688 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOGEO_155"@en;
-  skos:broader et:30316;
-  skos:definition "Sediment (aquatic and marine) inventory"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "sediment inventory"@en .
-
-cl:10689 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_004"@en;
-  skos:broader et:21922;
-  skos:definition "Profiles of physical and chemical waters characteristics - surface water (standing)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing water characteristics profiles"@en .
-
-cl:10690 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_005"@en;
-  skos:broader et:21922;
-  skos:definition "Physical and chemical water characteristics - surface water (running waters)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running water characteristics"@en .
-
-cl:10691 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_006"@en;
-  skos:broader et:21922;
-  skos:definition "Physical and chemical water characteristics - groundwater"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "groundwater characteristics"@en .
-
-cl:10692 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_169"@en;
-  skos:broader et:21922;
-  skos:definition "Nutrient concentration: NO2, NH4, DOC, DIC - running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running water nutrient concentration"@en .
-
-cl:10693 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_170"@en;
-  skos:broader et:21922;
-  skos:definition "Profiles of nutrient concentration: NO2, NH4, DOC, DIC - standing waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing water nutrient concentration profiles"@en .
-
-cl:10694 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_171"@en;
-  skos:broader et:21922;
-  skos:definition "Major ion concentrations: Cl, SO4, Br, Na, K, Mg, Ca, B, Silica - inland running/standing waters, transitional waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "major ion concentrations"@en .
-
-cl:10695 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_010"@en;
-  skos:broader et:21922;
-  skos:definition "water level - surface water (running water)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running water - water level"@en .
-
-cl:10696 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_011"@en;
-  skos:broader et:21922;
-  skos:definition "Ice cover/thickness (standing and transitional water)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing and transitional water - ice characteristics"@en .
-
-cl:10697 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_012"@en;
-  skos:broader et:21922;
-  skos:definition "Snow cover and depths"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "snow characteristics"@en .
-
-cl:10698 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_168"@en;
-  skos:broader et:21922;
-  skos:definition "Soil water content/soil temperature"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Soil characteristics"@en .
-
-cl:10699 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_058"@en;
-  skos:broader et:21922;
-  skos:definition "Stable isotopes (18O, 2H) - standing, running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing, running waters - stable isotopes"@en .
-
-cl:10700 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_059"@en;
-  skos:broader et:21922;
-  skos:definition "Stable Isotopes (18O, 2H) - groundwater"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "groundwater - stable isotopes"@en .
-
-cl:10701 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_062"@en;
-  skos:broader et:21922;
-  skos:definition "Major ion concentrations: Cl, SO4, Br, Na, K, Mg, Ca, B - groundwater"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "groundwater - major ion concentrations"@en .
-
-cl:10702 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_064"@en;
-  skos:broader et:21922;
-  skos:definition "Nutrient concentration: TP, SRP, TDN, NO3, NO2, NH4, DOC, DIC - groundwater"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "groundwater - nutrient concentration"@en .
-
-cl:10703 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_065"@en;
-  skos:broader et:21922;
-  skos:definition "DOM composition - groundwater"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "groundwater - DOM composition"@en .
-
-cl:10704 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_067"@en;
-  skos:broader et:21922;
-  skos:definition "Micropollutants: non-target screening [~1000 substances] - running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running waters - micropollutants"@en .
-
-cl:10705 a skos:Concept;
-  skos:altLabel "SOHYD_164"@en;
-  skos:broader et:21922;
-  skos:definition "glacier front variation"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "glacier front variation"@en .
-
-cl:10706 a skos:Concept;
-  skos:altLabel "SOHYD_165"@en;
-  skos:broader et:21922;
-  skos:definition "glacier mass balance"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "glacier mass balance"@en .
-
-cl:10707 a skos:Concept;
-  skos:altLabel "SOHYD_166"@en;
-  skos:broader et:21922;
-  skos:definition "glacier area"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "glacier area"@en .
-
-cl:10708 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_174"@en;
-  skos:broader et:21922;
-  skos:definition "Secchi-Depth; standing waters and transitional waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing waters and transitional waters - Secchi-depth"@en .
-
-cl:10709 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_014"@en;
-  skos:broader et:21921;
-  skos:definition "Flying insects"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "flying insects"@en .
-
-cl:10710 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_017"@en;
-  skos:broader et:21921;
-  skos:definition "Vegetation composition (mainly species level+abundance)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "vegetation composition"@en .
-
-cl:10711 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_018"@en;
-  skos:broader et:21921;
-  skos:definition "Birds, bats, frogs, insects using acoustic recording"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "birds, bats, frogs, insects"@en .
-
-cl:10712 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_019"@en;
-  skos:broader et:21921;
-  skos:definition "Pollen and spores"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "pollen and spores"@en .
-
-cl:10713 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_020"@en;
-  skos:broader et:21921;
-  skos:definition "Arthropods (ground-dwelling)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "arthropods"@en .
-
-cl:10714 a skos:Concept;
-  skos:altLabel "SOBIO_021"@en;
-  skos:broader et:21921;
-  skos:definition "eDNA Water"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "eDNA Water"@en .
-
-cl:10715 a skos:Concept;
-  skos:altLabel "SOBIO_022"@en;
-  skos:broader et:21921;
-  skos:definition "eDNA soil"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "eDNA soil"@en .
-
-cl:10716 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_079"@en;
-  skos:broader et:21921;
-  skos:definition "Algal community - standing freshwaters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing waters - algal community"@en .
-
-cl:10717 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_080"@en;
-  skos:broader et:21921;
-  skos:definition "Algal community - running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running waters - algal community"@en .
-
-cl:10718 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_179"@en;
-  skos:broader et:21921;
-  skos:definition "Algal community - transitional waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "transitional waters - algal community"@en .
-
-cl:10719 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_081"@en;
-  skos:broader et:21921;
-  skos:definition "Zooplankton (quantitative) - standing freshwaters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing waters - zooplankton"@en .
-
-cl:10720 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_180"@en;
-  skos:broader et:21921;
-  skos:definition "Zooplankton (quantitative) - running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running waters - zooplankton"@en .
-
-cl:10721 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_157"@en;
-  skos:broader et:21921;
-  skos:definition "Zooplankton - transitional waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "transitional waters - zooplankton"@en .
-
-cl:10722 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_082"@en;
-  skos:broader et:21921;
-  skos:definition "Fish community - standing freshwaters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing waters - fish community"@en .
-
-cl:10723 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_083"@en;
-  skos:broader et:21921;
-  skos:definition "Fish community - running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running waters - fish community"@en .
-
-cl:10724 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_084"@en;
-  skos:broader et:21921;
-  skos:definition "Macroinvertebrate community (quantitative) - standing waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing waters - macroinvertebrate community"@en .
-
-cl:10725 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_181"@en;
-  skos:broader et:21921;
-  skos:definition "Macroinvertebrate community (quantitative) - running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running waters - macroinvertebrate community"@en .
-
-cl:10726 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_182"@en;
-  skos:broader et:21921;
-  skos:definition "Macroinvertebrate community (quantitative) - transitional waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "transitional waters - macroinvertebrate community"@en .
-
-cl:10727 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_086"@en;
-  skos:broader et:21921;
-  skos:definition "Macrophyte community (quantitative) - freshwater, transitional water"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "freshwater, transitional water - macrophyte community (quantitative) -"@en .
-
-cl:10728 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_087"@en;
-  skos:broader et:21921;
-  skos:definition "Mammals - terrestrial"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "mammals"@en .
-
-cl:10729 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_096"@en;
-  skos:broader et:21921;
-  skos:definition "Clorophyll a (benthic, pelagic) - standing, running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing, running waters - clorophyll a"@en .
-
-cl:10730 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_158"@en;
-  skos:broader et:21921;
-  skos:definition "Fish community - transitional waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "transitional waters - fish community"@en .
-
-cl:10731 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_172"@en;
-  skos:broader et:21921;
-  skos:definition "Nutrient concentration: TP, SRP, TDN, NO3 - running waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "running waters - nutrient concentration:"@en .
-
-cl:10732 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOHYD_173"@en;
-  skos:broader et:21921;
-  skos:definition "Profiles of nutrient concentration: TP, SRP, TDN, NO3, - standing waters"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "standing waters - profiles of nutrient concentration"@en .
-
-cl:10733 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_027"@en;
-  skos:broader et:21920;
-  skos:definition "Meteorological data"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "meteorological data"@en .
-
-cl:10734 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_175"@en;
-  skos:broader et:21920;
-  skos:definition "Profile of air temperature, H2O and CO2 concentration"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "profile of air characteristics"@en .
-
-cl:10735 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_028"@en;
-  skos:broader et:21920;
-  skos:definition "Radiation"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "radiation"@en .
-
-cl:10736 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_098"@en;
-  skos:broader et:21920;
-  skos:definition "Ground heat flux"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "ground heat flux"@en .
-
-cl:10737 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_103"@en;
-  skos:broader et:21920;
-  skos:definition "Atmospheric deposition in precipitation"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "atmospheric deposition in precipitation"@en .
-
-cl:10738 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_105"@en;
-  skos:broader et:21920;
-  skos:definition "Atmospheric deposition in canopy troughfall"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "atmospheric deposition in canopy troughfall"@en .
-
-cl:10739 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_107"@en;
-  skos:broader et:21920;
-  skos:definition "Atmospheric deposition in stemflow in stemflow - beech forest, 5 trees"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "atmospheric deposition in stemflow"@en .
-
-cl:10740 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_108"@en;
-  skos:broader et:21920;
-  skos:definition "Dry deposition of N-components"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "sry deposition of N-components"@en .
-
-cl:10741 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOATM_176"@en;
-  skos:broader et:21920;
-  skos:definition "CO2 flux and concentration, Latent heat flux, Sensible heat flux - Eddy Covariance"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Eddy Covariance"@en .
-
-cl:10742 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_023"@en;
-  skos:broader et:21920;
-  skos:definition "Vegetation aboveground biomass - forest (site scale)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "forest - vegetation aboveground biomass"@en .
-
-cl:10743 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_177"@en;
-  skos:broader et:21920;
-  skos:definition "Tree growth"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "tree growth"@en .
-
-cl:10744 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_024"@en;
-  skos:broader et:21920;
-  skos:definition "Vegetation aboveground biomass – non-forested sites"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "non-forested sites - vegetation aboveground biomass"@en .
-
-cl:10745 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_090"@en;
-  skos:broader et:21920;
-  skos:definition "Gross primary production"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "gross primary production"@en .
-
-cl:10746 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_091"@en;
-  skos:broader et:21920;
-  skos:definition "Transpiration (Plants)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "transpiration"@en .
-
-cl:10747 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_092"@en;
-  skos:broader et:21920;
-  skos:definition "Aboveground litterfall - forests"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "forests - aboveground litterfall"@en .
-
-cl:10748 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_093"@en;
-  skos:broader et:21920;
-  skos:definition "Belowground biomass - terrestrial"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "terrestrial - belowground biomass"@en .
-
-cl:10749 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_015"@en;
-  skos:broader et:21920;
-  skos:definition "Vegetation phenology and Leaf Area Index – European scale"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "European scale - vegetation phenology and Leaf Area Index"@en .
-
-cl:10750 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_016"@en;
-  skos:broader et:21920;
-  skos:definition "Vegetation phenology – site scale"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "site scale - vegetation phenology"@en .
-
-cl:10751 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_025"@en;
-  skos:broader et:21920;
-  skos:definition "Leaf area index - forests (site scale)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "forests - Leaf area index"@en .
-
-cl:10752 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_026"@en;
-  skos:broader et:21920;
-  skos:definition "Leaf area index – non-forested sites"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "non-forested sites - Leaf area index"@en .
-
-cl:10753 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_095"@en;
-  skos:broader et:21920;
-  skos:definition "Leaf C, N, K, P, Ca, Mg, Mn content - terrestrial"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "terrestria - leaf nutrients content"@en .
-
-cl:10754 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOBIO_140"@en;
-  skos:broader et:21920;
-  skos:definition "Vegetation structure - site scale"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "site scale - vegetation structure"@en .
-
-cl:10755 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_029"@en;
-  skos:broader et:30317;
-  skos:definition "Area under tillage - cropland"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "cropland - area under tillage"@en .
-
-cl:10756 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_030"@en;
-  skos:broader et:30317;
-  skos:definition "Land-based income - cropland and forests"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "cropland and forests - land-based income"@en .
-
-cl:10757 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_031"@en;
-  skos:broader et:30317;
-  skos:definition "Yield – cropland, forests, fishery"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "cropland, forests, fishery - yield"@en .
-
-cl:10758 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_032"@en;
-  skos:broader et:30317;
-  skos:definition "Governance structure and character"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "governance structure and character"@en .
-
-cl:10759 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_033"@en;
-  skos:broader et:30317;
-  skos:definition "Stakeholder engagement process indicators"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "stakeholder engagement process indicators"@en .
-
-cl:10760 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_034"@en;
-  skos:broader et:30317;
-  skos:definition "Basic services provision: health & education"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "basic services provision"@en .
-
-cl:10761 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_036"@en;
-  skos:broader et:30317;
-  skos:definition "Land cover, land use, land cover change, land use change"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "land cover, land use, land cover change, land use change"@en .
-
-cl:10762 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_039"@en;
-  skos:broader et:30317;
-  skos:definition "General information (DEIMS)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "general information (DEIMS)"@en .
-
-cl:10763 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_040"@en;
-  skos:broader et:30317;
-  skos:definition "Ecosystem services profile"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "ecosystem services profile"@en .
-
-cl:10764 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_041"@en;
-  skos:broader et:30317;
-  skos:definition "NUTS3 and Local Administrative Units (LAU) spatial databases"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "NUTS3 and Local Administrative Units"@en .
-
-cl:10765 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_042"@en;
-  skos:broader et:30317;
-  skos:definition "Per capita income"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "per capita income"@en .
-
-cl:10766 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_043"@en;
-  skos:broader et:30317;
-  skos:definition "Age profile- education attainment-residential profile-residential density"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "age profile- education attainment-residential profile-residential density"@en .
-
-cl:10767 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_044"@en;
-  skos:broader et:30317;
-  skos:definition "Status of employment"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "status of employment"@en .
-
-cl:10768 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_045"@en;
-  skos:broader et:30317;
-  skos:definition "Population consumption statistics"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "population consumption statistics"@en .
-
-cl:10769 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_112"@en;
-  skos:broader et:30317;
-  skos:definition "Grazing timing, intensity - farmland"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "farmland - grazing timing, intensity"@en .
-
-cl:10770 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_113"@en;
-  skos:broader et:30317;
-  skos:definition "Farm gate economic return"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "farm gate economic return"@en .
-
-cl:10771 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_114"@en;
-  skos:broader et:30317;
-  skos:definition "livestock (livestock units) - farmland"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "farmland - livestock"@en .
-
-cl:10772 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_115"@en;
-  skos:broader et:30317;
-  skos:definition "Irrigation management, timing, intensity - cropland, orchards"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "cropland, orchards - irrigation management, timing, intensity"@en .
-
-cl:10773 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_116"@en;
-  skos:broader et:30317;
-  skos:definition "Fertilizer input (N, P, K fertilisation, liming, pesticides) - cropland, orchards"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "cropland, orchards - fertilizer input"@en .
-
-cl:10774 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_118"@en;
-  skos:broader et:30317;
-  skos:definition "Relevant regional actors and initiatives (NGO's, civil society groups, etc.)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "relevant regional actors and initiatives"@en .
-
-cl:10775 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_120"@en;
-  skos:broader et:30317;
-  skos:definition "Property ownership/laws/institutions"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "property ownership/laws/institutions"@en .
-
-cl:10776 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_122"@en;
-  skos:broader et:30317;
-  skos:definition "Number of tourists/visitors"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "number of tourists/visitors"@en .
-
-cl:10777 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_127"@en;
-  skos:broader et:30317;
-  skos:definition "Records of important land users (e.g., forest enterprises)"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "records of important land users"@en .
-
-cl:10778 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_130"@en;
-  skos:broader et:30317;
-  skos:definition "Physical infrastructure networks"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "physical infrastructure networks"@en .
-
-cl:10779 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_131"@en;
-  skos:broader et:30317;
-  skos:definition "Buildings and other structures"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "buildings and other structures"@en .
-
-cl:10780 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_132"@en;
-  skos:broader et:30317;
-  skos:definition "Roads, Railways, settlement areas"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "roads, railways, settlement areas"@en .
-
-cl:10781 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_147"@en;
-  skos:broader et:30317;
-  skos:definition "Maritime traffic and recreational navigation"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "maritime traffic and recreational navigation"@en .
-
-cl:10782 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_149"@en;
-  skos:broader et:30317;
-  skos:definition "Aquaculture"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "aquaculture"@en .
-
-cl:10783 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_150"@en;
-  skos:broader et:30317;
-  skos:definition "Extraction of minerals"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "extraction of minerals"@en .
-
-cl:10784 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_151"@en;
-  skos:broader et:30317;
-  skos:definition "Oil and gas exploitation"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "oil and gas exploitation"@en .
-
-cl:10785 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_152"@en;
-  skos:broader et:30317;
-  skos:definition "Wind energy"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "wind energy"@en .
-
-cl:10786 a skos:Concept;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:altLabel "SOSOC_153"@en;
-  skos:broader et:30317;
-  skos:definition "Protected areas"@en;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "protected areas"@en .
-
-et:30324 a skos:Concept;
-  dct:created "2023-03-18"^^xsd:date;
-  dct:modified "2023-03-18"^^xsd:date;
-  skos:broader et:20935, cl:10366;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "geological site characterization"@en .
-
-et:30325 a skos:Concept;
-  dct:created "2023-03-19"^^xsd:date;
-  dct:modified "2023-03-19"^^xsd:date;
-  skos:broader et:20935, cl:10685;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "total organic carbon in soil"@en;
-  iop:hasContextObject et:24;
-  iop:hasMatrix et:20887;
-  iop:hasObjectOfInterest et:20805;
-  iop:hasProperty et:21520 .
-
 et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131,
     et:10132, et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10141, et:10142,
     et:10144, et:10146, et:10147, et:10148, et:10149, et:10151, et:20231, et:20241, et:21585,
@@ -7017,12 +5978,11 @@ et:10145 skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:1013
 
 et:10127 skos:narrower et:10139, et:10140, et:10143 .
 
-et:20935 skos:narrower et:22065, et:22245, et:22264, et:22279, et:30067, et:30212,
-    et:30217, et:30218, et:30219, et:30220, et:30221, et:30229, et:30230, et:30231, et:30232,
-    et:30233, et:30234, et:30235, et:30236, et:30237, et:30238, et:30239, et:30240, et:30241,
-    et:30242, et:30243, et:30244, et:30245, et:30246, et:30247, et:30248, et:30249, et:30250,
-    et:30251, et:30252, et:30253, et:30254, et:30255, et:30256, et:30257, et:30258, et:30259,
-    et:30260, et:30261, et:30262, et:30321, et:30323, et:30324, et:30325 .
+et:20935 skos:narrower et:30212, et:30217, et:30218, et:30219, et:30220, et:30221,
+    et:30229, et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237,
+    et:30238, et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246,
+    et:30247, et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255,
+    et:30256, et:30257, et:30258, et:30259, et:30260, et:30261, et:30262 .
 
 et:30031 skos:narrower et:21747, et:21752, et:29 .
 
@@ -7035,10 +5995,6 @@ et:20950 skos:narrower et:21285 .
 et:20748 skos:narrower et:20854, et:21934 .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
-
-et:21919 skos:narrower et:21920, et:21921, et:21922, et:30316, et:30317 .
-
-et:22133 skos:narrower et:30319 .
 
 et:20591 skos:narrower et:20593, et:20626, et:20635 .
 
