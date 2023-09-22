@@ -1,17 +1,17 @@
-ConceptScheme URI,http://vocabs.lter-europe.net/elter_cl,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
-"Prefixes for controlled vocabularies, schema and ontologies",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28
-PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/
+ConceptScheme URI,http://vocabs.lter-europe.net/eLTER_CL,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
+"Prefixes for controlled vocabularies, schema and ontologies"
+PREFIX,cl,http://vocabs.lter-europe.net/eLTER_CL/
 PREFIX,et,http://vocabs.lter-europe.net/EnvThes/
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#
 PREFIX,pav,http://purl.org/pav/ 
 PREFIX,dct,http://purl.org/dc/terms/ 
 PREFIX,iop,https://w3id.org/iadopt/ont/
-PREFIX,obo,http://purl.obolibrary.org/obo/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-07-12
+PREFIX,obo,http://purl.obolibrary.org/obo/
 PREFIX,qudt,http://qudt.org/schema/qudt/
-PREFIX,unit,http://qudt.org/vocab/unit/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28
-PREFIX,puv,https://w3id.org/env/puv#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,,2022-03-28
+PREFIX,unit,http://qudt.org/vocab/unit/
+PREFIX,puv,https://w3id.org/env/puv#
 PREFIX,sosa,http://www.w3.org/ns/sosa/
-Metadata about vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-09-30
+Metadata about vocabulary
 
 dct:title,eLTER_CL,Title of the vocabulary
 dct:description,eLTER_CL is a thesaurus for controlled lists used by the eLTER community,Description of the controlled vocabulary
@@ -23,7 +23,7 @@ pav:lastUpdatedOn,2021-11-12T12:00+02:00,Date of the last vocabulary update
 Definition of terms
 
 Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:hiddenLabel,skos:prefLabel@de,skos:prefLabel@ar,skos:prefLabel@bg,skos:prefLabel@cs,skos:prefLabel@da,skos:prefLabel@el,skos:prefLabel@es,skos:prefLabel@et,skos:prefLabel@fi,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@hu,skos:prefLabel@it,skos:prefLabel@ja,skos:prefLabel@lt,skos:prefLabel@lv,skos:prefLabel@nl,skos:prefLabel@no,skos:prefLabel@pl,skos:prefLabel@pt,skos:prefLabel@ro,skos:prefLabel@sk,skos:prefLabel@sl,skos:prefLabel@sv,skos:prefLabel@zh,skos:altLabel@de,skos:altLabel@el,skos:altLabel@es,skos:altLabel@fi,skos:altLabel@fr,skos:altLabel@hu,skos:altLabel@it,skos:altLabel@ja,skos:altLabel@la,skos:altLabel@lt,skos:altLabel@no,skos:altLabel@pl,skos:altLabel@pt,skos:altLabel@sl,skos:altLabel@sv,skos:altLabel@zh,skos:altLabel@zh-tw,skos:definition@de,skos:definition@es,skos:definition@fi,skos:definition@fr,skos:definition@it,skos:definition@ja,skos:definition@no,skos:definition@pl,skos:definition@pt,skos:definition@zh,skos:definition@sv,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
-cl:10000,resource type ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
+cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10001,INSPIRE data theme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10002,unit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10003,spatial reference method,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
@@ -132,33 +132,33 @@ cl:10105,yearly,,,,cl:10008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10106,every 2-5 years,,,,cl:10008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10107,every 5-10 years,,,,cl:10008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10108,more than 10 years,,,,cl:10008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:10109,quantile,,"[ NCIT ][ SUICIDEO ]* Division of a distribution into equal, ordered subgroups; a set of 'cut points' that divide a sample of data into groups containing (as far as possible) equal numbers of observations.",,"cl:10009,et:10145",http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48920,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10149,standard deviation,,"[ SUICIDEO ][ NCIT ]* A measure of the range of values in a set of numbers. Standard deviation is a statistic used as a measure of the dispersion or variation in a distribution, equal to the square root of the arithmetic mean of the squares of the deviations from the arithmetic mean.",,"cl:10009,et:10145",http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53322,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:20231,meta analysis,,[David B. Wilson] Meta-analysis is a statistical method of synthesizing quantitative results across studies examining a common research question.&nbsp;,,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10148,skewness,,[DCM] Measure of the asymmetry of the probability distribution of a real-valued random variable about its mean.,,"cl:10009,et:10145",http://dicom.nema.org/resources/ontology/DCM/126051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10151,variance,,"[ECG] A measure of the variability in a sample or population. It is calculated as the mean squared deviation (MSD) of the individual values from their common mean. In calculating the MSD, the divisor n is commonly used for a population variance and the divisor n-1 for a sample variance.",,"cl:10009,et:10145",http://www.cvrgrid.org/files/ECGOntologyv1.owl#ECG_000001079,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10132,correlation,,"[HUPSON] A statistical measure referring to the relationship between two random variables. It is a positive correlation when each variable tends to increase or decrease as the other does, and a negative or inverse correlation if one tends to increase as the other decreases. source: http://shodor.org/interactivate/dictionary/",,"cl:10009,et:10145",http://scai.fraunhofer.de/HuPSON#SCAIVPH_00000266,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:21585,spatial autocorrelation,,"[Malika Khalili] Spatial autocorrelation is a correlation between the values of a single variable, considering their geographical locations.",,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10131,confusion matrix,,"[OBCS] A data item with a specific table layout that allows visualization of the performance of an algorithm. Each column of the matrix represents the instances in a predicted class, while each row represents the instances in an actual class.",,"cl:10009,et:10145",http://purl.obolibrary.org/obo/OBCS_0000145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10129,coefficient of variation,,[OBCS] A quantitative confidence value that is the standard deviation of a data set divided by the mean of the same data set; a normalized measure of dispersion of a probability distribution,,"cl:10009,et:10145",http://purl.obolibrary.org/obo/OBCS_0000081,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10144,probability,,[NCIT]* A measure of the expectation of the occurrence of a particular event.,,"cl:10009,et:10145",http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C54154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10143,percentile,,[NCIT]* Any of the 99 numbered points that divide an ordered set of scores into 100 parts each of which contains one-hundredth of the total.,,"cl:10009,cl:10012,et:10127",http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48919,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10140,median,,[NEMO] median is the middle value of a set of ordered observations. When there is an even number of observations the median is the average of two values that fall either side of what would be the middle value.,,"cl:10009,cl:10012,et:10127",http://purl.bioontology.org/NEMO/ontology/NEMO.owl#NEMO_3768000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10141,mode,,[NPO] A measure of central tendency which is the most frequently occurring value in a set of numerical values.,,"cl:10009,et:10145",http://purl.bioontology.org/ontology/npo#NPO_1802,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10134,credible interval,,[OBCS] A quantitative confidence value that is used in Bayesian analysis to describe the range in which a posterior probability estimate is likely to reside.,,"cl:10009,et:10145",http://purl.obolibrary.org/obo/OBCS_0000071,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10130,confidence interval,,"[OBCS] A quantitative confidence value that refers to an interval give values within which there is a high probability (95 percent by convention) that the true population value can be found. The calculation of a confidence interval considers the standard deviation of the data and the number of observations. Thus, a confidence interval narrows as the number of observations increases, or its variance (dispersion) decreases.",,"cl:10009,et:10145",http://purl.obolibrary.org/obo/OBCS_0000070,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10137,interquartile range,,[OBCS] A quantitative confidence value that refers to the upper and lower values defining the central 50 percent of observations. The boundaries are equal to the 25th and 75th percentiles. The interquartile range can be depicted in a box and whiskers plot.,,"cl:10009,et:10145",http://purl.obolibrary.org/obo/OBCS_0000072,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10147,range (statistics),,[OCRE] The range is the difference between the lowest and highest numerical values; the limits or scale of variation.,,"cl:10009,et:10145",http://purl.org/net/OCRe/statistics.owl#OCRE200007,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10138,kurtosis,,[RO]* Kurtosis is a measure of how outlier-prone a distribution is. The kurtosis of the normal distribution is 3. Distributions that are more outlier-prone than the normal distribution have kurtosis greater than 3; distributions that are less outlier-prone have kurtosis less than 3,,"cl:10009,et:10145",http://www.semanticweb.org/alberto.traverso/ontologies/2017/1/RADIOMICS-ontology#OWLClass_010008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10139,mean,,[SIO] A mean is the central tendency of a collection of numbers taken as the sum of the numbers divided by the size of the collection.,,"cl:10009,cl:10012,et:10127",http://semanticscience.org/resource/SIO_001109,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10135,decile,,"[STATO] a decile is a quantile where n=10 and which splits data into sections accrued of 10% of data, so the first decile delineates 10% of the data, the second decile delineates 20% of the data and the nineth decile, 90 % of the data",,"cl:10009,et:10145",http://purl.obolibrary.org/obo/STATO_0000292,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10146,quartile,,"[STATO] a quartile is a quantile which splits data into sections accrued of 25% of data, so the first quartile delineates 25% of the data, the second quartile delineates 50% of the data and the third quartile, 75 % of the data",,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10128,centred moment,,"For a given positive natural number k, the k-th central moment of a random variable x is defined as k=E[(x−E[x])k]. That is, it is the expected value of the deviation from the mean to the power k. In particular, 0=1, 1=0 and 2 is the variance of x. [UncertML] http://www.uncertml.org/statistics/centred-moment",,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:20241,neutral theory,,,,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10133,covariance matrix,,,,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10136,discrete probability,,,,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10142,moment,,,,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:10027,changes over time,,,,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
+et:10109,,,,,cl:10009
+et:10149,,,,,cl:10009
+et:20231,,,,,cl:10009
+et:10148,,,,,cl:10009
+et:10151,,,,,cl:10009
+et:10132,,,,,cl:10009
+et:21585,,,,,cl:10009
+et:10131,,,,,cl:10009
+et:10129,,,,,cl:10009
+et:10144,,,,,cl:10009
+et:10143,,,,,"cl:10009,cl:10012"
+et:10140,,,,,"cl:10009,cl:10012"
+et:10141,,,,,cl:10009
+et:10134,,,,,cl:10009
+et:10130,,,,,cl:10009
+et:10137,,,,,cl:10009
+et:10147,,,,,cl:10009
+et:10138,,,,,cl:10009
+et:10139,,,,,"cl:10009,cl:10012"
+et:10135,,,,,cl:10009
+et:10146,,,,,cl:10009
+et:10128,,,,,cl:10009
+et:20241,,,,,cl:10009
+et:10133,,,,,cl:10009
+et:10136,,,,,cl:10009
+et:10142,,,,,cl:10009
+et:10027,,,,,cl:10009
 cl:10136,high,,,,"cl:10009,et:10145",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
 cl:10137,moderate,,,,cl:10010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10138,low,,,,cl:10010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
@@ -184,7 +184,7 @@ cl:10157,datetime,,Stores a value containing both date and time together in the 
 cl:10158,timestamp,,"Typically represented in Unix time, a timestamp represents the number of seconds that have elapsed since midnight (00:00:00 UTC), 1st January 1970.",https://dataled.academy/guides/data-types/,cl:10147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10159,measurement scale,,"A measurement scale defines the level of measurement of a variable. It decides the statistical test type to be used. The mathematical nature of a variable or in other words, how a variable is measured is considered as the level of measurement.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10160,nominal scale,,"Nominal scale is a naming scale, where variables are simply “named” or labeled, with no specific order.",,cl:10159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-cl:10161,ordinal scale,,"Ordinal scale has all its variables in a specific order, beyond just naming them. ",,cl:10159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
+cl:10161,ordinal scale,,"Ordinal scale has all its variables in a specific order, beyond just naming them.",,cl:10159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10162,interval scale,,"Interval scale offers labels, order, as well as, a specific interval between each of its variable options.",,cl:10159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10163,ratio scale,,"Ratio scale bears all the characteristics of an interval scale, in addition to that, it can also accommodate the value of “zero” on any of its variables.",,cl:10159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10164,kilometre,km,,,cl:10002,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
@@ -205,59 +205,59 @@ cl:10184,GIS intersection,,,,cl:10012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10185,GIS interpolation,,,,cl:10012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10186,complex calculation balancing,,,,cl:10012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10187,MONERIS variable,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30217,area of slope <1% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30213,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:30218,area of slope 1-2% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30214,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30219,area of slope 3-4% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30215,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
-et:30220,area of slope 4-8% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30205,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30221,area of slope >8% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30216,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30229,area of grassland of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,et:21855,,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30230,area of woodland and forest of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,et:53,,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30231,area of unvegetated land of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,et:55,,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30232,area of glacier of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_00000133,,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30233,slope of catchment,,,,"et:20935,cl:10187",,,,,,,http://purl.obolibrary.org/obo/ENVO_00002000,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30234,mass per area per time of soil erosion in slope <1% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092,et:30213,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30235,mass per area per time of soil erosion in slope 1-2% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092,et:30214,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30236,mass per area per time of soil erosion in slope 3-4% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092,et:30215,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30237,mass per area per time of soil erosion in slope 4-8% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092,et:30205,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30238,mass per area per time of soil erosion in slope >8% arable land of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092,et:30216,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30239,mass per area per time of soil erosion of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30240,mass per area per time of soil erosion in grassland of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,et:21855,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30241,area of with conservation tillage arable land of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,et:30222,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30242,mass per area of accumulated surplus total phosphorus of catchment,,"different types of phosphorus: organic, inorganic, which is measured as Total Posphorus",,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:20863,,et:10092,et:30263,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30243,area of arable land of catchment,,,,"et:20935,cl:10187",,,,,,,et:21533,http://purl.obolibrary.org/obo/ENVO_01001177,,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30244,mass per area per time of soil erosion in arable land of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerAreaTime,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30245,correction of R-factor,,used for calculation of Im-BE; Current agricultural soil loss,,"et:20935,cl:10187",,,,,,,et:30225,et:30224,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30246,mass per area of actual soil erosion in arable land of catchment,,"used to calculate Im-BE; soil loss from arable land is modified by specific actual (2007-2013) R-factor (precipitation intensities and amounts, which are not described by long-year averages)",,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,http://purl.obolibrary.org/obo/ENVO_01001177,et:10092,et:10314,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30247,mass per area of actual soil erosion in woodland and forest of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,et:53,et:10092,et:10315,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30248,mass per area of actual soil erosion in unvegetated land of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,et:55,et:10092,et:10315,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30249,mass per area of actual soil erosion in glacier of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,http://purl.obolibrary.org/obo/ENVO_00000133,et:10092,et:10315,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30250,mass per area of actual soil erosion of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,,et:10092,et:10315,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30251,portion of soil erosion in sediment of catchment,,"Share of eroded sediment (soil loss) that is transported to the surface water (depends on slope, distance from Surface water, soil texture)",,"et:20935,cl:10187",,,,,,,et:30207,et:21286,et:20899,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30252,mass per area of soil erosion in sediment of catchment,,"Amount of soils, which enter the surface water",,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,et:20899,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30253,content of clay in topsoil of catchment,,,,"et:20935,cl:10187",,,,,,,et:21546,http://purl.obolibrary.org/obo/ENVO_00002982,http://sweetontology.net/realmSoil/Topsoil,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30254,content of basis total phosphorus in agricultural topsoil of catchment,,,,"et:20935,cl:10187",,,,,,,et:21546,et:20863,http://sweetontology.net/realmSoil/Topsoil,et:10092,et:21873,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30255,content of total phosphorus in agricultural topsoil of catchment,,,,"et:20935,cl:10187",,,,,,,et:21546,et:20863,http://sweetontology.net/realmSoil/Topsoil,et:10092,et:21873,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30256,enrichment ratio of total phosphorus in catchment,,,,"et:20935,cl:10187",,,,,,,et:30226,et:20863,,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30257,mass per area of agricultural soil erosion in sediment of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,et:20899,et:10092,et:21873,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30258,mass per area of natural soil erosion in sediment of catchment,,,,"et:20935,cl:10187",,,,,,,http://qudt.org/vocab/quantitykind/MassPerArea,et:21286,et:20899,et:10092,et:30227,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30259,emission of total phosphorus from agricultural soil erosion,,,,"et:20935,cl:10187",,,,,,,et:21934,et:20863,,et:21286,et:21873,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30260,emission of total phosphorus from natural soil erosion,,,,"et:20935,cl:10187",,,,,,,et:21934,et:20863,,et:21286,et:30227,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30261,emission of total phosphorus from diffuse sources,,,,"et:20935,cl:10187",,,,,,,et:21934,et:20863,,et:30228,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30262,total emission of total phosphorus,,,,"et:20935,cl:10187",,,,,,,et:21934,et:20863,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
+et:30217,,,,,cl:10187
+et:30218,,,,,cl:10187
+et:30219,,,,,cl:10187
+et:30220,,,,,cl:10187
+et:30221,,,,,cl:10187
+et:30229,,,,,cl:10187
+et:30230,,,,,cl:10187
+et:30231,,,,,cl:10187
+et:30232,,,,,cl:10187
+et:30233,,,,,cl:10187
+et:30234,,,,,cl:10187
+et:30235,,,,,cl:10187
+et:30236,,,,,cl:10187
+et:30237,,,,,cl:10187
+et:30238,,,,,cl:10187
+et:30239,,,,,cl:10187
+et:30240,,,,,cl:10187
+et:30241,,,,,cl:10187
+et:30242,,,,,cl:10187
+et:30243,,,,,cl:10187
+et:30244,,,,,cl:10187
+et:30245,,,,,cl:10187
+et:30246,,,,,cl:10187
+et:30247,,,,,cl:10187
+et:30248,,,,,cl:10187
+et:30249,,,,,cl:10187
+et:30250,,,,,cl:10187
+et:30251,,,,,cl:10187
+et:30252,,,,,cl:10187
+et:30253,,,,,cl:10187
+et:30254,,,,,cl:10187
+et:30255,,,,,cl:10187
+et:30256,,,,,cl:10187
+et:30257,,,,,cl:10187
+et:30258,,,,,cl:10187
+et:30259,,,,,cl:10187
+et:30260,,,,,cl:10187
+et:30261,,,,,cl:10187
+et:30262,,,,,cl:10187
 cl:10188,EPSG:31287,,MGI / Austria Lambert,https://epsg.io/31287,cl:10004,https://epsg.io/31287,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10189,MONERIS keyword,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:21747,hydrology,,"[GEMET] The science that treats the occurrence, circulation, distribution, and properties of the waters of the earth, and their reaction with the environment.",,"et:30031,cl:10189","http://eurovoc.europa.eu/1278, http://en.wikipedia.org/wiki/hydrology, http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/84830, http://aims.fao.org/aos/agrovoc/c_3731, https://vocab.lternet.edu/vocab/vocab/?tema=259, http://www.eionet.europa.eu/gemet/concept/4118",,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Hydrologie,الهيدرولوجيا - علم المياه,Хидрология,hydrologie,hydrologi,υδρολογία,hidrología,hüdroloogia,"vesitiede, hydrologia",hydrologie,hidrologija,hidrológia,idrologia,,hidrologija,hidroloģija,hydrologie,hydrologi,hydrologia,hidrologia,hidrologie,hydrológia,hidrologija,hydrologi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,2022-03-28,herbert.schentz@umweltbundesamt.at,2022-04-11
-et:29,morphology,,[Henderson's] n. (1) the form and structure of an organism; (2) the study of form and structure.,,"et:30031,cl:10189","https://vocab.lternet.edu/vocab/vocab/?tema=352, http://www.eionet.europa.eu/gemet/concept/5369",,,,,,,,,,,,,,,,,,,,,Morphologie,المورفولوجيا,Прахова емисия,morfologie,morfologi (biol.),μορφολογία,morfología (biológica),"morfoloogia, kujuõpetus","morfologia, muoto-oppi",morphologie,morfologija,morfológia,morfologia (biologica),,morfologija,morfoloģija,morfologie,morfologi,morfologia,morfologia,morfologie,morfológia,morfologija,morfologi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2013-02-14T15:32:15Z,2022-03-28,herbert.schentz@umweltbundesamt.at,2022-03-28
-et:20117,inventory,,"[GEMET] A detailed list of articles, goods, property, etc.",,"et:20118,cl:10189","http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/105240, http://www.eionet.europa.eu/gemet/concept/4466, https://vocab.lternet.edu/vocab/vocab/?tema=270",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,2022-03-28,herbert.schentz@umweltbundesamt.at,2022-03-28
-et:30264,surface water,,,,"et:20538,cl:10189",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
+et:21747,,,,,cl:10189,,,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Hydrologie,الهيدرولوجيا - علم المياه,Хидрология,hydrologie,hydrologi,υδρολογία,hidrología,hüdroloogia,"vesitiede, hydrologia",hydrologie,hidrologija,hidrológia,idrologia,,hidrologija,hidroloģija,hydrologie,hydrologi,hydrologia,hidrologia,hidrologie,hydrológia,hidrologija,hydrologi
+et:29,,,,,cl:10189,,,,,,,,,,,,,,,,,,,,,,Morphologie,المورفولوجيا,Прахова емисия,morfologie,morfologi (biol.),μορφολογία,morfología (biológica),"morfoloogia, kujuõpetus","morfologia, muoto-oppi",morphologie,morfologija,morfológia,morfologia (biologica),,morfologija,morfoloģija,morfologie,morfologi,morfologia,morfologia,morfologie,morfológia,morfologija,morfologi
+et:20117,,,,,cl:10189
+et:30264,,,,,cl:10189
 cl:10190,measurement,,,,"cl:10189,cl:10189",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10191,GIS data,,,,"cl:10189,cl:10189",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:21285,erosion,,"[GEMET] The general process or the group of processes whereby the materials of Earth's crust are loosened , dissolved, or worn away and simultaneously moved from one place to another, by natural agencies, which include weathering, solution, corrosion, and transportation, but usually exclude mass wasting.",,"et:20950,cl:10189","http://eurovoc.europa.eu/3158, http://purl.obolibrary.org/obo/ENVO_01001346, http://aims.fao.org/aos/agrovoc/c_2651, https://vocab.lternet.edu/vocab/vocab/?tema=181, http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/14240, http://en.wikipedia.org/wiki/erosion, http://www.eionet.europa.eu/gemet/concept/2963",,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Erosion,تآكل,Ерозия,eroze,erosion,διάβρωση,erosión,"erosioon, uuristus",eroosio,érosion,erozija,erózió,erosione,,erozija,erozija,erosie,erosjon,erozja,erosão,eroziune,erózia,erozija,erosion,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,2022-03-28,herbert.schentz@umweltbundesamt.at,2022-03-28
-et:21934,emission,emissions,"[GEMET] A discharge of particulate gaseous, or soluble waste material/pollution into the air from a polluting source.",,"et:20748,cl:10189","http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/54480, https://vocab.lternet.edu/vocab/vocab/?tema=178, http://aims.fao.org/aos/agrovoc/c_331377",,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,herbert.schentz@umweltbundesamt.at,2016-03-31T00:00:00Z,2022-03-28,herbert.schentz@umweltbundesamt.at,2022-03-28
-et:20854,phosphorus,P,"[GEMET] A nonmetallic element used to manufacture phosphoric acid, in phosphor bronzes, incendiaries, pyrotechnics, matches, and rat poisons; the white or yellow allotrope is a soft waxy solid, soluble in carbon disulfide, insoluble in water and alcohol, and is poisonous and self-igniting in air; the red allotrope is an amorphous powder, insoluble in all solvents and is nonpoisonous; the black allotrope comprises lustrous crystals similar to graphite, and is insoluble in most solvents.",,"et:20748,cl:10189","http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/47170, https://vocab.lternet.edu/vocab/vocab/?tema=416, http://eurovoc.europa.eu/2372, http://en.wikipedia.org/wiki/phosphorus, http://www.eionet.europa.eu/gemet/concept/6196, http://aims.fao.org/aos/agrovoc/c_5804",,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Phosphor,الفوسفور,Фосфор,fosfor,fosfor,φωσφόρος,fósforo,fosfor,fosfori,phosphore,fosfor,foszfor,fosforo,,fosforas,fosfors,fosfor,fosfor,fosfor,fósforo,fosfor,fosfor,fosfor,fosfor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,2022-03-28,herbert.schentz@umweltbundesamt.at,2022-03-28
-et:21752,meteorology,meterology,[GEMET] The science concerned with the atmosphere and its phenomena.,,"et:30031,cl:10189","http://aims.fao.org/aos/agrovoc/c_4783, https://vocab.lternet.edu/vocab/vocab/?tema=333, http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/95270, http://eurovoc.europa.eu/1892, http://www.eionet.europa.eu/gemet/concept/5197, http://en.wikipedia.org/wiki/meteorology",,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Meteorologie,علم الأرصاد الجوية,Метеорология,meteorologie,meteorologi,μετεωρολογία,meteorologia,meteoroloogia,"säätiede, ilmatiede",météorologie,meteorologija,meteorológia,meteorologia,,meteorologija,meteoroloģija,weerkunde,meteorologi,meteorologia,meteorologia,meteorologie,meteorológia,"meteorologija, vremenoslovje",meteorologi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31T00:00:00Z,2022-03-28,herbert.schentz@umweltbundesamt.at,2022-03-28
+et:21285,,,,,cl:10189,,,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Erosion,تآكل,Ерозия,eroze,erosion,διάβρωση,erosión,"erosioon, uuristus",eroosio,érosion,erozija,erózió,erosione,,erozija,erozija,erosie,erosjon,erozja,erosão,eroziune,erózia,erozija,erosion
+et:21934,,,,,cl:10189,,,,,,,,,,,,,,,,,,US LTER controlled vocabulary
+et:20854,,,,,cl:10189,,,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Phosphor,الفوسفور,Фосфор,fosfor,fosfor,φωσφόρος,fósforo,fosfor,fosfori,phosphore,fosfor,foszfor,fosforo,,fosforas,fosfors,fosfor,fosfor,fosfor,fósforo,fosfor,fosfor,fosfor,fosfor
+et:21752,,,,,cl:10189,,,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,Meteorologie,علم الأرصاد الجوية,Метеорология,meteorologie,meteorologi,μετεωρολογία,meteorologia,meteoroloogia,"säätiede, ilmatiede",météorologie,meteorologija,meteorológia,meteorologia,,meteorologija,meteoroloģija,weerkunde,meteorologi,meteorologia,meteorologia,meteorologie,meteorológia,"meteorologija, vremenoslovje",meteorologi
 cl:10192,generic answer option,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-cl:10193,no ,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
+cl:10193,no,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10194,none,,,,"cl:10192,cl:10601",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-10-01
 cl:10195,other,,,,"cl:10192,cl:10563,cl:10569,cl:10575;cl:10596;cl:10605,cl:10584,cl:10678",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-10-11
 cl:10196,unkown,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
@@ -302,7 +302,7 @@ cl:10238,telephone line,,,,"cl:10422,cl:10423",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10239,cable based,,,,"cl:10422,cl:10423",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-09-30
 cl:10240,"radio transmission system (repeaters, receivers, centralstation)",,,,"cl:10422,cl:10423",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-09-30
 cl:10241,no data transmission from site,,,,cl:10422,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-09-30
-cl:10242,satellite ,,,,"cl:10422,cl:10423",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-09-30
+cl:10242,satellite,,,,"cl:10422,cl:10423",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-09-30
 cl:10301,energy provision,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10302,central energy provision,,,,cl:10301,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10303,distributed energy provision,,,,cl:10301,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
@@ -366,7 +366,7 @@ cl:10361,ecotron scale,,,,cl:10346,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10362,beyond catchment scale,,,,cl:10346,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10363,micro site scale,,,,cl:10346,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10364,landscape scale,,,,cl:10346,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-03-28
-et:30212,catchment area,,,,"et:20935,cl:10187",,,,,,,et:21533,et:10092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-03-28,0000-0003-2195-3997,2022-04-11
+et:30212,,,,,cl:10187
 cl:10416,GEO-BON Biome,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-04-15,0000-0003-2195-3997,2022-04-16
 cl:10382,Marine,marine,,,"cl:10416,cl:10387,cl:10520",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-04-15,0000-0003-2195-3997,2022-10-01
 cl:10383,Coastal,coastal,,,"cl:10416,cl:10387,cl:10520",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-04-15,0000-0003-2195-3997,2022-10-01
@@ -466,7 +466,7 @@ cl:10477,open-top chamber,,,,cl:10449,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10478,phenocam,,,,cl:10449,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10479,probe continuous measurement,,,,cl:10449,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10481,linked data service,,,,cl:10200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
-cl:10482,scale of experimentation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+cl:10482,scale of experimentation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2023-09-21
 cl:10483,micro sites,,,,cl:10482,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10484,standard reference period,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10485,1991 - 2020,,,,cl:10484,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
@@ -517,12 +517,12 @@ cl:10529,Tropical and subtropical dry broadleaf forests,,,,cl:10523,,,https://do
 cl:10530,Tropical and subtropical moist broadleaf forests,,,,cl:10523,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10531,Flooded grasslands and savannas,,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10532,Montane grasslands and shrublands,,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
-cl:10533,"Temperate grasslands, savannas, and shrublands        ",,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
-cl:10534,"Tropical and subtropical grasslands, savannas, and shrublands        ",,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2
+cl:10533,"Temperate grasslands, savannas, and shrublands",,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
+cl:10534,"Tropical and subtropical grasslands, savannas, and shrublands",,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2
 cl:10535,Large lakes,,,,cl:10519,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10536,Small lakes,,,,cl:10519,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10537,Temperate shelfs and seas,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
-cl:10538,Temperate upwelling        ,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
+cl:10538,Temperate upwelling,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10539,Tropical coral,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10540,Tropical upwelling,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10541,Polar,,,,cl:10520,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
@@ -564,31 +564,31 @@ cl:10576,population trend,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10577,distribution trend,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10578,demographic parameters,,,,cl:10575
 cl:10579,physical-chemical environment,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
-et:30299,genetic variability,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2023-01-13
-et:21472,community structure,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:21478,habitat structure,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:30298,habitat function,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+et:30299,,,,,cl:10575
+et:21472,,,,,cl:10575
+et:21478,,,,,cl:10575
+et:30298,,,,,cl:10575
 cl:10580,biodiversity threats and pressures addressed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:20387,pollution,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:22143,land use,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:30300,climatic change,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:20728,invasive species,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+et:20387,,,,,cl:10580
+et:22143,,,,,cl:10580
+et:30300,,,,,cl:10580
+et:20728,,,,,cl:10580
 cl:10581,habitat loss and fragmentation,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10582,harvesting or management,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:20383,flood,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:21126,succession ,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+et:20383,,,,,cl:10580
+et:21126,,,,,cl:10580
 cl:10583,catastrophic event,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10584,type of data collected,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10585,presence-absence,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
-et:21548,count,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:21541,abundance,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:21539,density,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+et:21548,,,,,cl:10584
+et:21541,,,,,cl:10584
+et:21539,,,,,cl:10584
 cl:10586,mark-recapture,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10587,individual traits,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:20986,animal movement,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+et:20986,,,,,cl:10584
 cl:10588,age or size structure,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10589,genetic or genomic,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
-et:21647,phenology,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
+et:21647,,,,,cl:10584
 cl:10590,abiotic parameters,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10591,geographical scope,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10592,international,,,,cl:10591,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
@@ -598,7 +598,7 @@ cl:10595,entirely,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 cl:10596,habitat classification,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
 cl:10597,EUNIS,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
 cl:10598,CORINE,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
-cl:10599,Habitats Directive ,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
+cl:10599,Habitats Directive,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
 cl:10600,national classification,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10601,experimental design,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01
 cl:10602,design with before vs. after comparison,,,,cl:10601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-01,,2022-10-01
@@ -673,51 +673,55 @@ cl:10670,natural and semi-natural grassland formations,,,,cl:10599,,,,,,,,,,,,,,
 cl:10671,raised bogs and mires and fens,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-09
 cl:10672,rocky habitats and caves,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-03-18,,2023-03-18
 cl:10673,organism group,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20626,birds,bird,[Henderson's] Aves q.v.,,"et:20591,cl:10673","http://en.wikipedia.org/wiki/birds,http://aims.fao.org/aos/agrovoc/c_935,https://vocab.lternet.edu/vocab/vocab/?tema=69,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/19170",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30301,waterbirds,,,,et:20626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30302,raptors,,,,et:20626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30303,songbirds,,,,et:20626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-10
-et:30304,near-passerines,,,,et:20626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-10
+et:20626,,,,,cl:10673
+et:30301,,,,,et:20626
+et:30302,,,,,et:20626
+et:30303,,,,,et:20626
+et:30304,,,,,et:20626
 cl:10679,other birds,,,,cl:10626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20635,mammals,"mammal,mammalia","[GEMET] Any animal of the Mammalia, a large class of warm-blooded vertebrates having mammary glands in the female, a thoracic diaphragm, and a four-chambered heart. The class includes the whales, carnivores, rodents, bats, primates, etc.",,"et:20591,cl:10673","http://en.wikipedia.org/wiki/mammals,http://aims.fao.org/aos/agrovoc/c_4560,https://vocab.lternet.edu/vocab/vocab/?tema=320",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30041,rodents,,,,et:20635,http://purl.obolibrary.org/obo/NCBITaxon_9989,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20637,rabbits,,"Rabbits are small mammals in the family Leporidae of the order Lagomorpha, found in several parts of the world. There are eight different genera in the family classified as rabbits, including the European rabbit (Oryctolagus cuniculus), cottontail rabbits (genus Sylvilagus; 13 species), and the Amami rabbit (Pentalagus furnessi, an endangered species on Amami Ōshima, Japan). There are many other species of rabbit, and these, along with pikas and hares, make up the order Lagomorpha. The male is called a buck and the female is a doe; a young rabbit is a kitten or kit. [DBPedia]",,et:20635,"http://aims.fao.org/aos/agrovoc/c_6414,https://vocab.lternet.edu/vocab/vocab/?tema=453,http://dbpedia.org/resource.Rabbits,http://en.wikipedia.org/wiki/rabbits",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30305,terrestrial insectivors,,,,et:20635,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30306,bats,,,,et:20635,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30307,carnivores,,,,et:20635
-et:30308,large herbivores,,,,et:20635
-et:20558,marine mammals,,"[GEMET] Mammals which have adapted to live in the sea, such as whales, dolphins, porpoises, etc.",,et:20635,http://www.eionet.europa.eu/gemet/concept/10421,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
+et:20635,,,,,cl:10673
+et:30041,,,,,et:20635
+et:20637,,,,,et:20635
+et:30305,,,,,et:20635
+et:30306,,,,,et:20635
+et:30307,,,,,et:20635
+et:30308,,,,,et:20635
+et:20558,,,,,et:20635
 cl:10674,other vertebrates,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20640,reptiles,reptile,"[GEMET] A class of terrestrial vertebrates, characterized by the lack of hair, feathers, and mammary glands; the skin is covered with scales, they have a three chambered heart and the pleural and peritoneal cavities are continuous.",,cl:10674,"https://vocab.lternet.edu/vocab/vocab/?tema=466,http://aims.fao.org/aos/agrovoc/c_6511,http://en.wikipedia.org/wiki/reptiles",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20624,amphibians,amphibian,"[GEMET] A class of vertebrate animals characterized by a moist, glandular skin, gills at some stage of development, and no amnion during the embryonic stage.",,cl:10674,"https://vocab.lternet.edu/vocab/vocab/?tema=32,http://en.wikipedia.org/wiki/amphibians,http://aims.fao.org/aos/agrovoc/c_359,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/14180",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20633,fishes,,[Henderson's] ﬂuoresence in situ hybridization q.v.,,cl:10674,"http://en.wikipedia.org/wiki/fish,http://aims.fao.org/aos/agrovoc/c_15903,http://eurovoc.europa.eu/2435,http://www.eionet.europa.eu/gemet/concept/3252,https://vocab.lternet.edu/vocab/vocab/?tema=196,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/42850",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30309,rays,,,,cl:10674,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30310,sharks,,,,cl:10674,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30311,lampreys,,,,cl:10674
-et:20593,invertebrates,invertebrate,"[Henderson's] n.plu. general term for all animals without backbones, i.e. all groups except the vertebrates.",,"et:20591,cl:10673","http://en.wikipedia.org/wiki/invertebrates,http://aims.fao.org/aos/agrovoc/c_3929,https://vocab.lternet.edu/vocab/vocab/?tema=271",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20600,beetles,,[Henderson's] n. common name for a member of the Coleoptera q.v.,,et:20593,"http://en.wikipedia.org/wiki/beetles,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/26360,https://vocab.lternet.edu/vocab/vocab/?tema=60",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20602,butterflies,,"A butterfly is a mainly day-flying insect of the order Lepidoptera, which includes the butterflies and moths",,et:20593,"http://purl.obolibrary.org/obo/NCBITaxon_7088,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/98750,http://en.wikipedia.org/wiki/butterflies",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30312,dragonflies,,,,et:20593,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20603,grasshoppers,grasshopper,[GEMET] A plant-eating insect with long back legs that can jump very high and makes a sharp high noise using its back legs or wings.,,et:20593,https://vocab.lternet.edu/vocab/vocab/?tema=231,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30313,crickets,,,,et:20593,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30314,bivalvia,,,,et:20593
-cl:10675,other insects,,,,et:20593,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20613,crustaceans,crustacea,"[GEMET] A class of arthropod animals having jointed feet and mandibles, two pairs of antennae, and segmented, chitin-encased bodies.",,et:20593,"https://vocab.lternet.edu/vocab/vocab/?tema=134,http://en.wikipedia.org/wiki/crustaceans",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20619,gastropods,gastropoda,"[GEMET] Any mollusc of the class Gastropoda, typically having a flattened muscular foot for locomotion and a head that bears stalked eyes.",,et:20593,"https://vocab.lternet.edu/vocab/vocab/?tema=222,http://en.wikipedia.org/wiki/gastropods",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-cl:10676,other invertebrates,,,,et:20593,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20676,plants,plant,"[Henderson's] n., n.plu. the plant kingdom, which contains multicellular eukaryotic photosynthetic organisms and, in some classiﬁcations, the algae (unicellular and multicellular). It includes the bryophytes (mosses and liverworts), seedless vascular plants (ferns, club mosses, horsetails) and the seed plants (gymnosperms and angiosperms). The algae are sometimes placed in the Protoctista. see Appendix 1.",,"et:26,cl:10673","https://vocab.lternet.edu/vocab/vocab/?tema=433,http://aims.fao.org/aos/agrovoc/c_5993,http://en.wikipedia.org/wiki/plants",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20691,mosses,,non-vascular plants in the land plant division Bryophyta,,et:20676,"https://vocab.lternet.edu/vocab/vocab/?tema=354,http://en.wikipedia.org/wiki/mosses",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20692,liverworts,,[Henderson's] n.plu. common name for mem­bers of the plant division Hepatophyta q.v.,,et:20676,"https://vocab.lternet.edu/vocab/vocab/?tema=306,http://en.wikipedia.org/wiki/liverworts",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20687,ferns,fern,[Henderson's] n. common name for a member of the Pterophyta q.v.,,et:20676,"http://aims.fao.org/aos/agrovoc/c_10793,https://vocab.lternet.edu/vocab/vocab/?tema=190",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:30315,orchids,,,,et:20676,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20587,algae,,"[Henderson's] n.plu. general name for a heterogene­ous group of unicellular, colonial and multicellular eukaryotic photosynthetic organisms of simple structure. Tradition­ally included in the plant kingdom, the different groups of algae are now often classiﬁed as divisions of the kingdom Protoctista (Protista). They are aquatic or live in damp habitats on land and include unicellular organisms such as Chlamydomonas and diatoms, colonial forms such as Volvox, the multicellular green, red and brown seaweeds, and",,et:20676,"http://aims.fao.org/aos/agrovoc/c_258,https://vocab.lternet.edu/vocab/vocab/?tema=23,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/14420,http://eurovoc.europa.eu/1204,http://en.wikipedia.org/wiki/algae",,,,,,,,,,,,,,,,,,US LTER controlled vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2016-03-31,herbert.schentz@umweltbundesamt.at,2022-10-11
-et:20694,trees,,"A tree is a perennial woody plant. It is most often defined as a woody plant that has many secondary branches supported clear of the ground on a single main stem or trunk with clear apical dominance. A minimum height specification at maturity is cited by some authors, varying from 3 m to 6 m; some authors set a minimum of 10 cm trunk diameter (30 cm girth). Woody plants that do not meet these definitions by having multiple stems and/or small size are called shrubs. Compared with most other plants, trees are long-lived, some reaching several thousand years old and growing to up to 115 m (379 ft) high. Trees are an important component of the natural landscape because of their prevention of erosion and the provision of a weather-sheltered ecosystem in and under their foliage. They also play an important role in producing oxygen and reducing carbon dioxide in the atmosphere, as well as moderating ground temperatures. They are also elements in landscaping and agriculture, both for their aesthetic appeal and their orchard crops. Wood from trees is a building material, as well as a primary energy source in many developing countries. Trees also play a role in many of the world's mythologies.",,et:20676,"https://vocab.lternet.edu/vocab/vocab/?tema=1,http://www.eionet.europa.eu/gemet/concept/8664,http://dbpedia.org/resource.Tree",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-cl:10677,other plants,,,,et:20676,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-cl:10678,other organisms,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20660,lichens,,"[Henderson's] n. a composite organism formed from the symbiotic association of certain basidiomycete or ascomycete fungi and a green alga or a cyanobacterium. This forms a simple thallus, found e.g. encrusting rocks and tree trunks.",,"et:26,cl:10678","http://en.wikipedia.org/wiki/lichens,https://vocab.lternet.edu/vocab/vocab/?tema=297",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
-et:20650,fungi,fungus,"A fungus is a member of a large group of eukaryotic organisms that includes microorganisms such as yeasts and molds (British English: moulds), as well as the more familiar mushrooms.",,"et:26,cl:10678","http://aims.fao.org/aos/agrovoc/c_3145,http://en.wikipedia.org/wiki/fungi,https://vocab.lternet.edu/vocab/vocab/?tema=218,http://linkeddata.ge.imati.cnr.it:2020/resource/EARTh/31180",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2022-10-11,,2022-10-11
+et:20640,,,,,cl:10674
+et:20624,,,,,cl:10674
+et:20633,,,,,cl:10674
+et:30309,,,,,cl:10674
+et:30310,,,,,cl:10674
+et:30311,,,,,cl:10674
+et:20593,,,,,cl:10673
+et:20600,,,,,et:20593
+et:20602,,,,,et:20593
+et:30312,,,,,et:20593
+et:20603,,,,,et:20593
+et:30313,,,,,et:20593
+et:30314,,,,,et:20593
+cl:10675,other insects
+et:20613,,,,,et:20593
+et:20619,,,,,et:20593
+cl:10676,other invertebrates
+et:20676,,,,,cl:10673
+et:20691,,,,,et:20676
+et:20692,,,,,et:20676
+et:20687,,,,,et:20676
+et:30315,,,,,et:20676
+et:20587,,,,,et:20676
+et:20694,,,,,et:20676
+cl:10677,other plants,,,,et:20676
+cl:10678,other organisms,,,,cl:10673
+et:20660,,,,,cl:10678
+et:20650,,,,,cl:10678
 cl:10680,access scheme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-09,,2023-02-09
-cl:10681,Remote Access ,RA,,,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-09,,2023-02-09
+cl:10681,Remote Access,RA,,,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-09,,2023-02-09
 cl:10682,Transnational Access,TA,,,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-09,,2023-02-09
 cl:10683,Transnational Access and Remote Access,TA-RA,"Through its dedicated access scheme, the eLTER PLUS project opens up the eLTER Research Infrastructure (eLTER RI) and aims to attract a wide range of users from various disciplines. The scheme addresses both physical access to long-term research sites (Transnational Access-TA) and an access mode in which local site staff perform measurements/sampling according to user defined protocols (Remote Access-RA), or a combination of both. Additionally the Virtual Access scheme provides access to the data from selected research sites. All access within the scheme is free of charge for users. TA and RA typically aid small to medium scale ecological and socio-ecological projects.",,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-09,,2023-02-09
 cl:10684,TA-RA project,,,https://elter-ri.eu/transnational-remote-access-ta-ra,cl:10683,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-02-09,,2023-02-09
+cl:10685,under certain conditions,,,,cl:10466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-09-21,,2023-09-21
+cl:10686,private company and industry,,,,cl:10461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-09-21,,2023-09-21
+cl:10687,impact assessment,,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-09-21,,2023-09-21
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-09-21,,2023-09-21
