@@ -4426,10 +4426,10 @@ cl:10591 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/eLTER_CL> .
 
 cl:10592 a skos:Concept;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2023-09-22"^^xsd:date;
   skos:broader cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:prefLabel "international"@en .
+  skos:prefLabel "transnational"@en .
 
 cl:10593 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
@@ -5126,7 +5126,7 @@ cl:10676 a skos:Concept;
 et:20676 a skos:Concept;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
-  skos:narrower et:20587, et:20687, et:20691, et:20692, et:20694, et:30315, cl:10677 .
+  skos:narrower et:20587, et:20687, et:20691, et:20692, et:30315, cl:10677, cl:10688 .
 
 et:20691 a skos:Concept;
   skos:broader et:20676;
@@ -5145,10 +5145,6 @@ et:30315 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
 
 et:20587 a skos:Concept;
-  skos:broader et:20676;
-  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
-
-et:20694 a skos:Concept;
   skos:broader et:20676;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL> .
 
@@ -5233,6 +5229,13 @@ cl:10687 a skos:Concept;
   skos:broader cl:10569;
   skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
   skos:prefLabel "impact assessment"@en .
+
+cl:10688 a skos:Concept;
+  dct:created "2023-09-21"^^xsd:date;
+  dct:modified "2023-09-22"^^xsd:date;
+  skos:broader et:20676;
+  skos:inScheme <http://vocabs.lter-europe.net/eLTER_CL>;
+  skos:prefLabel "gymnosperms and other angiosperms"@en .
 
 et:10145 skos:narrower cl:10136 .
 
