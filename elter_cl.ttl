@@ -32,13 +32,14 @@
   pav:createdOn "2021-11-12T12:00+02:00"@en;
   pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
   pav:version "0.1.0"@en;
-  skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
-    cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
-    cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10228, cl:10301, cl:10304, cl:10311,
-    cl:10317, cl:10343, cl:10346, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425, cl:10429,
-    cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484, cl:10489,
-    cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584, cl:10591,
-    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10675, cl:10676, cl:10680 .
+  skos:hasTopConcept et:20383, et:20387, et:20728, et:21126, et:22143, et:30300, cl:10000,
+    cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006, cl:10007, cl:10008, cl:10009,
+    cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147, cl:10159, cl:10187, cl:10189,
+    cl:10192, cl:10198, cl:10228, cl:10301, cl:10304, cl:10311, cl:10317, cl:10343, cl:10346,
+    cl:10387, cl:10402, cl:10408, cl:10416, cl:10425, cl:10429, cl:10435, cl:10457, cl:10461,
+    cl:10466, cl:10471, cl:10480, cl:10482, cl:10484, cl:10489, cl:10497, cl:10520, cl:10546,
+    cl:10563, cl:10569, cl:10575, cl:10581, cl:10582, cl:10583, cl:10584, cl:10591, cl:10596,
+    cl:10601, cl:10605, cl:10611, cl:10673, cl:10675, cl:10676, cl:10680 .
 
 cl:10000 a skos:Concept;
   dct:created "2022-03-28"^^xsd:date;
@@ -1268,8 +1269,8 @@ cl:10146 a skos:Concept;
   skos:prefLabel "no access"@en .
 
 cl:10147 a skos:Concept;
-  dct:created "2022-03-28"^^xsd:date;
-  dct:creator "0000-0003-2195-3997"@en;
+  dct:created "2023-09-27"^^xsd:date;
+  dct:creator "2023-09-27"@en;
   dct:modified "2022-03-28"^^xsd:date;
   dct:source <https://dataled.academy/guides/data-types/>;
   skos:definition "Data type is an attribute associated with a piece of data that tells a computer system how to interpret its value."@en;
@@ -4293,59 +4294,39 @@ et:30298 a skos:Concept;
   skos:broader cl:10575;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10580 a skos:Concept;
-  dct:created "2022-10-01"^^xsd:date;
+cl:10580 a skos:Collection;
+  dct:created "2023-09-27"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20383, et:20387, et:20728, et:21126, et:22143, et:30300, cl:10581,
+  skos:member et:20383, et:20387, et:20728, et:21126, et:22143, et:30300, cl:10581,
     cl:10582, cl:10583;
-  skos:prefLabel "biodiversity threats and pressures addressed"@en;
-  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+  skos:prefLabel "biodiversity threats and pressures addressed"@en .
 
 et:20387 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:22143 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30300 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20728 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
+  dct:created "2023-09-27"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10581 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "habitat loss and fragmentation"@en .
+  skos:prefLabel "habitat loss and fragmentation"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10582 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "harvesting or management"@en .
-
-et:20383 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21126 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
+  skos:prefLabel "harvesting or management"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10583 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
   dct:modified "2022-10-01"^^xsd:date;
-  skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "catastrophic event"@en .
+  skos:prefLabel "catastrophic event"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10584 a skos:Concept;
   dct:created "2022-10-01"^^xsd:date;
@@ -5251,6 +5232,26 @@ cl:10690 a skos:Concept;
   skos:broader cl:10461;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "industry"@en .
+
+et:22143 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+et:30300 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+et:20728 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+et:20383 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+et:21126 a skos:Concept;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 et:10145 skos:narrower cl:10136 .
 
