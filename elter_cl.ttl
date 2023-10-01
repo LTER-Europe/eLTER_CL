@@ -1760,160 +1760,163 @@ cl:10187 a skos:Concept;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30217 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10187;
+  dct:modified "2023-10-01"^^xsd:date;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30218 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30219 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30220 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30221 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30229 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30230 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30231 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30232 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30233 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30234 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30235 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30236 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30237 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30238 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30239 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30240 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30241 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30242 a skos:Concept;
-  skos:broader cl:10187;
+  dct:modified "2023-10-01"^^xsd:date;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30243 a skos:Concept;
-  skos:broader cl:10187;
+  dct:modified "2023-10-01"^^xsd:date;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30244 a skos:Concept;
-  skos:broader cl:10187;
+  dct:modified "2023-10-01"^^xsd:date;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30245 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30246 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30247 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30248 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30249 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30250 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30251 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30252 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30253 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30254 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30255 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30256 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30257 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30258 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30259 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30260 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30261 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 et:30262 a skos:Concept;
-  skos:broader cl:10187;
+  skos:broader et:20935, cl:10187;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10188 a skos:Concept;
@@ -6125,5 +6128,11 @@ cl:10690 a skos:Concept;
   skos:prefLabel "industry"@en .
 
 et:10145 skos:narrower cl:10136 .
+
+et:20935 skos:narrower et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
+    et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
+    et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247,
+    et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256,
+    et:30257, et:30258, et:30259, et:30260, et:30261, et:30262 .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
