@@ -38,7 +38,7 @@
     cl:10317, cl:10343, cl:10346, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425, cl:10429,
     cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484, cl:10489,
     cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584, cl:10591,
-    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10675, cl:10676, cl:10680 .
+    cl:10596, cl:10601, cl:10605, cl:10611, cl:10680 .
 
 cl:10000 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -146,10 +146,7 @@ cl:10009 a skos:Concept;
   dct:creator "0000-0003-3544-1028"@en;
   dct:modified "2023-09-30"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:10027, et:10109, et:10128, et:10129, et:10130, et:10131, et:10132,
-    et:10133, et:10134, et:10135, et:10136, et:10137, et:10138, et:10139, et:10140, et:10141,
-    et:10142, et:10143, et:10144, et:10146, et:10147, et:10148, et:10149, et:10151, et:20231,
-    et:20241, et:21585, cl:10136;
+  skos:narrower cl:10136;
   skos:prefLabel "method"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -179,8 +176,7 @@ cl:10012 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2022-03-28"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:10139, et:10140, et:10143, cl:10182, cl:10183, cl:10184, cl:10185,
-    cl:10186;
+  skos:narrower cl:10182, cl:10183, cl:10184, cl:10185, cl:10186;
   skos:prefLabel "processing step"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -1180,121 +1176,12 @@ cl:10108 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "more than 10 years"@en .
 
-et:10109 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10149 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20231 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10148 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10151 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10132 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21585 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10131 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10129 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10144 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10143 a skos:Concept;
-  skos:broader cl:10009, cl:10012;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10140 a skos:Concept;
-  skos:broader cl:10009, cl:10012;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10141 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10134 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10130 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10137 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10147 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10138 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10139 a skos:Concept;
-  skos:broader cl:10009, cl:10012;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10135 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10146 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10128 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20241 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10133 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10136 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10142 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:10027 a skos:Concept;
-  skos:broader cl:10009;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
 cl:10136 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-04-11"^^xsd:date;
-  skos:broader et:10145, cl:10009;
+  dct:modified "2023-10-11"^^xsd:date;
+  skos:broader cl:10009;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "high"@en .
 
@@ -1751,173 +1638,8 @@ cl:10187 a skos:Concept;
   dct:creator "0000-0003-3544-1028"@en;
   dct:modified "2023-09-30"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:30212, et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
-    et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
-    et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247,
-    et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256,
-    et:30257, et:30258, et:30259, et:30260, et:30261, et:30262;
   skos:prefLabel "MONERIS variable"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30217 a skos:Concept;
-  dct:modified "2023-10-01"^^xsd:date;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30218 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30219 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30220 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30221 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30229 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30230 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30231 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30232 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30233 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30234 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30235 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30236 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30237 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30238 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30239 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30240 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30241 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30242 a skos:Concept;
-  dct:modified "2023-10-01"^^xsd:date;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30243 a skos:Concept;
-  dct:modified "2023-10-01"^^xsd:date;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30244 a skos:Concept;
-  dct:modified "2023-10-01"^^xsd:date;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30245 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30246 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30247 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30248 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30249 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30250 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30251 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30252 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30253 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30254 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30255 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30256 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30257 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30258 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30259 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30260 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30261 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30262 a skos:Concept;
-  skos:broader et:20935, cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10188 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -1937,31 +1659,9 @@ cl:10189 a skos:Concept;
   dct:creator "0000-0003-3544-1028"@en;
   dct:modified "2023-09-30"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20117, et:20854, et:21285, et:21747, et:21752, et:21934, et:29, et:30264,
-    cl:10044, cl:10190, cl:10191;
+  skos:narrower cl:10044, cl:10190, cl:10191;
   skos:prefLabel "MONERIS keyword"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21747 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  skos:broader cl:10189;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:29 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  dct:modified "2023-09-29"^^xsd:date;
-  skos:broader cl:10189;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20117 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  skos:broader cl:10189;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30264 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  skos:broader cl:10189;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10190 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -1980,26 +1680,6 @@ cl:10191 a skos:Concept;
   skos:broader cl:10189;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "GIS data"@en .
-
-et:21285 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  skos:broader cl:10189;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21934 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  skos:broader cl:10189;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20854 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  skos:broader cl:10189;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21752 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  skos:broader cl:10189;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10192 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -3043,11 +2723,6 @@ cl:10364 a skos:Concept;
   skos:broader cl:10346;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "landscape scale"@en .
-
-et:30212 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10187;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10416 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -4817,8 +4492,7 @@ cl:10575 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2022-10-01"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:21472, et:21478, et:30298, et:30299, cl:10576, cl:10577, cl:10578,
-    cl:10579;
+  skos:narrower cl:10576, cl:10577, cl:10578, cl:10579;
   skos:prefLabel "scope of monitoring"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4857,53 +4531,15 @@ cl:10579 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "physical-chemical environment"@en .
 
-et:30299 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10575;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21472 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10575;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21478 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10575;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30298 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10575;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
 cl:10580 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2023-09-29"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2023-09-30"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20383, et:20387, et:20728, et:21126, et:22143, et:30300, cl:10581,
-    cl:10582, cl:10583;
+  skos:narrower cl:10581, cl:10582, cl:10583;
   skos:prefLabel "biodiversity threats and pressures addressed"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20387 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:22143 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30300 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20728 a skos:Concept;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10581 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -4923,16 +4559,6 @@ cl:10582 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "harvesting or management"@en .
 
-et:20383 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21126 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
 cl:10583 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
@@ -4948,8 +4574,7 @@ cl:10584 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2023-09-30"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20986, et:21539, et:21541, et:21548, et:21647, cl:10195, cl:10585,
-    cl:10586, cl:10587, cl:10588, cl:10589, cl:10590;
+  skos:narrower cl:10195, cl:10585, cl:10586, cl:10587, cl:10588, cl:10589, cl:10590;
   skos:prefLabel "type of data collected"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4961,19 +4586,6 @@ cl:10585 a skos:Concept;
   skos:broader cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "presence-absence"@en .
-
-et:21548 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10584;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21541 a skos:Concept;
-  skos:broader cl:10584;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:21539 a skos:Concept;
-  skos:broader cl:10584;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10586 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -4993,11 +4605,6 @@ cl:10587 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "individual traits"@en .
 
-et:20986 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10584;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
 cl:10588 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
@@ -5015,11 +4622,6 @@ cl:10589 a skos:Concept;
   skos:broader cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "genetic or genomic"@en .
-
-et:21647 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10584;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10590 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -5803,76 +5405,20 @@ cl:10673 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-11"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20593, et:20626, et:20635, et:20676, cl:10674, cl:10678;
-  skos:prefLabel "organism group"@en;
-  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20626 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2023-10-11"^^xsd:date;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:30301, et:30302, et:30303, et:30304 .
-
-et:30301 a skos:Concept;
-  skos:broader et:20626;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30302 a skos:Concept;
-  skos:broader et:20626;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30303 a skos:Concept;
-  skos:broader et:20626;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30304 a skos:Concept;
-  skos:broader et:20626;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
+  skos:narrower cl:10673, cl:10674, cl:10675, cl:10677, cl:10678, cl:10688, cl:10689;
+  skos:prefLabel "organism group"@en .
 
 cl:10679 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-11"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2023-10-11"^^xsd:date;
   skos:broader cl:10626;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other birds"@en .
-
-et:20635 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10673;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20558, et:20637, et:30041, et:30305, et:30306, et:30307, et:30308 .
-
-et:30041 a skos:Concept;
-  skos:broader et:20635;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20637 a skos:Concept;
-  skos:broader et:20635;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30305 a skos:Concept;
-  skos:broader et:20635;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30306 a skos:Concept;
-  skos:broader et:20635;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30307 a skos:Concept;
-  skos:broader et:20635;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30308 a skos:Concept;
-  skos:broader et:20635;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20558 a skos:Concept;
-  skos:broader et:20635;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10674 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -5881,124 +5427,23 @@ cl:10674 a skos:Concept;
   dct:modified "2023-09-30"^^xsd:date;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20624, et:20633, et:20640, et:30309, et:30310, et:30311;
   skos:prefLabel "other vertebrates"@en .
-
-et:20640 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10674;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20624 a skos:Concept;
-  skos:broader cl:10674;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20633 a skos:Concept;
-  skos:broader cl:10674;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30309 a skos:Concept;
-  skos:broader cl:10674;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30310 a skos:Concept;
-  skos:broader cl:10674;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30311 a skos:Concept;
-  skos:broader cl:10674;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20593 a skos:Concept;
-  skos:broader cl:10673;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20600, et:20602, et:20603, et:20613, et:20619, et:30312, et:30313,
-    et:30314 .
-
-et:20600 a skos:Concept;
-  skos:broader et:20593;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20602 a skos:Concept;
-  skos:broader et:20593;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30312 a skos:Concept;
-  skos:broader et:20593;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20603 a skos:Concept;
-  skos:broader et:20593;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30313 a skos:Concept;
-  skos:broader et:20593;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30314 a skos:Concept;
-  skos:broader et:20593;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10675 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-11"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "other insects"@en;
-  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20613 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader et:20593;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20619 a skos:Concept;
-  skos:broader et:20593;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-cl:10676 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  dct:created "2022-10-11"^^xsd:date;
-  dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "other invertebrates"@en;
-  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20676 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2023-10-11"^^xsd:date;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20587, et:20687, et:20691, et:20692, et:30315, cl:10677, cl:10688,
-    cl:10689 .
-
-et:20691 a skos:Concept;
-  skos:broader et:20676;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20692 a skos:Concept;
-  skos:broader et:20676;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20687 a skos:Concept;
-  skos:broader et:20676;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:30315 a skos:Concept;
-  skos:broader et:20676;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20587 a skos:Concept;
-  skos:broader et:20676;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
+  skos:prefLabel "other insects"@en .
 
 cl:10677 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-11"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader et:20676;
+  dct:modified "2023-10-11"^^xsd:date;
+  skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other plants"@en .
 
@@ -6009,17 +5454,8 @@ cl:10678 a skos:Concept;
   dct:modified "2023-09-30"^^xsd:date;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower et:20650, et:20660, cl:10195;
+  skos:narrower cl:10195;
   skos:prefLabel "other organisms"@en .
-
-et:20660 a skos:Concept;
-  dct:modified "2023-09-30"^^xsd:date;
-  skos:broader cl:10678;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
-
-et:20650 a skos:Concept;
-  skos:broader cl:10678;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10680 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -6104,8 +5540,8 @@ cl:10688 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2023-09-21"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-25"^^xsd:date;
-  skos:broader et:20676;
+  dct:modified "2023-10-11"^^xsd:date;
+  skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "gymnosperms"@en .
 
@@ -6113,8 +5549,8 @@ cl:10689 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2023-09-25"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-25"^^xsd:date;
-  skos:broader et:20676;
+  dct:modified "2023-10-11"^^xsd:date;
+  skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other angiosperms"@en .
 
@@ -6126,13 +5562,5 @@ cl:10690 a skos:Concept;
   skos:broader cl:10461;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "industry"@en .
-
-et:10145 skos:narrower cl:10136 .
-
-et:20935 skos:narrower et:30217, et:30218, et:30219, et:30220, et:30221, et:30229,
-    et:30230, et:30231, et:30232, et:30233, et:30234, et:30235, et:30236, et:30237, et:30238,
-    et:30239, et:30240, et:30241, et:30242, et:30243, et:30244, et:30245, et:30246, et:30247,
-    et:30248, et:30249, et:30250, et:30251, et:30252, et:30253, et:30254, et:30255, et:30256,
-    et:30257, et:30258, et:30259, et:30260, et:30261, et:30262 .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
