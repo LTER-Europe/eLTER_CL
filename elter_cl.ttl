@@ -38,7 +38,7 @@
     cl:10317, cl:10343, cl:10346, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425, cl:10429,
     cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484, cl:10489,
     cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584, cl:10591,
-    cl:10596, cl:10601, cl:10605, cl:10611, cl:10680 .
+    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680 .
 
 cl:10000 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -5406,10 +5406,10 @@ cl:10673 a skos:Concept;
   dct:created "2022-10-11"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2023-10-11"^^xsd:date;
-  skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10673, cl:10674, cl:10675, cl:10677, cl:10678, cl:10688, cl:10689;
-  skos:prefLabel "organism group"@en .
+  skos:narrower cl:10674, cl:10675, cl:10677, cl:10678, cl:10688, cl:10689;
+  skos:prefLabel "organism group"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10679 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
