@@ -4716,8 +4716,8 @@ cl:10599 a skos:Concept;
   dct:modified "2023-09-30"^^xsd:date;
   skos:broader cl:10596;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10650, cl:10662, cl:10666, cl:10667, cl:10668, cl:10669, cl:10670,
-    cl:10671, cl:10672, cl:10692;
+  skos:narrower cl:10662, cl:10666, cl:10667, cl:10668, cl:10669, cl:10670, cl:10671,
+    cl:10672, cl:10692;
   skos:prefLabel "Habitats Directive"@en .
 
 cl:10600 a skos:Concept;
@@ -5216,14 +5216,6 @@ cl:10649 a skos:Concept;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine habitats"@en .
-
-cl:10650 a skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-21"^^xsd:date;
-  skos:broader cl:10599;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "Coastal habitats"@en .
 
 cl:10651 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
