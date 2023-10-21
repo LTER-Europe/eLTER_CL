@@ -4717,7 +4717,7 @@ cl:10599 a skos:Concept;
   skos:broader cl:10596;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10662, cl:10666, cl:10667, cl:10668, cl:10669, cl:10670, cl:10671,
-    cl:10672, cl:10692;
+    cl:10672, cl:10692, cl:10693;
   skos:prefLabel "Habitats Directive"@en .
 
 cl:10600 a skos:Concept;
@@ -5568,6 +5568,13 @@ cl:10692 a skos:Concept;
   skos:broader cl:10599;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "coastal and halophytic habitats"@en .
+
+cl:10693 a skos:Concept;
+  dct:created "2023-10-21"^^xsd:date;
+  dct:modified "2023-10-21"^^xsd:date;
+  skos:broader cl:10599;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "test"@en .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
 <http://vocabs.lter-europe.net/EnvThes/>
