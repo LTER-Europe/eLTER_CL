@@ -5578,3 +5578,5 @@ cl:10692 a skos:Concept;
   skos:prefLabel "coastal and halophytic habitats"@en .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
+<http://vocabs.lter-europe.net/EnvThes/>
+	 rdf:type owl:Ontology .
