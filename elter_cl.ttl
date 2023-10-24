@@ -4696,7 +4696,7 @@ cl:10597 a skos:Concept;
   skos:broader cl:10596;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10649, cl:10651, cl:10652, cl:10653, cl:10654, cl:10655, cl:10656,
-    cl:10657, cl:10658, cl:10691;
+    cl:10657, cl:10658, cl:10691, cl:10693;
   skos:prefLabel "EUNIS"@en .
 
 cl:10598 a skos:Concept;
@@ -5568,6 +5568,13 @@ cl:10692 a skos:Concept;
   skos:broader cl:10599;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "coastal and halophytic habitats"@en .
+
+cl:10693 a skos:Concept;
+  dct:created "2023-10-24"^^xsd:date;
+  dct:modified "2023-10-24"^^xsd:date;
+  skos:broader cl:10597;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Coastal habitats"@en .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
 <http://vocabs.lter-europe.net/EnvThes/>
