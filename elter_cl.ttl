@@ -26,19 +26,33 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://vocabs.lter-europe.net/elter_cl> a skos:ConceptScheme;
+  <doap:repository> <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/ontologies/>;
+  dct:audience schema:Researcher;
+  dct:created "2021-11-12T12:00+02:00"@en;
+  dct:creator "Barbara Magagna"@en, "Christoph Wohner"@en, "Johannes Peterseil"@en,
+    "Juliana da Silva Menger"@en;
   dct:description "eLTER_CL is a thesaurus for controlled lists used by the eLTER community"@en;
-  dct:rights <https://spdx.org/licenses/CC0-1.0>;
+  dct:language "en"@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:modified "2023-11-06T12:00+02:00"@en;
+  dct:publisher <https://ror.org/00pggkr55>;
+  dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "eLTER_CL"@en;
-  pav:createdOn "2021-11-12T12:00+02:00"@en;
-  pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
-  pav:version "0.1.0"@en;
+  schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/ontologies/>;
+  owl:ontolgoyIRI <http://vocabs.lter-europe.net/elter_cl>;
+  owl:versionInfo "1.1.0"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10228, cl:10301, cl:10304, cl:10311,
     cl:10317, cl:10343, cl:10346, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425, cl:10429,
     cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484, cl:10489,
     cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584, cl:10591,
-    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680 .
+    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680;
+  skos:prefLabel "eLTER Controlled Lists"@en;
+  <omv:acronym> "eLTER_CL"@en;
+  <omv:keywords> "T4FS:0000335"@en;
+  <omv:knownUsage> "metadata and keywords for specific ecological research project data"@en;
+  <omv:resourceLocator> <https://raw.githubusercontent.com/LTER-Europe/eLTER_CL/main/elter_cl.ttl> .
 
 cl:10000 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
@@ -5577,5 +5591,5 @@ cl:10693 a skos:Concept;
   skos:prefLabel "Coastal habitats"@en .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
-<http://vocabs.lter-europe.net/EnvThes/>
+<http://vocabs.lter-europe.net/elter_cl/>
 	 rdf:type owl:Ontology .

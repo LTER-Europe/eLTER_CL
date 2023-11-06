@@ -16,11 +16,28 @@ PREFIX,rdfs,http://www.w3.org/2000/01/rdf-schema#
 Metadata about vocabulary
 dct:title,eLTER_CL,Title of the vocabulary
 dct:description,eLTER_CL is a thesaurus for controlled lists used by the eLTER community,Description of the controlled vocabulary
-dct:creator,,"An ORCID ID of the vocabulary creator, repeat this row as needed."
-dct:rights,https://spdx.org/licenses/CC0-1.0,License under which the vocabulary is provided
-pav:version,0.1.0,Vocabulary version
-pav:createdOn,2021-11-12T12:00+02:00,Date when vocabulary was initially created
-pav:lastUpdatedOn,2021-11-12T12:00+02:00,Date of the last vocabulary update
+owl:ontolgoyIRI,http://vocabs.lter-europe.net/elter_cl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+skos:prefLabel,eLTER Controlled Lists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+omv:acronym,eLTER_CL
+omv:resourceLocator,https://raw.githubusercontent.com/LTER-Europe/eLTER_CL/main/elter_cl.ttl
+omv:keywords,T4FS:0000335
+dct:publisher,https://ror.org/00pggkr55
+omv:knownUsage,metadata and keywords for specific ecological research project data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+dct:audience,http://schema.org/Researcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+doap:repository,https://ecoportal.lifewatch.eu/ontologies/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+doap:repository,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+dct:subject,http://semanticscience.org/resource/SIO_001080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+schema:includedInDataCatalog,https://ecoportal.lifewatch.eu/ontologies/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+schema:includedInDataCatalog,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+dct:creator,Johannes Peterseil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+dct:creator,Barbara Magagna,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+dct:creator,Christoph Wohner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+dct:creator,Juliana da Silva Menger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the vocabulary is provided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+dct:language,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
+owl:versionInfo,1.1.0,Vocabulary version,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+dct:created,2021-11-12T12:00+02:00,Date when vocabulary was initially created
+dct:modified,2023-11-06T12:00+02:00,Date of the last vocabulary update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
 Definition of terms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-11
 Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
