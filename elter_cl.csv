@@ -1,5 +1,5 @@
 ConceptScheme URI,http://vocabs.lter-europe.net/elter_cl,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
-"Prefixes for controlled vocabularies, schema and ontologies",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-11
+"Prefixes for controlled vocabularies, schema and ontologies"
 PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/
 PREFIX,et,http://vocabs.lter-europe.net/EnvThes/
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#
@@ -16,30 +16,30 @@ PREFIX,rdfs,http://www.w3.org/2000/01/rdf-schema#
 Metadata about vocabulary
 dct:title,eLTER_CL,Title of the vocabulary
 dct:description,eLTER_CL is a thesaurus for controlled lists used by the eLTER community,Description of the controlled vocabulary
-owl:ontolgoyIRI,http://vocabs.lter-europe.net/elter_cl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-skos:prefLabel,eLTER Controlled Lists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+owl:ontolgoyIRI,http://vocabs.lter-europe.net/elter_cl
+skos:prefLabel,eLTER Controlled Lists
 omv:acronym,eLTER_CL
 omv:resourceLocator,https://raw.githubusercontent.com/LTER-Europe/eLTER_CL/main/elter_cl.ttl
 omv:keywords,T4FS:0000335
 dct:publisher,https://ror.org/00pggkr55
-omv:knownUsage,metadata and keywords for specific ecological research project data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-dct:audience,http://schema.org/Researcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-doap:repository,https://ecoportal.lifewatch.eu/ontologies/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-doap:repository,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-dct:subject,http://semanticscience.org/resource/SIO_001080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-schema:includedInDataCatalog,https://ecoportal.lifewatch.eu/ontologies/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-schema:includedInDataCatalog,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-dct:creator,Johannes Peterseil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-dct:creator,Barbara Magagna,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-dct:creator,Christoph Wohner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-dct:creator,Juliana da Silva Menger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the vocabulary is provided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-dct:language,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06,,2023-11-06
-owl:versionInfo,1.1.0,Vocabulary version,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
+omv:knownUsage,metadata and keywords for specific ecological research project data
+dct:audience,http://schema.org/Researcher
+doap:repository,https://ecoportal.lifewatch.eu/ontologies/
+doap:repository,https://bioportal.bioontology.org/
+dct:subject,http://semanticscience.org/resource/SIO_001080
+schema:includedInDataCatalog,https://ecoportal.lifewatch.eu/ontologies/
+schema:includedInDataCatalog,https://bioportal.bioontology.org/
+dct:creator,Johannes Peterseil
+dct:creator,Barbara Magagna
+dct:creator,Christoph Wohner
+dct:creator,Juliana da Silva Menger
+dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the vocabulary is provided
+dct:language,en
+owl:versionInfo,1.1.0,Vocabulary version
 dct:created,2021-11-12T12:00+02:00,Date when vocabulary was initially created
-dct:modified,2023-11-06T12:00+02:00,Date of the last vocabulary update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-11-06
-Definition of terms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-11
-Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")",rdf:type,^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,2024-01-05,2024-01-05,dct:modified^^xsd:date
+dct:modified,2024-06-19,Date of the last vocabulary update
+Definition of terms
+Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")",rdf:type,^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
 cl:10001,INSPIRE data theme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
 cl:10002,unit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
@@ -612,11 +612,32 @@ cl:10684,TA-RA project,,,,,https://elter-ri.eu/transnational-remote-access-ta-ra
 cl:10685,under certain conditions,,,,,,cl:10466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-21,0000-0002-6968-8275,2023-09-30
 cl:10686,private company ,,,,,,cl:10461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-21,0000-0002-6968-8275,2023-09-30
 cl:10687,impact assessment,,,,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-21,0000-0002-6968-8275,2023-09-21
-cl:10688,gymnosperms,,,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-21,0000-0002-6968-8275,2023-10-11
-cl:10689,other angiosperms,,,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-25,0000-0002-6968-8275,2023-10-11
+cl:10688,gymnosperms,,,,,,cl:10708,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-11
+cl:10689,other angiosperms,,,,,,cl:10708,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-11
 cl:10690,industry,,,,,,cl:10461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-25,0000-0002-6968-8275,2023-09-25
-cl:10691,Habitats complexes,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-16,,2023-10-16
-cl:10692,coastal and halophytic habitats,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-18,,2023-10-18
-cl:10693,Coastal habitats,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2023-10-24,,2023-10-24
-cl:10694,soil type classification list,,skos:collection,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-01-05,,2024-01-05
-cl:10695,podsol,,skos:concept,cl:10694,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-01-05,2024-01-05,2024-01-05
+cl:10691,Habitats complexes,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-16
+cl:10692,coastal and halophytic habitats,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-18
+cl:10693,Coastal habitats,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-24
+cl:10694,birds,,,,,,cl:10673,et:20626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10695,waterbirds,,,,,,cl:10694,et:30301,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-01-05
+cl:10696,raptors,,,,,,cl:10694,et:30302,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10697,songbirds,,,,,,cl:10694,et:30303,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10698,near-passerines,,,,,,cl:10694,et:30304,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10699,invertebrates,,,,,,cl:10673,et:20593,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10700,beetles,,,,,,cl:10699,et:20600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10701,butterflies,,,,,,cl:10699,et:20602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10702,dragonflies,,,,,,cl:10699,et:30312,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10703,grasshoppers,,,,,,cl:10699,et:20603,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10704,crickets,,,,,,cl:10699,et:30313,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10705,bivalvia,,,,,,cl:10699,et:30314,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10706,gastropods,,,,,,cl:10699,et:20619,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10707,crustaceans,,,,,,cl:10699,et:20613,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10708,plants,,,,,,cl:10673,et:20676,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10709,liverworts,,,,,,cl:10708,et:20692,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10710,mosses,,,,,,cl:10708,et:20691,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10711,ferns,,,,,,cl:10708,et:20687,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10712,orchids,,,,,,cl:10708,et:30315,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10713,algae,,,,,,cl:10678,et:20587,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10714,fungi,,,,,,cl:10678,et:20650,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10715,lichens,,,,,,cl:10678,et:20660,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10716,bacteria,,,,,,cl:10678,et:20662,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
