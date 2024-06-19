@@ -5840,6 +5840,9 @@ cl:10720 a skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10721, cl:10722, cl:10723, cl:10724, cl:10725, cl:10726, cl:10727,
+    cl:10728, cl:10729, cl:10730, cl:10731, cl:10732, cl:10733, cl:10734, cl:10735, cl:10736,
+    cl:10737, cl:10738, cl:10739;
   skos:prefLabel "contact role"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -5847,7 +5850,7 @@ cl:10721 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "owner"@en .
 
@@ -5855,7 +5858,7 @@ cl:10722 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "author"@en .
 
@@ -5863,7 +5866,7 @@ cl:10723 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "coAuthor"@en .
 
@@ -5871,7 +5874,7 @@ cl:10724 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "collaborator"@en .
 
@@ -5879,7 +5882,7 @@ cl:10725 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "contributor"@en .
 
@@ -5887,7 +5890,7 @@ cl:10726 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "custodian"@en .
 
@@ -5895,7 +5898,7 @@ cl:10727 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "distributor"@en .
 
@@ -5903,7 +5906,7 @@ cl:10728 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "editor"@en .
 
@@ -5911,7 +5914,7 @@ cl:10729 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "funder"@en .
 
@@ -5919,7 +5922,7 @@ cl:10730 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mediator"@en .
 
@@ -5927,7 +5930,7 @@ cl:10731 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "originator"@en .
 
@@ -5935,7 +5938,7 @@ cl:10732 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "pointOfContact"@en .
 
@@ -5943,7 +5946,7 @@ cl:10733 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "principalInvestigator"@en .
 
@@ -5951,7 +5954,7 @@ cl:10734 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "processor"@en .
 
@@ -5959,7 +5962,7 @@ cl:10735 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "publisher"@en .
 
@@ -5967,7 +5970,7 @@ cl:10736 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "resource provider"@en .
 
@@ -5975,7 +5978,7 @@ cl:10737 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "rights holder"@en .
 
@@ -5983,7 +5986,7 @@ cl:10738 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "stakeholder"@en .
 
@@ -5991,7 +5994,7 @@ cl:10739 a skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
   dct:modified "2024-06-19"^^xsd:date;
-  skos:broader "c.10720"@en;
+  skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "user"@en .
 
