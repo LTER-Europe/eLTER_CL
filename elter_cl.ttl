@@ -5433,6 +5433,7 @@ cl:10674 a skos:Concept;
   dct:modified "2023-09-30"^^xsd:date;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10717, cl:10718, cl:10719;
   skos:prefLabel "other vertebrates"@en .
 
 cl:10675 a skos:Concept;
@@ -5806,6 +5807,33 @@ cl:10716 a skos:Concept;
   skos:exactMatch et:20662;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "bacteria"@en .
+
+cl:10717 a skos:Concept;
+  dct:created "2024-06-19"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-19"^^xsd:date;
+  skos:broader cl:10674;
+  skos:exactMatch et:20640;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "reptiles"@en .
+
+cl:10718 a skos:Concept;
+  dct:created "2024-06-19"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-19"^^xsd:date;
+  skos:broader cl:10674;
+  skos:exactMatch et:20624;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "amphibians"@en .
+
+cl:10719 a skos:Concept;
+  dct:created "2024-06-19"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-19"^^xsd:date;
+  skos:broader cl:10674;
+  skos:exactMatch et:20633;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "fishes"@en .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
 <http://vocabs.lter-europe.net/elter_cl/>
