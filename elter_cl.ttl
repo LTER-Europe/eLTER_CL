@@ -34,13 +34,13 @@
   dct:description "eLTER_CL is a thesaurus for controlled lists used by the eLTER community"@en;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-06-20"@en;
+  dct:modified "2024-06-24"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "eLTER_CL"@en;
   schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/ontologies/>;
   owl:ontolgoyIRI <http://vocabs.lter-europe.net/elter_cl>;
-  owl:versionInfo "1.1.0"@en;
+  owl:versionInfo "1.1.1"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10228, cl:10301, cl:10304, cl:10311,
@@ -103,7 +103,7 @@ cl:10004 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2024-06-22"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10060, cl:10061, cl:10062, cl:10063, cl:10064, cl:10065, cl:10066,
     cl:10188;
@@ -4393,14 +4393,14 @@ cl:10562 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine Mediterranean Region"@en .
 
-cl:10563 a skos:Concept;
+cl:10563 a skos:Concept, <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10195, cl:10564, cl:10565, cl:10566, cl:10567, cl:10568;
-  skos:prefLabel "funding source"@en;
+  skos:prefLabel "funding source level"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10564 a skos:Concept;
