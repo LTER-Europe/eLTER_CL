@@ -393,7 +393,7 @@ cl:10462,NGO,,"http://purl.obolibrary.org/obo/GSSO_011343,skos:Concept",,,,cl:10
 cl:10463,government,,"http://purl.obolibrary.org/obo/GSSO_011343,skos:Concept",,,,cl:10461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-09-30,0000-0002-6968-8275,2024-06-19
 cl:10464,research center,,"http://purl.obolibrary.org/obo/GSSO_011343,skos:Concept",,,,cl:10461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-09-30,0000-0002-6968-8275,2024-06-19
 cl:10465,university,,"http://purl.obolibrary.org/obo/GSSO_011343,skos:Concept",,,,cl:10461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-09-30,0000-0002-6968-8275,2024-06-19
-cl:10466,data availability,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-09-30,0000-0002-6968-8275,2022-09-30
+cl:10466,data availability,,"https://w3id.org/np/RA0Nt7-mlQ4JVQFumqbjur7_7xaZjR-Ele9fwXYYklZho#DataAvailabilityCondition,skos:Concept",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-09-30,0000-0002-6968-8275,2024-06-24
 cl:10467,available,,,,,,cl:10466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-09-30,0000-0002-6968-8275,2022-09-30
 cl:10468,by request,,,,,,cl:10466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-09-30,0000-0002-6968-8275,2022-09-30
 cl:10469,not available,,,,,,"cl:10466,cl:10192",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-09-30,0000-0002-6968-8275,2022-10-01
@@ -496,27 +496,27 @@ cl:10566,regional,,,,,,"cl:10563,cl:10591",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-000
 cl:10567,scientific grant,,,,,,cl:10563,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
 cl:10568,private,,,,,,cl:10563,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
 cl:10569,motivation to launch monitoring scheme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10570,EU directive,,,,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10571,other international obligation,,,,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10572,national law,,,,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10573,scientific interest,,,,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10574,management or restoration,,,,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
+cl:10570,EU directive,,"https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation,skos:Concept",,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10571,other international obligation,,"https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation,skos:Concept",,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10572,national law,,"https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation,skos:Concept",,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10573,scientific interest,,"https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation,skos:Concept",,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10574,management or restoration,,"https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation,skos:Concept",,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10575,scope of monitoring,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10576,population trend,,,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10577,distribution trend,,,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10578,demographic parameters,,,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10579,physical-chemical environment,,,,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
+cl:10576,population trend,,"https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring,skos:Concept",,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10577,distribution trend,,"https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring,skos:Concept",,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10578,demographic parameters,,"https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring,skos:Concept",,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10579,physical-chemical environment,,"https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring,skos:Concept",,,,cl:10575,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10580,biodiversity threats and pressures addressed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-29,0000-0002-6968-8275,2023-09-30
-cl:10581,habitat loss and fragmentation,,,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10582,harvesting or management,,,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10583,catastrophic event,,,,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10584,type of data collected,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10585,presence-absence,,,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10586,mark-recapture,,,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10587,individual traits,,,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10588,age or size structure,,,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10589,genetic or genomic,,,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10590,abiotic parameters,,,,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
+cl:10581,habitat loss and fragmentation,,"http://purl.obolibrary.org/obo/NBO_0020108,skos:Concept",,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10582,harvesting or management,,"http://purl.obolibrary.org/obo/NBO_0020108,skos:Concept",,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10583,catastrophic event,,"http://purl.obolibrary.org/obo/NBO_0020108,skos:Concept",,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10584,data type collected,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10585,presence-absence,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10586,mark-recapture,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10587,individual traits,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10588,age or size structure,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10589,genetic or genomic,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10590,abiotic parameters,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10591,geographical scope,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
 cl:10592,transnational,,,,,,cl:10591,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10593,local,,,,,,cl:10591,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
@@ -538,43 +538,43 @@ cl:10608,systematic sampling (e.g. each cell of a grid),,,,,,cl:10605,,,,,,,,,,,
 cl:10609,convenience (sampling sites chosen according to personnal or expert knowledge),,,,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10610,stratified sampling,,,,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
 cl:10611,Creative Commons license,CC license,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10612,CC0-1.0,Creative Commons Zero v1.0 Universal,,,,http://vocab.fairdatacollective.org/gdmt/CC01.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10613,CC-BY-1.0,Creative Commons Attribution 1.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBY1.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10614,CC-BY-2.0,Creative Commons Attribution 2.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBY2.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10615,CC-BY-2.5,Creative Commons Attribution 2.5 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBY2.5,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10616,CC-BY-3.0,Creative Commons Attribution 3.0 Unported,,,,http://vocab.fairdatacollective.org/gdmt/CCBY3.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10617,CC-BY-3.0-AT,Creative Commons Attribution 3.0 Austria,,,,http://vocab.fairdatacollective.org/gdmt/CCBY3.0AT,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10618,CC-BY-3.0-US,Creative Commons Attribution 3.0 United States,,,,http://vocab.fairdatacollective.org/gdmt/CCBY3.0US,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10619,CC-BY-4.0,Creative Commons Attribution 4.0 International,,,,http://vocab.fairdatacollective.org/gdmt/CCBY4.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10620,CC-BY-NC-1.0,Creative Commons Attribution Non Commercial 1.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNC1.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10621,CC-BY-NC-2.0,Creative Commons Attribution Non Commercial 2.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNC2.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10622,CC-BY-NC-2.5,Creative Commons Attribution Non Commercial 2.5 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNC2.5,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10623,CC-BY-NC-3.0,Creative Commons Attribution Non Commercial 3.0 Unported,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNC3.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10624,CC-BY-NC-4.0,Creative Commons Attribution Non Commercial 4.0 International,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNC4.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10625,CC-BY-NC-ND-1.0,Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND1.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10626,CC-BY-NC-ND-2.0,Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND2.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10627,CC-BY-NC-ND-2.5,Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND2.5,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10628,CC-BY-NC-ND-3.0,Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND3.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10629,CC-BY-NC-ND-3.0-IGO,Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND3.0IGO,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10630,CC-BY-NC-ND-4.0,Creative Commons Attribution Non Commercial No Derivatives 4.0 International,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCND4.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10631,CC-BY-NC-SA-1.0,Creative Commons Attribution Non Commercial Share Alike 1.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA1.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10632,CC-BY-NC-SA-2.0,Creative Commons Attribution Non Commercial Share Alike 2.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA2.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10633,CC-BY-NC-SA-2.5,Creative Commons Attribution Non Commercial Share Alike 2.5 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA2.5,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10634,CC-BY-NC-SA-3.0,Creative Commons Attribution Non Commercial Share Alike 3.0 Unported,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA3.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10635,CC-BY-NC-SA-4.0,Creative Commons Attribution Non Commercial Share Alike 4.0 International,,,,http://vocab.fairdatacollective.org/gdmt/CCBYNCSA4.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10636,CC-BY-ND-1.0,Creative Commons Attribution No Derivatives 1.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYND1.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10637,CC-BY-ND-2.0,Creative Commons Attribution No Derivatives 2.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYND2.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10638,CC-BY-ND-2.5,Creative Commons Attribution No Derivatives 2.5 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYND2.5,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10639,CC-BY-ND-3.0,Creative Commons Attribution No Derivatives 3.0 Unported,,,,http://vocab.fairdatacollective.org/gdmt/CCBYND3.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10640,CC-BY-ND-4.0,Creative Commons Attribution No Derivatives 4.0 International,,,,http://vocab.fairdatacollective.org/gdmt/CCBYND4.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10641,CC-BY-SA-1.0,Creative Commons Attribution Share Alike 1.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYSA1.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10642,CC-BY-SA-2.0,Creative Commons Attribution Share Alike 2.0 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYSA2.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10643,CC-BY-SA-2.0-UK,Creative Commons Attribution Share Alike 2.0 England and Wales,,,,http://vocab.fairdatacollective.org/gdmt/CCBYSA2.0UK,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10644,CC-BY-SA-2.5,Creative Commons Attribution Share Alike 2.5 Generic,,,,http://vocab.fairdatacollective.org/gdmt/CCBYSA2.5,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10645,CC-BY-SA-3.0,Creative Commons Attribution Share Alike 3.0 Unported,,,,http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10646,CC-BY-SA-3.0-AT,Creative Commons Attribution-Share Alike 3.0 Austria,,,,http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0AT,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10647,CC-BY-SA-4.0,Creative Commons Attribution Share Alike 4.0 International,,,,http://vocab.fairdatacollective.org/gdmt/CCBYSA4.0,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10648,CC-PDDC,Creative Commons Public Domain Dedication and Certification,,,,http://vocab.fairdatacollective.org/gdmt/CCPDDC,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10612,CC0-1.0,Creative Commons Zero v1.0 Universal,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10613,CC-BY-1.0,Creative Commons Attribution 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10614,CC-BY-2.0,Creative Commons Attribution 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10615,CC-BY-2.5,Creative Commons Attribution 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10616,CC-BY-3.0,Creative Commons Attribution 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10617,CC-BY-3.0-AT,Creative Commons Attribution 3.0 Austria,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10618,CC-BY-3.0-US,Creative Commons Attribution 3.0 United States,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
+cl:10619,CC-BY-4.0,Creative Commons Attribution 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10620,CC-BY-NC-1.0,Creative Commons Attribution Non Commercial 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10621,CC-BY-NC-2.0,Creative Commons Attribution Non Commercial 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10622,CC-BY-NC-2.5,Creative Commons Attribution Non Commercial 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10623,CC-BY-NC-3.0,Creative Commons Attribution Non Commercial 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10624,CC-BY-NC-4.0,Creative Commons Attribution Non Commercial 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10625,CC-BY-NC-ND-1.0,Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10626,CC-BY-NC-ND-2.0,Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10627,CC-BY-NC-ND-2.5,Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10628,CC-BY-NC-ND-3.0,Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10629,CC-BY-NC-ND-3.0-IGO,Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10630,CC-BY-NC-ND-4.0,Creative Commons Attribution Non Commercial No Derivatives 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10631,CC-BY-NC-SA-1.0,Creative Commons Attribution Non Commercial Share Alike 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10632,CC-BY-NC-SA-2.0,Creative Commons Attribution Non Commercial Share Alike 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10633,CC-BY-NC-SA-2.5,Creative Commons Attribution Non Commercial Share Alike 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10634,CC-BY-NC-SA-3.0,Creative Commons Attribution Non Commercial Share Alike 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10635,CC-BY-NC-SA-4.0,Creative Commons Attribution Non Commercial Share Alike 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10636,CC-BY-ND-1.0,Creative Commons Attribution No Derivatives 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10637,CC-BY-ND-2.0,Creative Commons Attribution No Derivatives 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10638,CC-BY-ND-2.5,Creative Commons Attribution No Derivatives 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10639,CC-BY-ND-3.0,Creative Commons Attribution No Derivatives 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10640,CC-BY-ND-4.0,Creative Commons Attribution No Derivatives 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10641,CC-BY-SA-1.0,Creative Commons Attribution Share Alike 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10642,CC-BY-SA-2.0,Creative Commons Attribution Share Alike 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10643,CC-BY-SA-2.0-UK,Creative Commons Attribution Share Alike 2.0 England and Wales,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10644,CC-BY-SA-2.5,Creative Commons Attribution Share Alike 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10645,CC-BY-SA-3.0,Creative Commons Attribution Share Alike 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
+cl:10646,CC-BY-SA-3.0-AT,Creative Commons Attribution-Share Alike 3.0 Austria,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10647,CC-BY-SA-4.0,Creative Commons Attribution Share Alike 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10648,CC-PDDC,Creative Commons Public Domain Dedication and Certification,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
 cl:10649,Marine habitats,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
 cl:10651,Inland surface waters,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
 cl:10652,"Mires, bogs and fens",,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16

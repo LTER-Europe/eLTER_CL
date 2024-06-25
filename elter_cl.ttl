@@ -3549,11 +3549,11 @@ cl:10465 a obo:GSSO_011343, skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "university"@en .
 
-cl:10466 a skos:Concept;
+cl:10466 a skos:Concept, <https://w3id.org/np/RA0Nt7-mlQ4JVQFumqbjur7_7xaZjR-Ele9fwXYYklZho#DataAvailabilityCondition>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-09-30"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10467, cl:10468, cl:10469, cl:10470, cl:10685;
   skos:prefLabel "data availability"@en;
@@ -4456,46 +4456,47 @@ cl:10569 a skos:Concept;
   skos:prefLabel "motivation to launch monitoring scheme"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10570 a skos:Concept;
+cl:10570 a skos:Concept, <https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10569;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "EU directive"@en .
 
-cl:10571 a skos:Concept;
+cl:10571 a skos:Concept, <https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10569;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other international obligation"@en .
 
-cl:10572 a skos:Concept;
+cl:10572 a skos:Concept, <https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10569;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "national law"@en .
 
-cl:10573 a skos:Concept;
+cl:10573 a skos:Concept, <https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10569;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "scientific interest"@en .
 
-cl:10574 a skos:Concept;
+cl:10574 a skos:Concept, <https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10569;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "management or restoration"@en .
@@ -4510,37 +4511,38 @@ cl:10575 a skos:Concept;
   skos:prefLabel "scope of monitoring"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10576 a skos:Concept;
+cl:10576 a skos:Concept, <https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10575;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "population trend"@en .
 
-cl:10577 a skos:Concept;
+cl:10577 a skos:Concept, <https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10575;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "distribution trend"@en .
 
-cl:10578 a skos:Concept;
+cl:10578 a skos:Concept, <https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10575;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "demographic parameters"@en .
 
-cl:10579 a skos:Concept;
+cl:10579 a skos:Concept, <https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10575;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "physical-chemical environment"@en .
@@ -4555,29 +4557,29 @@ cl:10580 a skos:Concept;
   skos:prefLabel "biodiversity threats and pressures addressed"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10581 a skos:Concept;
+cl:10581 a obo:NBO_0020108, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "habitat loss and fragmentation"@en .
 
-cl:10582 a skos:Concept;
+cl:10582 a obo:NBO_0020108, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "harvesting or management"@en .
 
-cl:10583 a skos:Concept;
+cl:10583 a obo:NBO_0020108, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "catastrophic event"@en .
@@ -4586,62 +4588,62 @@ cl:10584 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10195, cl:10585, cl:10586, cl:10587, cl:10588, cl:10589, cl:10590;
-  skos:prefLabel "type of data collected"@en;
+  skos:prefLabel "data type collected"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10585 a skos:Concept;
+cl:10585 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "presence-absence"@en .
 
-cl:10586 a skos:Concept;
+cl:10586 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mark-recapture"@en .
 
-cl:10587 a skos:Concept;
+cl:10587 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "individual traits"@en .
 
-cl:10588 a skos:Concept;
+cl:10588 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "age or size structure"@en .
 
-cl:10589 a skos:Concept;
+cl:10589 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "genetic or genomic"@en .
 
-cl:10590 a skos:Concept;
+cl:10590 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:broader cl:10584;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "abiotic parameters"@en .
@@ -4849,375 +4851,339 @@ cl:10611 a skos:Concept;
   skos:prefLabel "Creative Commons license"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10612 a skos:Concept;
+cl:10612 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CC01.0>;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:altLabel "Creative Commons Zero v1.0 Universal"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC0-1.0"@en .
 
-cl:10613 a skos:Concept;
+cl:10613 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY1.0>;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:altLabel "Creative Commons Attribution 1.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-1.0"@en .
 
-cl:10614 a skos:Concept;
+cl:10614 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY2.0>;
   skos:altLabel "Creative Commons Attribution 2.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-2.0"@en .
 
-cl:10615 a skos:Concept;
+cl:10615 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY2.5>;
   skos:altLabel "Creative Commons Attribution 2.5 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-2.5"@en .
 
-cl:10616 a skos:Concept;
+cl:10616 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY3.0>;
   skos:altLabel "Creative Commons Attribution 3.0 Unported"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-3.0"@en .
 
-cl:10617 a skos:Concept;
+cl:10617 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY3.0AT>;
   skos:altLabel "Creative Commons Attribution 3.0 Austria"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-3.0-AT"@en .
 
-cl:10618 a skos:Concept;
+cl:10618 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2023-09-30"^^xsd:date;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY3.0US>;
   skos:altLabel "Creative Commons Attribution 3.0 United States"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-3.0-US"@en .
 
-cl:10619 a skos:Concept;
+cl:10619 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBY4.0>;
   skos:altLabel "Creative Commons Attribution 4.0 International"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-4.0"@en .
 
-cl:10620 a skos:Concept;
+cl:10620 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC1.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial 1.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-1.0"@en .
 
-cl:10621 a skos:Concept;
+cl:10621 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC2.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial 2.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-2.0"@en .
 
-cl:10622 a skos:Concept;
+cl:10622 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC2.5>;
   skos:altLabel "Creative Commons Attribution Non Commercial 2.5 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-2.5"@en .
 
-cl:10623 a skos:Concept;
+cl:10623 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC3.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial 3.0 Unported"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-3.0"@en .
 
-cl:10624 a skos:Concept;
+cl:10624 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNC4.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial 4.0 International"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-4.0"@en .
 
-cl:10625 a skos:Concept;
+cl:10625 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND1.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-ND-1.0"@en .
 
-cl:10626 a skos:Concept;
+cl:10626 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND2.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10679;
   skos:prefLabel "CC-BY-NC-ND-2.0"@en .
 
-cl:10627 a skos:Concept;
+cl:10627 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND2.5>;
   skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-ND-2.5"@en .
 
-cl:10628 a skos:Concept;
+cl:10628 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND3.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-ND-3.0"@en .
 
-cl:10629 a skos:Concept;
+cl:10629 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND3.0IGO>;
   skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-ND-3.0-IGO"@en .
 
-cl:10630 a skos:Concept;
+cl:10630 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCND4.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial No Derivatives 4.0 International"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-ND-4.0"@en .
 
-cl:10631 a skos:Concept;
+cl:10631 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA1.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 1.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-SA-1.0"@en .
 
-cl:10632 a skos:Concept;
+cl:10632 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA2.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 2.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-SA-2.0"@en .
 
-cl:10633 a skos:Concept;
+cl:10633 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA2.5>;
   skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 2.5 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-SA-2.5"@en .
 
-cl:10634 a skos:Concept;
+cl:10634 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA3.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 3.0 Unported"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-SA-3.0"@en .
 
-cl:10635 a skos:Concept;
+cl:10635 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYNCSA4.0>;
   skos:altLabel "Creative Commons Attribution Non Commercial Share Alike 4.0 International"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-NC-SA-4.0"@en .
 
-cl:10636 a skos:Concept;
+cl:10636 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND1.0>;
   skos:altLabel "Creative Commons Attribution No Derivatives 1.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-ND-1.0"@en .
 
-cl:10637 a skos:Concept;
+cl:10637 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND2.0>;
   skos:altLabel "Creative Commons Attribution No Derivatives 2.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-ND-2.0"@en .
 
-cl:10638 a skos:Concept;
+cl:10638 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND2.5>;
   skos:altLabel "Creative Commons Attribution No Derivatives 2.5 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-ND-2.5"@en .
 
-cl:10639 a skos:Concept;
+cl:10639 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND3.0>;
   skos:altLabel "Creative Commons Attribution No Derivatives 3.0 Unported"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-ND-3.0"@en .
 
-cl:10640 a skos:Concept;
+cl:10640 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYND4.0>;
   skos:altLabel "Creative Commons Attribution No Derivatives 4.0 International"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-ND-4.0"@en .
 
-cl:10641 a skos:Concept;
+cl:10641 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA1.0>;
   skos:altLabel "Creative Commons Attribution Share Alike 1.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-SA-1.0"@en .
 
-cl:10642 a skos:Concept;
+cl:10642 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA2.0>;
   skos:altLabel "Creative Commons Attribution Share Alike 2.0 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-SA-2.0"@en .
 
-cl:10643 a skos:Concept;
+cl:10643 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA2.0UK>;
   skos:altLabel "Creative Commons Attribution Share Alike 2.0 England and Wales"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-SA-2.0-UK"@en .
 
-cl:10644 a skos:Concept;
+cl:10644 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA2.5>;
   skos:altLabel "Creative Commons Attribution Share Alike 2.5 Generic"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-SA-2.5"@en .
 
-cl:10645 a skos:Concept;
+cl:10645 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0>;
+  dct:modified "2024-06-24"^^xsd:date;
   skos:altLabel "Creative Commons Attribution Share Alike 3.0 Unported"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-SA-3.0"@en .
 
-cl:10646 a skos:Concept;
+cl:10646 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA3.0AT>;
   skos:altLabel "Creative Commons Attribution-Share Alike 3.0 Austria"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-SA-3.0-AT"@en .
 
-cl:10647 a skos:Concept;
+cl:10647 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCBYSA4.0>;
   skos:altLabel "Creative Commons Attribution Share Alike 4.0 International"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-BY-SA-4.0"@en .
 
-cl:10648 a skos:Concept;
+cl:10648 a dct:LicenseDocument, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:source <http://vocab.fairdatacollective.org/gdmt/CCPDDC>;
   skos:altLabel "Creative Commons Public Domain Dedication and Certification"@en;
   skos:broader cl:10611;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
