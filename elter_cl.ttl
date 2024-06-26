@@ -34,7 +34,7 @@
   dct:description "eLTER_CL is a thesaurus for controlled lists used by the eLTER community"@en;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-06-24"@en;
+  dct:modified "2024-06-26"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "eLTER_CL"@en;
@@ -1706,48 +1706,48 @@ cl:10192 a skos:Concept;
   skos:prefLabel "generic answer option"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10193 a skos:Concept;
+cl:10193 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10192;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "no"@en .
 
-cl:10194 a skos:Concept;
+cl:10194 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10192, cl:10601;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "none"@en .
 
-cl:10195 a skos:Concept;
+cl:10195 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-10-11"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10192, cl:10563, cl:10569, <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605>,
     cl:10584, cl:10678;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other"@en .
 
-cl:10196 a skos:Concept;
+cl:10196 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10192;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "unkown"@en .
 
-cl:10197 a skos:Concept;
+cl:10197 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10192;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "yes"@en .
@@ -1993,11 +1993,11 @@ cl:10222 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "graph or object database"@en .
 
-cl:10227 a skos:Concept;
+cl:10227 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-10-04"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:altLabel "na"@en;
   skos:broader cl:10192, cl:10317, cl:10435, cl:10482, cl:10489, cl:10497;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -4312,136 +4312,145 @@ cl:10553 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Macaronesian Bio-geographical Region"@en .
 
-cl:10554 a skos:Concept;
+cl:10554 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "ALP"@en, "alpine"@en;
   skos:broader cl:10546;
   skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/alpine.pdf>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Alpine Bio-geographical Region"@en .
 
-cl:10555 a skos:Concept;
+cl:10555 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "ARC"@en, "artic"@en;
   skos:broader cl:10546;
   skos:exactMatch <https://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/arcticReg.pdf>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Arctic Bio-geographical Region"@en .
 
-cl:10556 a skos:Concept;
+cl:10556 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "BLS"@en, "blackSea"@en;
   skos:broader cl:10546;
   skos:exactMatch <http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/blackseareg.pdf>;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Black Sea Bio-geographical Region"@en .
 
-cl:10557 a skos:Concept;
+cl:10557 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "MED"@en, "mediterranean"@en;
   skos:broader cl:10546;
   skos:exactMatch obo:ENVO_01000207;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Mediterranean Bio-geographical Region"@en .
 
-cl:10558 a skos:Concept;
+cl:10558 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "MATL"@en, "marineAtlantic"@en;
   skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine Atlantic Region"@en .
 
-cl:10559 a skos:Concept;
+cl:10559 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "MBAL"@en, "marineBaltic"@en;
   skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine Baltic Region"@en .
 
-cl:10560 a skos:Concept;
+cl:10560 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "MBLS"@en, "marineBlackSea"@en;
   skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine Region Black Sea"@en .
 
-cl:10561 a skos:Concept;
+cl:10561 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "MMAC"@en, "marineMacaronesian"@en;
   skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine Macaronesian Region"@en .
 
-cl:10562 a skos:Concept;
+cl:10562 a <http://purl.jp/bio/4/id/200906086364955683>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:altLabel "MMED"@en, "marineMediterranean"@en;
   skos:broader cl:10546;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine Mediterranean Region"@en .
 
-cl:10563 a skos:Concept, <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
+cl:10563 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-06-24"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10195, cl:10564, cl:10565, cl:10566, cl:10567, cl:10568;
   skos:prefLabel "funding source level"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10564 a skos:Concept;
+cl:10564 a skos:Concept, <https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop>,
+    <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10563, cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "EU"@en .
 
-cl:10565 a skos:Concept;
+cl:10565 a skos:Concept, <https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop>,
+    <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10563, cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "national"@en .
 
-cl:10566 a skos:Concept;
+cl:10566 a skos:Concept, <https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop>,
+    <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10563, cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "regional"@en .
 
-cl:10567 a skos:Concept;
+cl:10567 a skos:Concept, <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10563;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "scientific grant"@en .
 
-cl:10568 a skos:Concept;
+cl:10568 a skos:Concept, <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10563;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "private"@en .
@@ -4658,38 +4667,40 @@ cl:10591 a skos:Concept;
   skos:prefLabel "geographical scope"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10592 a skos:Concept;
+cl:10592 a skos:Concept, <https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop>,
+    <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "transnational"@en .
 
-cl:10593 a skos:Concept;
+cl:10593 a skos:Concept, <https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop>,
+    <https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10591;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "local"@en .
 
-cl:10594 a skos:Concept;
+cl:10594 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10192;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "partially"@en .
 
-cl:10595 a skos:Concept;
+cl:10595 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10192;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "entirely"@en .
@@ -4755,29 +4766,29 @@ cl:10601 a skos:Concept;
   skos:prefLabel "experimental design"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10602 a skos:Concept;
+cl:10602 a skos:Concept, <https://w3id.org/np/RA3XSiqkMin7oJPePmAno6LpcOoDgzNRWMdlVO3490Pqk#ExperimentalDesign>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10601;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "design with before vs. after comparison"@en .
 
-cl:10603 a skos:Concept;
+cl:10603 a skos:Concept, <https://w3id.org/np/RA3XSiqkMin7oJPePmAno6LpcOoDgzNRWMdlVO3490Pqk#ExperimentalDesign>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10601;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "design with a control treatment"@en .
 
-cl:10604 a skos:Concept;
+cl:10604 a skos:Concept, <https://w3id.org/np/RA3XSiqkMin7oJPePmAno6LpcOoDgzNRWMdlVO3490Pqk#ExperimentalDesign>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10601;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "design with before vs. after comparison and control treatment"@en .
@@ -4792,46 +4803,47 @@ cl:10605 a skos:Concept;
   skos:prefLabel "site selection"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
-cl:10606 a skos:Concept;
+cl:10606 a skos:Concept, <https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10605;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "exhaustive sampling (all possible sites)"@en .
 
-cl:10607 a skos:Concept;
+cl:10607 a skos:Concept, <https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10605;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "random sampling"@en .
 
-cl:10608 a skos:Concept;
+cl:10608 a skos:Concept, <https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2022-10-01"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10605;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "systematic sampling (e.g. each cell of a grid)"@en .
 
-cl:10609 a skos:Concept;
+cl:10609 a skos:Concept, <https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-09-30"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10605;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "convenience (sampling sites chosen according to personnal or expert knowledge)"@en .
 
-cl:10610 a skos:Concept;
+cl:10610 a skos:Concept, <https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10605;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "stratified sampling"@en .
@@ -5189,74 +5201,74 @@ cl:10648 a dct:LicenseDocument, skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "CC-PDDC"@en .
 
-cl:10649 a skos:Concept;
+cl:10649 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine habitats"@en .
 
-cl:10651 a skos:Concept;
+cl:10651 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Inland surface waters"@en .
 
-cl:10652 a skos:Concept;
+cl:10652 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Mires, bogs and fens"@en .
 
-cl:10653 a skos:Concept;
+cl:10653 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Grasslands and lands dominated by forbs, mosses or lichens"@en .
 
-cl:10654 a skos:Concept;
+cl:10654 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Heathlands, scrub and tundra"@en .
 
-cl:10655 a skos:Concept;
+cl:10655 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Woodland, forest and other wooded land"@en .
 
-cl:10656 a skos:Concept;
+cl:10656 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Inland unvegetated or sparsely vegetated habitats"@en .
 
-cl:10657 a skos:Concept;
+cl:10657 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Regularly or recently cultivated agricultural, horticultural and domestic habitats"@en .
 
-cl:10658 a skos:Concept;
+cl:10658 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2023-10-16"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Constructed, industrial and other artificial habitats"@en .
@@ -5269,58 +5281,58 @@ cl:10659 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "coastal and halophytic communities"@en .
 
-cl:10660 a skos:Concept;
+cl:10660 a skos:Concept, <https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10598;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "non-marine waters"@en .
 
-cl:10661 a skos:Concept;
+cl:10661 a skos:Concept, <https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10598;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "scrub and grassland"@en .
 
-cl:10662 a skos:Concept;
+cl:10662 a skos:Concept, <https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10598, cl:10599;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "forests"@en .
 
-cl:10663 a skos:Concept;
+cl:10663 a skos:Concept, <https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10598;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "bogs and marshes"@en .
 
-cl:10664 a skos:Concept;
+cl:10664 a skos:Concept, <https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10598;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "inland rocks, screes and sands"@en .
 
-cl:10665 a skos:Concept;
+cl:10665 a skos:Concept, <https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10598;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "agricultural land and artificial landscapes"@en .
 
-cl:10666 a skos:Concept;
+cl:10666 a skos:Concept, <https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10599;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "coastal sand dunes and inland dunes"@en .
@@ -5328,7 +5340,7 @@ cl:10666 a skos:Concept;
 cl:10667 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10599;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "freshwater habitats"@en .
@@ -5336,7 +5348,7 @@ cl:10667 a skos:Concept;
 cl:10668 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-09"^^xsd:date;
-  dct:modified "2022-10-09"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10599;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "temperate heath and scrub"@en .
@@ -5411,11 +5423,11 @@ cl:10675 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other insects"@en .
 
-cl:10677 a skos:Concept;
+cl:10677 a <http://purl.org/biotop/biotop.owl#Plant>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-11"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-10-11"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other plants"@en .
@@ -5509,20 +5521,20 @@ cl:10687 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "impact assessment"@en .
 
-cl:10688 a skos:Concept;
+cl:10688 a <http://purl.org/biotop/biotop.owl#Plant>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-10-11"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10708;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "gymnosperms"@en .
 
-cl:10689 a skos:Concept;
+cl:10689 a <http://purl.org/biotop/biotop.owl#Plant>, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-10-11"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10708;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other angiosperms"@en .
@@ -5554,11 +5566,11 @@ cl:10692 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "coastal and halophytic habitats"@en .
 
-cl:10693 a skos:Concept;
+cl:10693 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2023-10-24"^^xsd:date;
+  dct:modified "2024-06-26"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Coastal habitats"@en .
@@ -5573,37 +5585,37 @@ cl:10694 a skos:Concept;
   skos:narrower cl:10695, cl:10696, cl:10697, cl:10698;
   skos:prefLabel "birds"@en .
 
-cl:10695 a skos:Concept;
+cl:10695 a obo:NCBITaxon_8782, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-01-05"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10694;
   skos:exactMatch et:30301;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "waterbirds"@en .
 
-cl:10696 a skos:Concept;
+cl:10696 a obo:NCBITaxon_8782, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10694;
   skos:exactMatch et:30302;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "raptors"@en .
 
-cl:10697 a skos:Concept;
+cl:10697 a obo:NCBITaxon_8782, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10694;
   skos:exactMatch et:30303;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "songbirds"@en .
 
-cl:10698 a skos:Concept;
+cl:10698 a obo:NCBITaxon_8782, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10694;
   skos:exactMatch et:30304;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -5620,76 +5632,68 @@ cl:10699 a skos:Concept;
     cl:10707;
   skos:prefLabel "invertebrates"@en .
 
-cl:10700 a skos:Concept;
+cl:10700 a <http://purl.org/biotop/biotop.owl#Invertebrate>, skos:concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10699;
   skos:exactMatch et:20600;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "beetles"@en .
 
-cl:10701 a skos:Concept;
+cl:10701 a <http://purl.org/biotop/biotop.owl#Invertebrate>, skos:concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10699;
   skos:exactMatch et:20602;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "butterflies"@en .
 
-cl:10702 a skos:Concept;
+cl:10702 a <http://purl.org/biotop/biotop.owl#Invertebrate>, skos:concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10699;
   skos:exactMatch et:30312;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "dragonflies"@en .
 
-cl:10703 a skos:Concept;
+cl:10703 a <http://purl.org/biotop/biotop.owl#Invertebrate>, skos:concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10699;
   skos:exactMatch et:20603;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "grasshoppers"@en .
 
-cl:10704 a skos:Concept;
+cl:10704 a <http://purl.org/biotop/biotop.owl#Invertebrate>, skos:concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10699;
   skos:exactMatch et:30313;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "crickets"@en .
 
-cl:10705 a skos:Concept;
+cl:10705 a <http://purl.org/biotop/biotop.owl#Invertebrate>, skos:concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10699;
   skos:exactMatch et:30314;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "bivalvia"@en .
 
-cl:10706 a skos:Concept;
+cl:10706 a <http://purl.org/biotop/biotop.owl#Invertebrate>, skos:concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10699;
   skos:exactMatch et:20619;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "gastropods"@en .
 
-cl:10707 a skos:Concept;
+cl:10707 a <http://purl.org/biotop/biotop.owl#Invertebrate>, skos:concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10699;
   skos:exactMatch et:20613;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "crustaceans"@en .
 
 cl:10708 a skos:Concept;
@@ -5702,100 +5706,100 @@ cl:10708 a skos:Concept;
   skos:narrower cl:10688, cl:10689, cl:10709, cl:10710, cl:10711, cl:10712;
   skos:prefLabel "plants"@en .
 
-cl:10709 a skos:Concept;
+cl:10709 a <http://purl.org/biotop/biotop.owl#Plant>, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10708;
   skos:exactMatch et:20692;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "liverworts"@en .
 
-cl:10710 a skos:Concept;
+cl:10710 a <http://purl.org/biotop/biotop.owl#Plant>, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10708;
   skos:exactMatch et:20691;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mosses"@en .
 
-cl:10711 a skos:Concept;
+cl:10711 a <http://purl.org/biotop/biotop.owl#Plant>, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10708;
   skos:exactMatch et:20687;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "ferns"@en .
 
-cl:10712 a skos:Concept;
+cl:10712 a <http://purl.org/biotop/biotop.owl#Plant>, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10708;
   skos:exactMatch et:30315;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "orchids"@en .
 
-cl:10713 a skos:Concept;
+cl:10713 a obo:OBI_0100026, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10678;
   skos:exactMatch et:20587;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "algae"@en .
 
-cl:10714 a skos:Concept;
+cl:10714 a obo:OBI_0100026, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10678;
   skos:exactMatch et:20650;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "fungi"@en .
 
-cl:10715 a skos:Concept;
+cl:10715 a obo:OBI_0100026, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10678;
   skos:exactMatch et:20660;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "lichens"@en .
 
-cl:10716 a skos:Concept;
+cl:10716 a obo:OBI_0100026, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10678;
   skos:exactMatch et:20662;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "bacteria"@en .
 
-cl:10717 a skos:Concept;
+cl:10717 a obo:OBI_0100026, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10674;
   skos:exactMatch et:20640;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "reptiles"@en .
 
-cl:10718 a skos:Concept;
+cl:10718 a obo:OBI_0100026, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10674;
   skos:exactMatch et:20624;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "amphibians"@en .
 
-cl:10719 a skos:Concept;
+cl:10719 a obo:OBI_0100026, skos:Concept;
   dct:created "2024-06-19"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-19"^^xsd:date;
+  dct:modified "2024-06-25"^^xsd:date;
   skos:broader cl:10674;
   skos:exactMatch et:20633;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;

@@ -37,7 +37,7 @@ dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the
 dct:language,en
 owl:versionInfo,1.1.1,Vocabulary version
 dct:created,2021-11-12T12:00+02:00,Date when vocabulary was initially created
-dct:modified,2024-06-24,Date of the last vocabulary update
+dct:modified,2024-06-26,Date of the last vocabulary update
 Definition of terms
 Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")","rdf:type(separtor="","")",^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
@@ -200,11 +200,11 @@ cl:10189,MONERIS keyword,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,
 cl:10190,measurement,,,,,,"cl:10189,cl:10189",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10191,GIS data,,,,,,"cl:10189,cl:10189",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10192,generic answer option,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
-cl:10193,no,,,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
-cl:10194,none,,,,,,"cl:10192,cl:10601",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-10-01
-cl:10195,other,,,,,,"cl:10192,cl:10563,cl:10569,cl:10575;cl:10596;cl:10605,cl:10584,cl:10678",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-10-11
-cl:10196,unkown,,,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
-cl:10197,yes,,,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
+cl:10193,no,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
+cl:10194,none,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,"cl:10192,cl:10601",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
+cl:10195,other,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,"cl:10192,cl:10563,cl:10569,cl:10575;cl:10596;cl:10605,cl:10584,cl:10678",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
+cl:10196,unkown,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
+cl:10197,yes,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
 cl:10198,data capture,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10199,datalogger,,,,n. devices/gadgets that record data over time or in relation to location either with a built in instrument or sensor or via external instruments and sensors,,cl:10198,https://vocab.lternet.edu/vocab/vocab/?tema=135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-29,,2023-09-30
 cl:10200,data service,,,,The data type 'Data services' describes the availability of data services (e.g. WFS) to connect to the data.,,cl:10421,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,,2022-04-16
@@ -230,7 +230,7 @@ cl:10219,triple store,,,,,,cl:10211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-
 cl:10220,other data storage,,,,,,cl:10211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-10-01
 cl:10221,proprietary file format,,,,,,cl:10211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10222,graph or object database,,,,,,cl:10211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
-cl:10227,not applicable,na,,,,,"cl:10317,cl:10435,cl:10482,cl:10489,cl:10497,cl:10192",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-10-04
+cl:10227,not applicable,na,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,"cl:10317,cl:10435,cl:10482,cl:10489,cl:10497,cl:10192",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
 cl:10228,metadata standards,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10229,Ecological Metadata Language,EML,,,,,cl:10228,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10230,Darwin Core,DwC,,,,,cl:10228,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
@@ -480,21 +480,21 @@ cl:10550,Atlantic Bio-geographical Region,"ATL,atlantic",,,,,cl:10546,http://www
 cl:10551,Pannonian Bio-geographical Region,"PAN,pannonian",,,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10552,Continental Bio-geographical Region,"CON,continental",,,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10553,Macaronesian Bio-geographical Region,"MAC,macaronesian",,,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10554,Alpine Bio-geographical Region,"ALP,alpine",,,,,cl:10546,http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/alpine.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10555,Arctic Bio-geographical Region,"ARC,artic",,,,,cl:10546,https://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/arcticReg.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10556,Black Sea Bio-geographical Region,"BLS,blackSea",,,,,cl:10546,http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/blackseareg.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10557,Mediterranean Bio-geographical Region,"MED,mediterranean",,,,,cl:10546,http://purl.obolibrary.org/obo/ENVO_01000207,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10558,Marine Atlantic Region,"MATL,marineAtlantic",,,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10559,Marine Baltic Region,"MBAL,marineBaltic",,,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01
-cl:10560,Marine Region Black Sea,"MBLS,marineBlackSea",,,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01
-cl:10561,Marine Macaronesian Region,"MMAC,marineMacaronesian",,,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01
-cl:10562,Marine Mediterranean Region,"MMED,marineMediterranean",,,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01
-cl:10563,funding source level,,"https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level,skos:Concept",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
-cl:10564,EU,,,,,,"cl:10563,cl:10591",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10565,national,,,,,,"cl:10563,cl:10591",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10566,regional,,,,,,"cl:10563,cl:10591",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10567,scientific grant,,,,,,cl:10563,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10568,private,,,,,,cl:10563,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10554,Alpine Bio-geographical Region,"ALP,alpine","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/alpine.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10555,Arctic Bio-geographical Region,"ARC,artic","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,https://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/arcticReg.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10556,Black Sea Bio-geographical Region,"BLS,blackSea","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/blackseareg.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10557,Mediterranean Bio-geographical Region,"MED,mediterranean","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,http://purl.obolibrary.org/obo/ENVO_01000207,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10558,Marine Atlantic Region,"MATL,marineAtlantic","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10559,Marine Baltic Region,"MBAL,marineBaltic","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10560,Marine Region Black Sea,"MBLS,marineBlackSea","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10561,Marine Macaronesian Region,"MMAC,marineMacaronesian","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10562,Marine Mediterranean Region,"MMED,marineMediterranean","http://purl.jp/bio/4/id/200906086364955683,skos:Concept",,,,cl:10546,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2024-06-26
+cl:10563,funding source level,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10564,EU,,"https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop,https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level,skos:Concept",,,,"cl:10563,cl:10591",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10565,national,,"https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop,https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level,skos:Concept",,,,"cl:10563,cl:10591",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10566,regional,,"https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop,https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level,skos:Concept",,,,"cl:10563,cl:10591",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10567,scientific grant,,"https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level,skos:Concept",,,,cl:10563,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10568,private,,"https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level,skos:Concept",,,,cl:10563,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
 cl:10569,motivation to launch monitoring scheme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
 cl:10570,EU directive,,"https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation,skos:Concept",,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10571,other international obligation,,"https://w3id.org/np/RAFqL9-WfwCxHobP6hizvJKAE_sFKGRcRXIMnd5mnxOAI#MonitoringSchemeMotivation,skos:Concept",,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
@@ -518,25 +518,25 @@ cl:10588,age or size structure,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8L
 cl:10589,genetic or genomic,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10590,abiotic parameters,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,,,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10591,geographical scope,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10592,transnational,,,,,,cl:10591,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10593,local,,,,,,cl:10591,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10594,partially,,,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10595,entirely,,,,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
+cl:10592,transnational,,"https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop,https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level,skos:Concept",,,,cl:10591,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10593,local,,"https://w3id.org/np/RAHPlK4vAHSzHpk9JxqppKxxvgS_U7zNi1k7-uWqkpaRo#GeoScop,https://w3id.org/np/RAP2yIXzEVXe6gQye6xUgfnj10rcFGRvp9OnplW7ZqMDs#fund_source_level,skos:Concept",,,,cl:10591,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10594,partially,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10595,entirely,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
 cl:10596,habitat classification,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10597,EUNIS,,,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10598,CORINE,,,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10599,Habitats Directive,,,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10600,national classification,,,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10601,experimental design,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10602,design with before vs. after comparison,,,,,,cl:10601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10603,design with a control treatment,,,,,,cl:10601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10604,design with before vs. after comparison and control treatment,,,,,,cl:10601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
+cl:10602,design with before vs. after comparison,,"https://w3id.org/np/RA3XSiqkMin7oJPePmAno6LpcOoDgzNRWMdlVO3490Pqk#ExperimentalDesign,skos:Concept",,,,cl:10601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10603,design with a control treatment,,"https://w3id.org/np/RA3XSiqkMin7oJPePmAno6LpcOoDgzNRWMdlVO3490Pqk#ExperimentalDesign,skos:Concept",,,,cl:10601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10604,design with before vs. after comparison and control treatment,,"https://w3id.org/np/RA3XSiqkMin7oJPePmAno6LpcOoDgzNRWMdlVO3490Pqk#ExperimentalDesign,skos:Concept",,,,cl:10601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
 cl:10605,site selection,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10606,exhaustive sampling (all possible sites),,,,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10607,random sampling,,,,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10608,systematic sampling (e.g. each cell of a grid),,,,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2022-10-01
-cl:10609,convenience (sampling sites chosen according to personnal or expert knowledge),,,,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10610,stratified sampling,,,,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10606,exhaustive sampling (all possible sites),,"https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection,skos:Concept",,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10607,random sampling,,"https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection,skos:Concept",,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10608,systematic sampling (e.g. each cell of a grid),,"https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection,skos:Concept",,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10609,convenience (sampling sites chosen according to personnal or expert knowledge),,"https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection,skos:Concept",,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
+cl:10610,stratified sampling,,"https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9JZKEfP3sj8Pd8e-k#SiteSelection,skos:Concept",,,,cl:10605,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
 cl:10611,Creative Commons license,CC license,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10612,CC0-1.0,Creative Commons Zero v1.0 Universal,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10613,CC-BY-1.0,Creative Commons Attribution 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
@@ -575,25 +575,25 @@ cl:10645,CC-BY-SA-3.0,Creative Commons Attribution Share Alike 3.0 Unported,"htt
 cl:10646,CC-BY-SA-3.0-AT,Creative Commons Attribution-Share Alike 3.0 Austria,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
 cl:10647,CC-BY-SA-4.0,Creative Commons Attribution Share Alike 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
 cl:10648,CC-PDDC,Creative Commons Public Domain Dedication and Certification,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10649,Marine habitats,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
-cl:10651,Inland surface waters,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
-cl:10652,"Mires, bogs and fens",,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
-cl:10653,"Grasslands and lands dominated by forbs, mosses or lichens",,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
-cl:10654,"Heathlands, scrub and tundra",,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
-cl:10655,"Woodland, forest and other wooded land",,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
-cl:10656,Inland unvegetated or sparsely vegetated habitats,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
-cl:10657,"Regularly or recently cultivated agricultural, horticultural and domestic habitats",,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
-cl:10658,"Constructed, industrial and other artificial habitats",,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2023-10-16
+cl:10649,Marine habitats,,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10651,Inland surface waters,,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10652,"Mires, bogs and fens",,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10653,"Grasslands and lands dominated by forbs, mosses or lichens",,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10654,"Heathlands, scrub and tundra",,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10655,"Woodland, forest and other wooded land",,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10656,Inland unvegetated or sparsely vegetated habitats,,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10657,"Regularly or recently cultivated agricultural, horticultural and domestic habitats",,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10658,"Constructed, industrial and other artificial habitats",,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
 cl:10659,coastal and halophytic communities,,,,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10660,non-marine waters,,,,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10661,scrub and grassland,,,,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10662,forests,,,,,,"cl:10598,cl:10599",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10663,bogs and marshes,,,,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10664,"inland rocks, screes and sands",,,,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10665,agricultural land and artificial landscapes,,,,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10666,coastal sand dunes and inland dunes,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10667,freshwater habitats,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
-cl:10668,temperate heath and scrub,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
+cl:10660,non-marine waters,,"https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat,skos:Concept",,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10661,scrub and grassland,,"https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat,skos:Concept",,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10662,forests,,"https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat,skos:Concept",,,,"cl:10598,cl:10599",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10663,bogs and marshes,,"https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat,skos:Concept",,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10664,"inland rocks, screes and sands",,"https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat,skos:Concept",,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10665,agricultural land and artificial landscapes,,"https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat,skos:Concept",,,,cl:10598,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10666,coastal sand dunes and inland dunes,,"https://w3id.org/np/RAq2oL3uIyI5vH97OTWnqmihGN-_n5deh6FXidHvBfFV4#CorineHabitat,skos:Concept",,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10667,freshwater habitats,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
+cl:10668,temperate heath and scrub,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
 cl:10669,sclerophyllous scrub (matorral),,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
 cl:10670,natural and semi-natural grassland formations,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
 cl:10671,raised bogs and mires and fens,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2022-10-09
@@ -602,7 +602,7 @@ cl:10673,organism group,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2
 cl:10679,other birds,,,,,,cl:10626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-11,0000-0002-6968-8275,2023-10-11
 cl:10674,other vertebrates,,,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-11,0000-0002-6968-8275,2023-09-30
 cl:10675,other insects,,,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-11,0000-0002-6968-8275,2023-10-11
-cl:10677,other plants,,,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-11,0000-0002-6968-8275,2023-10-11
+cl:10677,other plants,,"http://purl.org/biotop/biotop.owl#Plant,skos:Concept",,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-11,0000-0002-6968-8275,2024-06-25
 cl:10678,other organisms,,,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-11,0000-0002-6968-8275,2023-09-30
 cl:10680,access scheme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-02-09,0000-0003-0631-8231,2023-09-30
 cl:10681,Remote Access,RA,,,,,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-02-09,0000-0003-0631-8231,2023-09-30
@@ -612,38 +612,38 @@ cl:10684,TA-RA project,,,,,https://elter-ri.eu/transnational-remote-access-ta-ra
 cl:10685,under certain conditions,,,,,,cl:10466,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-21,0000-0002-6968-8275,2023-09-30
 cl:10686,private company ,,"http://purl.obolibrary.org/obo/GSSO_011343,skos:Concept",,,,cl:10461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-21,0000-0002-6968-8275,2024-06-19
 cl:10687,impact assessment,,,,,,cl:10569,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-21,0000-0002-6968-8275,2023-09-21
-cl:10688,gymnosperms,,,,,,cl:10708,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-11
-cl:10689,other angiosperms,,,,,,cl:10708,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-11
+cl:10688,gymnosperms,,"http://purl.org/biotop/biotop.owl#Plant,skos:Concept",,,,cl:10708,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2024-06-25
+cl:10689,other angiosperms,,"http://purl.org/biotop/biotop.owl#Plant,skos:Concept",,,,cl:10708,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2024-06-25
 cl:10690,industry,,"http://purl.obolibrary.org/obo/GSSO_011343,skos:Concept",,,,cl:10461,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-25,0000-0002-6968-8275,2024-06-19
 cl:10691,Habitats complexes,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-16
 cl:10692,coastal and halophytic habitats,,,,,,cl:10599,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-18
-cl:10693,Coastal habitats,,,,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2023-10-24
+cl:10693,Coastal habitats,,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2024-06-19,0000-0002-6968-8275,2024-06-26
 cl:10694,birds,,,,,,cl:10673,et:20626,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10695,waterbirds,,,,,,cl:10694,et:30301,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-01-05
-cl:10696,raptors,,,,,,cl:10694,et:30302,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10697,songbirds,,,,,,cl:10694,et:30303,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10698,near-passerines,,,,,,cl:10694,et:30304,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10695,waterbirds,,"http://purl.obolibrary.org/obo/NCBITaxon_8782, skos:Concept",,,,cl:10694,et:30301,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10696,raptors,,"http://purl.obolibrary.org/obo/NCBITaxon_8782, skos:Concept",,,,cl:10694,et:30302,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10697,songbirds,,"http://purl.obolibrary.org/obo/NCBITaxon_8782, skos:Concept",,,,cl:10694,et:30303,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10698,near-passerines,,"http://purl.obolibrary.org/obo/NCBITaxon_8782, skos:Concept",,,,cl:10694,et:30304,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
 cl:10699,invertebrates,,,,,,cl:10673,et:20593,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10700,beetles,,,,,,cl:10699,et:20600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10701,butterflies,,,,,,cl:10699,et:20602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10702,dragonflies,,,,,,cl:10699,et:30312,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10703,grasshoppers,,,,,,cl:10699,et:20603,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10704,crickets,,,,,,cl:10699,et:30313,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10705,bivalvia,,,,,,cl:10699,et:30314,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10706,gastropods,,,,,,cl:10699,et:20619,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10707,crustaceans,,,,,,cl:10699,et:20613,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10700,beetles,,"http://purl.org/biotop/biotop.owl#Invertebrate,skos:concept",,,,cl:10699,et:20600,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10701,butterflies,,"http://purl.org/biotop/biotop.owl#Invertebrate,skos:concept",,,,cl:10699,et:20602,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10702,dragonflies,,"http://purl.org/biotop/biotop.owl#Invertebrate,skos:concept",,,,cl:10699,et:30312,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10703,grasshoppers,,"http://purl.org/biotop/biotop.owl#Invertebrate,skos:concept",,,,cl:10699,et:20603,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10704,crickets,,"http://purl.org/biotop/biotop.owl#Invertebrate,skos:concept",,,,cl:10699,et:30313,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10705,bivalvia,,"http://purl.org/biotop/biotop.owl#Invertebrate,skos:concept",,,,cl:10699,et:30314,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10706,gastropods,,"http://purl.org/biotop/biotop.owl#Invertebrate,skos:concept",,,,cl:10699,et:20619,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10707,crustaceans,,"http://purl.org/biotop/biotop.owl#Invertebrate,skos:concept",,,,cl:10699,et:20613,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
 cl:10708,plants,,,,,,cl:10673,et:20676,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10709,liverworts,,,,,,cl:10708,et:20692,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10710,mosses,,,,,,cl:10708,et:20691,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10711,ferns,,,,,,cl:10708,et:20687,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10712,orchids,,,,,,cl:10708,et:30315,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10713,algae,,,,,,cl:10678,et:20587,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10714,fungi,,,,,,cl:10678,et:20650,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10715,lichens,,,,,,cl:10678,et:20660,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10716,bacteria,,,,,,cl:10678,et:20662,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10717,reptiles,,,,,,cl:10674,et:20640,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10718,amphibians,,,,,,cl:10674,et:20624,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
-cl:10719,fishes,,,,,,cl:10674,et:20633,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
+cl:10709,liverworts,,"http://purl.org/biotop/biotop.owl#Plant,skos:Concept",,,,cl:10708,et:20692,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10710,mosses,,"http://purl.org/biotop/biotop.owl#Plant,skos:Concept",,,,cl:10708,et:20691,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10711,ferns,,"http://purl.org/biotop/biotop.owl#Plant,skos:Concept",,,,cl:10708,et:20687,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10712,orchids,,"http://purl.org/biotop/biotop.owl#Plant,skos:Concept",,,,cl:10708,et:30315,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10713,algae,,"http://purl.obolibrary.org/obo/OBI_0100026,skos:Concept",,,,cl:10678,et:20587,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10714,fungi,,"http://purl.obolibrary.org/obo/OBI_0100026,skos:Concept",,,,cl:10678,et:20650,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10715,lichens,,"http://purl.obolibrary.org/obo/OBI_0100026,skos:Concept",,,,cl:10678,et:20660,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10716,bacteria,,"http://purl.obolibrary.org/obo/OBI_0100026,skos:Concept",,,,cl:10678,et:20662,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10717,reptiles,,"http://purl.obolibrary.org/obo/OBI_0100026,skos:Concept",,,,cl:10674,et:20640,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10718,amphibians,,"http://purl.obolibrary.org/obo/OBI_0100026,skos:Concept",,,,cl:10674,et:20624,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
+cl:10719,fishes,,"http://purl.obolibrary.org/obo/OBI_0100026,skos:Concept",,,,cl:10674,et:20633,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-25
 cl:10720,contact role,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-19
 cl:10721,owner,,"http://purl.obolibrary.org/obo/CRO_0000000,skos:Concept",,,,cl:10720,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-20
 cl:10722,author,,"http://purl.obolibrary.org/obo/CRO_0000000,skos:Concept",,,,cl:10720,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-19,0000-0003-2195-3997,2024-06-20
