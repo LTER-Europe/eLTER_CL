@@ -509,7 +509,6 @@ cl:10579,physical-chemical environment,,"https://w3id.org/np/RASrZgnUQ1yBoxmeAyO
 cl:10580,biodiversity threats and pressures addressed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-09-29,0000-0002-6968-8275,2023-09-30
 cl:10581,habitat loss and fragmentation,,"http://purl.obolibrary.org/obo/NBO_0020108,skos:Concept",,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10582,harvesting or management,,"http://purl.obolibrary.org/obo/NBO_0020108,skos:Concept",,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
-cl:10583,catastrophic event,,"http://purl.obolibrary.org/obo/NBO_0020108,skos:Concept",,,,cl:10580,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10584,data type collected,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10585,presence-absence,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,"http://purl.org/dc/terms/DCMIType,skos:Concept",,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-28
 cl:10586,mark-recapture,,"https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7jrkjLxw5McI#collectedDataType,skos:Concept",,"http://purl.org/dc/terms/DCMIType,skos:Concept",,cl:10584,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-28

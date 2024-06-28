@@ -4563,8 +4563,8 @@ cl:10580 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2023-09-30"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10044, cl:10581, cl:10582, cl:10583, cl:10744, cl:10745, cl:10746,
-    cl:10747, cl:10748;
+  skos:narrower cl:10044, cl:10581, cl:10582, cl:10744, cl:10745, cl:10746, cl:10747,
+    cl:10748;
   skos:prefLabel "biodiversity threats and pressures addressed"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4585,15 +4585,6 @@ cl:10582 a obo:NBO_0020108, skos:Concept;
   skos:broader cl:10580;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "harvesting or management"@en .
-
-cl:10583 a obo:NBO_0020108, skos:Concept;
-  dct:contributor "0000-0003-2195-3997"@en;
-  dct:created "2022-10-01"^^xsd:date;
-  dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-06-24"^^xsd:date;
-  skos:broader cl:10580;
-  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "catastrophic event"@en .
 
 cl:10584 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
