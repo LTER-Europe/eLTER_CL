@@ -34,7 +34,7 @@
   dct:description "eLTER_CL is a thesaurus for controlled lists used by the eLTER community"@en;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-06-26"@en;
+  dct:modified "2024-06-28"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "eLTER_CL"@en;
@@ -541,15 +541,15 @@ cl:10043 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "human health and safety"@en .
 
-cl:10044 a skos:Concept;
+cl:10044 a obo:NBO_0020108, skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2022-03-28"^^xsd:date;
+  dct:modified "2024-06-28"^^xsd:date;
   dct:source <http://inspire.ec.europa.eu/theme/lu>;
-  skos:broader cl:10001, cl:10189;
+  skos:broader cl:10001, cl:10189, cl:10580;
   skos:definition "Territory characterised according to its current and future planned functional dimension or socio-economic purpose (e.g. residential, industrial, commercial, agricultural, forestry, recreational)."@en;
-  skos:exactMatch <http://inspire.ec.europa.eu/theme/lu>;
+  skos:exactMatch <http://inspire.ec.europa.eu/theme/lu>, et:22143;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "land use"@en .
 
@@ -4516,7 +4516,8 @@ cl:10575 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2022-10-01"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10576, cl:10577, cl:10578, cl:10579;
+  skos:narrower cl:10576, cl:10577, cl:10578, cl:10579, cl:10740, cl:10741, cl:10742,
+    cl:10743;
   skos:prefLabel "scope of monitoring"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4562,7 +4563,8 @@ cl:10580 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2023-09-30"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10581, cl:10582, cl:10583;
+  skos:narrower cl:10044, cl:10581, cl:10582, cl:10583, cl:10744, cl:10745, cl:10746,
+    cl:10747, cl:10748;
   skos:prefLabel "biodiversity threats and pressures addressed"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4599,7 +4601,8 @@ cl:10584 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2024-06-24"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10195, cl:10585, cl:10586, cl:10587, cl:10588, cl:10589, cl:10590;
+  skos:narrower cl:10195, cl:10585, cl:10586, cl:10587, cl:10588, cl:10589, cl:10590,
+    cl:10749, cl:10750, cl:10751, cl:10752, cl:10753;
   skos:prefLabel "data type collected"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4607,8 +4610,9 @@ cl:10585 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-06-24"^^xsd:date;
+  dct:modified "2024-06-28"^^xsd:date;
   skos:broader cl:10584;
+  skos:definition "http://purl.org/dc/terms/DCMIType,skos:Concept"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "presence-absence"@en .
 
@@ -4616,8 +4620,9 @@ cl:10586 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-06-24"^^xsd:date;
+  dct:modified "2024-06-28"^^xsd:date;
   skos:broader cl:10584;
+  skos:definition "http://purl.org/dc/terms/DCMIType,skos:Concept"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "mark-recapture"@en .
 
@@ -4625,8 +4630,9 @@ cl:10587 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-06-24"^^xsd:date;
+  dct:modified "2024-06-28"^^xsd:date;
   skos:broader cl:10584;
+  skos:definition "http://purl.org/dc/terms/DCMIType,skos:Concept"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "individual traits"@en .
 
@@ -4634,8 +4640,9 @@ cl:10588 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-06-24"^^xsd:date;
+  dct:modified "2024-06-28"^^xsd:date;
   skos:broader cl:10584;
+  skos:definition "http://purl.org/dc/terms/DCMIType,skos:Concept"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "age or size structure"@en .
 
@@ -4643,8 +4650,9 @@ cl:10589 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-06-24"^^xsd:date;
+  dct:modified "2024-06-28"^^xsd:date;
   skos:broader cl:10584;
+  skos:definition "http://purl.org/dc/terms/DCMIType,skos:Concept"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "genetic or genomic"@en .
 
@@ -4652,8 +4660,9 @@ cl:10590 a skos:Concept, <https://w3id.org/np/RALfc5dUfQ0nRBtLy1EL-eVPs8Lz8TuYt7
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-10-01"^^xsd:date;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-06-24"^^xsd:date;
+  dct:modified "2024-06-28"^^xsd:date;
   skos:broader cl:10584;
+  skos:definition "http://purl.org/dc/terms/DCMIType,skos:Concept"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "abiotic parameters"@en .
 
@@ -5967,6 +5976,131 @@ cl:10739 a obo:CRO_0000000, skos:Concept;
   skos:broader cl:10720;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "user"@en .
+
+cl:10740 a skos:Concept, <https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring>;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10575;
+  skos:exactMatch et:30299;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "genetic variability"@en .
+
+cl:10741 a skos:Concept, <https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring>;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10575;
+  skos:exactMatch et:21472;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "community structure"@en .
+
+cl:10742 a skos:Concept, <https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring>;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10575;
+  skos:exactMatch et:21478;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "habitat structure"@en .
+
+cl:10743 a skos:Concept, <https://w3id.org/np/RASrZgnUQ1yBoxmeAyOaHYFuE9SCVSYOkemLp9rIpgEaU#ScopeOfMonitoring>;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10575;
+  skos:exactMatch et:30298;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "habitat function"@en .
+
+cl:10744 a obo:NBO_0020108, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10580;
+  skos:exactMatch et:30300;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "climatic change"@en .
+
+cl:10745 a obo:NBO_0020108, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10580;
+  skos:exactMatch et:20387;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "pollution"@en .
+
+cl:10746 a obo:NBO_0020108, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10580;
+  skos:exactMatch et:20728;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "invasive species"@en .
+
+cl:10747 a obo:NBO_0020108, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10580;
+  skos:exactMatch et:21126;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "succession"@en .
+
+cl:10748 a obo:NBO_0020108, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10580;
+  skos:exactMatch et:20399;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "extreme event"@en .
+
+cl:10749 a dct:DCMIType, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10584;
+  skos:exactMatch et:21548;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "count"@en .
+
+cl:10750 a dct:DCMIType, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10584;
+  skos:exactMatch et:21541;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "abundance"@en .
+
+cl:10751 a dct:DCMIType, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10584;
+  skos:exactMatch et:21539;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "density"@en .
+
+cl:10752 a dct:DCMIType, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10584;
+  skos:exactMatch et:20986;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "animal movement"@en .
+
+cl:10753 a dct:DCMIType, skos:Concept;
+  dct:created "2024-06-28"^^xsd:date;
+  dct:modified "2024-06-28"^^xsd:date;
+  skos:broader cl:10584;
+  skos:exactMatch et:21647;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "phenology"@en .
 
 <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
 <http://vocabs.lter-europe.net/elter_cl/>
