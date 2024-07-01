@@ -1728,9 +1728,8 @@ cl:10195 a skos:Concept, <https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxR
   dct:contributor "0000-0003-2195-3997"@en;
   dct:created "2022-03-28"^^xsd:date;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2024-06-25"^^xsd:date;
-  skos:broader cl:10192, cl:10563, cl:10569, <http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605>,
-    cl:10584, cl:10678;
+  dct:modified "2024-06-30"^^xsd:date;
+  skos:broader cl:10192;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "other"@en .
 
@@ -4403,7 +4402,7 @@ cl:10563 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2024-06-25"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10195, cl:10564, cl:10565, cl:10566, cl:10567, cl:10568;
+  skos:narrower cl:10564, cl:10565, cl:10566, cl:10567, cl:10568;
   skos:prefLabel "funding source level"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4461,7 +4460,7 @@ cl:10569 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2022-10-01"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10195, cl:10570, cl:10571, cl:10572, cl:10573, cl:10574, cl:10687;
+  skos:narrower cl:10570, cl:10571, cl:10572, cl:10573, cl:10574, cl:10687;
   skos:prefLabel "motivation to launch monitoring scheme"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4592,8 +4591,8 @@ cl:10584 a skos:Concept;
   dct:creator "0000-0002-6968-8275"@en;
   dct:modified "2024-06-24"^^xsd:date;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10195, cl:10585, cl:10586, cl:10587, cl:10588, cl:10589, cl:10590,
-    cl:10749, cl:10750, cl:10751, cl:10752, cl:10753;
+  skos:narrower cl:10585, cl:10586, cl:10587, cl:10588, cl:10589, cl:10590, cl:10749,
+    cl:10750, cl:10751, cl:10752, cl:10753;
   skos:prefLabel "data type collected"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -5439,7 +5438,7 @@ cl:10678 a skos:Concept;
   dct:modified "2023-09-30"^^xsd:date;
   skos:broader cl:10673;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10195, cl:10713, cl:10714, cl:10715, cl:10716;
+  skos:narrower cl:10713, cl:10714, cl:10715, cl:10716;
   skos:prefLabel "other organisms"@en .
 
 cl:10680 a skos:Concept;
@@ -6100,7 +6099,5 @@ cl:10753 a dct:DCMIType, skos:Concept;
   skos:exactMatch et:21647;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "phenology"@en .
-
-<http://vocabs.lter-europe.net/elter_cl/10575;cl:10596;cl:10605> skos:narrower cl:10195 .
 <http://vocabs.lter-europe.net/elter_cl/>
 	 rdf:type owl:Ontology .

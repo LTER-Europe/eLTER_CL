@@ -202,7 +202,7 @@ cl:10191,GIS data,,,,,,"cl:10189,cl:10189",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-000
 cl:10192,generic answer option,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
 cl:10193,no,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
 cl:10194,none,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,"cl:10192,cl:10601",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
-cl:10195,other,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,"cl:10192,cl:10563,cl:10569,cl:10575;cl:10596;cl:10605,cl:10584,cl:10678",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
+cl:10195,other,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-30
 cl:10196,unkown,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
 cl:10197,yes,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsEVXnc4#GenericAnswerType,skos:Concept",,,,cl:10192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2024-06-25
 cl:10198,data capture,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
