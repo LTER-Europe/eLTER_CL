@@ -37,7 +37,7 @@ dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the
 dct:language,en
 owl:versionInfo,1.1.1,Vocabulary version
 dct:created,2021-11-12T12:00+02:00,Date when vocabulary was initially created
-dct:modified,2024-06-30,Date of the last vocabulary update
+dct:modified,2024-08-27,Date of the last vocabulary update
 Definition of terms
 Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")","rdf:type(separtor="","")",^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
@@ -676,4 +676,4 @@ cl:10749,count,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:
 cl:10750,abundance,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:21541,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,0000-0003-2195-3997,2024-06-28
 cl:10751,density,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:21539,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,0000-0003-2195-3997,2024-06-28
 cl:10752,animal movement,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:20986,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,0000-0003-2195-3997,2024-06-28
-cl:10753,phenology,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:21647,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,,2024-06-28
+cl:10753,phenology test,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:21647,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,,2024-08-27

@@ -34,7 +34,7 @@
   dct:description "eLTER_CL is a thesaurus for controlled lists used by the eLTER community"@en;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "2024-06-30"@en;
+  dct:modified "2024-08-27"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "eLTER_CL"@en;
@@ -6094,10 +6094,10 @@ cl:10752 a dct:DCMIType, skos:Concept;
 
 cl:10753 a dct:DCMIType, skos:Concept;
   dct:created "2024-06-28"^^xsd:date;
-  dct:modified "2024-06-28"^^xsd:date;
+  dct:modified "2024-08-27"^^xsd:date;
   skos:broader cl:10584;
   skos:exactMatch et:21647;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:prefLabel "phenology"@en .
+  skos:prefLabel "phenology test"@en .
 <http://vocabs.lter-europe.net/elter_cl/>
 	 rdf:type owl:Ontology .
