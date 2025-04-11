@@ -37,7 +37,7 @@ dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the
 dct:language,en
 owl:versionInfo,1.1.1,Vocabulary version
 dct:created,2021-11-12T12:00+02:00,Date when vocabulary was initially created
-dct:modified,2024-08-27,Date of the last vocabulary update
+dct:modified,2025-04-11,Date of the last vocabulary update
 Definition of terms
 Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")","rdf:type(separtor="","")",^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
@@ -524,7 +524,7 @@ cl:10595,entirely,,"https://w3id.org/np/RAbYySIp5AWvJX0ZYmxn3rm3uKj1BJkSxRlC4fsE
 cl:10596,habitat classification,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10597,EUNIS,,,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10598,CORINE,,,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10599,Habitats Directive,,,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
+cl:10599,Habitats Directive,,,,European Union directive on the conservation of natural habitats and of wild fauna and flora.,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2025-04-11
 cl:10600,national classification,,,,,,cl:10596,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10601,experimental design,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10602,design with before vs. after comparison,,"https://w3id.org/np/RA3XSiqkMin7oJPePmAno6LpcOoDgzNRWMdlVO3490Pqk#ExperimentalDesign,skos:Concept",,,,cl:10601,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-25
@@ -676,4 +676,4 @@ cl:10749,count,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:
 cl:10750,abundance,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:21541,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,0000-0003-2195-3997,2024-06-28
 cl:10751,density,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:21539,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,0000-0003-2195-3997,2024-06-28
 cl:10752,animal movement,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:20986,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,0000-0003-2195-3997,2024-06-28
-cl:10753,phenology test,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:21647,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,,2024-08-27
+cl:10753,phenology,,"http://purl.org/dc/terms/DCMIType,skos:Concept",,,,cl:10584,et:21647,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2024-06-28,,2024-08-27
