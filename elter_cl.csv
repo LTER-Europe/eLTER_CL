@@ -37,7 +37,7 @@ dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the
 dct:language,en
 owl:versionInfo,1.1.1,Vocabulary version
 dct:created,2021-11-12T12:00+02:00,Date when vocabulary was initially created
-dct:modified,2025-04-11,Date of the last vocabulary update
+dct:modified,2025-05-23,Date of the last vocabulary update
 Definition of terms
 Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")","rdf:type(separtor="","")",^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
@@ -604,7 +604,7 @@ cl:10675,other insects,,,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195
 cl:10677,other plants,,"http://purl.org/biotop/biotop.owl#Plant,skos:Concept",,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-11,0000-0002-6968-8275,2024-06-25
 cl:10678,other organisms,,,,,,cl:10673,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-11,0000-0002-6968-8275,2023-09-30
 cl:10680,access scheme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-02-09,0000-0003-0631-8231,2023-09-30
-cl:10681,Remote Access,RA,,,,,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-02-09,0000-0003-0631-8231,2023-09-30
+cl:10681,Remote Access,,,,,,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-02-09,0000-0003-0631-8231,2025-05-23
 cl:10682,Transnational Access,TA,,,,,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-02-09,0000-0003-0631-8231,2023-09-30
 cl:10683,Transnational Access and Remote Access,TA-RA,,,"Through its dedicated access scheme, the eLTER PLUS project opens up the eLTER Research Infrastructure (eLTER RI) and aims to attract a wide range of users from various disciplines. The scheme addresses both physical access to long-term research sites (Transnational Access-TA) and an access mode in which local site staff perform measurements/sampling according to user defined protocols (Remote Access-RA), or a combination of both. Additionally the Virtual Access scheme provides access to the data from selected research sites. All access within the scheme is free of charge for users. TA and RA typically aid small to medium scale ecological and socio-ecological projects.",,cl:10680,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-02-09,0000-0003-0631-8231,2023-09-30
 cl:10684,TA-RA project,,,,,https://elter-ri.eu/transnational-remote-access-ta-ra,cl:10683,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2023-02-09,0000-0003-0631-8231,2023-09-30
