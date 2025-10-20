@@ -45,38 +45,6 @@ This workflow extends [**excel2rdf**](https://github.com/fair-data-collective/ex
 
 ---
 
-## 💬 Contributing
-
-If you wish to propose new terms or suggest modifications to existing ones:
-
-- Please create a [GitHub account](https://github.com/signup)
-- Open a new [issue](https://github.com/LTER-Europe/CL/issues) describing your proposal
-
-The Controlled Lists vocabulary is licensed under [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/).
-
----
-
-## 🧩 Configuring *sheet2rdf*
-
-If you want to use **sheet2rdf** in your own work, follow these steps to configure it for your vocabulary repository:
-
-1. Generate a [Google API key](https://developers.google.com/sheets/api/guides/authorizing#APIKey) with read-only access to Google Sheets.
-2. Create the following [**GitHub Secrets**](https://docs.github.com/en/actions/security-guides/encrypted-secrets):
-
-| Secret | Explanation | Example configuration for *eLTER_CL* |
-|--------|--------------|--------------------------------------|
-| `FILE_NAME` | Base name used for the generated `.ttl`, `.xlsx`, and `.csv` files | `elter_cl` |
-| `SHEET_ID` | Unique ID of the Google Sheet to be fetched | [1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg](https://docs.google.com/spreadsheets/d/1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg/edit?gid=678823855#gid=678823855) |
-| `GOOGLE_API_KEY` | Google API key with read access to the spreadsheet | `AIza...` |
-
-The workflow will automatically:
-- Fetch the content of the specified tab (`SHEET_TAB_NAME`) from the Google Sheet  
-- Convert it into `.xlsx`, `.csv`, and `.ttl` formats  
-- Commit the outputs and logs to this repository  
-- Create a new tagged release in GitHub with extracted FAIR metadata
-
----
-
 ## 🧭 Acknowledgements
 
 This work builds on the efforts of the [eLTER-RI](https://elter-ri.eu/) communities, with support from multiple projects contributing to the development of interoperable and FAIR semantic resources for environmental research infrastructures.
@@ -88,5 +56,4 @@ This work builds on the efforts of the [eLTER-RI](https://elter-ri.eu/) communit
 | Vocabulary | Description | Access |
 |-------------|--------------|--------|
 | **[SO – Standard Observations](https://github.com/LTER-Europe/SO)** | Controlled vocabulary describing eLTER Standard Observations (SOs) variables, methods, and protocols | [View in Skosmos](https://vocabs.lter-europe.net/so/en/) |
-| **[CL – Controlled Lists](https://github.com/LTER-Europe/eLTER_CL)** | Standardised lists of values used across eLTER metadata systems | [View in Skosmos](https://vocabs.lter-europe.net/elter_cl/en/) |
 | **[EnvThes – Environmental Thesaurus](https://github.com/LTER-Europe/EnvThes)** | Common semantic framework for environmental parameters and concepts | [View in Skosmos](https://vocabs.elter-ri.eu/EnvThes/en/) |
