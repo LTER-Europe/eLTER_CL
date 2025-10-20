@@ -1,6 +1,6 @@
 # 🧩 eLTER-RI Controlled Vocabulary – Controlled Lists (CL)
 
-[![FAIR RDF Generation](https://github.com/LTER-Europe/CL/actions/workflows/sheet2rdf.yml/badge.svg?branch=main)](https://github.com/LTER-Europe/CL/actions/workflows/sheet2rdf.yml)
+[![FAIR RDF Generation](https://github.com/LTER-Europe/elter_cl/actions/workflows/sheet2rdf.yml/badge.svg?branch=main)](https://github.com/LTER-Europe/elter_cl/actions/workflows/sheet2rdf.yml)
 
 The **Controlled Lists (CL)** vocabulary provides a collection of standardised term lists used across the [eLTER Research Infrastructure](https://elter-ri.eu/).  
 It supports interoperability and harmonisation of metadata across eLTER components such as [DEIMS-SDR](https://deims.org), the eLTER Data Portal, and other services of the eLTER Cyberinfrastructure.  
