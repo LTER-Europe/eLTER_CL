@@ -1,68 +1,83 @@
-<img src="https://www.lter-europe.net/logo.jpg" alt="incentive logo" width="250"/> 
+# 🧩 eLTER-RI Controlled Vocabulary – Controlled Lists (CL)
 
-[![CI](https://github.com/LTER-Europe/eLTER_CL/workflows/Sheet2RDF/badge.svg)](https://github.com/LTER-Europe/eLTER_CL/actions?query=workflow%3ASheet2RDF)
+[![FAIR RDF Generation](https://github.com/LTER-Europe/CL/actions/workflows/sheet2rdf.yml/badge.svg?branch=main)](https://github.com/LTER-Europe/CL/actions/workflows/sheet2rdf.yml)
 
-# [eLTER_CL]( http://vocabs.lter-europe.net/eLTER_CL)
-eLTER_CL is a thesaurus for controlled lists used by the eLTER community. 
+The **Controlled Lists (CL)** vocabulary provides a collection of standardised term lists used across the [eLTER Research Infrastructure](https://elter-ri.eu/).  
+It supports interoperability and harmonisation of metadata across eLTER components such as [DEIMS-SDR](https://deims.org), the eLTER Data Portal, and other services of the eLTER Cyberinfrastructure.  
 
-`sheet2rdf` and `OntoStack`, developed by Nikola Vasiljevic, are used to build and serve **eLTER_CL**.
+The CL vocabulary includes domain-specific value lists (e.g., ecosystem types, sampling methods, observation categories) that ensure consistency in describing environmental data and research sites across Europe.  
+It is an essential component of the eLTER semantic ecosystem, enabling **FAIR, machine-actionable, and interoperable metadata**.
 
+📘 **Vocabulary access:** [https://vocabs.lter-europe.net/cl/en/](https://vocabs.lter-europe.net/cl/en/)
 
-# Tooling
+---
 
-## [![DOI](https://zenodo.org/badge/327900313.svg)](https://zenodo.org/badge/latestdoi/327900313) sheet2rdf
+## ⚙️ Automated FAIR Workflow — *sheet2rdf*
 
-This repository hosts automatic workflow, executed by means of Github actions, and underlying shell and python scripts which:
+This repository is automatically updated through the [**sheet2rdf**](https://github.com/nikokaoja/sheet2rdf) workflow, which ensures that the vocabulary remains FAIR and synchronised with its authoritative Google Sheet source.
 
-- Fetches Google Sheet from Google Drive and stores is as `xlsx` and `csv` files
-- Converts fetched sheet to machine-actionable and FAIR RDF vocabulary using [xls2rdf](https://github.com/sparna-git/xls2rdf)
-- Tests the resulting RDF vocabulary using [qSKOS](https://github.com/cmader/qSKOS/)
-- Commits conversion results and tests logs to this repository
-- and deploy RDF vocabulary to OntoStack to be served to humans and machines
+The workflow automatically:
 
-This workflow is an extension of [excel2rdf](https://github.com/fair-data-collective/excel2rdf-template).
+1. Fetches the Google Sheet source as `.xlsx` and `.csv` files  
+2. Converts the sheet to RDF (Turtle) using [**xls2rdf**](https://github.com/sparna-git/xls2rdf)  
+3. Commits the generated `.ttl`, `.xlsx`, and log files to this repository  
+4. Publishes the resulting RDF to the [**Skosmos vocabulary server**](https://vocabs.lter-europe.net)
 
+This workflow extends [**excel2rdf**](https://github.com/fair-data-collective/excel2rdf-template) and is licensed under the [Apache 2.0 License](https://github.com/nikokaoja/sheet2rdf/blob/main/License.md).
 
-### Configuring sheet2rdf
+🧾 **Workflow provenance:**  
+> This file has been modified from its originally licensed version by *WillOnGit* – see [README.md](https://github.com/LTER-Europe/CL) at repository root for license information.
 
-In case you want to use **sheet2rdf** in your own work you need to:
+📚 **Citation:**  
+> Nikola Vasiljevic. (2021, January 11). *sheet2rdf: First release* (Version v0.1). Zenodo. [https://doi.org/10.5281/zenodo.4432136](https://doi.org/10.5281/zenodo.4432136)
 
-1. Follow [gsheets](https://pypi.org/project/gsheets/) Quickstart and generate client_secrets.json and storage.json
+---
 
-2. Create following [Github secrets](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets):
+## 🧠 Repository contents
 
-| Secret | Explanation | eLTER_CL onfiguration |
-|---|---|---|
-| FILE_NAME | file name that will be used when converting Google sheet to `.ttl` (RDF), `.xlsx`, and `.csv` files | vocabulary |
-| SHEET_ID | unique ID of the sheet that will be fetched from Google drive | [1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg](https://docs.google.com/spreadsheets/d/1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg/edit#gid=1198865354) |
-| STORAGE | access token to Google Drive hosting Google sheet with controlled terms definitions, content of client_secret.json | ******** |
-| CLIENT | configuration for client (i.e., sheetrdf) that is fetching Google sheet, content of storage.json | ******** |
+| File | Description |
+|------|--------------|
+| [eLTER_CL.ttl](https://github.com/LTER-Europe/CL/blob/main/eLTER_CL.ttl) | RDF (Turtle) representation of the eLTER Controlled Lists vocabulary |
+| [eLTER_CL.xlsx](https://github.com/LTER-Europe/CL/blob/main/eLTER_CL.xlsx) | Source spreadsheet fetched from Google Sheets |
+| [eLTER_CL.csv](https://github.com/LTER-Europe/CL/blob/main/eLTER_CL.csv) | CSV export of the vocabulary |
+| [logs/](https://github.com/LTER-Europe/CL/tree/main/logs) | Conversion logs produced during RDF generation |
+| [.github/workflows/sheet2rdf.yml](https://github.com/LTER-Europe/CL/blob/main/.github/workflows/sheet2rdf.yml) | GitHub Action workflow automating the FAIR publication process |
 
-### Citation
+---
 
-In case you are using this workflow the author kindly requests you to cite this repository in your publications such as:
-> Nikola Vasiljevic. (2021, January 11). sheet2rdf: First release (Version v0.1). Zenodo. http://doi.org/10.5281/zenodo.4432136
+## 💬 Contributing
 
-For any other citation format visit http://doi.org/10.5281/zenodo.4432136
+If you wish to propose new terms or suggest modifications to existing ones:
 
-## OntoStack
+- Please create a [GitHub account](https://github.com/signup)  
+- Open a new [issue](https://github.com/LTER-Europe/CL/issues) describing your proposal  
+- Consult the project [Wiki page](https://github.com/LTER-Europe/CL/wiki) for detailed instructions
 
-OntoStack is a set of orchestrated micro-services configured and interfaced such that they can intake vocabularies and resolve their terms and RDF properties upon requests either by humans or machines.
+The Controlled Lists vocabulary is licensed under [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/).
 
-Some of OntoStack micro-services are:
+---
 
-- [Jena Fuseki](https://jena.apache.org/documentation/fuseki2/) a graph database
-- [SKOSMOS](http://www.skosmos.org/) a web-based SKOS browser acting as a front-end for the vocabularies persisted by the graph database
-- [Træfik](https://doc.traefik.io/traefik/) an edge router responsible for proper serving of URL requests
+## 🧩 Configuring *sheet2rdf*
 
-Currently three instances of OntoStack are available:
+If you want to use **sheet2rdf** in your own work, follow these steps to configure it for your vocabulary repository:
 
-- Departamental instance of [DTU Wind Energy](https://www.vindenergi.dtu.dk/english/): http://data.windenergy.dtu.dk/ontologies
-- National (Danish) instance ran by [DeiC](https://deic.dk/): http://ontology.deic.dk/
-- International instance ran by [FAIR Data Collective](http://fairdatacollective.org/): http://vocab.fairdatacollective.org
+1. Generate a [Google API key](https://developers.google.com/sheets/api/guides/authorizing#APIKey) with read-only access to Google Sheets.
+2. Create the following [**GitHub Secrets**](https://docs.github.com/en/actions/security-guides/encrypted-secrets):
 
+| Secret | Explanation | Example configuration for *eLTER_CL* |
+|--------|--------------|--------------------------------------|
+| `FILE_NAME` | Base name used for the generated `.ttl`, `.xlsx`, and `.csv` files | `vocabulary` |
+| `SHEET_ID` | Unique ID of the Google Sheet to be fetched | [1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg](https://docs.google.com/spreadsheets/d/1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg/edit#gid=1198865354) |
+| `GOOGLE_API_KEY` | Google API key with read access to the spreadsheet | `AIza...` |
 
-# License
+The workflow will automatically:
+- Fetch the content of the specified tab (`SHEET_TAB_NAME`) from the Google Sheet  
+- Convert it into `.xlsx`, `.csv`, and `.ttl` formats  
+- Commit the outputs and logs to this repository  
+- Create a new tagged release in GitHub with extracted FAIR metadata
 
-- Tech configuration (sheet2rd) is licensed under [Apache 2.0 License](https://github.com/LTER-Europe/eLTER_CL/blob/main/License_sheet2rdf.md)
-- Theasurus is licensed under [CC0 1.0 Universal](https://github.com/LTER-Europe/eLTER_CL/blob/main/LICENSE)
+---
+
+## 🧭 Acknowledgements
+
+This work builds on the efforts of the [eLTER-RI](https://elter-ri.eu/) communities, with support from multiple projects contributing to the development of interoperable and FAIR semantic resources for environmental research infrastructures.
