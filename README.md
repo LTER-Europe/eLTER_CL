@@ -8,7 +8,7 @@ It supports interoperability and harmonisation of metadata across eLTER componen
 The CL vocabulary includes domain-specific value lists (e.g., ecosystem types, sampling methods, observation categories) that ensure consistency in describing environmental data and research sites across Europe.  
 It is an essential component of the eLTER semantic ecosystem, enabling **FAIR, machine-actionable, and interoperable metadata**.
 
-📘 **Vocabulary access:** [https://vocabs.lter-europe.net/cl/en/](https://vocabs.lter-europe.net/cl/en/)
+📘 **Vocabulary access:** [https://vocabs.lter-europe.net/elter_cl/en/](https://vocabs.lter-europe.net/elter_cl/en/)
 
 ---
 
@@ -37,11 +37,11 @@ This workflow extends [**excel2rdf**](https://github.com/fair-data-collective/ex
 
 | File | Description |
 |------|--------------|
-| [eLTER_CL.ttl](https://github.com/LTER-Europe/CL/blob/main/eLTER_CL.ttl) | RDF (Turtle) representation of the eLTER Controlled Lists vocabulary |
-| [eLTER_CL.xlsx](https://github.com/LTER-Europe/CL/blob/main/eLTER_CL.xlsx) | Source spreadsheet fetched from Google Sheets |
-| [eLTER_CL.csv](https://github.com/LTER-Europe/CL/blob/main/eLTER_CL.csv) | CSV export of the vocabulary |
-| [logs/](https://github.com/LTER-Europe/CL/tree/main/logs) | Conversion logs produced during RDF generation |
-| [.github/workflows/sheet2rdf.yml](https://github.com/LTER-Europe/CL/blob/main/.github/workflows/sheet2rdf.yml) | GitHub Action workflow automating the FAIR publication process |
+| [elter_cl.ttl](https://github.com/LTER-Europe/eLTER_CL/blob/main/elter_cl.ttl) | RDF (Turtle) representation of the eLTER Controlled Lists vocabulary |
+| [elter_cl.xlsx](https://github.com/LTER-Europe/eLTER_CL/blob/main/elter_cl.xlsx) | Source spreadsheet fetched from Google Sheets |
+| [elter_cl.csv](https://github.com/LTER-Europe/eLTER_CL/blob/main/elter_cl.csv) | CSV export of the vocabulary |
+| [logs/](https://github.com/LTER-Europe/eLTER_CL/tree/main/logs) | Conversion logs produced during RDF generation |
+| [.github/workflows/sheet2rdf.yml](https://github.com/LTER-Europe/eLTER_CL/blob/main/.github/workflows/sheet2rdf.yml) | GitHub Action workflow automating the FAIR publication process |
 
 ---
 
@@ -49,9 +49,8 @@ This workflow extends [**excel2rdf**](https://github.com/fair-data-collective/ex
 
 If you wish to propose new terms or suggest modifications to existing ones:
 
-- Please create a [GitHub account](https://github.com/signup)  
-- Open a new [issue](https://github.com/LTER-Europe/CL/issues) describing your proposal  
-- Consult the project [Wiki page](https://github.com/LTER-Europe/CL/wiki) for detailed instructions
+- Please create a [GitHub account](https://github.com/signup)
+- Open a new [issue](https://github.com/LTER-Europe/CL/issues) describing your proposal
 
 The Controlled Lists vocabulary is licensed under [**CC BY 4.0**](https://creativecommons.org/licenses/by/4.0/).
 
@@ -66,8 +65,8 @@ If you want to use **sheet2rdf** in your own work, follow these steps to configu
 
 | Secret | Explanation | Example configuration for *eLTER_CL* |
 |--------|--------------|--------------------------------------|
-| `FILE_NAME` | Base name used for the generated `.ttl`, `.xlsx`, and `.csv` files | `vocabulary` |
-| `SHEET_ID` | Unique ID of the Google Sheet to be fetched | [1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg](https://docs.google.com/spreadsheets/d/1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg/edit#gid=1198865354) |
+| `FILE_NAME` | Base name used for the generated `.ttl`, `.xlsx`, and `.csv` files | `elter_cl` |
+| `SHEET_ID` | Unique ID of the Google Sheet to be fetched | [1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg](https://docs.google.com/spreadsheets/d/1yojSDLy4Iw8GFR2ZX7b9T8kb8As6XUij5jU8KKvEicg/edit?gid=678823855#gid=678823855) |
 | `GOOGLE_API_KEY` | Google API key with read access to the spreadsheet | `AIza...` |
 
 The workflow will automatically:
@@ -81,3 +80,13 @@ The workflow will automatically:
 ## 🧭 Acknowledgements
 
 This work builds on the efforts of the [eLTER-RI](https://elter-ri.eu/) communities, with support from multiple projects contributing to the development of interoperable and FAIR semantic resources for environmental research infrastructures.
+
+---
+
+## 💡 Related vocabularies
+
+| Vocabulary | Description | Access |
+|-------------|--------------|--------|
+| **[SO – Standard Observations](https://github.com/LTER-Europe/SO)** | Controlled vocabulary describing eLTER Standard Observations (SOs) variables, methods, and protocols | [View in Skosmos](https://vocabs.lter-europe.net/so/en/) |
+| **[CL – Controlled Lists](https://github.com/LTER-Europe/eLTER_CL)** | Standardised lists of values used across eLTER metadata systems | [View in Skosmos](https://vocabs.lter-europe.net/elter_cl/en/) |
+| **[EnvThes – Environmental Thesaurus](https://github.com/LTER-Europe/EnvThes)** | Common semantic framework for environmental parameters and concepts | [View in Skosmos](https://vocabs.elter-ri.eu/EnvThes/en/) |
