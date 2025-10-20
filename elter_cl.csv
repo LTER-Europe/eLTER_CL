@@ -1,5 +1,4 @@
 ConceptScheme URI,http://vocabs.lter-europe.net/elter_cl,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
-"Prefixes for controlled vocabularies, schema and ontologies"
 PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/
 PREFIX,et,http://vocabs.lter-europe.net/EnvThes/
 PREFIX,skos,http://www.w3.org/2004/02/skos/core#
@@ -13,10 +12,9 @@ PREFIX,puv,https://w3id.org/env/puv#
 PREFIX,sosa,http://www.w3.org/ns/sosa/
 PREFIX,rdf,http://www.w3.org/1999/02/22-rdf-syntax-ns#
 PREFIX,rdfs,http://www.w3.org/2000/01/rdf-schema#
-Metadata about vocabulary
 dct:title,eLTER_CL,Title of the vocabulary
 dct:description,eLTER_CL is a thesaurus for controlled lists used by the eLTER community,Description of the controlled vocabulary
-owl:ontolgoyIRI,http://vocabs.lter-europe.net/elter_cl
+owl:ontologyIRI,http://vocabs.lter-europe.net/elter_cl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-06-17
 skos:prefLabel,eLTER Controlled Lists
 omv:acronym,eLTER_CL
 omv:resourceLocator,https://raw.githubusercontent.com/LTER-Europe/eLTER_CL/main/elter_cl.ttl
@@ -39,7 +37,7 @@ owl:versionInfo,1.1.1,Vocabulary version
 dct:created,2021-11-12T12:00+02:00,Date when vocabulary was initially created
 dct:modified,2025-05-23,Date of the last vocabulary update
 Definition of terms
-Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")","rdf:type(separtor="","")",^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
+Identifier,2025-07-11,"skos:altLabel@en(separator="","")","rdf:type(separtor="","")",^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
 cl:10001,INSPIRE data theme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
 cl:10002,unit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-2195-3997,2022-03-28
@@ -447,31 +445,31 @@ cl:10517,Plateau,,,,,,cl:10514,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,
 cl:10518,Valley,,,,,,cl:10514,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10519,Lake,,,,,,"cl:10510,cl:10520",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10520,ecosystem and land use,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10521,Deserts and xeric shrublands,,,,,,cl:10394,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10522,Xeric basins,,,,,,cl:10394,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10523,Forest,,,,,,cl:10520,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10524,Mangroves,,,,,,cl:10523,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10525,"Mediterranean forests, woodlands, and shrub",,,,,,cl:10523,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10526,Temperate broadleaf and mixed forests,,,,,,cl:10523,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10527,Temperate coniferous forests,,,,,,cl:10523,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10528,Tropical and subtropical coniferous forests,,,,,,cl:10523,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10529,Tropical and subtropical dry broadleaf forests,,,,,,cl:10523,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10530,Tropical and subtropical moist broadleaf forests,,,,,,cl:10523,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10531,Flooded grasslands and savannas,,,,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10532,Montane grasslands and shrublands,,,,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10533,"Temperate grasslands, savannas, and shrublands",,,,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10534,"Tropical and subtropical grasslands, savannas, and shrublands",,,,,,cl:10396,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01
-cl:10535,Large lakes,,,,,,cl:10519,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10536,Small lakes,,,,,,cl:10519,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10537,Temperate shelfs and seas,,,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10538,Temperate upwelling,,,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10539,Tropical coral,,,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10540,Tropical upwelling,,,,,,cl:10382,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10541,Polar,,,,,,cl:10520,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10542,Large river deltas,,,,,,cl:10513,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10543,Large river headwaters,,,,,,cl:10513,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10544,Large rivers,,,,,,cl:10513,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10545,Small rivers,,,,,,cl:10513,,,https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10521,Deserts and xeric shrublands,,,,,,cl:10394,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227116,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2025-07-11
+cl:10522,Xeric basins,,,,,,cl:10394,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227117,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2025-07-11
+cl:10523,Forest,,,,,,cl:10520,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227118,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10524,Mangroves,,,,,,cl:10523,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227119,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10525,"Mediterranean forests, woodlands, and shrub",,,,,,cl:10523,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227120,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10526,Temperate broadleaf and mixed forests,,,,,,cl:10523,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227121,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10527,Temperate coniferous forests,,,,,,cl:10523,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227122,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10528,Tropical and subtropical coniferous forests,,,,,,cl:10523,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227123,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10529,Tropical and subtropical dry broadleaf forests,,,,,,cl:10523,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227124,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10530,Tropical and subtropical moist broadleaf forests,,,,,,cl:10523,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227125,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10531,Flooded grasslands and savannas,,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227126,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10532,Montane grasslands and shrublands,,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227127,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10533,"Temperate grasslands, savannas, and shrublands",,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227128,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10534,"Tropical and subtropical grasslands, savannas, and shrublands",,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227129,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01
+cl:10535,Large lakes,,,,,,cl:10519,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227130,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10536,Small lakes,,,,,,cl:10519,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227131,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10537,Temperate shelfs and seas,,,,,,cl:10382,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227132,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10538,Temperate upwelling,,,,,,cl:10382,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227133,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10539,Tropical coral,,,,,,cl:10382,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227134,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10540,Tropical upwelling,,,,,,cl:10382,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227135,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10541,Polar,,,,,,cl:10520,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227136,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10542,Large river deltas,,,,,,cl:10513,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227137,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10543,Large river headwaters,,,,,,cl:10513,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227138,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10544,Large rivers,,,,,,cl:10513,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227139,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
+cl:10545,Small rivers,,,,,,cl:10513,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227140,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10546,Bio-geographical Region,,,,"A designated area of the Earth determined by the distribution of flora and fauna. The concept has been adoped by the European Union, which has recognised nine terrestrial biogeographical regions, each with its own characteristic blend of vegetation, climate and geology. Marine regions were created for practical reasons for the Article 17 reporting and they are used also in the assessment of marine Natura 2000 sites during biogeographical seminars and associated bilateral meetings (EEA, 2002).",,,http://www.eea.europa.eu/data-and-maps/figures/biogeographical-regions-in-europe-1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10547,Anatolian Bio-geographical Region,"ANA,anatolian",,,,,cl:10546,http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/anatolian.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10548,Boreal Bio-geographical Region,"BOR,boreal",,,,,cl:10546,http://www.eea.europa.eu/publications/report_2002_0524_154909/biogeographical-regions-in-europe/Boreal_Region.pdf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
