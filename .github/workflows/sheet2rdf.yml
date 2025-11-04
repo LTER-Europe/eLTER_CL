@@ -40,43 +40,35 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          conda create -n sheet2rdf python=3.11 pandas openpyxl
+          conda create -n sheet2rdf python=3.11 pandas openpyxl requests
           conda activate sheet2rdf
-          pip install gsheets
 
-      - name: fetch
+      - name: Fetch
         shell: bash -l {0}
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
-          GOOGLE_API_KEY: ${{secrets.GOOGLE_API_KEY}}
           SHEET_ID: ${{secrets.SHEET_ID}}
-          SHEET_TAB_NAME: ${{ env.SHEET_TAB_NAME }}
+          SHEET_GID: ${{secrets.SHEET_GID}} 
         run: |
           conda activate sheet2rdf
-          echo "📄 Fetching sheet '$SHEET_TAB_NAME' from Google Spreadsheet (ID: $SHEET_ID)..."
-          python ./workflow/sheet2xls.py --sheet "$SHEET_TAB_NAME"
+          python ./src/sheet2xls.py
 
       - name: conversion-xls2rdf
         env:
           FILE_NAME: ${{secrets.FILE_NAME}}
-          VOCAB_TYPE: ${{ env.VOCAB_TYPE }}
         run: |
           curl -L https://github.com/sparna-git/xls2rdf/releases/download/2.1.1/xls2rdf-app-2.1.1-onejar.jar -o xls2rdf.jar
           java -jar xls2rdf.jar convert -i $FILE_NAME.xlsx -o $FILE_NAME.ttl -l en
-
-          # Convert VOCAB_TYPE to lowercase in bash
-          VOCAB_LOWER=$(echo "$VOCAB_TYPE" | tr '[:upper:]' '[:lower:]')
-          echo "<http://vocabs.lter-europe.net/${VOCAB_LOWER}/>" >> $FILE_NAME.ttl
-          echo "   rdf:type skos:ConceptScheme" >> $FILE_NAME.ttl
-          echo "   rdf:type owl:Ontology ." >> $FILE_NAME.ttl
-
           mv xls2rdf.log ./logs/
-          rm -f xls2rdf.jar
+          python ./src/update.py
 
       - name: commit-artifacts
+        env:
+          FILE_NAME: ${{secrets.FILE_NAME}}
         run: |
+          rm xls2rdf.jar
           git add .
-          git diff-index --quiet HEAD || git commit -m "New ${{ env.VOCAB_TYPE }} vocabulary files generated (TTL, XLSX)"
+          git diff-index --quiet HEAD || git commit -m "new .ttl from Google sheet has been generated"
           git push
 
       - name: extract-version
