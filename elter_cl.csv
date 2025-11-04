@@ -1,42 +1,42 @@
-ConceptScheme URI,http://vocabs.lter-europe.net/elter_cl,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.
-PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/
-PREFIX,et,http://vocabs.lter-europe.net/EnvThes/
-PREFIX,skos,http://www.w3.org/2004/02/skos/core#
-PREFIX,pav,http://purl.org/pav/ 
-PREFIX,dct,http://purl.org/dc/terms/ 
-PREFIX,iop,https://w3id.org/iadopt/ont/
-PREFIX,obo,http://purl.obolibrary.org/obo/
-PREFIX,qudt,http://qudt.org/schema/qudt/
-PREFIX,unit,http://qudt.org/vocab/unit/
-PREFIX,puv,https://w3id.org/env/puv#
-PREFIX,sosa,http://www.w3.org/ns/sosa/
-PREFIX,rdf,http://www.w3.org/1999/02/22-rdf-syntax-ns#
-PREFIX,rdfs,http://www.w3.org/2000/01/rdf-schema#
-dct:title,eLTER_CL,Title of the vocabulary
-dct:description,eLTER_CL is a thesaurus for controlled lists used by the eLTER community,Description of the controlled vocabulary
-owl:ontologyIRI,http://vocabs.lter-europe.net/elter_cl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-06-17
-skos:prefLabel,eLTER Controlled Lists
-omv:acronym,eLTER_CL
-omv:resourceLocator,https://raw.githubusercontent.com/LTER-Europe/eLTER_CL/main/elter_cl.ttl
-omv:keywords,T4FS:0000335
-dct:publisher,https://ror.org/00pggkr55
-omv:knownUsage,metadata and keywords for specific ecological research project data
-dct:audience,http://schema.org/Researcher
-doap:repository,https://ecoportal.lifewatch.eu/ontologies/
-doap:repository,https://bioportal.bioontology.org/
-dct:subject,http://semanticscience.org/resource/SIO_001080
-schema:includedInDataCatalog,https://ecoportal.lifewatch.eu/ontologies/
-schema:includedInDataCatalog,https://bioportal.bioontology.org/
-dct:creator,Johannes Peterseil
-dct:creator,Barbara Magagna
-dct:creator,Christoph Wohner
-dct:creator,Juliana da Silva Menger
-dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the vocabulary is provided
-dct:language,en
-owl:versionInfo,1.1.1,Vocabulary version
-dct:created,2021-11-12T12:00+02:00,Date when vocabulary was initially created
-dct:modified,2025-05-23,Date of the last vocabulary update
-Definition of terms
+ConceptScheme URI,http://vocabs.lter-europe.net/elter_cl,Main GUPRI (i.e. PID) under which all terms are defined. Preference is to use PURLs or W3IDs as they provide permanent resolvable identifiers.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,cl,http://vocabs.lter-europe.net/elter_cl/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,et,http://vocabs.lter-europe.net/EnvThes/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,skos,http://www.w3.org/2004/02/skos/core#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,pav,http://purl.org/pav/ ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,dct,http://purl.org/dc/terms/ ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,iop,https://w3id.org/iadopt/ont/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,obo,http://purl.obolibrary.org/obo/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,qudt,http://qudt.org/schema/qudt/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,unit,http://qudt.org/vocab/unit/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,puv,https://w3id.org/env/puv#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,sosa,http://www.w3.org/ns/sosa/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,rdf,http://www.w3.org/1999/02/22-rdf-syntax-ns#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PREFIX,rdfs,http://www.w3.org/2000/01/rdf-schema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:title,eLTER_CL,Title of the vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:description,eLTER_CL is a thesaurus for controlled lists used by the eLTER community,Description of the controlled vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+owl:ontologyIRI,http://vocabs.lter-europe.net/elter_cl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-06-17,,
+skos:prefLabel,eLTER Controlled Lists,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+omv:acronym,eLTER_CL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+omv:resourceLocator,https://raw.githubusercontent.com/LTER-Europe/eLTER_CL/main/elter_cl.ttl,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+omv:keywords,T4FS:0000335,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:publisher,https://ror.org/00pggkr55,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+omv:knownUsage,metadata and keywords for specific ecological research project data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:audience,http://schema.org/Researcher,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+doap:repository,https://ecoportal.lifewatch.eu/ontologies/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+doap:repository,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:subject,http://semanticscience.org/resource/SIO_001080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+schema:includedInDataCatalog,https://ecoportal.lifewatch.eu/ontologies/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+schema:includedInDataCatalog,https://bioportal.bioontology.org/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:creator,Johannes Peterseil,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:creator,Barbara Magagna,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:creator,Christoph Wohner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:creator,Juliana da Silva Menger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the vocabulary is provided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:language,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+owl:versionInfo,1.1.1,Vocabulary version,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:created,2021-11-12,Date when vocabulary was initially created,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+dct:modified,2025-05-23,Date of the last vocabulary update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Definition of terms,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Identifier,2025-07-11,"skos:altLabel@en(separator="","")","rdf:type(separtor="","")",^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date
 cl:10000,resource type,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
 cl:10001,INSPIRE data theme,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-03-28,0000-0003-0631-8231,2023-09-30
@@ -458,7 +458,7 @@ cl:10530,Tropical and subtropical moist broadleaf forests,,,,,,cl:10523,,,https:
 cl:10531,Flooded grasslands and savannas,,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227126,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10532,Montane grasslands and shrublands,,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227127,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10533,"Temperate grasslands, savannas, and shrublands",,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227128,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
-cl:10534,"Tropical and subtropical grasslands, savannas, and shrublands",,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227129,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01
+cl:10534,"Tropical and subtropical grasslands, savannas, and shrublands",,,,,,cl:10396,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227129,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,
 cl:10535,Large lakes,,,,,,cl:10519,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227130,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10536,Small lakes,,,,,,cl:10519,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227131,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
 cl:10537,Temperate shelfs and seas,,,,,,cl:10382,,,https://academic.oup.com/bioscience/article-abstract/51/11/933/227132,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,,2022-10-01
@@ -537,41 +537,41 @@ cl:10610,stratified sampling,,"https://w3id.org/np/RAANpqX3OfeAqc74LkoNHEFNs1ib9
 cl:10611,Creative Commons license,CC license,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
 cl:10612,CC0-1.0,Creative Commons Zero v1.0 Universal,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
 cl:10613,CC-BY-1.0,Creative Commons Attribution 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
-cl:10614,CC-BY-2.0,Creative Commons Attribution 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10615,CC-BY-2.5,Creative Commons Attribution 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10616,CC-BY-3.0,Creative Commons Attribution 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10617,CC-BY-3.0-AT,Creative Commons Attribution 3.0 Austria,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10614,CC-BY-2.0,Creative Commons Attribution 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10615,CC-BY-2.5,Creative Commons Attribution 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10616,CC-BY-3.0,Creative Commons Attribution 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10617,CC-BY-3.0-AT,Creative Commons Attribution 3.0 Austria,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
 cl:10618,CC-BY-3.0-US,Creative Commons Attribution 3.0 United States,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2023-09-30
-cl:10619,CC-BY-4.0,Creative Commons Attribution 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10620,CC-BY-NC-1.0,Creative Commons Attribution Non Commercial 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10621,CC-BY-NC-2.0,Creative Commons Attribution Non Commercial 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10622,CC-BY-NC-2.5,Creative Commons Attribution Non Commercial 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10623,CC-BY-NC-3.0,Creative Commons Attribution Non Commercial 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10624,CC-BY-NC-4.0,Creative Commons Attribution Non Commercial 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10625,CC-BY-NC-ND-1.0,Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10626,CC-BY-NC-ND-2.0,Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10627,CC-BY-NC-ND-2.5,Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10628,CC-BY-NC-ND-3.0,Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10629,CC-BY-NC-ND-3.0-IGO,Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10630,CC-BY-NC-ND-4.0,Creative Commons Attribution Non Commercial No Derivatives 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10631,CC-BY-NC-SA-1.0,Creative Commons Attribution Non Commercial Share Alike 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10632,CC-BY-NC-SA-2.0,Creative Commons Attribution Non Commercial Share Alike 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10633,CC-BY-NC-SA-2.5,Creative Commons Attribution Non Commercial Share Alike 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10634,CC-BY-NC-SA-3.0,Creative Commons Attribution Non Commercial Share Alike 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10635,CC-BY-NC-SA-4.0,Creative Commons Attribution Non Commercial Share Alike 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10636,CC-BY-ND-1.0,Creative Commons Attribution No Derivatives 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10637,CC-BY-ND-2.0,Creative Commons Attribution No Derivatives 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10638,CC-BY-ND-2.5,Creative Commons Attribution No Derivatives 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10639,CC-BY-ND-3.0,Creative Commons Attribution No Derivatives 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10640,CC-BY-ND-4.0,Creative Commons Attribution No Derivatives 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10641,CC-BY-SA-1.0,Creative Commons Attribution Share Alike 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10642,CC-BY-SA-2.0,Creative Commons Attribution Share Alike 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10643,CC-BY-SA-2.0-UK,Creative Commons Attribution Share Alike 2.0 England and Wales,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10644,CC-BY-SA-2.5,Creative Commons Attribution Share Alike 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10619,CC-BY-4.0,Creative Commons Attribution 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10620,CC-BY-NC-1.0,Creative Commons Attribution Non Commercial 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10621,CC-BY-NC-2.0,Creative Commons Attribution Non Commercial 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10622,CC-BY-NC-2.5,Creative Commons Attribution Non Commercial 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10623,CC-BY-NC-3.0,Creative Commons Attribution Non Commercial 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10624,CC-BY-NC-4.0,Creative Commons Attribution Non Commercial 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10625,CC-BY-NC-ND-1.0,Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10626,CC-BY-NC-ND-2.0,Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10627,CC-BY-NC-ND-2.5,Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10628,CC-BY-NC-ND-3.0,Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10629,CC-BY-NC-ND-3.0-IGO,Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10630,CC-BY-NC-ND-4.0,Creative Commons Attribution Non Commercial No Derivatives 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10631,CC-BY-NC-SA-1.0,Creative Commons Attribution Non Commercial Share Alike 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10632,CC-BY-NC-SA-2.0,Creative Commons Attribution Non Commercial Share Alike 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10633,CC-BY-NC-SA-2.5,Creative Commons Attribution Non Commercial Share Alike 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10634,CC-BY-NC-SA-3.0,Creative Commons Attribution Non Commercial Share Alike 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10635,CC-BY-NC-SA-4.0,Creative Commons Attribution Non Commercial Share Alike 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10636,CC-BY-ND-1.0,Creative Commons Attribution No Derivatives 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10637,CC-BY-ND-2.0,Creative Commons Attribution No Derivatives 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10638,CC-BY-ND-2.5,Creative Commons Attribution No Derivatives 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10639,CC-BY-ND-3.0,Creative Commons Attribution No Derivatives 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10640,CC-BY-ND-4.0,Creative Commons Attribution No Derivatives 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10641,CC-BY-SA-1.0,Creative Commons Attribution Share Alike 1.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10642,CC-BY-SA-2.0,Creative Commons Attribution Share Alike 2.0 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10643,CC-BY-SA-2.0-UK,Creative Commons Attribution Share Alike 2.0 England and Wales,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10644,CC-BY-SA-2.5,Creative Commons Attribution Share Alike 2.5 Generic,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
 cl:10645,CC-BY-SA-3.0,Creative Commons Attribution Share Alike 3.0 Unported,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,2024-06-24
-cl:10646,CC-BY-SA-3.0-AT,Creative Commons Attribution-Share Alike 3.0 Austria,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10647,CC-BY-SA-4.0,Creative Commons Attribution Share Alike 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
-cl:10648,CC-PDDC,Creative Commons Public Domain Dedication and Certification,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275
+cl:10646,CC-BY-SA-3.0-AT,Creative Commons Attribution-Share Alike 3.0 Austria,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10647,CC-BY-SA-4.0,Creative Commons Attribution Share Alike 4.0 International,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
+cl:10648,CC-PDDC,Creative Commons Public Domain Dedication and Certification,"http://purl.org/dc/terms/LicenseDocument,skos:Concept",,,,cl:10611,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-01,0000-0002-6968-8275,
 cl:10649,Marine habitats,,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
 cl:10651,Inland surface waters,,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
 cl:10652,"Mires, bogs and fens",,"https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat,skos:Concept",,,,cl:10597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0000-0003-2195-3997,2022-10-09,,2024-06-26
