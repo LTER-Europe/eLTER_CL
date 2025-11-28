@@ -108,7 +108,7 @@ sosa:madeBySensor
   dct:description "eLTER_CL is a thesaurus for controlled lists used by the eLTER community"@en;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "11/6/2025"@en;
+  dct:modified "11/26/2025"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "eLTER_CL"@en;
@@ -121,7 +121,7 @@ sosa:madeBySensor
     cl:10317, cl:10343, cl:10346, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425, cl:10429,
     cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484, cl:10489,
     cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584, cl:10591,
-    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680, cl:10720;
+    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680, cl:10720, cl:10754, cl:10759;
   skos:prefLabel "eLTER Controlled Lists"@en;
   <omv:acronym> "eLTER_CL"@en;
   <omv:keywords> "T4FS:0000335"@en;
@@ -4243,49 +4243,65 @@ cl:10648 a dct:LicenseDocument, skos:Concept;
   skos:prefLabel "CC-PDDC"@en .
 
 cl:10649 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
-  dct:contributor "0000-0003-2195-3997"@en;
+  dct:contributor "0000-0003-2195-3997, 0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "A"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Marine habitats"@en .
 
 cl:10651 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "C"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Inland surface waters"@en .
 
 cl:10652 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "D"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Mires, bogs and fens"@en .
 
 cl:10653 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "E"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Grasslands and lands dominated by forbs, mosses or lichens"@en .
 
 cl:10654 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "F"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Heathlands, scrub and tundra"@en .
 
 cl:10655 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "G"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Woodland, forest and other wooded land"@en .
 
 cl:10656 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "H"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Inland unvegetated or sparsely vegetated habitats"@en .
 
 cl:10657 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "I"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Regularly or recently cultivated agricultural, horticultural and domestic habitats"@en .
@@ -4517,10 +4533,10 @@ cl:10690 a obo:GSSO_011343, skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "industry"@en .
 
-cl:10691 a skos:Concept;
+cl:10691 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:creator "0000-0002-6968-8275"@en;
-  dct:modified "2024-04-10"^^xsd:date;
+  dct:modified "2027-02-11"^^xsd:date;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Habitats complexes"@en .
@@ -4536,6 +4552,8 @@ cl:10692 a skos:Concept;
 cl:10693 a skos:Concept, <https://w3id.org/np/RAkLyP_I8O3ocqgRKBTmPQhedjs9KWedeEK0YdT9yfTWA#EunisHabitat>;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:creator "0000-0002-6968-8275"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "B"@en;
   skos:broader cl:10597;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Coastal habitats"@en .
@@ -4941,7 +4959,173 @@ cl:10752 a dct:DCMIType, skos:Concept;
   skos:prefLabel "animal movement"@en .
 
 cl:10753 a dct:DCMIType, skos:Concept;
+  dct:creator "0000-0003-2195-3997"@en;
+  dct:modified "2027-02-11"^^xsd:date;
   skos:broader cl:10584;
   skos:exactMatch et:21647;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "phenology"@en .
+
+cl:10754 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "data level"@en, "eLTER data level"@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10755, cl:10756, cl:10757, cl:10758;
+  skos:prefLabel "Data Level"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10755 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "0"@en, "Level 0"@en;
+  skos:broader cl:10754;
+  skos:definition "Are defined as Raw data, which are values directly obtained by human measurements or automated sensors that have not undergone any transformation. This could include quantitative or qualitative information about physical variables of the environment and may be of various forms, such as images, text files or physical samples. These data are transformed into physical units either directly provided by instruments or converted from engineering units (for example, mV, mA, Ω) to physical units."@en;
+  skos:example "Raw data in physical units directly from a sensor with original temporal and spatial resolution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Raw data"@en .
+
+cl:10756 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "1"@en, "Level 1"@en;
+  skos:broader cl:10754;
+  skos:definition "Are defined as Observation data, which are unprocessed and have not undergone any refinement or only basic data quality control. Possible sub levels in the eLTER workflows (still need to be discussed): L1a first level of quality control by the data provider, L1b second level of quality control by central eLTER processes and centrally approved."@en;
+  skos:example "Transformed and quality controlled data with original temporal and spatial resolution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Observation data"@en .
+
+cl:10757 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "2"@en, "Level 2"@en;
+  skos:broader cl:10754;
+  skos:definition "Are defined as Cleaned data, which were subject to quality control procedures (either automatic and/or manual). These data passed the quality control procedures such as routine estimation of timing and sensor calibration and/or statistical/visual inspection to identify outliers and errors in the data. This can also include gap filling of missing data. Level 2 are therefore Cleaned Data that are the final, quality-checked and gap-filled, and published by the local nodes or the central data node (CDN)."@en;
+  skos:example "Gap filled data with orginal temporal and spatial resolution."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Cleaned data"@en .
+
+cl:10758 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "3"@en, "Level 3"@en;
+  skos:broader cl:10754;
+  skos:definition "Are defined as Data Products, which are derived from quality-controlled data. They require scientific and technical interpretation and may include multi-sensor data, analytical workflows and interpretations, model-based interpretation using also other data to generate the data products. Data products reflect a diversity of products elaborated by scientific communities that rely partly or completely on eLTER lower-level data. eLTER will provide resources to integrate and disseminate Level 3 products."@en;
+  skos:example "Modelled data or aggregated data (e.g. monthly aggregation harmonised across eLTER facilities)."@en;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Derived data"@en .
+
+cl:10759 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:narrower cl:10760, cl:10761, cl:10762, cl:10763, cl:10764, cl:10765, cl:10766,
+    cl:10767, cl:10768, cl:10769;
+  skos:prefLabel "SO habitats"@en;
+  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+
+cl:10760 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  owl:sameAs cl:10649;
+  skos:altLabel "A"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Marine habitats"@en .
+
+cl:10761 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  owl:sameAs cl:10693;
+  skos:altLabel "B"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Coastal (transitional) waters including coastal littoral zones"@en .
+
+cl:10762 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "C1"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Inland surface standing waters"@en;
+  skos:related cl:10651 .
+
+cl:10763 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  skos:altLabel "C2"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Inland surface running waters"@en;
+  skos:related cl:10651 .
+
+cl:10764 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  owl:sameAs cl:10652;
+  skos:altLabel "D"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Wetlands (mires, bogs, fens)"@en .
+
+cl:10765 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  owl:sameAs cl:10653;
+  skos:altLabel "E"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Grasslands and lands dominated by forbs, mosses or lichens"@en .
+
+cl:10766 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  owl:sameAs cl:10654;
+  skos:altLabel "F"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Heathlands, shrub and tundra"@en .
+
+cl:10767 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  owl:sameAs cl:10655;
+  skos:altLabel "G"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Forests and other wooded land"@en .
+
+cl:10768 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  owl:sameAs cl:10656;
+  skos:altLabel "H"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Sparsely vegetated habitats and deserts"@en .
+
+cl:10769 a skos:Concept;
+  dct:created "2027-02-11"^^xsd:date;
+  dct:creator "0000-0002-7997-219X"@en;
+  dct:modified "2027-02-11"^^xsd:date;
+  owl:sameAs cl:10657;
+  skos:altLabel "I"@en;
+  skos:broader cl:10759;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Vegetated man-made habitats (agricultural, horticultural, domestic)"@en .
