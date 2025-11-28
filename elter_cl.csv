@@ -33,7 +33,7 @@ dct:creator,Christoph Wohner,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dct:creator,Juliana da Silva Menger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dct:license,https://creativecommons.org/licenses/by/4.0/,License under which the vocabulary is provided,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dct:language,en,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-owl:versionInfo,1.1.2,Vocabulary version,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+owl:versionInfo,1.1.3,Vocabulary version,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dct:created,11/12/2021,Date when vocabulary was initially created,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 dct:modified,11/26/2025,Date of the last vocabulary update,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Identifier,skos:prefLabel@en,"skos:altLabel@en(separator="","")","rdf:type(separtor="","")",^skos:member,skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")",dct:isReplacedBy,"skos:closeMatch(separator="","")","skos:narrowMatch(separator="","")","skos:related(separator="","")",obo:RO_0001901,iop:hasProperty,iop:hasObjectOfInterest,iop:hasMatrix,"iop:hasContextObject(separator="","")","iop:hasConstraint(separator="","")","puv:usesStatistic(separator="","")","puv:usesMethod(separator="","")","sosa:madeBySensor(separator="","")",puv:uom,skos:note@en,skos:changeNote@en,skos:editorialNote@en,skos:scopeNote@en,skos:example@en,owl:deprecated^^xsd:boolean,skos:prefLabel@de,skos:prefLabel@es,skos:prefLabel@fr,skos:prefLabel@hr,skos:prefLabel@it,"skos:broadMatch(separator="","")","owl:sameAs(separator="","")",rdfs:seeAlso,dct:contributor,dct:created^^xsd:date,dct:creator,dct:modified^^xsd:date

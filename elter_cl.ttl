@@ -114,7 +114,7 @@ sosa:madeBySensor
   dct:title "eLTER_CL"@en;
   schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/ontologies/>;
   owl:ontologyIRI <http://vocabs.lter-europe.net/elter_cl>;
-  owl:versionInfo "1.1.2"@en;
+  owl:versionInfo "1.1.3"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10228, cl:10301, cl:10304, cl:10311,
