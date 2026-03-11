@@ -108,20 +108,20 @@ sosa:madeBySensor
   dct:description "eLTER_CL is a thesaurus for controlled lists used by the eLTER community"@en;
   dct:language "en"@en;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:modified "11/26/2025"@en;
+  dct:modified "3/11/2026"@en;
   dct:publisher <https://ror.org/00pggkr55>;
   dct:subject <http://semanticscience.org/resource/SIO_001080>;
   dct:title "eLTER_CL"@en;
   schema:includedInDataCatalog <https://bioportal.bioontology.org/>, <https://ecoportal.lifewatch.eu/ontologies/>;
   owl:ontologyIRI <http://vocabs.lter-europe.net/elter_cl>;
-  owl:versionInfo "1.1.3"@en;
+  owl:versionInfo "1.1.4"@en;
   skos:hasTopConcept cl:10000, cl:10001, cl:10002, cl:10003, cl:10004, cl:10005, cl:10006,
     cl:10007, cl:10008, cl:10009, cl:10010, cl:10011, cl:10012, cl:10013, cl:10014, cl:10147,
     cl:10159, cl:10187, cl:10189, cl:10192, cl:10198, cl:10228, cl:10301, cl:10304, cl:10311,
     cl:10317, cl:10343, cl:10346, cl:10387, cl:10402, cl:10408, cl:10416, cl:10425, cl:10429,
     cl:10435, cl:10457, cl:10461, cl:10466, cl:10471, cl:10480, cl:10482, cl:10484, cl:10489,
     cl:10497, cl:10520, cl:10546, cl:10563, cl:10569, cl:10575, cl:10580, cl:10584, cl:10591,
-    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680, cl:10720, cl:10754, cl:10759;
+    cl:10596, cl:10601, cl:10605, cl:10611, cl:10673, cl:10680, cl:10720;
   skos:prefLabel "eLTER Controlled Lists"@en;
   <omv:acronym> "eLTER_CL"@en;
   <omv:keywords> "T4FS:0000335"@en;
@@ -2617,13 +2617,15 @@ cl:10425 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:creator "0000-0003-0631-8231"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10426, cl:10427, cl:10428;
+  skos:narrower cl:10426, cl:10427, cl:10428, cl:10770, cl:10771, cl:10772, cl:10773,
+    cl:10774, cl:10775, cl:10776, cl:10777;
   skos:prefLabel "site status"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
 cl:10426 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:creator "0000-0003-0631-8231"@en;
+  owl:deprecated true;
   skos:broader cl:10425;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "existing"@en .
@@ -2631,6 +2633,7 @@ cl:10426 a skos:Concept;
 cl:10427 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:creator "0000-0003-0631-8231"@en;
+  owl:deprecated true;
   skos:broader cl:10425;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "preliminary"@en .
@@ -2638,6 +2641,7 @@ cl:10427 a skos:Concept;
 cl:10428 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:creator "0000-0003-0631-8231"@en;
+  owl:deprecated true;
   skos:altLabel "inactive"@en;
   skos:broader cl:10425;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
@@ -3822,7 +3826,7 @@ cl:10596 a skos:Concept;
   dct:contributor "0000-0003-2195-3997"@en;
   dct:creator "0000-0002-6968-8275"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
-  skos:narrower cl:10597, cl:10598, cl:10599, cl:10600;
+  skos:narrower cl:10597, cl:10598, cl:10599, cl:10600, cl:10759;
   skos:prefLabel "habitat classification"@en;
   skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
 
@@ -4960,21 +4964,18 @@ cl:10752 a dct:DCMIType, skos:Concept;
 
 cl:10753 a dct:DCMIType, skos:Concept;
   dct:creator "0000-0003-2195-3997"@en;
-  dct:modified "2027-02-11"^^xsd:date;
   skos:broader cl:10584;
   skos:exactMatch et:21647;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "phenology"@en .
 
-cl:10754 a skos:Concept;
+cl:10754 a skos:Collection;
   dct:created "2027-02-11"^^xsd:date;
   dct:creator "0000-0002-7997-219X"@en;
-  dct:modified "2027-02-11"^^xsd:date;
   skos:altLabel "data level"@en, "eLTER data level"@en;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10755, cl:10756, cl:10757, cl:10758;
-  skos:prefLabel "Data Level"@en;
-  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+  skos:prefLabel "Data Level"@en .
 
 cl:10755 a skos:Concept;
   dct:created "2027-02-11"^^xsd:date;
@@ -5020,15 +5021,14 @@ cl:10758 a skos:Concept;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Derived data"@en .
 
-cl:10759 a skos:Concept;
+cl:10759 a skos:Collection;
   dct:created "2027-02-11"^^xsd:date;
   dct:creator "0000-0002-7997-219X"@en;
-  dct:modified "2027-02-11"^^xsd:date;
+  skos:broader cl:10596;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:narrower cl:10760, cl:10761, cl:10762, cl:10763, cl:10764, cl:10765, cl:10766,
     cl:10767, cl:10768, cl:10769;
-  skos:prefLabel "SO habitats"@en;
-  skos:topConceptOf <http://vocabs.lter-europe.net/elter_cl> .
+  skos:prefLabel "SO habitats"@en .
 
 cl:10760 a skos:Concept;
   dct:created "2027-02-11"^^xsd:date;
@@ -5129,3 +5129,66 @@ cl:10769 a skos:Concept;
   skos:broader cl:10759;
   skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
   skos:prefLabel "Vegetated man-made habitats (agricultural, horticultural, domestic)"@en .
+
+cl:10770 a skos:Concept;
+  dct:creator "0000-0002-7997-219X"@en;
+  skos:broader cl:10425;
+  skos:definition "The station has been declared as closed by the responsible supervising organization."@en;
+  skos:exactMatch <http://codes.wmo.int/wmdr/ReportingStatus/closed>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Closed"@en .
+
+cl:10771 a skos:Concept;
+  dct:creator "0000-0002-7997-219X"@en;
+  skos:broader cl:10425;
+  skos:definition "The station is considered non-operational/non-reporting temporarily, but is expected to resume its operations/reporting after the temporary suspension."@en;
+  skos:exactMatch <http://codes.wmo.int/wmdr/ReportingStatus/nonReporting>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Non-reporting"@en .
+
+cl:10772 a skos:Concept;
+  dct:creator "0000-0002-7997-219X"@en;
+  skos:broader cl:10425;
+  skos:definition "The station fully complies with the reporting obligations of the observation programme/network concerned."@en;
+  skos:exactMatch <http://codes.wmo.int/wmdr/ReportingStatus/operational>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Operational"@en .
+
+cl:10773 a skos:Concept;
+  dct:creator "0000-0002-7997-219X"@en;
+  skos:broader cl:10425;
+  skos:definition "The station partially complies with the reporting obligations of the observation programme/network concerned."@en;
+  skos:exactMatch <http://codes.wmo.int/wmdr/ReportingStatus/partlyOperational>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Partly operational"@en .
+
+cl:10774 a skos:Concept;
+  dct:creator "0000-0002-7997-219X"@en;
+  skos:broader cl:10425;
+  skos:definition "The station is planned to be deployed sometime in the future, and all information provided is indicative only. No observations are taken."@en;
+  skos:exactMatch <http://codes.wmo.int/wmdr/ReportingStatus/planned>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Planned"@en .
+
+cl:10775 a skos:Concept;
+  dct:creator "0000-0002-7997-219X"@en;
+  skos:broader cl:10425;
+  skos:definition "The station is deployed and producing data but still not fully ready to start reporting operationally."@en;
+  skos:exactMatch <http://codes.wmo.int/wmdr/ReportingStatus/preOperational>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Pre-operational"@en .
+
+cl:10776 a skos:Concept;
+  dct:creator "0000-0002-7997-219X"@en;
+  skos:broader cl:10425;
+  skos:exactMatch <http://codes.wmo.int/wmdr/ReportingStatus/standBy>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "Stand-by"@en .
+
+cl:10777 a skos:Concept;
+  dct:creator "0000-0002-7997-219X"@en;
+  skos:broader cl:10425;
+  skos:definition "The declared operating status of this particular station/platform is unknown."@en;
+  skos:exactMatch <http://codes.wmo.int/wmdr/ReportingStatus/unknown>;
+  skos:inScheme <http://vocabs.lter-europe.net/elter_cl>;
+  skos:prefLabel "unknown"@en .
